@@ -1,9 +1,9 @@
 {
   "Itto_ExtraAttack_Mask": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -42,23 +42,23 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "CameraLook",
       "followRotation": true,
-      "NGGDECKKKIO": {
+      "HOMINCCNFHE": {
         "z": 1.0
       },
       "followOwnerInvisible": true,
       "syncTransToServer": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "dontDestroyByPerform": true
   },
   "Itto_ElementalArt_OniBull_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -92,17 +92,17 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "JPEHENOKMKN",
+      "$type": "BFICFPAEFPB",
       "speed": 30.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "straightRange": 3.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -111,13 +111,13 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Itto_Gadget_OniBull_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Itto_Gadget_OniBull_Bullet"
         }
       ],
@@ -125,17 +125,18 @@
     }
   },
   "Itto_ElementalArt_OniBull": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "enableCrashDamage": false
     },
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -180,7 +181,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       },
@@ -193,10 +194,10 @@
     "canRemoveByClient": true
   },
   "Itto_Symbol_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -223,7 +224,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "EFCFKHDONLB",
+      "$type": "GMOHNHFHLAO",
       "speed": 20.0,
       "maxSpeed": 40.0,
       "minSpeed": 20.0,
@@ -232,7 +233,7 @@
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "SelfCamp",
         "ignoreScene": true,

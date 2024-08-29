@@ -119,9 +119,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack_Charge"
-          ],
+          "stateIDs": ["ExtraAttack_Charge"],
           "modifierName": "ExtraAttack_StaminaCost",
           "DGFCLAIDIFI": ""
         }
@@ -179,18 +177,13 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ArcDash"
-          ],
+          "stateIDs": ["ArcDash"],
           "modifierName": "ArcLightDash_Camera",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ArcLightMoving",
-            "ArcLightToRail"
-          ],
+          "stateIDs": ["ArcLightMoving", "ArcLightToRail"],
           "modifierName": "ArcLightMoving_VFX",
           "DGFCLAIDIFI": ""
         },
@@ -231,10 +224,7 @@
           "DGFCLAIDIFI": ""
         }
       ],
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "ArcLightMoving_VFX": {
           "modifierName": "",
@@ -367,9 +357,7 @@
                 "IIHOBICGJDA": "EaseOutCubic",
                 "DIAOKAOCDNK": "EaseOutCubic"
               },
-              "KHHCAMDKJNC": [
-                "CurveMove"
-              ]
+              "KHHCAMDKJNC": ["CurveMove"]
             }
           ],
           "onAdded": [
@@ -586,28 +574,21 @@
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "SkateRunBS",
-            "SkateExit"
-          ],
+          "stateIDs": ["SkateRunBS", "SkateExit"],
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
           "LBOBGGPJOOP": ""
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "SkateInplaceBS"
-          ],
+          "stateIDs": ["SkateInplaceBS"],
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
           "LBOBGGPJOOP": ""
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "SpecialJump"
-          ],
+          "stateIDs": ["SpecialJump"],
           "angularSpeed": 180.0,
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
@@ -615,9 +596,7 @@
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "RocketJumpAS"
-          ],
+          "stateIDs": ["RocketJumpAS"],
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
           "LBOBGGPJOOP": "",
@@ -672,17 +651,13 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "SkateRunBS"
-          ],
+          "stateIDs": ["SkateRunBS"],
           "modifierName": "SkateRunBS",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "SkateInplaceBS"
-          ],
+          "stateIDs": ["SkateInplaceBS"],
           "modifierName": "SkateRunBS",
           "DGFCLAIDIFI": ""
         },
@@ -727,10 +702,7 @@
         "Phlogiston_SprintBS": 8.0,
         "Phlogiston_SprintLoop": 1.2799999713897705
       },
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "ForbidFly": {
           "modifierName": "",
@@ -811,10 +783,7 @@
               "predicates": [
                 {
                   "$type": "JFLFAEAHLJM",
-                  "filters": [
-                    "Water",
-                    "LiquidPhlogiston"
-                  ]
+                  "filters": ["Water", "LiquidPhlogiston"]
                 }
               ],
               "modifierName": "Swim_VFX_Water"
@@ -827,10 +796,7 @@
                   "predicates": [
                     {
                       "$type": "JFLFAEAHLJM",
-                      "filters": [
-                        "Water",
-                        "LiquidPhlogiston"
-                      ]
+                      "filters": ["Water", "LiquidPhlogiston"]
                     }
                   ]
                 }
@@ -890,10 +856,7 @@
               "predicates": [
                 {
                   "$type": "JFLFAEAHLJM",
-                  "filters": [
-                    "Water",
-                    "LiquidPhlogiston"
-                  ]
+                  "filters": ["Water", "LiquidPhlogiston"]
                 }
               ],
               "modifierName": "Swim_Dash_VFX_Water"
@@ -906,10 +869,7 @@
                   "predicates": [
                     {
                       "$type": "JFLFAEAHLJM",
-                      "filters": [
-                        "Water",
-                        "LiquidPhlogiston"
-                      ]
+                      "filters": ["Water", "LiquidPhlogiston"]
                     }
                   ]
                 }
@@ -1053,9 +1013,7 @@
                 "IIHOBICGJDA": "EaseOutCubic",
                 "DIAOKAOCDNK": "EaseOutCubic"
               },
-              "KHHCAMDKJNC": [
-                "Normal"
-              ]
+              "KHHCAMDKJNC": ["Normal"]
             }
           ]
         },
@@ -1131,10 +1089,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -1146,16 +1101,11 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "IEBACLCHIMD",
-                          "areas": [
-                            6
-                          ]
+                          "areas": [6]
                         }
                       ],
                       "param3": [
@@ -1169,19 +1119,14 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "BCFNGJHILAG",
                           "predicates": [
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ]
                         }
@@ -1211,10 +1156,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1230,16 +1172,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -1255,19 +1192,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -1290,10 +1222,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1305,16 +1234,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -1328,19 +1252,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -1373,10 +1292,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -1389,10 +1305,7 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         }
                       ],
                       "targetType": "Team",
@@ -1421,10 +1334,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1441,10 +1351,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -1466,10 +1373,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1482,10 +1386,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -1534,10 +1435,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -1549,16 +1447,11 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "IEBACLCHIMD",
-                          "areas": [
-                            6
-                          ]
+                          "areas": [6]
                         }
                       ],
                       "param3": [
@@ -1572,19 +1465,14 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "BCFNGJHILAG",
                           "predicates": [
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ]
                         }
@@ -1614,10 +1502,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1633,16 +1518,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -1658,19 +1538,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -1693,10 +1568,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1708,16 +1580,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -1731,19 +1598,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -1776,10 +1638,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -1792,10 +1651,7 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         }
                       ],
                       "targetType": "Team",
@@ -1824,10 +1680,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1844,10 +1697,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -1869,10 +1719,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -1885,10 +1732,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -1937,10 +1781,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -1952,16 +1793,11 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "IEBACLCHIMD",
-                          "areas": [
-                            6
-                          ]
+                          "areas": [6]
                         }
                       ],
                       "param3": [
@@ -1975,19 +1811,14 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "BCFNGJHILAG",
                           "predicates": [
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ]
                         }
@@ -2017,10 +1848,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2036,16 +1864,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -2061,19 +1884,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -2096,10 +1914,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2111,16 +1926,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -2134,19 +1944,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -2179,10 +1984,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -2195,10 +1997,7 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         }
                       ],
                       "targetType": "Team",
@@ -2227,10 +2026,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2247,10 +2043,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -2272,10 +2065,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2288,10 +2078,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -2341,10 +2128,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -2356,16 +2140,11 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "IEBACLCHIMD",
-                          "areas": [
-                            6
-                          ]
+                          "areas": [6]
                         }
                       ],
                       "param3": [
@@ -2379,19 +2158,14 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "BCFNGJHILAG",
                           "predicates": [
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ]
                         }
@@ -2421,10 +2195,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2440,16 +2211,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -2465,19 +2231,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -2500,10 +2261,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2515,16 +2273,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -2538,19 +2291,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -2583,10 +2331,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -2599,10 +2344,7 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         }
                       ],
                       "targetType": "Team",
@@ -2631,10 +2373,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2651,10 +2390,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -2676,10 +2412,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -2692,10 +2425,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -2724,44 +2454,32 @@
       "abilityMixins": [
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "NyxSwitchBS_Ground",
-            "NyxSwitchBS_AirLow"
-          ],
+          "stateIDs": ["NyxSwitchBS_Ground", "NyxSwitchBS_AirLow"],
           "modifierName": "NyxSwitchBS_Ground",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "NyxSwitchAS"
-          ],
+          "stateIDs": ["NyxSwitchAS"],
           "modifierName": "NyxSwitchAS",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "NyxSwitchBS_AirLow"
-          ],
+          "stateIDs": ["NyxSwitchBS_AirLow"],
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
           "LBOBGGPJOOP": ""
         },
         {
           "$type": "OMINBOKBKOB",
-          "stateIDs": [
-            "NyxSwitchBS_Ground"
-          ],
+          "stateIDs": ["NyxSwitchBS_Ground"],
           "canReviveStamina": true,
           "PBLEFEPFBPH": "",
           "LBOBGGPJOOP": ""
         }
       ],
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "NyxSwitchBS_Ground": {
           "modifierName": "",
@@ -2988,15 +2706,7 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_Fugu_Count",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            0.5,
-            1.5,
-            2.5,
-            3.5,
-            4.5,
-            5.5
-          ],
+          "valueSteps": [-0.5, 0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
           "modifierNameSteps": [
             "Blank",
             "Drop_Fugu",
@@ -3110,10 +2820,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "SkateRush_AS_2",
-            "SkateRush_Special_AS_2"
-          ],
+          "stateIDs": ["SkateRush_AS_2", "SkateRush_Special_AS_2"],
           "modifierName": "SkateRush_AS_Handler",
           "DGFCLAIDIFI": ""
         },
@@ -3238,10 +2945,7 @@
         "NyxValue_Base": -2.0,
         "Phlogiston_Base": 1.600000023841858
       },
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "Mualani_ElementalBall_Handler": {
           "modifierName": "",
@@ -3254,9 +2958,7 @@
               "targetPredicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "CNGGLKHONAA",
@@ -3266,9 +2968,7 @@
                 },
                 {
                   "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "NormalAttack_01"
-                  ]
+                  "attackTags": ["NormalAttack_01"]
                 },
                 {
                   "$type": "EGKHHMLPGLB",
@@ -3302,9 +3002,7 @@
               "targetPredicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "CNGGLKHONAA",
@@ -3314,9 +3012,7 @@
                 },
                 {
                   "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "NormalAttack_01"
-                  ]
+                  "attackTags": ["NormalAttack_01"]
                 }
               ],
               "successActions": [
@@ -3401,10 +3097,7 @@
           "onAdded": [
             {
               "$type": "LBLNHEBGPJI",
-              "forces": [
-                "RushMoveType",
-                "InertiaType"
-              ]
+              "forces": ["RushMoveType", "InertiaType"]
             },
             {
               "$type": "PCDJJDJHPGC",
@@ -3415,10 +3108,7 @@
               "otherTargets": {
                 "$type": "IJOFJOGLDHE",
                 "topLimit": 1,
-                "entityTypePriority": [
-                  "Monster",
-                  "Gadget"
-                ],
+                "entityTypePriority": ["Monster", "Gadget"],
                 "sortType": "Nearest",
                 "shapeName": "CircleR10H8",
                 "centerBasedOn": "Team",
@@ -3428,9 +3118,7 @@
               "predicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "CNGGLKHONAA",
@@ -3536,10 +3224,7 @@
                     "directionKey": ""
                   },
                   "NKPCHMCNNOK": 1.0,
-                  "animatorStateIDs": [
-                    "SkateRush_Special",
-                    "SkateRush"
-                  ],
+                  "animatorStateIDs": ["SkateRush_Special", "SkateRush"],
                   "overrideMoveCollider": "",
                   "isInAir": true,
                   "DBMGKIHLMOB": {
@@ -3581,10 +3266,7 @@
                     "useRotation": true
                   },
                   "NKPCHMCNNOK": 1.0,
-                  "animatorStateIDs": [
-                    "SkateRush_Special",
-                    "SkateRush"
-                  ],
+                  "animatorStateIDs": ["SkateRush_Special", "SkateRush"],
                   "overrideMoveCollider": "",
                   "isInAir": true,
                   "DBMGKIHLMOB": {
@@ -3885,9 +3567,7 @@
           "onAdded": [
             {
               "$type": "LBLNHEBGPJI",
-              "forces": [
-                "LinearAttenuationIgnoreAirGType"
-              ],
+              "forces": ["LinearAttenuationIgnoreAirGType"],
               "BEGGMMNKGKJ": true
             }
           ]
@@ -3908,22 +3588,16 @@
                 "IIHOBICGJDA": "EaseOutCubic",
                 "DIAOKAOCDNK": "EaseOutCubic"
               },
-              "KHHCAMDKJNC": [
-                "Normal"
-              ]
+              "KHHCAMDKJNC": ["Normal"]
             },
             {
               "$type": "NLLGOHCKIEH",
-              "stateIDs": [
-                "CombatAir"
-              ],
+              "stateIDs": ["CombatAir"],
               "modifierName": "Avatar_Mualani_AddVelocity"
             },
             {
               "$type": "NLLGOHCKIEH",
-              "stateIDs": [
-                "CombatFallOnGround"
-              ],
+              "stateIDs": ["CombatFallOnGround"],
               "modifierName": "Avatar_Mualani_RemoveVelocity"
             }
           ],
@@ -4080,9 +3754,7 @@
               },
               "attackInfo": {
                 "attackTag": "NormalAttack_01",
-                "IBDODJFKHCP": [
-                  "NyxAttack"
-                ],
+                "IBDODJFKHCP": ["NyxAttack"],
                 "attenuationTag": "",
                 "attenuationGroup": "default",
                 "attackProperty": {
@@ -4127,9 +3799,7 @@
               },
               "attackInfo": {
                 "attackTag": "NormalAttack_01",
-                "IBDODJFKHCP": [
-                  "NyxAttack"
-                ],
+                "IBDODJFKHCP": ["NyxAttack"],
                 "attenuationTag": "",
                 "attenuationGroup": "default",
                 "attackProperty": {
@@ -4180,9 +3850,7 @@
               },
               "attackInfo": {
                 "attackTag": "NormalAttack_01",
-                "IBDODJFKHCP": [
-                  "NyxAttack"
-                ],
+                "IBDODJFKHCP": ["NyxAttack"],
                 "attenuationTag": "",
                 "attenuationGroup": "default",
                 "attackProperty": {
@@ -4246,9 +3914,7 @@
                   },
                   "attackInfo": {
                     "attackTag": "NormalAttack_01",
-                    "IBDODJFKHCP": [
-                      "NyxAttack"
-                    ],
+                    "IBDODJFKHCP": ["NyxAttack"],
                     "attenuationTag": "",
                     "attenuationGroup": "default",
                     "attackProperty": {
@@ -4314,9 +3980,7 @@
                   },
                   "attackInfo": {
                     "attackTag": "NormalAttack_01",
-                    "IBDODJFKHCP": [
-                      "NyxAttack"
-                    ],
+                    "IBDODJFKHCP": ["NyxAttack"],
                     "attenuationTag": "",
                     "attenuationGroup": "default",
                     "attackProperty": {
@@ -4457,9 +4121,7 @@
               "predicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "OFFCGHNCBCD",
@@ -4518,15 +4180,8 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "_ABILITY_Mualani_RocketJump_Flag",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "RocketJump_Run_Mixin",
-                "Blank"
-              ]
+              "valueSteps": [-0.5, 0.5, 1.5],
+              "modifierNameSteps": ["RocketJump_Run_Mixin", "Blank"]
             }
           ]
         },
@@ -4551,15 +4206,8 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "_ABILITY_Mualani_RocketJump_Flag",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "RocketJump_Sprint_Mixin",
-                "Blank"
-              ]
+              "valueSteps": [-0.5, 0.5, 1.5],
+              "modifierNameSteps": ["RocketJump_Sprint_Mixin", "Blank"]
             }
           ]
         },
@@ -4642,10 +4290,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -4658,10 +4303,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ],
                           "targetType": "Team",
@@ -4690,10 +4332,7 @@
                                   "predicates": [
                                     {
                                       "$type": "JFLFAEAHLJM",
-                                      "filters": [
-                                        "Water",
-                                        "LiquidPhlogiston"
-                                      ]
+                                      "filters": ["Water", "LiquidPhlogiston"]
                                     }
                                   ]
                                 }
@@ -4710,10 +4349,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ],
                               "targetType": "Team",
@@ -4735,10 +4371,7 @@
                                   "predicates": [
                                     {
                                       "$type": "JFLFAEAHLJM",
-                                      "filters": [
-                                        "Water",
-                                        "LiquidPhlogiston"
-                                      ]
+                                      "filters": ["Water", "LiquidPhlogiston"]
                                     }
                                   ]
                                 }
@@ -4751,10 +4384,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ],
                               "targetType": "Team",
@@ -4889,21 +4519,12 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "_ABILITY_Avatar_Mualani_Stamina",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "Stamina_Free",
-                "Blank"
-              ]
+              "valueSteps": [-0.5, 0.5, 1.5],
+              "modifierNameSteps": ["Stamina_Free", "Blank"]
             },
             {
               "$type": "EKMHJKDLBJH",
-              "stateIDs": [
-                "Fly"
-              ],
+              "stateIDs": ["Fly"],
               "modifierName": "Fly_Stamina_GV",
               "DGFCLAIDIFI": ""
             },
@@ -5014,9 +4635,7 @@
                 "IIHOBICGJDA": "EaseOutCubic",
                 "DIAOKAOCDNK": "EaseOutCubic"
               },
-              "KHHCAMDKJNC": [
-                "Normal"
-              ]
+              "KHHCAMDKJNC": ["Normal"]
             },
             {
               "$type": "GLBNHPJFGGK",
@@ -5098,19 +4717,8 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "Surfing_Count",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5,
-                2.5,
-                3.5
-              ],
-              "modifierNameSteps": [
-                "Blank",
-                "Blank",
-                "Blank",
-                "Button_VFX"
-              ],
+              "valueSteps": [-0.5, 0.5, 1.5, 2.5, 3.5],
+              "modifierNameSteps": ["Blank", "Blank", "Blank", "Button_VFX"],
               "actionQueues": [
                 [],
                 [
@@ -5148,15 +4756,8 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "_ABILITY_Surfing_Test_RocketJump_Flag",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "RocketJump_Run",
-                "RocketJump_Sprint"
-              ]
+              "valueSteps": [-0.5, 0.5, 1.5],
+              "modifierNameSteps": ["RocketJump_Run", "RocketJump_Sprint"]
             },
             {
               "$type": "BBDLKGEJDOJ",
@@ -5167,15 +4768,8 @@
               "$type": "MLJAPFBGEEH",
               "globalValueKey": "_ABILITY_Avatar_Mualani_NyxSwitch_Flag",
               "gvInTalk": 0.0,
-              "valueSteps": [
-                -0.5,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "Surfing_Exit",
-                "Blank"
-              ]
+              "valueSteps": [-0.5, 0.5, 1.5],
+              "modifierNameSteps": ["Surfing_Exit", "Blank"]
             },
             {
               "$type": "KMPFLHBHBBP",
@@ -5528,9 +5122,7 @@
               "targetPredicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "CNGGLKHONAA",
@@ -5540,9 +5132,7 @@
                 },
                 {
                   "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Mualani_Surfing"
-                  ]
+                  "attackTags": ["Mualani_Surfing"]
                 }
               ],
               "successActions": [
@@ -5564,9 +5154,7 @@
               "targetPredicates": [
                 {
                   "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "entityTypes": ["Monster"]
                 },
                 {
                   "$type": "CNGGLKHONAA",
@@ -5576,9 +5164,7 @@
                 },
                 {
                   "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "NormalAttack_01"
-                  ]
+                  "attackTags": ["NormalAttack_01"]
                 },
                 {
                   "$type": "EGKHHMLPGLB",
@@ -5634,10 +5220,7 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             }
                           ]
                         }
@@ -5649,16 +5232,11 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "IEBACLCHIMD",
-                          "areas": [
-                            6
-                          ]
+                          "areas": [6]
                         }
                       ],
                       "param3": [
@@ -5672,19 +5250,14 @@
                       "predicates": [
                         {
                           "$type": "JFLFAEAHLJM",
-                          "filters": [
-                            "Water",
-                            "LiquidPhlogiston"
-                          ]
+                          "filters": ["Water", "LiquidPhlogiston"]
                         },
                         {
                           "$type": "BCFNGJHILAG",
                           "predicates": [
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ]
                         }
@@ -5714,10 +5287,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -5733,16 +5303,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -5758,19 +5323,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -5793,10 +5353,7 @@
                               "predicates": [
                                 {
                                   "$type": "JFLFAEAHLJM",
-                                  "filters": [
-                                    "Water",
-                                    "LiquidPhlogiston"
-                                  ]
+                                  "filters": ["Water", "LiquidPhlogiston"]
                                 }
                               ]
                             }
@@ -5808,16 +5365,11 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "IEBACLCHIMD",
-                              "areas": [
-                                6
-                              ]
+                              "areas": [6]
                             }
                           ],
                           "param3": [
@@ -5831,19 +5383,14 @@
                           "predicates": [
                             {
                               "$type": "JFLFAEAHLJM",
-                              "filters": [
-                                "Water",
-                                "LiquidPhlogiston"
-                              ]
+                              "filters": ["Water", "LiquidPhlogiston"]
                             },
                             {
                               "$type": "BCFNGJHILAG",
                               "predicates": [
                                 {
                                   "$type": "IEBACLCHIMD",
-                                  "areas": [
-                                    6
-                                  ]
+                                  "areas": [6]
                                 }
                               ]
                             }
@@ -6805,15 +6352,8 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_Fugu_Constellation_2_Count",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            1.5,
-            2.5
-          ],
-          "modifierNameSteps": [
-            "Blank",
-            "Blank"
-          ],
+          "valueSteps": [-0.5, 1.5, 2.5],
+          "modifierNameSteps": ["Blank", "Blank"],
           "actionQueues": [
             [],
             [
@@ -6830,10 +6370,7 @@
         "Constellation_2_AddNyxValue": 0.0,
         "Constellation_2_Duration": 0.0
       },
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "Blank": {
           "modifierName": "",
@@ -6841,11 +6378,7 @@
         },
         "Constellation_2_AddNyxValue": {
           "modifierName": "",
-          "elementDurability": [
-            "Constellation_2_Duration",
-            0.5,
-            "ADD"
-          ],
+          "elementDurability": ["Constellation_2_Duration", 0.5, "ADD"],
           "IPFJJJGABPL": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
@@ -6918,15 +6451,9 @@
           "skillID": 30004,
           "nextLoopTriggerID": "NextLoopTrigger",
           "endHoldTrigger": "EndHoldTrigger",
-          "beforeStateIDs": [
-            "SkateSprint"
-          ],
-          "chargeLoopStateIDs": [
-            "SkateSprintLoop"
-          ],
-          "chargeLoopDurations": [
-            10.0
-          ]
+          "beforeStateIDs": ["SkateSprint"],
+          "chargeLoopStateIDs": ["SkateSprintLoop"],
+          "chargeLoopDurations": [10.0]
         }
       ]
     }
@@ -6953,12 +6480,7 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_DungeonFog_Flag",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            0.5,
-            1.5,
-            2.5
-          ],
+          "valueSteps": [-0.5, 0.5, 1.5, 2.5],
           "modifierNameSteps": [
             "Blank",
             "DungeonFog_NyxSwitch",
@@ -6969,11 +6491,7 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_SkinControl_Flag",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            0.5,
-            1.5
-          ],
+          "valueSteps": [-0.5, 0.5, 1.5],
           "modifierNameSteps": [
             "Mualani_SkinControl_Off",
             "Mualani_SkinControl_On"
@@ -7794,12 +7312,7 @@
           "onAdded": [
             {
               "$type": "NAAJIHIKECC",
-              "partNames": [
-                "equip01",
-                "equip02",
-                "equip03",
-                "sheathPoint"
-              ],
+              "partNames": ["equip01", "equip02", "equip03", "sheathPoint"],
               "modifyAnotherValue": true
             }
           ],
@@ -7807,12 +7320,7 @@
             {
               "$type": "NAAJIHIKECC",
               "KGGEDGKGLDD": true,
-              "partNames": [
-                "equip01",
-                "equip02",
-                "equip03",
-                "sheathPoint"
-              ],
+              "partNames": ["equip01", "equip02", "equip03", "sheathPoint"],
               "modifyAnotherValue": true
             }
           ]
@@ -7861,9 +7369,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_Fugu_Model"
-              ],
+              "renderNames": ["SkillObj_Mualani_Fugu_Model"],
               "setEnable": true
             }
           ],
@@ -7872,9 +7378,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_Fugu_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_Fugu_Model"]
             }
           ]
         },
@@ -7886,9 +7390,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_RocketLauncher_Model"
-              ],
+              "renderNames": ["SkillObj_Mualani_RocketLauncher_Model"],
               "setEnable": true
             }
           ],
@@ -7897,9 +7399,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_RocketLauncher_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_RocketLauncher_Model"]
             }
           ]
         },
@@ -7914,9 +7414,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_Fugu_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_Fugu_Model"]
             }
           ],
           "onThinkIntervalIsFixedUpdate": true
@@ -7932,9 +7430,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_RocketLauncher_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_RocketLauncher_Model"]
             }
           ],
           "onThinkIntervalIsFixedUpdate": true
@@ -7947,9 +7443,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_RocketLauncher_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_RocketLauncher_Model"]
             }
           ],
           "onReconnect": [
@@ -7957,9 +7451,7 @@
               "$type": "HMIDGKNOHJM",
               "shieldHP": true,
               "canBeHandledOnRecover": true,
-              "renderNames": [
-                "SkillObj_Mualani_RocketLauncher_Model"
-              ]
+              "renderNames": ["SkillObj_Mualani_RocketLauncher_Model"]
             }
           ]
         }
@@ -8280,19 +7772,8 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_ExtraAttack_Count",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            2.5,
-            6.5,
-            7.5,
-            8.5
-          ],
-          "modifierNameSteps": [
-            "Blank",
-            "Alert",
-            "Fall",
-            "Attack"
-          ],
+          "valueSteps": [-0.5, 2.5, 6.5, 7.5, 8.5],
+          "modifierNameSteps": ["Blank", "Alert", "Fall", "Attack"],
           "removeAppliedModifier": false
         }
       ],
@@ -8541,9 +8022,7 @@
         },
         {
           "$type": "NCFFNDHGCMH",
-          "configIdArray": [
-            41102011
-          ]
+          "configIdArray": [41102011]
         }
       ]
     }
@@ -8648,9 +8127,7 @@
         },
         {
           "$type": "NCFFNDHGCMH",
-          "configIdArray": [
-            41102012
-          ]
+          "configIdArray": [41102012]
         }
       ]
     }
@@ -8755,9 +8232,7 @@
         },
         {
           "$type": "NCFFNDHGCMH",
-          "configIdArray": [
-            41102013
-          ]
+          "configIdArray": [41102013]
         }
       ]
     }
@@ -8769,26 +8244,19 @@
       "abilityMixins": [
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Mualani_ElementalBurst",
-            "Mualani_ElementalBurst_AS"
-          ],
+          "stateIDs": ["Mualani_ElementalBurst", "Mualani_ElementalBurst_AS"],
           "modifierName": "Camera",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Mualani_ElementalBurst"
-          ],
+          "stateIDs": ["Mualani_ElementalBurst"],
           "modifierName": "SkinControl",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Mualani_ElementalBurst"
-          ],
+          "stateIDs": ["Mualani_ElementalBurst"],
           "modifierName": "Invincible",
           "DGFCLAIDIFI": ""
         },
@@ -8801,9 +8269,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Mualani_ElementalBurst"
-          ],
+          "stateIDs": ["Mualani_ElementalBurst"],
           "modifierName": "Launch",
           "DGFCLAIDIFI": ""
         }
@@ -9134,9 +8600,7 @@
           "modifierMixins": [
             {
               "$type": "LDBCDLJECKF",
-              "attackTags": [
-                "Elemental_Burst"
-              ],
+              "attackTags": ["Elemental_Burst"],
               "actorWindSubHurtDelta": "Constellation_4_AddHurt"
             }
           ]
@@ -9193,9 +8657,7 @@
             },
             "attackInfo": {
               "attackTag": "Elemental_Burst",
-              "IBDODJFKHCP": [
-                "NyxAttack"
-              ],
+              "IBDODJFKHCP": ["NyxAttack"],
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
@@ -9243,9 +8705,7 @@
             },
             "attackInfo": {
               "attackTag": "Elemental_Burst",
-              "IBDODJFKHCP": [
-                "NyxAttack"
-              ],
+              "IBDODJFKHCP": ["NyxAttack"],
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
@@ -9297,9 +8757,7 @@
             },
             "attackInfo": {
               "attackTag": "Elemental_Burst",
-              "IBDODJFKHCP": [
-                "NyxAttack"
-              ],
+              "IBDODJFKHCP": ["NyxAttack"],
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
@@ -9351,9 +8809,7 @@
             },
             "attackInfo": {
               "attackTag": "Elemental_Burst",
-              "IBDODJFKHCP": [
-                "NyxAttack"
-              ],
+              "IBDODJFKHCP": ["NyxAttack"],
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
@@ -9387,9 +8843,7 @@
         },
         {
           "$type": "NCFFNDHGCMH",
-          "configIdArray": [
-            41102003
-          ]
+          "configIdArray": [41102003]
         }
       ],
       "onKill": [
@@ -9449,9 +8903,7 @@
             },
             {
               "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "Monster"
-              ]
+              "entityTypes": ["Monster"]
             }
           ],
           "successActions": [
@@ -9602,9 +9054,7 @@
           "targetPredicates": [
             {
               "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "Monster"
-              ]
+              "entityTypes": ["Monster"]
             },
             {
               "$type": "CNGGLKHONAA",
@@ -9659,9 +9109,7 @@
           "targetPredicates": [
             {
               "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "Monster"
-              ]
+              "entityTypes": ["Monster"]
             }
           ],
           "failActions": [
@@ -9768,9 +9216,7 @@
           "onRemoved": [
             {
               "$type": "NCFFNDHGCMH",
-              "configIdArray": [
-                41102002
-              ]
+              "configIdArray": [41102002]
             }
           ]
         }
@@ -9833,9 +9279,7 @@
           },
           "attackInfo": {
             "attackTag": "NormalAttack_01",
-            "IBDODJFKHCP": [
-              "NyxAttack"
-            ],
+            "IBDODJFKHCP": ["NyxAttack"],
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
@@ -9885,9 +9329,7 @@
           },
           "attackInfo": {
             "attackTag": "NormalAttack_01",
-            "IBDODJFKHCP": [
-              "NyxAttack"
-            ],
+            "IBDODJFKHCP": ["NyxAttack"],
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
@@ -9943,9 +9385,7 @@
           },
           "attackInfo": {
             "attackTag": "NormalAttack_01",
-            "IBDODJFKHCP": [
-              "NyxAttack"
-            ],
+            "IBDODJFKHCP": ["NyxAttack"],
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
@@ -10010,9 +9450,7 @@
           },
           "attackInfo": {
             "attackTag": "NormalAttack_01",
-            "IBDODJFKHCP": [
-              "NyxAttack"
-            ],
+            "IBDODJFKHCP": ["NyxAttack"],
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
@@ -10082,9 +9520,7 @@
           },
           "attackInfo": {
             "attackTag": "NormalAttack_01",
-            "IBDODJFKHCP": [
-              "NyxAttack"
-            ],
+            "IBDODJFKHCP": ["NyxAttack"],
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
@@ -10222,10 +9658,7 @@
       "abilitySpecials": {
         "PermanentSkill_1_AddNyxValue": 0.0
       },
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "Bullet_Fx": {
           "modifierName": "",
@@ -10256,9 +9689,7 @@
               "successActions": [
                 {
                   "$type": "NCFFNDHGCMH",
-                  "configIdArray": [
-                    41092021
-                  ]
+                  "configIdArray": [41092021]
                 }
               ]
             }
@@ -10284,9 +9715,7 @@
           "targetPredicates": [
             {
               "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "Avatar"
-              ]
+              "entityTypes": ["Avatar"]
             }
           ],
           "successActions": [
@@ -10341,17 +9770,13 @@
             },
             {
               "$type": "NCFFNDHGCMH",
-              "configIdArray": [
-                41092021
-              ]
+              "configIdArray": [41092021]
             }
           ],
           "failActions": [
             {
               "$type": "NCFFNDHGCMH",
-              "configIdArray": [
-                41092021
-              ]
+              "configIdArray": [41092021]
             },
             {
               "$type": "CAKDDHLKOAB",
@@ -10388,10 +9813,7 @@
         "Constellation_4_ReviveEnergy": 0.0,
         "PermanentSkill_1_AddNyxValue": 0.0
       },
-      "HKFPCGFFKMJ": [
-        "NyxValueMin",
-        "NyxValueMax"
-      ],
+      "HKFPCGFFKMJ": ["NyxValueMin", "NyxValueMax"],
       "modifiers": {
         "Bullet_Fx": {
           "modifierName": "",
@@ -10422,9 +9844,7 @@
               "successActions": [
                 {
                   "$type": "NCFFNDHGCMH",
-                  "configIdArray": [
-                    41092022
-                  ]
+                  "configIdArray": [41092022]
                 }
               ]
             }
@@ -10489,9 +9909,7 @@
         },
         {
           "$type": "NCFFNDHGCMH",
-          "configIdArray": [
-            41092022
-          ]
+          "configIdArray": [41092022]
         }
       ]
     }
@@ -10505,13 +9923,7 @@
           "$type": "MLJAPFBGEEH",
           "globalValueKey": "_ABILITY_Mualani_PermanentSkill_2_Count",
           "gvInTalk": 0.0,
-          "valueSteps": [
-            -0.5,
-            0.5,
-            1.5,
-            2.5,
-            3.5
-          ],
+          "valueSteps": [-0.5, 0.5, 1.5, 2.5, 3.5],
           "modifierNameSteps": [
             "Blank",
             "PermanentSkill_2_Lv1",
@@ -10635,9 +10047,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "FallingAnthem_BS"
-          ],
+          "stateIDs": ["FallingAnthem_BS"],
           "modifierName": "FallingAnthem_BS_Material",
           "DGFCLAIDIFI": ""
         },
@@ -10653,9 +10063,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "FallingAnthem_BS"
-          ],
+          "stateIDs": ["FallingAnthem_BS"],
           "modifierName": "FallingAnthem_BS_VelocityForce_Initialize",
           "DGFCLAIDIFI": ""
         },
@@ -10683,10 +10091,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "FallingAnthem_BS",
-            "FallingAnthem_Loop"
-          ],
+          "stateIDs": ["FallingAnthem_BS", "FallingAnthem_Loop"],
           "modifierName": "Inertia",
           "DGFCLAIDIFI": ""
         },
@@ -10703,9 +10108,7 @@
         },
         {
           "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "FallingAnthem_BS"
-          ],
+          "stateIDs": ["FallingAnthem_BS"],
           "modifierName": "FallingAnthem_ClearVelocityForce",
           "DGFCLAIDIFI": ""
         },
@@ -10722,18 +10125,13 @@
         },
         {
           "$type": "EJDKAKLFCPA",
-          "stateIDs": [
-            "FallingAnthem_AS_1"
-          ],
+          "stateIDs": ["FallingAnthem_AS_1"],
           "modifierName": "FallingAnthem_Remove_SelfEffect",
           "DGFCLAIDIFI": ""
         },
         {
           "$type": "EJDKAKLFCPA",
-          "stateIDs": [
-            "FallingAnthem_BS_2",
-            "FallingAnthem_Loop"
-          ],
+          "stateIDs": ["FallingAnthem_BS_2", "FallingAnthem_Loop"],
           "modifierName": "FallingAnthem_SetVisible",
           "DGFCLAIDIFI": ""
         },
@@ -10771,22 +10169,14 @@
           "onAdded": [
             {
               "$type": "NAAJIHIKECC",
-              "partNames": [
-                "equip01",
-                "equip02",
-                "sheathPoint"
-              ]
+              "partNames": ["equip01", "equip02", "sheathPoint"]
             }
           ],
           "onRemoved": [
             {
               "$type": "NAAJIHIKECC",
               "KGGEDGKGLDD": true,
-              "partNames": [
-                "equip01",
-                "equip02",
-                "sheathPoint"
-              ]
+              "partNames": ["equip01", "equip02", "sheathPoint"]
             }
           ]
         },
@@ -10832,9 +10222,7 @@
           "onAdded": [
             {
               "$type": "LBLNHEBGPJI",
-              "forces": [
-                "RushMoveType"
-              ]
+              "forces": ["RushMoveType"]
             }
           ]
         },
@@ -11151,10 +10539,7 @@
           "onAdded": [
             {
               "$type": "LBLNHEBGPJI",
-              "forces": [
-                "RushMoveType",
-                "InertiaType"
-              ]
+              "forces": ["RushMoveType", "InertiaType"]
             }
           ]
         },

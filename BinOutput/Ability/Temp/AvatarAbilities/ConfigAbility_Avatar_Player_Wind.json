@@ -1,79 +1,79 @@
 [
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_ExtraAttack_Wind",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100543,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -82,13 +82,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -98,10 +98,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -114,12 +114,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -129,12 +127,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -145,79 +143,79 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerGirl_ExtraAttack_Wind",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100553,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -226,13 +224,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -242,10 +240,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -258,12 +256,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -273,12 +269,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -289,65 +285,53 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_UziExplode",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "UziExplode_Charge_01",
-            "UziExplode_BS_1"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["UziExplode_Charge_01", "UziExplode_BS_1"],
           "modifierName": "Charge1",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "UziExplode_Charge_01",
             "UziExplode_BS_1",
             "UziExplode_Charge_02"
           ],
           "modifierName": "UziExplode_ArmEffect",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "UziExplode_Charge_02"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["UziExplode_Charge_02"],
           "modifierName": "Charge2",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "UziExplode_Charge_01",
             "UziExplode_BS_1",
             "UziExplode_Charge_02"
           ],
           "modifierName": "Cooldown_Count",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "ADCFAHFIPHN",
+          "$type": "SkillButtonHoldChargeMixin",
           "skillID": 10067,
           "nextLoopTriggerID": "NextLoopTrigger",
           "endHoldTrigger": "EndHoldTrigger",
-          "beforeStateIDs": [
-            "UziExplode_BS_1"
-          ],
+          "beforeStateIDs": ["UziExplode_BS_1"],
           "chargeLoopStateIDs": [
             "UziExplode_Charge_01",
             "UziExplode_Charge_02"
           ],
-          "afterStateIDs": [
-            "UziExplode_Strike_02"
-          ],
-          "chargeLoopDurations": [
-            0.25999999046325684,
-            1.059999942779541
-          ]
+          "afterStateIDs": ["UziExplode_Strike_02"],
+          "chargeLoopDurations": [0.25999999046325684, 1.059999942779541]
         }
       ],
       "abilitySpecials": {
@@ -362,33 +346,32 @@
       "modifiers": {
         "UziExplode_ArmEffect": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Charge1": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.25,
           "onAdded": [
             {
-              "$type": "GJCAPCBELPA",
+              "$type": "TriggerAbility",
               "abilityName": "Avatar_Player_UziExplode_Mix"
             },
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "BCFNGJHILAG",
+                  "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "GKDKGMAMGGN",
+                      "$type": "ByUnlockTalentParam",
                       "talentParam": "Avatar_Player_Wind_SubVacuum_2"
                     }
                   ]
@@ -397,73 +380,71 @@
               "modifierName": "UziExplode_WindZone_Charge1_OnlyGrass"
             },
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Avatar_Player_Wind_SubVacuum_2"
                 }
               ],
               "modifierName": "UziExplode_WindZone_Charge1_All"
             },
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_1",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_1",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_Count",
               "useLimitRange": true,
-              "param2": 2.0,
-              "repeatTimes": 0.0
+              "maxValue": 2.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": 1.0,
+              "$type": "SetGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_Dropball_Count",
               "useLimitRange": true,
-              "param2": 2.0,
-              "repeatTimes": 0.0
+              "maxValue": 2.0,
+              "minValue": 0.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 1.7000000476837158
+                  "radius": 1.7000000476837158
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Wind",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "SliceDamage1",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "SliceDamage1",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Wind",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Slash",
-                    "enBreak": 10.0,
+                    "damage": 10.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -472,51 +453,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Fire",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 1.7000000476837158
+                  "radius": 1.7000000476837158
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Fire",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage1",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Fire",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -525,51 +505,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Water",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 1.7000000476837158
+                  "radius": 1.7000000476837158
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Water",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage1",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -578,51 +557,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Ice",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 1.7000000476837158
+                  "radius": 1.7000000476837158
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Ice",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage1",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Ice",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -631,51 +609,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Electric",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 1.7000000476837158
+                  "radius": 1.7000000476837158
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Electric",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage1",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Electric",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -687,23 +664,23 @@
         },
         "Charge2": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.25,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10006,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": 1.0
             },
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "BCFNGJHILAG",
+                  "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "GKDKGMAMGGN",
+                      "$type": "ByUnlockTalentParam",
                       "talentParam": "Avatar_Player_Wind_SubVacuum_1"
                     }
                   ]
@@ -712,141 +689,135 @@
               "modifierName": "UziExplode_WindZone_Charge2_OnlyGrass"
             },
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Avatar_Player_Wind_SubVacuum_1"
                 }
               ],
               "modifierName": "UziExplode_WindZone_Charge2_All"
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed",
-                  "param3": 1.0,
-                  "forceByCaster": true
+                  "ratio": 1.0,
+                  "setTarget": true
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Fire",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2_Fire",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2_Fire",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Water",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2_Water",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2_Water",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Ice",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2_Ice",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2_Ice",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Electric",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2_Electric",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2_Electric",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_Count",
               "useLimitRange": true,
-              "param2": 2.0,
-              "repeatTimes": 0.0
+              "maxValue": 2.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": 2.0,
+              "$type": "SetGlobalValue",
+              "ratio": 2.0,
               "key": "_ABILITY_UziExplode_Dropball_Count",
               "useLimitRange": true,
-              "param2": 2.0,
-              "repeatTimes": 0.0
+              "maxValue": 2.0,
+              "minValue": 0.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 3.5999999046325684
+                  "radius": 3.5999999046325684
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Wind",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "SliceDamage2",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "SliceDamage2",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Wind",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Slash",
-                    "enBreak": 10.0,
+                    "damage": 10.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -872,51 +843,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Fire",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 3.5999999046325684
+                  "radius": 3.5999999046325684
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Fire",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage2",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Fire",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -925,51 +895,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Water",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 3.5999999046325684
+                  "radius": 3.5999999046325684
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Water",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage2",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -978,51 +947,50 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Ice",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 3.5999999046325684
+                  "radius": 3.5999999046325684
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Ice",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage2",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Ice",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -1031,52 +999,51 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Electric",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "ignoreMassive": true,
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "OAHPDLJIADP": 3.5999999046325684
+                  "radius": 3.5999999046325684
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art_Hold",
                   "attenuationTag": "Elemental_Art_Electric",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": [
+                    "damagePercentage": [
                       "SliceDamage2",
                       "Element_Embrace_Factor",
                       "MUL"
                     ],
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Electric",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 0.0,
+                    "bonusCritical": 25.0,
+                    "damage": 0.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV0",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -1088,29 +1055,27 @@
         },
         "UziExplode_WindZone_Charge1_OnlyGrass": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "strength": 2.0,
-              "IAELBHDMINN": 2.0,
-              "MMBCLAEOEFB": 0.0,
+              "attenuation": 2.0,
+              "innerRadius": 0.0,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Grass"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Grass"]
                 }
               ],
               "modifierName": ""
@@ -1119,29 +1084,27 @@
         },
         "UziExplode_WindZone_Charge1_All": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 1.2000000476837158
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.2000000476837158
                 }
               },
               "strength": 4.0,
-              "IAELBHDMINN": 2.0,
-              "MMBCLAEOEFB": 0.5,
+              "attenuation": 2.0,
+              "innerRadius": 0.5,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Avatar"
-                  ],
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Avatar"],
                   "reject": true
                 }
               ],
@@ -1151,29 +1114,27 @@
         },
         "UziExplode_WindZone_Charge2_OnlyGrass": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "strength": 2.0,
-              "IAELBHDMINN": 2.0,
-              "MMBCLAEOEFB": 0.0,
+              "attenuation": 2.0,
+              "innerRadius": 0.0,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Grass"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Grass"]
                 }
               ],
               "modifierName": ""
@@ -1182,35 +1143,33 @@
         },
         "UziExplode_WindZone_Charge2_All": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 1.2000000476837158
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.2000000476837158
                 }
               },
               "strength": 4.0,
-              "IAELBHDMINN": 2.0,
-              "MMBCLAEOEFB": 0.5,
+              "attenuation": 2.0,
+              "innerRadius": 0.5,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Avatar"
-                  ],
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Avatar"],
                   "reject": true
                 },
                 {
-                  "$type": "GDIBFABBADA",
+                  "$type": "ByTargetWeight",
                   "logic": "LesserOrEqual",
-                  "BHOOHGLJDHM": 100.0
+                  "weight": 100.0
                 }
               ],
               "modifierName": ""
@@ -1219,51 +1178,51 @@
         },
         "Cooldown_Count": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_Count",
-                  "param3": 1.0,
+                  "ratio": 1.0,
                   "compareType": "MoreThan"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "OCLNBBMMIOK",
+                  "$type": "AvatarSkillStart",
                   "predicates": [
                     {
-                      "$type": "IHLMAOEHHOB",
+                      "$type": "GOKKOCICPNK",
                       "skillID": 10067
                     }
                   ],
                   "skillID": 10067,
-                  "amountByTargetCurrentHPRatio": 1.600000023841858,
+                  "amount": 1.600000023841858,
                   "costStaminaRatio": 1.0
                 },
                 {
-                  "$type": "HMKGPFBBDIC",
+                  "$type": "ClearGlobalValue",
                   "key": "_ABILITY_UziExplode_Count"
                 }
               ],
               "failActions": [
                 {
-                  "$type": "OCLNBBMMIOK",
+                  "$type": "AvatarSkillStart",
                   "predicates": [
                     {
-                      "$type": "IHLMAOEHHOB",
+                      "$type": "GOKKOCICPNK",
                       "skillID": 10067
                     }
                   ],
                   "skillID": 10067,
-                  "amountByTargetCurrentHPRatio": 1.0,
+                  "amount": 1.0,
                   "costStaminaRatio": 1.0
                 },
                 {
-                  "$type": "HMKGPFBBDIC",
+                  "$type": "ClearGlobalValue",
                   "key": "_ABILITY_UziExplode_Count"
                 }
               ]
@@ -1272,33 +1231,28 @@
         },
         "UziExplode_ResurrectUzi_Detect": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "MFCOIAIMHEL",
-              "attackTags": [
-                "Elemental_Art_Hold",
-                "Elemental_Art"
-              ],
+              "$type": "DoActionByKillingMixin",
+              "attackTags": ["Elemental_Art_Hold", "Elemental_Art"],
               "detectWindow": 0.6000000238418579,
               "onKill": [
                 {
-                  "$type": "INBCDALOHMP",
+                  "$type": "Predicated",
                   "target": "Other",
-                  "shieldHP": true,
+                  "cdDelta": true,
                   "targetPredicates": [
                     {
-                      "$type": "NIMAPECDNKD",
-                      "entityTypes": [
-                        "Monster"
-                      ]
+                      "$type": "ByEntityTypes",
+                      "entityTypes": ["Monster"]
                     }
                   ],
                   "successActions": [
                     {
-                      "$type": "PELJALPANCA",
+                      "$type": "ApplyModifier",
                       "target": "Caster",
-                      "shieldHP": true,
+                      "cdDelta": true,
                       "modifierName": "UNIQUE_ResurrectUzi_Heal"
                     }
                   ]
@@ -1309,11 +1263,11 @@
         },
         "ResurrectUzi_Flag": {
           "modifierName": "",
-          "elementDurability": 1.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.0,
+          "bonusCritical": 100.0,
           "onKill": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Caster",
               "modifierName": "UNIQUE_ResurrectUzi_Heal"
             }
@@ -1322,26 +1276,26 @@
         "UNIQUE_ResurrectUzi_Heal": {
           "stacking": "Unique",
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": 5.199999809265137,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": 5.199999809265137,
+          "bonusCritical": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "FHGPOFDJDCO",
-              "shieldHP": true,
-              "ECOAIFKENNM": "ResurrectUzi_Heal",
+              "$type": "HealHP",
+              "cdDelta": true,
+              "amountByCasterMaxHPRatio": "ResurrectUzi_Heal",
               "cdRatio": ""
             }
           ]
         },
         "UNIQUE_UziExplode_Warden_Handler": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EKMHJKDLBJH",
+              "$type": "AttachToStateIDMixin",
               "stateIDs": [
                 "UziExplode_BS",
                 "UziExplode_BS_1",
@@ -1352,13 +1306,13 @@
                 "UziExplode_AS"
               ],
               "modifierName": "UziExplode_Warden",
-              "DGFCLAIDIFI": ""
+              "BILMCNCKIAO": ""
             }
           ]
         },
         "UziExplode_Warden": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_SubHurtDelta": "UziExplode_Warden_SubHurtDelta",
             "Actor_EndureDelta": "UziExplode_Warden_EndureDelta"
@@ -1369,23 +1323,23 @@
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_UziExplode_Warden"
             }
           ],
           "modifierName": "UNIQUE_UziExplode_Warden_Handler"
         },
         {
-          "$type": "KBODPNEEFGD",
+          "$type": "RemoveUniqueModifier",
           "predicates": [
             {
-              "$type": "BCFNGJHILAG",
+              "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Talent_UziExplode_Warden"
                 }
               ]
@@ -1394,23 +1348,23 @@
           "modifierName": "UNIQUE_UziExplode_Warden_Handler"
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_Player_Wind_ResurrectUzi"
             }
           ],
           "modifierName": "UziExplode_ResurrectUzi_Detect"
         },
         {
-          "$type": "PFKNEFGOHIH",
+          "$type": "RemoveModifier",
           "predicates": [
             {
-              "$type": "BCFNGJHILAG",
+              "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Talent_Player_Wind_ResurrectUzi"
                 }
               ]
@@ -1424,16 +1378,16 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_UziExplode_Strike_01",
       "abilityMixins": [
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "UziExplode_Strike_01",
           "modifierName": "UziExplode_Strike_Material_01",
           "normalizeStart": 0.07599999755620956,
           "normalizeEnd": 0.20000000298023224,
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -1445,137 +1399,128 @@
       "modifiers": {
         "UziExplode_Strike_Material_01": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed",
-                  "param3": 1.0,
-                  "forceByCaster": true
+                  "ratio": 1.0,
+                  "setTarget": true
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_1",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_1",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Fire",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_1_Fire",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_1_Fire",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Water",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_1_Water",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_1_Water",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Ice",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_1_Ice",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_1_Ice",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Electric",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_1_Electric",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_1_Electric",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "GenerateElemBall_UziExplode": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAttackLanded": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Target",
               "targetPredicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Art"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Art"]
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ANIMAL_ENTITY_TYPE",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "PEJAIAPIAJD",
+                  "$type": "CNGBNECMGGP",
                   "target": "Caster",
                   "elementType": "Wind"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "predicates": [
                     {
-                      "$type": "CNGGLKHONAA",
+                      "$type": "ByTargetGlobalValue",
                       "key": "_ABILITY_UziExplode_Dropball_Count",
-                      "param3": 1.0,
-                      "forceByCaster": true
+                      "ratio": 1.0,
+                      "setTarget": true
                     }
                   ],
                   "modifierName": "DropBall_Base_1"
                 },
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "predicates": [
                     {
-                      "$type": "CNGGLKHONAA",
+                      "$type": "ByTargetGlobalValue",
                       "key": "_ABILITY_UziExplode_Dropball_Count",
-                      "param3": 2.0,
-                      "forceByCaster": true
+                      "ratio": 2.0,
+                      "setTarget": true
                     }
                   ],
                   "modifierName": "DropBall_Base_2"
@@ -1587,21 +1532,21 @@
         "DropBall_Base_1": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.6000000238418579,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.6000000238418579,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OGPDKJJJKNN",
+              "$type": "GenerateElemBall",
               "configID": 2021,
               "born": {
-                "$type": "JHEBKCMEMLN",
+                "$type": "ConfigBornByTarget",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1.0
                 }
               },
-              "hpRatio": "GetElementRatio",
+              "value": "GetElementRatio",
               "baseEnergy": 6.0
             }
           ]
@@ -1609,39 +1554,39 @@
         "DropBall_Base_2": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.6000000238418579,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.6000000238418579,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OGPDKJJJKNN",
+              "$type": "GenerateElemBall",
               "configID": 2021,
               "born": {
-                "$type": "JHEBKCMEMLN",
+                "$type": "ConfigBornByTarget",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1.0
                 }
               },
-              "hpRatio": "GetElementRatio",
+              "value": "GetElementRatio",
               "baseEnergy": 9.0
             },
             {
-              "$type": "BEIEKAHLNED",
+              "$type": "Randomed",
               "chance": 0.33000001311302185,
               "successActions": [
                 {
-                  "$type": "OGPDKJJJKNN",
+                  "$type": "GenerateElemBall",
                   "configID": 2021,
                   "born": {
-                    "$type": "JHEBKCMEMLN",
+                    "$type": "ConfigBornByTarget",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 0.0,
-                      "LPCHALMFFOD": 1.0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 1.0
                     }
                   },
-                  "hpRatio": "GetElementRatio",
+                  "value": "GetElementRatio",
                   "baseEnergy": 3.0
                 }
               ]
@@ -1651,55 +1596,54 @@
       },
       "onAdded": [
         {
-          "$type": "BOBCOJHOKKD",
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "ratio": 0.0,
           "key": "_ABILITY_UziExplode_Dropball_Count",
           "useLimitRange": true,
-          "param2": 2.0,
-          "repeatTimes": 0.0
+          "maxValue": 2.0,
+          "minValue": 0.0
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "GenerateElemBall_UziExplode"
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "StrikeDamage1",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "StrikeDamage1",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Wind",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 200.0,
+                "damage": 200.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV5",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -1719,54 +1663,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Fire",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage1",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Fire",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -1776,54 +1719,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Water",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage1",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Water",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -1833,54 +1775,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Ice",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage1",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Ice",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -1890,54 +1831,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Electric",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage1",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Electric",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -1952,16 +1892,16 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_UziExplode_Strike_02",
       "abilityMixins": [
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "UziExplode_Strike_02",
           "modifierName": "UziExplode_Strike_Material_02",
           "normalizeStart": 0.07599999755620956,
           "normalizeEnd": 0.20000000298023224,
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -1973,122 +1913,116 @@
       "modifiers": {
         "UziExplode_Strike_Material_02": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed",
-                  "param3": 1.0,
-                  "forceByCaster": true
+                  "ratio": 1.0,
+                  "setTarget": true
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_2",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_2",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Fire",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_2_Fire",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_2_Fire",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Water",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_2_Water",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_2_Water",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Ice",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_2_Ice",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_2_Ice",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ABILITY_UziExplode_IsMixed_Electric",
-                  "param3": 1.0,
-                  "forceByCaster": true,
+                  "ratio": 1.0,
+                  "setTarget": true,
                   "compareType": "MoreThanAndEqual"
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_UziExplode_Explode_2_Electric",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_Explode_2_Electric",
+              "effectTempleteID": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "StrikeDamage2",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "StrikeDamage2",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Wind",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 200.0,
+                "damage": 200.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV6",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -2108,54 +2042,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Fire",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage2",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Fire",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -2165,54 +2098,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Water",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage2",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Water",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -2222,54 +2154,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Ice",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage2",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Ice",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -2279,54 +2210,53 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed_Electric",
-              "param3": 1.0,
-              "forceByCaster": true,
+              "ratio": 1.0,
+              "setTarget": true,
               "compareType": "MoreThanAndEqual"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": -0.5,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": -0.5,
+                  "z": 0.0
                 }
               },
               "height": 2.0,
               "fanAngle": 100.0,
-              "OAHPDLJIADP": 6.0
+              "radius": 6.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": [
+                "damagePercentage": [
                   "StrikeDamage2",
                   "Element_Embrace_Factor",
                   "MUL"
                 ],
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentageRatio": 0.0,
                 "elementType": "Electric",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 0.0,
+                "damage": 0.0,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "none",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV0",
                 "retreatType": "ByHitDirection",
                 "hitHaltTimeScale": 0.05000000074505806
@@ -2341,11 +2271,11 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_UziExplode_Mix",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "UziExplode_BS",
             "UziExplode_BS_1",
@@ -2355,99 +2285,88 @@
             "UziExplode_Strike_02"
           ],
           "modifierName": "UziExplode_Mix_Initializer",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "HFKICALKLBK",
+          "$type": "ElementHittingOtherPredicatedMixin",
           "prePredicates": [
             {
-              "$type": "NNEHDJHMING",
-              "attackTags": [
-                "UziExplode_Mix_Detect"
-              ]
+              "$type": "ByAttackTags",
+              "attackTags": ["UziExplode_Mix_Detect"]
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_UziExplode_IsMixed",
-              "param3": 1.0,
-              "forceByCaster": true
+              "ratio": 1.0,
+              "setTarget": true
             }
           ],
           "elementBatchPredicateds": [
             {
-              "elementTypeArr": [
-                "Ice",
-                "Frozen"
-              ],
+              "elementTypeArr": ["Ice", "Frozen"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "UziExplode_Mix_Ice"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_UziExplode_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Fire"
-              ],
+              "elementTypeArr": ["Fire"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "UziExplode_Mix_Fire"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_UziExplode_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Water"
-              ],
+              "elementTypeArr": ["Water"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "UziExplode_Mix_Water"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_UziExplode_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Electric"
-              ],
+              "elementTypeArr": ["Electric"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "UziExplode_Mix_Electric"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_UziExplode_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             }
@@ -2457,11 +2376,11 @@
       "modifiers": {
         "UziExplode_Mix_Start": {
           "modifierName": "",
-          "elementDurability": 0.20000000298023224,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.20000000298023224,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "UNIQUE_UziExplode_Mix_Handler"
             }
           ]
@@ -2469,63 +2388,56 @@
         "UNIQUE_UziExplode_Mix_Handler": {
           "stacking": "Unique",
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "MLJAPFBGEEH",
+              "$type": "AttachModifierToSelfGlobalValueMixin",
               "globalValueKey": "_ABILITY_UziExplode_IsMixed",
-              "gvInTalk": 0.0,
-              "valueSteps": [
-                -1.0,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "Blank",
-                "UziExplode_Mix_Detect"
-              ]
+              "defaultGlobalValueOnCreate": 0.0,
+              "valueSteps": [-1.0, 0.5, 1.5],
+              "modifierNameSteps": ["Blank", "UziExplode_Mix_Detect"]
             }
           ]
         },
         "Blank": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0
+          "bonusCritical": 100.0
         },
         "UziExplode_Mix_Detect": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.0,
-                      "LPCHALMFFOD": 1.2000000476837158
+                      "x": 0.0,
+                      "y": 1.0,
+                      "z": 1.2000000476837158
                     }
                   },
-                  "NMNLIIGJPDO": true,
-                  "OAHPDLJIADP": 3.0
+                  "CHAHFAJFALH": true,
+                  "radius": 3.0
                 },
                 "attackInfo": {
                   "attackTag": "UziExplode_Mix_Detect",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": 0.0,
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "AntiFire",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 0.0,
-                    "enBreak": 0.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 0.0,
+                    "damage": 0.0,
+                    "FKGFPFNOJMN": 0.0
                   }
                 }
               },
@@ -2536,317 +2448,313 @@
         "UziExplode_Mix_Fire": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.10000000149011612,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.10000000149011612,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "UziExplode_Mix_Fire_Material"
             }
           ]
         },
         "UziExplode_Mix_Fire_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Fire",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Fire",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Fire",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_1"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Fire",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Fire",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_IsMixed_Fire",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "UziExplode_Mix_Water": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.10000000149011612,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.10000000149011612,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "UziExplode_Mix_Water_Material"
             }
           ]
         },
         "UziExplode_Mix_Water_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Water",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Water",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Water",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_1"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Water",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Water",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_IsMixed_Water",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "UziExplode_Mix_Electric": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.10000000149011612,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.10000000149011612,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "UziExplode_Mix_Electric_Material"
             }
           ]
         },
         "UziExplode_Mix_Electric_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Electric",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Electric",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Electric",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_1"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Electric",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Electric",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_IsMixed_Electric",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "UziExplode_Mix_Ice": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.10000000149011612,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.10000000149011612,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "UziExplode_Mix_Ice_Material"
             }
           ]
         },
         "UziExplode_Mix_Ice_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Ice",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_SFX_Ice",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Ice",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_1"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Ice",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_UziExplode_BladeSphere_2"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_UziExplode_BladeSphere_2"
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Ice",
               "attachPoint": "",
-              "rotationDampTime": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Boy_Sword_PlayerBoy_UziExplode_Arm_1"
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_UziExplode_IsMixed_Ice",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "UziExplode_Mix_Initializer": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 999.0,
+              "$type": "AddGlobalValue",
+              "ratio": 999.0,
               "key": "_ABILITY_UziExplode_IsMixed",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Ice",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Water",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Fire",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Electric",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": -999.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": -999.0,
               "key": "_ABILITY_UziExplode_IsMixed",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Ice",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Water",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Fire",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": -10.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": -10.0,
               "key": "_ABILITY_UziExplode_IsMixed_Electric",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "KBODPNEEFGD",
-              "shieldHP": true,
+              "$type": "RemoveUniqueModifier",
+              "cdDelta": true,
               "modifierName": "UNIQUE_UziExplode_Mix_Handler"
             },
             {
-              "$type": "PFKNEFGOHIH",
-              "shieldHP": true,
+              "$type": "RemoveModifier",
+              "cdDelta": true,
               "modifierName": "UziExplode_Mix_Fire_Material"
             },
             {
-              "$type": "PFKNEFGOHIH",
-              "shieldHP": true,
+              "$type": "RemoveModifier",
+              "cdDelta": true,
               "modifierName": "UziExplode_Mix_Water_Material"
             },
             {
-              "$type": "PFKNEFGOHIH",
-              "shieldHP": true,
+              "$type": "RemoveModifier",
+              "cdDelta": true,
               "modifierName": "UziExplode_Mix_Ice_Material"
             },
             {
-              "$type": "PFKNEFGOHIH",
-              "shieldHP": true,
+              "$type": "RemoveModifier",
+              "cdDelta": true,
               "modifierName": "UziExplode_Mix_Electric_Material"
             }
           ]
@@ -2854,49 +2762,49 @@
       },
       "onAdded": [
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": 999.0,
+          "$type": "AddGlobalValue",
+          "ratio": 999.0,
           "key": "_ABILITY_UziExplode_IsMixed",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         },
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": -10.0,
+          "$type": "AddGlobalValue",
+          "ratio": -10.0,
           "key": "_ABILITY_UziExplode_IsMixed_Ice",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         },
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": -10.0,
+          "$type": "AddGlobalValue",
+          "ratio": -10.0,
           "key": "_ABILITY_UziExplode_IsMixed_Water",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         },
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": -10.0,
+          "$type": "AddGlobalValue",
+          "ratio": -10.0,
           "key": "_ABILITY_UziExplode_IsMixed_Fire",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         },
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": -10.0,
+          "$type": "AddGlobalValue",
+          "ratio": -10.0,
           "key": "_ABILITY_UziExplode_IsMixed_Electric",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "UziExplode_Mix_Start"
         }
       ],
@@ -2905,59 +2813,55 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_WindBreathe",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "WindBreathe"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["WindBreathe"],
           "modifierName": "WindBreathe_Camera_Protection_Ghost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "WindBreathe"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["WindBreathe"],
           "modifierName": "WindBreathe_Camera_Protection_Invincible",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "WindBreathe_Camera_Protection_Ghost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OPAOGKPJLIG",
+              "$type": "AttachAbilityStateResistance",
               "resistanceListID": 11002
             }
           ]
         },
         "WindBreathe_Camera_Protection_Invincible": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "state": "Invincible"
         }
       },
       "onAbilityStart": [
         {
-          "$type": "OCLNBBMMIOK",
+          "$type": "AvatarSkillStart",
           "skillID": 10068,
-          "amountByTargetCurrentHPRatio": 1.0,
+          "amount": 1.0,
           "costStaminaRatio": 1.0
         },
         {
-          "$type": "CAKDDHLKOAB",
+          "$type": "TriggerBullet",
           "bulletID": 41005001,
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 1.7000000476837158,
-              "LPCHALMFFOD": 0.0
+              "x": 0.0,
+              "y": 1.7000000476837158,
+              "z": 0.0
             },
             "onGround": true
           }
@@ -2968,26 +2872,24 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_WindBreathe_CameraController",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "WindBreathe"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["WindBreathe"],
           "modifierName": "WindBreathe_Camera_Remover",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "WindBreathe_Camera_Remover": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "LJBFFDLKIKL",
-              "shieldHP": true,
+              "$type": "AvatarCameraParam",
+              "cdDelta": true,
               "cameraParam": {
                 "forceRadius": 4.0,
                 "forceRadiusDuration": 0.0,
@@ -2997,24 +2899,24 @@
           ],
           "onRemoved": [
             {
-              "$type": "PEIPIGEMHEK",
-              "shieldHP": true
+              "$type": "AvatarExitCameraShot",
+              "cdDelta": true
             }
           ],
           "onAvatarOut": [
             {
-              "$type": "PEIPIGEMHEK",
-              "shieldHP": true
+              "$type": "AvatarExitCameraShot",
+              "cdDelta": true
             }
           ]
         },
         "WindBreathe_Delay_CameraShake": {
           "modifierName": "",
-          "elementDurability": 1.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.0,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "JPHLIDGMGBG",
+              "$type": "ActCameraRadialBlur",
               "cameraRadialBlur": {
                 "power": 1.0,
                 "blurTime": 0.4000000059604645,
@@ -3026,7 +2928,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "WindBreathe_Delay_CameraShake"
         }
       ],
@@ -3035,7 +2937,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_WindBreathe_Tornado",
       "abilitySpecials": {
         "Tornado_Damage": 0.0,
@@ -3045,37 +2947,35 @@
       "modifiers": {
         "Tornado_BlackHole": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 0.30000001192092896
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.30000001192092896
                 },
                 "attachPointName": "RootNode"
               },
               "strength": 7.0,
-              "IAELBHDMINN": 0.5,
-              "MMBCLAEOEFB": 1.0,
+              "attenuation": 0.5,
+              "innerRadius": 1.0,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Avatar"
-                  ],
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Avatar"],
                   "reject": true
                 },
                 {
-                  "$type": "GDIBFABBADA",
+                  "$type": "ByTargetWeight",
                   "logic": "LesserOrEqual",
-                  "BHOOHGLJDHM": 100.0
+                  "weight": 100.0
                 }
               ],
               "modifierName": ""
@@ -3084,35 +2984,35 @@
         },
         "Tornado_Damage_Delay": {
           "modifierName": "",
-          "elementDurability": 1.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Damage"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.5
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.5
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 3.0,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 3.0
+                    "x": 3.0,
+                    "y": 7.0,
+                    "z": 3.0
                   }
                 },
                 "attackInfo": {
@@ -3120,12 +3020,12 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": 0.0,
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementRank": 3.0,
-                    "IPFJJJGABPL": 100.0,
-                    "enBreak": 0.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 100.0,
+                    "damage": 0.0,
+                    "FKGFPFNOJMN": 0.0
                   }
                 }
               },
@@ -3135,29 +3035,29 @@
         },
         "Tornado_Damage": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.5
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.5
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 3.0,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 3.0
+                    "x": 3.0,
+                    "y": 7.0,
+                    "z": 3.0
                   }
                 },
                 "attackInfo": {
@@ -3165,13 +3065,13 @@
                   "attenuationTag": "Elemental_Burst_Wind",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Tornado_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Tornado_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Wind",
                     "elementRank": 3.0,
-                    "IPFJJJGABPL": 25.0,
-                    "enBreak": 13.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 25.0,
+                    "damage": 13.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "canBeModifiedBy": "OriginOwner"
                 }
@@ -3182,48 +3082,44 @@
         },
         "Tornado_Material": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Wind",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Wind",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Tornado_Material_Start": {
           "modifierName": "",
-          "elementDurability": 0.30000001192092896,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.30000001192092896,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Material"
             }
           ]
         },
         "Tornado_DetectStruggle": {
           "modifierName": "",
-          "elementDurability": 5.800000190734863,
-          "IPFJJJGABPL": 100.0,
+          "duration": 5.800000190734863,
+          "bonusCritical": 100.0,
           "onAttackLanded": [
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst",
-                    "Tornado_Drag_Detect"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst", "Tornado_Drag_Detect"]
                 },
                 {
-                  "$type": "GDIBFABBADA",
+                  "$type": "ByTargetWeight",
                   "logic": "LesserOrEqual",
-                  "BHOOHGLJDHM": 100.0
+                  "weight": 100.0
                 }
               ],
               "modifierName": "Drag"
@@ -3232,8 +3128,8 @@
         },
         "Drag": {
           "modifierName": "",
-          "elementDurability": 1.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_AddGravityScale": -2.0
           },
@@ -3242,119 +3138,99 @@
         },
         "Tornado_Twisted_Handler": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAttackLanded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "PNLEEOAGKLD",
+                  "$type": "ByHitElement",
                   "element": "Wind"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "modifierName": "UNIQUE_WindBreathe_Twisted_Wind"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "PNLEEOAGKLD",
+                  "$type": "ByHitElement",
                   "element": "Fire"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "modifierName": "UNIQUE_WindBreathe_Twisted_Fire"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "PNLEEOAGKLD",
+                  "$type": "ByHitElement",
                   "element": "Water"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "modifierName": "UNIQUE_WindBreathe_Twisted_Water"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "PNLEEOAGKLD",
+                  "$type": "ByHitElement",
                   "element": "Electric"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "modifierName": "UNIQUE_WindBreathe_Twisted_Electric"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "Target",
               "predicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "PNLEEOAGKLD",
+                  "$type": "ByHitElement",
                   "element": "Ice"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "modifierName": "UNIQUE_WindBreathe_Twisted_Ice"
@@ -3363,9 +3239,9 @@
         },
         "UNIQUE_WindBreathe_Twisted_Wind": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "WindBreathe_Twisted_Duration",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "WindBreathe_Twisted_Duration",
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_WindSubHurtDelta": "WindBreathe_Twisted_SubHurtDelta"
           },
@@ -3373,9 +3249,9 @@
         },
         "UNIQUE_WindBreathe_Twisted_Fire": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "WindBreathe_Twisted_Duration",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "WindBreathe_Twisted_Duration",
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_FireSubHurtDelta": "WindBreathe_Twisted_SubHurtDelta"
           },
@@ -3383,9 +3259,9 @@
         },
         "UNIQUE_WindBreathe_Twisted_Water": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "WindBreathe_Twisted_Duration",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "WindBreathe_Twisted_Duration",
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_WaterSubHurtDelta": "WindBreathe_Twisted_SubHurtDelta"
           },
@@ -3393,9 +3269,9 @@
         },
         "UNIQUE_WindBreathe_Twisted_Electric": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "WindBreathe_Twisted_Duration",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "WindBreathe_Twisted_Duration",
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_ElecSubHurtDelta": "WindBreathe_Twisted_SubHurtDelta"
           },
@@ -3403,9 +3279,9 @@
         },
         "UNIQUE_WindBreathe_Twisted_Ice": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "WindBreathe_Twisted_Duration",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "WindBreathe_Twisted_Duration",
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_IceSubHurtDelta": "WindBreathe_Twisted_SubHurtDelta"
           },
@@ -3414,39 +3290,39 @@
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_BlackHole"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_Damage_Delay"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_Material_Start"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_DetectStruggle"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_Player_Wind_Twisted"
             }
           ],
           "modifierName": "Tornado_Twisted_Handler"
         },
         {
-          "$type": "PFKNEFGOHIH",
+          "$type": "RemoveModifier",
           "predicates": [
             {
-              "$type": "BCFNGJHILAG",
+              "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Talent_Player_Wind_Twisted"
                 }
               ]
@@ -3459,100 +3335,89 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_WindBreathe_Tornado_Mix",
       "abilityMixins": [
         {
-          "$type": "HFKICALKLBK",
+          "$type": "ElementHittingOtherPredicatedMixin",
           "prePredicates": [
             {
-              "$type": "NNEHDJHMING",
-              "attackTags": [
-                "Tornado_Mix_Detect"
-              ]
+              "$type": "ByAttackTags",
+              "attackTags": ["Tornado_Mix_Detect"]
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 1.0,
-              "forceByCaster": true
+              "ratio": 1.0,
+              "setTarget": true
             }
           ],
           "elementBatchPredicateds": [
             {
-              "elementTypeArr": [
-                "Ice",
-                "Frozen"
-              ],
+              "elementTypeArr": ["Ice", "Frozen"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Tornado_Mix_Ice"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_Tornado_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Fire"
-              ],
+              "elementTypeArr": ["Fire"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Tornado_Mix_Fire"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_Tornado_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Water"
-              ],
+              "elementTypeArr": ["Water"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Tornado_Mix_Water"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_Tornado_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "elementTypeArr": [
-                "Electric"
-              ],
+              "elementTypeArr": ["Electric"],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Tornado_Mix_Electric"
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": -1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": -1.0,
                   "key": "_ABILITY_Tornado_IsMixed",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 1.0,
+                  "minValue": 0.0
                 }
               ]
             }
@@ -3565,114 +3430,99 @@
       "modifiers": {
         "Tornado_Dissipate_Timer": {
           "modifierName": "",
-          "elementDurability": 5.800000190734863,
-          "IPFJJJGABPL": 100.0,
+          "duration": 5.800000190734863,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "GJCAPCBELPA",
+              "$type": "TriggerAbility",
               "abilityName": "Avatar_Player_WindBreathe_Dissipate"
             }
           ]
         },
         "Tornado_Mix_Start": {
           "modifierName": "",
-          "elementDurability": 0.699999988079071,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.699999988079071,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Handler"
             }
           ]
         },
         "Tornado_Mix_Handler": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "MLJAPFBGEEH",
+              "$type": "AttachModifierToSelfGlobalValueMixin",
               "globalValueKey": "_ABILITY_Tornado_IsMixed",
-              "gvInTalk": 0.0,
-              "valueSteps": [
-                -1.0,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "Blank",
-                "Tornado_Mix_Wind_Material"
-              ]
+              "defaultGlobalValueOnCreate": 0.0,
+              "valueSteps": [-1.0, 0.5, 1.5],
+              "modifierNameSteps": ["Blank", "Tornado_Mix_Wind_Material"]
             }
           ],
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Detect_Pre"
             }
           ]
         },
         "Blank": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0
+          "bonusCritical": 100.0
         },
         "Tornado_Mix_Wind_Material": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Attach_Wind",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Attach_Wind",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Tornado_Mix_Detect_Pre": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "MLJAPFBGEEH",
+              "$type": "AttachModifierToSelfGlobalValueMixin",
               "globalValueKey": "_ABILITY_Tornado_IsMixed",
-              "gvInTalk": 0.0,
-              "valueSteps": [
-                -1.0,
-                0.5,
-                1.5
-              ],
-              "modifierNameSteps": [
-                "Blank",
-                "Tornado_Mix_Detect"
-              ]
+              "defaultGlobalValueOnCreate": 0.0,
+              "valueSteps": [-1.0, 0.5, 1.5],
+              "modifierNameSteps": ["Blank", "Tornado_Mix_Detect"]
             }
           ]
         },
         "Tornado_Mix_Detect": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.30000001192092896,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.5
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.5
                     },
                     "attachPointName": "RootNode"
                   },
-                  "NMNLIIGJPDO": true,
+                  "CHAHFAJFALH": true,
                   "size": {
-                    "KGEPIMHBMOL": 2.5,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 2.5
+                    "x": 2.5,
+                    "y": 7.0,
+                    "z": 2.5
                   }
                 },
                 "attackInfo": {
@@ -3680,12 +3530,12 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": 0.0,
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": 0.0,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "AntiFire",
-                    "IPFJJJGABPL": 0.0,
-                    "enBreak": 0.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 0.0,
+                    "damage": 0.0,
+                    "FKGFPFNOJMN": 0.0
                   }
                 }
               },
@@ -3696,45 +3546,45 @@
         "Tornado_Mix_Fire": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 8.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 8.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Fire_Damage"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Fire_Material"
             }
           ]
         },
         "Tornado_Mix_Fire_Damage": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "ignoreMassive": true,
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.0
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.0
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 2.5,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 2.5
+                    "x": 2.5,
+                    "y": 7.0,
+                    "z": 2.5
                   }
                 },
                 "attackInfo": {
@@ -3742,13 +3592,13 @@
                   "attenuationTag": "Elemental_Burst_Fire",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Tornado_Mixed_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Tornado_Mixed_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Fire",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 50.0,
-                    "enBreak": 3.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 50.0,
+                    "damage": 3.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "canBeModifiedBy": "OriginOwner"
                 }
@@ -3756,20 +3606,17 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "CCNPNMMONDO",
+              "$type": "DamageByAttackValue",
               "otherTargets": {
-                "$type": "IJOFJOGLDHE",
+                "$type": "SelectTargetsByShape",
                 "shapeName": "RectW3L3H7",
                 "campTargetType": "Enemy",
-                "doOffStage": 1.0
+                "SelectTargetsByShape": 1.0
               },
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Grass",
-                    "Water"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Grass", "Water"]
                 }
               ],
               "attackInfo": {
@@ -3777,17 +3624,16 @@
                 "attenuationTag": "Elemental_Burst_Fire",
                 "attenuationGroup": "default",
                 "attackProperty": {
-                  "actorGrassSubHurtDelta": 0.0,
-                  "actorWindSubHurtDelta": 0.0,
+                  "damagePercentage": 0.0,
+                  "damagePercentageRatio": 0.0,
                   "elementType": "Fire",
                   "elementRank": 3.0,
-                  "IPFJJJGABPL": 50.0,
-                  "enBreak": 0.0,
-                  "GLKMCMDJBIK": 0.0
+                  "bonusCritical": 50.0,
+                  "damage": 0.0,
+                  "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
                   "onHitEffectName": "none",
-                  "hitImpulseY": "",
                   "hitImpulseType": "LV0",
                   "hitHaltTimeScale": 0.05000000074505806,
                   "muteHitText": true
@@ -3798,71 +3644,70 @@
         },
         "Tornado_Mix_Fire_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Attach_Fire",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Attach_Fire",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Fire",
               "attachPoint": ""
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Tornado_IsMixed_Fire",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "Tornado_Mix_Water": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 8.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 8.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Water_Damage"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Water_Material"
             }
           ]
         },
         "Tornado_Mix_Water_Damage": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "ignoreMassive": true,
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.0
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.0
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 2.5,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 2.5
+                    "x": 2.5,
+                    "y": 7.0,
+                    "z": 2.5
                   }
                 },
                 "attackInfo": {
@@ -3870,13 +3715,13 @@
                   "attenuationTag": "Elemental_Burst_Water",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Tornado_Mixed_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Tornado_Mixed_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 50.0,
-                    "enBreak": 3.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 50.0,
+                    "damage": 3.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "canBeModifiedBy": "OriginOwner"
                 }
@@ -3884,20 +3729,17 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "CCNPNMMONDO",
+              "$type": "DamageByAttackValue",
               "otherTargets": {
-                "$type": "IJOFJOGLDHE",
+                "$type": "SelectTargetsByShape",
                 "shapeName": "RectW3L3H7",
                 "campTargetType": "Enemy",
-                "doOffStage": 1.0
+                "SelectTargetsByShape": 1.0
               },
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Grass",
-                    "Water"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Grass", "Water"]
                 }
               ],
               "attackInfo": {
@@ -3905,17 +3747,16 @@
                 "attenuationTag": "Elemental_Burst_Water",
                 "attenuationGroup": "default",
                 "attackProperty": {
-                  "actorGrassSubHurtDelta": 0.0,
-                  "actorWindSubHurtDelta": 0.0,
+                  "damagePercentage": 0.0,
+                  "damagePercentageRatio": 0.0,
                   "elementType": "Water",
                   "elementRank": 3.0,
-                  "IPFJJJGABPL": 50.0,
-                  "enBreak": 0.0,
-                  "GLKMCMDJBIK": 0.0
+                  "bonusCritical": 50.0,
+                  "damage": 0.0,
+                  "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
                   "onHitEffectName": "none",
-                  "hitImpulseY": "",
                   "hitImpulseType": "LV0",
                   "hitHaltTimeScale": 0.05000000074505806,
                   "muteHitText": true
@@ -3926,71 +3767,70 @@
         },
         "Tornado_Mix_Water_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Attach_Water",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Attach_Water",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Water",
               "attachPoint": ""
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Tornado_IsMixed_Water",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "Tornado_Mix_Electric": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 8.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 8.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Electric_Damage"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Electric_Material"
             }
           ]
         },
         "Tornado_Mix_Electric_Damage": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "ignoreMassive": true,
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.0
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.0
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 2.5,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 2.5
+                    "x": 2.5,
+                    "y": 7.0,
+                    "z": 2.5
                   }
                 },
                 "attackInfo": {
@@ -3998,13 +3838,13 @@
                   "attenuationTag": "Elemental_Burst_Electric",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Tornado_Mixed_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Tornado_Mixed_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Electric",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 50.0,
-                    "enBreak": 3.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 50.0,
+                    "damage": 3.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "canBeModifiedBy": "OriginOwner"
                 }
@@ -4015,71 +3855,70 @@
         },
         "Tornado_Mix_Electric_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Attach_Electric",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Attach_Electric",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Electric",
               "attachPoint": ""
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Tornado_IsMixed_Electric",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         },
         "Tornado_Mix_Ice": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 8.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 8.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Ice_Damage"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Tornado_Mix_Ice_Material"
             }
           ]
         },
         "Tornado_Mix_Ice_Damage": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "ignoreMassive": true,
                   "born": {
-                    "$type": "KLPANPDGHHA",
+                    "$type": "ConfigBornByAttachPoint",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 1.5,
-                      "LPCHALMFFOD": -1.0
+                      "x": 0.0,
+                      "y": 1.5,
+                      "z": -1.0
                     },
                     "attachPointName": "RootNode"
                   },
                   "size": {
-                    "KGEPIMHBMOL": 2.5,
-                    "JEBHCGDPFEJ": 7.0,
-                    "LPCHALMFFOD": 2.5
+                    "x": 2.5,
+                    "y": 7.0,
+                    "z": 2.5
                   }
                 },
                 "attackInfo": {
@@ -4087,13 +3926,13 @@
                   "attenuationTag": "Elemental_Burst_Ice",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Tornado_Mixed_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Tornado_Mixed_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Ice",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 50.0,
-                    "enBreak": 3.0,
-                    "GLKMCMDJBIK": 0.0
+                    "bonusCritical": 50.0,
+                    "damage": 3.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "canBeModifiedBy": "OriginOwner"
                 }
@@ -4101,20 +3940,17 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "CCNPNMMONDO",
+              "$type": "DamageByAttackValue",
               "otherTargets": {
-                "$type": "IJOFJOGLDHE",
+                "$type": "SelectTargetsByShape",
                 "shapeName": "RectW3L3H7",
                 "campTargetType": "Enemy",
-                "doOffStage": 1.0
+                "SelectTargetsByShape": 1.0
               },
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Grass",
-                    "Water"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Grass", "Water"]
                 }
               ],
               "attackInfo": {
@@ -4122,17 +3958,16 @@
                 "attenuationTag": "Elemental_Burst_Ice",
                 "attenuationGroup": "default",
                 "attackProperty": {
-                  "actorGrassSubHurtDelta": 0.0,
-                  "actorWindSubHurtDelta": 0.0,
+                  "damagePercentage": 0.0,
+                  "damagePercentageRatio": 0.0,
                   "elementType": "Ice",
                   "elementRank": 3.0,
-                  "IPFJJJGABPL": 50.0,
-                  "enBreak": 0.0,
-                  "GLKMCMDJBIK": 0.0
+                  "bonusCritical": 50.0,
+                  "damage": 0.0,
+                  "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
                   "onHitEffectName": "none",
-                  "hitImpulseY": "",
                   "hitImpulseType": "LV0",
                   "hitHaltTimeScale": 0.05000000074505806,
                   "muteHitText": true
@@ -4143,45 +3978,44 @@
         },
         "Tornado_Mix_Ice_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Attach_Ice",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Attach_Ice",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Get_Ice",
               "attachPoint": ""
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Tornado_IsMixed_Ice",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "LCOEFEMOHLP",
-          "param3": 1.0,
+          "$type": "AddGlobalValue",
+          "ratio": 1.0,
           "key": "_ABILITY_Tornado_IsMixed",
           "useLimitRange": true,
-          "param2": 1.0,
-          "repeatTimes": 0.0
+          "maxValue": 1.0,
+          "minValue": 0.0
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_Mix_Start"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Tornado_Dissipate_Timer"
         }
       ]
@@ -4189,113 +4023,106 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_WindBreathe_Dissipate",
       "onAbilityStart": [
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Wind_Dissipate",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Wind_Dissipate",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 0.0
+              "ratio": 0.0
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed_Fire",
-              "param3": 1.0,
+              "ratio": 1.0,
               "compareType": "MoreThanAndEqual"
             }
           ],
-          "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Fire_Dissipate",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Fire_Dissipate",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 0.0
+              "ratio": 0.0
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed_Water",
-              "param3": 1.0,
+              "ratio": 1.0,
               "compareType": "MoreThanAndEqual"
             }
           ],
-          "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Water_Dissipate",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Water_Dissipate",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 0.0
+              "ratio": 0.0
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed_Electric",
-              "param3": 1.0,
+              "ratio": 1.0,
               "compareType": "MoreThanAndEqual"
             }
           ],
-          "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Electric_Dissipate",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Electric_Dissipate",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed",
-              "param3": 0.0
+              "ratio": 0.0
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Tornado_IsMixed_Ice",
-              "param3": 1.0,
+              "ratio": 1.0,
               "compareType": "MoreThanAndEqual"
             }
           ],
-          "rotationDampTime": "Eff_Avatar_WindBreathe_Tornado_Ice_Dissipate",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBreathe_Tornado_Ice_Dissipate",
+          "effectTempleteID": -1.0
         }
       ]
     }
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_WindWalk",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Sprint"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Sprint"],
           "modifierName": "SprintSpeed",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -4304,7 +4131,7 @@
       "modifiers": {
         "SprintSpeed": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Animator_OverallSpeedRatio": "SprintSpeed"
           },
@@ -4315,11 +4142,11 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_EnchantedBlade",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "UziExplode_BS_1",
             "UziExplode_Charge_01",
@@ -4328,7 +4155,7 @@
             "UziExplode_Strike_02"
           ],
           "modifierName": "Player_Wind_EnchantedBlade",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -4341,83 +4168,71 @@
       "modifiers": {
         "Player_Wind_EnchantedBlade": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "IJOFJOGLDHE",
+                "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR1",
                 "campTargetType": "Alliance",
-                "doOffStage": 1.0
+                "SelectTargetsByShape": 1.0
               },
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Equip"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Equip"]
                 }
               ],
               "modifierName": "EnchantedBlade_Weapon"
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "EnchantedBlade_Avatar"
             }
           ]
         },
         "EnchantedBlade_Weapon": {
           "modifierName": "",
-          "elementDurability": 6.0,
+          "duration": 6.0,
           "elementType": "Wind",
-          "IPFJJJGABPL": 25.0,
+          "bonusCritical": 25.0,
           "overrideWeaponElement": true
         },
         "EnchantedBlade_Avatar": {
           "modifierName": "",
-          "elementDurability": 6.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 6.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "LDBCDLJECKF",
-              "animEventNames": [
-                "Attack01"
-              ],
-              "actorGrassSubHurtDelta": "damage1",
-              "actorWindSubHurtDelta": 0.0
+              "$type": "ModifyDamageMixin",
+              "animEventNames": ["Attack01"],
+              "damagePercentage": "damage1",
+              "damagePercentageRatio": 0.0
             },
             {
-              "$type": "LDBCDLJECKF",
-              "animEventNames": [
-                "Attack02"
-              ],
-              "actorGrassSubHurtDelta": "damage2",
-              "actorWindSubHurtDelta": 0.0
+              "$type": "ModifyDamageMixin",
+              "animEventNames": ["Attack02"],
+              "damagePercentage": "damage2",
+              "damagePercentageRatio": 0.0
             },
             {
-              "$type": "LDBCDLJECKF",
-              "animEventNames": [
-                "Attack03"
-              ],
-              "actorGrassSubHurtDelta": "damage3",
-              "actorWindSubHurtDelta": 0.0
+              "$type": "ModifyDamageMixin",
+              "animEventNames": ["Attack03"],
+              "damagePercentage": "damage3",
+              "damagePercentageRatio": 0.0
             },
             {
-              "$type": "LDBCDLJECKF",
-              "animEventNames": [
-                "Attack04"
-              ],
-              "actorGrassSubHurtDelta": "damage4",
-              "actorWindSubHurtDelta": 0.0
+              "$type": "ModifyDamageMixin",
+              "animEventNames": ["Attack04"],
+              "damagePercentage": "damage4",
+              "damagePercentageRatio": 0.0
             },
             {
-              "$type": "LDBCDLJECKF",
-              "animEventNames": [
-                "Attack05"
-              ],
-              "actorGrassSubHurtDelta": "damage5",
-              "actorWindSubHurtDelta": 0.0
+              "$type": "ModifyDamageMixin",
+              "animEventNames": ["Attack05"],
+              "damagePercentage": "damage5",
+              "damagePercentageRatio": 0.0
             }
           ]
         }
@@ -4426,24 +4241,24 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_Arashi",
       "onAbilityStart": [
         {
-          "$type": "CAKDDHLKOAB",
+          "$type": "TriggerBullet",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_Player_Wind_Arashi"
             }
           ],
           "bulletID": 41005002,
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.699999988079071,
-              "LPCHALMFFOD": 0.20000000298023224
+              "x": 0.0,
+              "y": 0.699999988079071,
+              "z": 0.20000000298023224
             }
           }
         }
@@ -4453,44 +4268,41 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_Arashi_Bullet",
       "abilitySpecials": {
         "Player_Wind_Arashi_Damage": 0.6000000238418579
       },
       "onAbilityStart": [
         {
-          "$type": "INBCDALOHMP",
+          "$type": "Predicated",
           "target": "Target",
           "targetPredicates": [
             {
-              "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "MonsterEquip"
-              ]
+              "$type": "ByEntityTypes",
+              "entityTypes": ["MonsterEquip"]
             }
           ],
           "successActions": [
             {
-              "$type": "CCNPNMMONDO",
+              "$type": "DamageByAttackValue",
               "target": "Target",
               "attackInfo": {
                 "attackTag": "NormalAttack_05",
                 "attenuationTag": "NormalAttack_05",
                 "attenuationGroup": "Avatar_Pole_ExtraAttack",
                 "attackProperty": {
-                  "actorGrassSubHurtDelta": "Player_Wind_Arashi_Damage",
-                  "actorWindSubHurtDelta": 0.0,
+                  "damagePercentage": "Player_Wind_Arashi_Damage",
+                  "damagePercentageRatio": 0.0,
                   "elementType": "Wind",
-                  "IPFJJJGABPL": 25.0,
+                  "bonusCritical": 25.0,
                   "strikeType": "Slash",
-                  "enBreak": 36.0,
+                  "damage": 36.0,
                   "attackType": "Melee",
-                  "GLKMCMDJBIK": 0.0
+                  "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
                   "onHitEffectName": "default",
-                  "hitImpulseY": "",
                   "hitImpulseType": "LV2",
                   "retreatType": "ByOriginOwner",
                   "hitHaltTimeScale": 0.05000000074505806
@@ -4501,33 +4313,32 @@
           ],
           "failActions": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "JGEBAJLEBMO"
+                    "$type": "ConfigBornByCollisionPoint"
                   },
-                  "OAHPDLJIADP": 1.0
+                  "radius": 1.0
                 },
                 "attackInfo": {
                   "attackTag": "NormalAttack_05",
                   "attenuationTag": "NormalAttack_05",
                   "attenuationGroup": "Avatar_Pole_ExtraAttack",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Player_Wind_Arashi_Damage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Player_Wind_Arashi_Damage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Wind",
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Slash",
-                    "enBreak": 36.0,
+                    "damage": 36.0,
                     "attackType": "Melee",
-                    "GLKMCMDJBIK": 0.0
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "retreatType": "ByOriginOwner",
                     "hitHaltTimeScale": 0.05000000074505806
@@ -4544,21 +4355,20 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_Arashi_Bullet_Material",
       "onAdded": [
         {
-          "$type": "KBFEIHEAMBM",
-          "rotationDampTime": "Eff_Avatar_WindBlade_Bullet",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "$type": "FireEffect",
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_WindBlade_Bullet",
+          "effectTempleteID": -1.0
         }
       ]
     }
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_DvalinPulse",
       "abilitySpecials": {
         "EnergyCostDelta": -10.0
@@ -4566,7 +4376,7 @@
       "modifiers": {
         "DvalinPulse_EnergyCostReduction": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_EnergyCostDelta": "EnergyCostDelta"
           }
@@ -4574,7 +4384,7 @@
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "DvalinPulse_EnergyCostReduction"
         }
       ]
@@ -4582,21 +4392,15 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Wind_HowlingBlade",
       "abilityMixins": [
         {
-          "$type": "LDBCDLJECKF",
-          "animEventNames": [
-            "ATK01",
-            "ATK02",
-            "ATK03",
-            "ATK04",
-            "ATK05"
-          ],
-          "actorWindSubHurtDelta": 0.0,
-          "AIGBINPINKE": "BonusCritical",
-          "actorElementReactionCriticalHurtDelta": "BonusCriticalHurt"
+          "$type": "ModifyDamageMixin",
+          "animEventNames": ["ATK01", "ATK02", "ATK03", "ATK04", "ATK05"],
+          "damagePercentageRatio": 0.0,
+          "actorElementReactionCriticalHurtDelta": "BonusCritical",
+          "actorWindSubHurtDelta": "BonusCriticalHurt"
         }
       ],
       "abilitySpecials": {

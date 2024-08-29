@@ -1,79 +1,79 @@
 [
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_ExtraAttack_Water",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100542,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -82,13 +82,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -98,10 +98,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -114,12 +114,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -129,12 +127,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -145,79 +143,79 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerGirl_ExtraAttack_Water",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100552,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -226,13 +224,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -242,10 +240,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -258,12 +256,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -273,12 +269,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -289,11 +285,11 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_Water_WeaponHide",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "Player_Water_ElementalArt_BS",
             "Player_Water_ElementalArt_NoCharge",
@@ -304,38 +300,30 @@
             "Player_Water_ElementalBurst_AS"
           ],
           "modifierName": "Player_Water_Weaponhide",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "Player_Water_Weaponhide": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "CIGJDPCDOEB",
+              "$type": "AttachActionToModifierMixin",
               "onAdded": [
                 {
-                  "$type": "NAAJIHIKECC",
+                  "$type": "TriggerHideWeapon",
                   "canBeHandledOnRecover": true,
-                  "partNames": [
-                    "equip01",
-                    "equip02",
-                    "sheathPoint"
-                  ]
+                  "partNames": ["equip01", "equip02", "sheathPoint"]
                 }
               ],
               "onRemoved": [
                 {
-                  "$type": "NAAJIHIKECC",
-                  "shieldHP": true,
+                  "$type": "TriggerHideWeapon",
+                  "cdDelta": true,
                   "canBeHandledOnRecover": true,
-                  "KGGEDGKGLDD": true,
-                  "partNames": [
-                    "equip01",
-                    "equip02",
-                    "sheathPoint"
-                  ]
+                  "visible": true,
+                  "partNames": ["equip01", "equip02", "sheathPoint"]
                 }
               ]
             }
@@ -347,65 +335,55 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_ElementalArt_Water",
       "abilityMixins": [
         {
-          "$type": "ADCFAHFIPHN",
+          "$type": "SkillButtonHoldChargeMixin",
           "skillID": 10087,
           "nextLoopTriggerID": "NextLoopTrigger",
           "endHoldTrigger": "EndHoldTrigger",
-          "beforeStateIDs": [
-            "Player_Water_ElementalArt_BS"
-          ],
+          "beforeStateIDs": ["Player_Water_ElementalArt_BS"],
           "beforeHoldDuration": 0.15000000596046448,
-          "chargeLoopStateIDs": [
-            "Player_Water_ElementalArt_ChargeLoop"
-          ],
+          "chargeLoopStateIDs": ["Player_Water_ElementalArt_ChargeLoop"],
           "afterStateIDs": [
             "Player_Water_ElementalArt_Charge_Shoot",
             "Player_Water_ElementalArt_AS"
           ],
-          "chargeLoopDurations": [
-            6.0
-          ]
+          "chargeLoopDurations": [6.0]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Player_Water_ElementalArt_ChargeLoop"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Player_Water_ElementalArt_ChargeLoop"],
           "modifierName": "Sustained_Shooting_Delay",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "JFFHDEMDGCI",
-          "MKOKACFLKGP": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
-          "BJKGFBGEFPB": "Player_Water_E"
+          "$type": "HpDownCountMixin",
+          "EEMKNPIGALE": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
+          "MIIHJFFDKKC": "Player_Water_E"
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Player_Water_ElementalArt_Charge_Shoot"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Player_Water_ElementalArt_Charge_Shoot"],
           "modifierName": "Hold_Shooting",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "Player_Water_ElementalArt_NoCharge",
           "modifierName": "Short_Shooting",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "Player_Water_ElementalArt_BS",
           "modifierName": "Short_Shooting_Cast_Eff",
           "normalizeStart": 0.6600000262260437,
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "JJFFOLOAJFO",
+          "$type": "AttachToMultiNormalizedTimeMixin",
           "normalizedStateIDList": [
             {
               "stateID": "Player_Water_ElementalArt_ChargeLoop"
@@ -415,15 +393,13 @@
             }
           ],
           "modifierName": "Focus",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Player_Water_ElementalArt_ChargeLoop"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Player_Water_ElementalArt_ChargeLoop"],
           "modifierName": "Avatar_Player_Water_Aim_Mixin",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -443,138 +419,123 @@
       "modifiers": {
         "Short_Shooting_Cast_Eff": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Cast_Short",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Cast_Short",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Avatar_Player_Water_Aim_Mixin": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "PBIEAKMPGAE",
-              "entityTypes": [
-                "Monster"
-              ],
+              "$type": "DoActionByAimMixin",
+              "entityTypes": ["Monster"],
               "colliderNodeName": "PRIVATE_RayCast_Water",
-              "FKECHNGFOEG": -1.0,
+              "MFDNAKOAAHI": -1.0,
               "actionQueue": [
                 {
-                  "$type": "MDIAKCCDEAL",
+                  "$type": "SetSelfAttackTarget",
                   "target": "Target",
                   "predicates": [
                     {
-                      "$type": "NIMAPECDNKD",
-                      "entityTypes": [
-                        "Monster",
-                        "Gadget"
-                      ]
+                      "$type": "ByEntityTypes",
+                      "entityTypes": ["Monster", "Gadget"]
                     },
                     {
-                      "$type": "CNGGLKHONAA",
+                      "$type": "ByTargetGlobalValue",
                       "key": "_ANIMAL_ENTITY_TYPE",
-                      "param3": 0.0,
+                      "ratio": 0.0,
                       "compareType": "NoneOrEqual"
                     },
                     {
-                      "$type": "BCFNGJHILAG",
+                      "$type": "ByNot",
                       "predicates": [
                         {
-                          "$type": "PBNMMCGHGHK"
+                          "$type": "KECMIKHDANC"
                         }
                       ]
                     }
                   ]
                 },
                 {
-                  "$type": "BOBCOJHOKKD",
-                  "param3": 1.0,
+                  "$type": "SetGlobalValue",
+                  "ratio": 1.0,
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 }
               ],
               "onLeaveScopeActionQueue": [
                 {
-                  "$type": "BOBCOJHOKKD",
-                  "param3": 0.0,
+                  "$type": "SetGlobalValue",
+                  "ratio": 0.0,
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 },
                 {
-                  "$type": "KEEOEKPABPN",
+                  "$type": "ClearLockTarget",
                   "onlyAvatar": false
                 }
               ],
               "onRemoveActionQueue": [
                 {
-                  "$type": "INBCDALOHMP",
+                  "$type": "Predicated",
                   "target": "Target",
                   "predicates": [
                     {
-                      "$type": "NIMAPECDNKD",
-                      "entityTypes": [
-                        "Monster",
-                        "Gadget"
-                      ]
+                      "$type": "ByEntityTypes",
+                      "entityTypes": ["Monster", "Gadget"]
                     },
                     {
-                      "$type": "CNGGLKHONAA",
+                      "$type": "ByTargetGlobalValue",
                       "key": "_ANIMAL_ENTITY_TYPE",
-                      "param3": 0.0,
+                      "ratio": 0.0,
                       "compareType": "NoneOrEqual"
                     },
                     {
-                      "$type": "BCFNGJHILAG",
+                      "$type": "ByNot",
                       "predicates": [
                         {
-                          "$type": "PBNMMCGHGHK"
+                          "$type": "KECMIKHDANC"
                         }
                       ]
                     }
                   ],
                   "targetPredicates": [
                     {
-                      "$type": "NIMAPECDNKD",
-                      "entityTypes": [
-                        "Monster",
-                        "Gadget"
-                      ]
+                      "$type": "ByEntityTypes",
+                      "entityTypes": ["Monster", "Gadget"]
                     }
                   ],
                   "successActions": [
                     {
-                      "$type": "MDIAKCCDEAL",
+                      "$type": "SetSelfAttackTarget",
                       "target": "Target",
                       "predicates": [
                         {
-                          "$type": "NIMAPECDNKD",
-                          "entityTypes": [
-                            "Monster",
-                            "Gadget"
-                          ]
+                          "$type": "ByEntityTypes",
+                          "entityTypes": ["Monster", "Gadget"]
                         },
                         {
-                          "$type": "CNGGLKHONAA",
+                          "$type": "ByTargetGlobalValue",
                           "key": "_ANIMAL_ENTITY_TYPE",
-                          "param3": 0.0,
+                          "ratio": 0.0,
                           "compareType": "NoneOrEqual"
                         }
                       ]
                     },
                     {
-                      "$type": "BOBCOJHOKKD",
-                      "param3": 0.0,
+                      "$type": "SetGlobalValue",
+                      "ratio": 0.0,
                       "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                      "param2": 0.0,
-                      "repeatTimes": 0.0
+                      "maxValue": 0.0,
+                      "minValue": 0.0
                     }
                   ]
                 }
@@ -584,95 +545,91 @@
           ],
           "onAdded": [
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "ratio": 0.0,
               "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ]
         },
         "Short_Shooting": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10087,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": 1.0
             },
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": 0.0,
+              "$type": "SetOverrideMapValue",
+              "ratio": 0.0,
               "overrideMapKey": "LoseHPRatio_P2",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": 0.0,
+              "$type": "SetOverrideMapValue",
+              "ratio": 0.0,
               "overrideMapKey": "LoseHPSum",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "MPAGCPPAIHJ",
+              "$type": "SetGlobalPos",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1043
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1043]
                 }
               ],
               "key": "_ABILITY_Player_Water_Ousia_Pos",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.10000000149011612,
-                  "JEBHCGDPFEJ": 1.2610000371932983,
-                  "LPCHALMFFOD": 0.6499999761581421
+                  "x": 0.10000000149011612,
+                  "y": 1.2610000371932983,
+                  "z": 0.6499999761581421
                 },
                 "useRotation": true
               }
             },
             {
-              "$type": "MPAGCPPAIHJ",
+              "$type": "SetGlobalPos",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1044
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1044]
                 }
               ],
               "key": "_ABILITY_Player_Water_Ousia_Pos",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.10000000149011612,
-                  "JEBHCGDPFEJ": 1.2610000371932983,
-                  "LPCHALMFFOD": 0.6499999761581421
+                  "x": 0.10000000149011612,
+                  "y": 1.2610000371932983,
+                  "z": 0.6499999761581421
                 },
                 "useRotation": true
               }
             },
             {
-              "$type": "ENBLCDCKLMK",
+              "$type": "SetGlobalDir",
               "key": "_ABILITY_Player_Water_Ousia_Dir",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "direction": {
-                  "$type": "DFBFCGKKFJP",
+                  "$type": "OBKDGKOBLLA",
                   "range": 2,
                   "checkOffset": true,
                   "offset": {
@@ -683,36 +640,35 @@
               }
             },
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Laser",
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Laser",
               "born": {
-                "$type": "ICKMMAHFNIM",
+                "$type": "MKLCDCJFOHO",
                 "direction": {
-                  "$type": "NNPJOCIHKBI",
+                  "$type": "AIJHOFHPJJB",
                   "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                 },
                 "useRotation": true,
                 "positionKey": "_ABILITY_Player_Water_Ousia_Pos",
                 "directionKey": ""
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Ousia_Shoot"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ICKMMAHFNIM",
+                    "$type": "MKLCDCJFOHO",
                     "direction": {
-                      "$type": "NNPJOCIHKBI",
+                      "$type": "AIJHOFHPJJB",
                       "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                     },
                     "useRotation": true,
@@ -720,9 +676,9 @@
                     "directionKey": ""
                   },
                   "size": {
-                    "KGEPIMHBMOL": 1.2000000476837158,
-                    "JEBHCGDPFEJ": 1.2000000476837158,
-                    "LPCHALMFFOD": 15.0
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 15.0
                   }
                 },
                 "attackInfo": {
@@ -730,17 +686,16 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "LaserDamageRatio",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "LaserDamageRatio",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Default",
-                    "enBreak": 100.0,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 100.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "Eff_Player_Water_ElementalArt_Laser_Hit",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.009999999776482582
                   },
@@ -768,34 +723,34 @@
         },
         "Hold_Shooting": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": 0.0,
+              "$type": "SetOverrideMapValue",
+              "ratio": 0.0,
               "overrideMapKey": "LoseHPRatio_P2",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "LDIAIDLOPEE",
+              "$type": "SetGlobalValueToOverrideMap",
               "globalValueKey": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
               "overrideMapKey": "LoseHPSum"
             },
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "PermanentSkill_2"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "KNHHAJNCCBI",
+                  "$type": "SetOverrideMapValue",
                   "predicates": [
                     {
-                      "$type": "NDAEDKLADHO",
+                      "$type": "FKMLEICANEA",
                       "target": "Self",
                       "logic": "LesserOrEqual",
                       "targetAbilityName": "Avatar_PlayerBoy_ElementalArt_Water",
@@ -807,16 +762,16 @@
                       ]
                     }
                   ],
-                  "param3": "LoseHPSum",
+                  "ratio": "LoseHPSum",
                   "overrideMapKey": "LoseHPRatio_P2",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 },
                 {
-                  "$type": "KNHHAJNCCBI",
+                  "$type": "SetOverrideMapValue",
                   "predicates": [
                     {
-                      "$type": "NDAEDKLADHO",
+                      "$type": "FKMLEICANEA",
                       "target": "Self",
                       "targetAbilityName": "Avatar_PlayerBoy_ElementalArt_Water",
                       "targetKey": "LoseHPSum",
@@ -827,34 +782,32 @@
                       ]
                     }
                   ],
-                  "param3": [
+                  "ratio": [
                     "LoseHPRatio_P2_DamageUp_Max",
                     "LoseHPRatio_P2_DamageUpRatio",
                     "DIV"
                   ],
                   "overrideMapKey": "LoseHPRatio_P2",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "$type": "MPAGCPPAIHJ",
+              "$type": "SetGlobalPos",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1043
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1043]
                 }
               ],
               "key": "_ABILITY_Player_Water_Ousia_Pos",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "useRotation": true,
                 "attachPointName": "WeaponR",
@@ -862,22 +815,20 @@
               }
             },
             {
-              "$type": "MPAGCPPAIHJ",
+              "$type": "SetGlobalPos",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1044
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1044]
                 }
               ],
               "key": "_ABILITY_Player_Water_Ousia_Pos",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "useRotation": true,
                 "attachPointName": "WeaponL",
@@ -885,16 +836,16 @@
               }
             },
             {
-              "$type": "ENBLCDCKLMK",
+              "$type": "SetGlobalDir",
               "key": "_ABILITY_Player_Water_Ousia_Dir",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -903,36 +854,35 @@
               }
             },
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Laser_Hold",
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Laser_Hold",
               "born": {
-                "$type": "ICKMMAHFNIM",
+                "$type": "MKLCDCJFOHO",
                 "direction": {
-                  "$type": "NNPJOCIHKBI",
+                  "$type": "AIJHOFHPJJB",
                   "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                 },
                 "useRotation": true,
                 "positionKey": "_ABILITY_Player_Water_Ousia_Pos",
                 "directionKey": ""
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Ousia_Shoot"
             },
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ICKMMAHFNIM",
+                    "$type": "MKLCDCJFOHO",
                     "direction": {
-                      "$type": "NNPJOCIHKBI",
+                      "$type": "AIJHOFHPJJB",
                       "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                     },
                     "useRotation": true,
@@ -940,9 +890,9 @@
                     "directionKey": ""
                   },
                   "size": {
-                    "KGEPIMHBMOL": 1.2000000476837158,
-                    "JEBHCGDPFEJ": 1.2000000476837158,
-                    "LPCHALMFFOD": 15.0
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 15.0
                   }
                 },
                 "attackInfo": {
@@ -950,17 +900,16 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "LaserDamageRatio",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "LaserDamageRatio",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Default",
-                    "enBreak": 100.0,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 100.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "Eff_Player_Water_ElementalArt_Laser_Hit",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.009999999776482582
                   },
@@ -988,27 +937,26 @@
         },
         "Sustained_Shooting_Delay": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.5,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Cast_Sigil",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Cast_Sigil",
+              "effectTempleteID": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10087,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": 1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "modifierName": "Sustained_Shooting"
             }
           ]
@@ -1016,20 +964,20 @@
         "Sustained_Shooting": {
           "stacking": "Unique",
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.25,
           "onAdded": [
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_Player_Water_Core_Count",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": [
+              "$type": "SetOverrideMapValue",
+              "ratio": [
                 "FIGHT_PROP_MAX_HP",
                 "HPLowerLimit",
                 "MUL",
@@ -1037,38 +985,38 @@
                 "SUB"
               ],
               "overrideMapKey": "CurHPPredicate",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": 0.0,
+              "$type": "SetOverrideMapValue",
+              "ratio": 0.0,
               "overrideMapKey": "LoseHPSum",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_Avatar_Player_Water_Lose_Count",
               "useLimitRange": true,
-              "param2": 5.0,
-              "repeatTimes": 0.0
+              "maxValue": 5.0,
+              "minValue": 0.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "KNHHAJNCCBI",
-              "param3": [
+              "$type": "SetOverrideMapValue",
+              "ratio": [
                 "FIGHT_PROP_MAX_HP",
                 "HPLowerLimit",
                 "MUL",
@@ -1076,14 +1024,14 @@
                 "SUB"
               ],
               "overrideMapKey": "CurHPPredicate",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "NDAEDKLADHO",
+                  "$type": "FKMLEICANEA",
                   "target": "Self",
                   "logic": "Lesser",
                   "targetAbilityName": "Avatar_PlayerBoy_ElementalArt_Water",
@@ -1093,58 +1041,56 @@
               ],
               "successActions": [
                 {
-                  "$type": "BOBCOJHOKKD",
-                  "param3": "FIGHT_PROP_MAX_HP",
+                  "$type": "SetGlobalValue",
+                  "ratio": "FIGHT_PROP_MAX_HP",
                   "key": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 },
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Player_Water_ElementalArt_LoseHP"
                 }
               ],
               "failActions": [
                 {
-                  "$type": "BOBCOJHOKKD",
-                  "param3": 0.0,
+                  "$type": "SetGlobalValue",
+                  "ratio": 0.0,
                   "key": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache",
-                  "param2": 0.0,
-                  "repeatTimes": 0.0
+                  "maxValue": 0.0,
+                  "minValue": 0.0
                 }
               ]
             },
             {
-              "$type": "CAKDDHLKOAB",
-              "shieldHP": true,
+              "$type": "TriggerBullet",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1043
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1043]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param3": 1.0
+                  "ratio": 1.0
                 }
               ],
               "bulletID": 41008002,
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1156,37 +1102,35 @@
               "ownerIs": "Caster"
             },
             {
-              "$type": "CAKDDHLKOAB",
-              "shieldHP": true,
+              "$type": "TriggerBullet",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1043
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1043]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 }
               ],
               "bulletID": 41008001,
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1198,29 +1142,27 @@
               "ownerIs": "Caster"
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1043
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1043]
                 }
               ],
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Cast_Shoot",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Cast_Shoot",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.10000000149011612
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.10000000149011612
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1229,33 +1171,30 @@
                 "attachPointName": "WeaponL",
                 "attachPointTargetType": "Self"
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1044
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1044]
                 }
               ],
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Cast_Shoot",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Cast_Shoot",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.10000000149011612
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.10000000149011612
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1264,40 +1203,37 @@
                 "attachPointName": "WeaponL",
                 "attachPointTargetType": "Self"
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "CAKDDHLKOAB",
-              "shieldHP": true,
+              "$type": "TriggerBullet",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1044
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1044]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param3": 1.0
+                  "ratio": 1.0
                 }
               ],
               "bulletID": 41008002,
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1309,37 +1245,35 @@
               "ownerIs": "Caster"
             },
             {
-              "$type": "CAKDDHLKOAB",
-              "shieldHP": true,
+              "$type": "TriggerBullet",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "BGMAGODJEMF",
-                  "featureTagIDs": [
-                    1044
-                  ]
+                  "$type": "CHMEPBIEMNL",
+                  "featureTagIDs": [1044]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 }
               ],
               "bulletID": 41008001,
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "direction": {
-                  "$type": "LHBLDEOLGKF",
+                  "$type": "JOHHBEHLHLO",
                   "angleOffset": {
-                    "KGEPIMHBMOL": 0.0,
-                    "JEBHCGDPFEJ": 0.0,
-                    "LPCHALMFFOD": 0.0
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
                   "attachPointTargetType": "Self"
@@ -1355,87 +1289,83 @@
         "Player_Water_ElementalArt_LoseHP": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.8999999761581421,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.8999999761581421,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "DLLGNJPHFDE",
-              "shieldHP": true,
+              "$type": "LoseHP",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Caster",
                   "key": "_ABILITY_Avatar_Player_Water_Lose_Count",
-                  "param3": 4.0,
+                  "ratio": 4.0,
                   "compareType": "LessAndEqual"
                 }
               ],
-              "ECOAIFKENNM": "LoseHPRatio",
+              "amountByCasterMaxHPRatio": "LoseHPRatio",
               "lethal": false,
-              "IMCNBBHNIIK": true,
-              "BJKGFBGEFPB": "Player_Water_E"
+              "INCFOKJNKNO": true,
+              "MIIHJFFDKKC": "Player_Water_E"
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Caster",
                   "key": "_ABILITY_Avatar_Player_Water_Lose_Count",
-                  "param3": 4.0,
+                  "ratio": 4.0,
                   "compareType": "LessAndEqual"
                 }
               ],
-              "param3": 1.0,
+              "ratio": 1.0,
               "key": "_ABILITY_Avatar_Player_Water_Lose_Count",
               "useLimitRange": true,
-              "param2": 5.0,
-              "repeatTimes": 0.0
+              "maxValue": 5.0,
+              "minValue": 0.0
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": "FIGHT_PROP_MAX_HP",
+              "$type": "SetGlobalValue",
+              "ratio": "FIGHT_PROP_MAX_HP",
               "key": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ]
         },
         "Sustained_Shooting_Core_Drop": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onHittingOther": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ANIMAL_ENTITY_TYPE",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Art_Hold"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Art_Hold"]
                 },
                 {
-                  "$type": "EGKHHMLPGLB",
+                  "$type": "NBNBHFBBAGP",
                   "attackType": "Range"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "Core_Drop"
                 }
               ]
@@ -1445,88 +1375,87 @@
         "Ousia_Shoot": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": "OusiaCD",
-          "IPFJJJGABPL": 100.0,
+          "duration": "OusiaCD",
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 1.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 1.0,
               "key": "_ABILITY_ArkheGrade_Attack_CD",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "PELJALPANCA",
-              "shieldHP": true,
+              "$type": "ApplyModifier",
+              "cdDelta": true,
               "modifierName": "Ousia_Shoot_Delay"
             },
             {
-              "$type": "PELJALPANCA",
-              "shieldHP": true,
+              "$type": "ApplyModifier",
+              "cdDelta": true,
               "modifierName": "Player_Water_ElementalArt_Laser_Ousia_Eff"
             }
           ],
           "onRemoved": [
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_ArkheGrade_Attack_CD",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ]
         },
         "Player_Water_ElementalArt_Laser_Ousia_Eff": {
           "stacking": "Multiple",
           "modifierName": "",
-          "elementDurability": 0.20000000298023224,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.20000000298023224,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "shieldHP": true,
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Laser_Ousia",
+              "$type": "FireEffect",
+              "cdDelta": true,
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Laser_Ousia",
               "born": {
-                "$type": "ICKMMAHFNIM",
+                "$type": "MKLCDCJFOHO",
                 "direction": {
-                  "$type": "NNPJOCIHKBI",
+                  "$type": "AIJHOFHPJJB",
                   "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                 },
                 "positionKey": "_ABILITY_Player_Water_Ousia_Pos",
                 "directionKey": ""
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Ousia_Shoot_Delay": {
           "modifierName": "",
-          "elementDurability": 0.699999988079071,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.699999988079071,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "AIFPLABJNMA",
-              "shieldHP": true,
+              "$type": "TriggerAttackEvent",
+              "cdDelta": true,
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "JHKEHNJBMOF",
+                  "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ICKMMAHFNIM",
+                    "$type": "MKLCDCJFOHO",
                     "direction": {
-                      "$type": "NNPJOCIHKBI",
+                      "$type": "AIJHOFHPJJB",
                       "directionKey": "_ABILITY_Player_Water_Ousia_Dir"
                     },
                     "positionKey": "_ABILITY_Player_Water_Ousia_Pos",
                     "directionKey": ""
                   },
                   "size": {
-                    "KGEPIMHBMOL": 1.2000000476837158,
-                    "JEBHCGDPFEJ": 1.2000000476837158,
-                    "LPCHALMFFOD": 15.0
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 15.0
                   }
                 },
                 "attackInfo": {
@@ -1534,18 +1463,17 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "OusiaLaserRatio",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "OusiaLaserRatio",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Water",
-                    "IPFJJJGABPL": 0.0,
+                    "bonusCritical": 0.0,
                     "strikeType": "Pierce",
-                    "enBreak": 20.0,
+                    "damage": 20.0,
                     "attackType": "Range",
-                    "GLKMCMDJBIK": 1.0
+                    "bonusCritical": 1.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "Eff_Player_Water_ElementalArt_Laser_Hit",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.009999999776482582,
                     "canBeDefenceHalt": true
@@ -1559,35 +1487,31 @@
         "Core_Drop": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": "P1_CD",
-          "IPFJJJGABPL": 100.0,
+          "duration": "P1_CD",
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KFCDMIMBBLD",
-              "shieldHP": true,
+              "$type": "CreateGadget",
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Player_Water_Core_Count",
-                  "param3": [
-                    "Core_Max",
-                    1.0,
-                    "SUB"
-                  ],
+                  "ratio": ["Core_Max", 1.0, "SUB"],
                   "compareType": "LessAndEqual"
                 }
               ],
               "ownerIs": "Caster",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.699999988079071,
-                  "LPCHALMFFOD": 3.5
+                  "x": 0.0,
+                  "y": 0.699999988079071,
+                  "z": 3.5
                 },
                 "bornRandom": {
-                  "$type": "OJKHDGHBNKP",
+                  "$type": "OCDANLJMNNK",
                   "minRandomRange": 0.30000001192092896,
                   "maxRandomRange": 3.0
                 },
@@ -1598,25 +1522,25 @@
               "gadgetID": 41008004
             },
             {
-              "$type": "LCOEFEMOHLP",
-              "shieldHP": true,
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "cdDelta": true,
+              "ratio": 1.0,
               "key": "_ABILITY_Player_Water_Core_Count",
               "useLimitRange": true,
-              "param2": "Core_Max",
-              "repeatTimes": 0.0
+              "maxValue": "Core_Max",
+              "minValue": 0.0
             }
           ]
         },
         "Focus": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "FMOKCPPLHDO"
+              "$type": "DisableMotionBlurMixin"
             },
             {
-              "$type": "OLAFLPBKGGC",
+              "$type": "UseShootingConfigMixin",
               "shootingConfig": {
                 "normalShoot": {
                   "bulletBornAttachPoint": "WeaponL",
@@ -1634,11 +1558,11 @@
               }
             },
             {
-              "$type": "DEEMAMIJENJ",
+              "$type": "EffectChangeAlphaMixin",
               "target": "Team",
               "startDuration": 0.20000000298023224,
               "endDuration": 0.30000001192092896,
-              "JPEPPHPPCPH": true
+              "AHODOBPPBJK": true
             }
           ],
           "properties": {
@@ -1646,7 +1570,7 @@
           },
           "onAdded": [
             {
-              "$type": "BAGMOLODOME",
+              "$type": "AvatarEnterFocus",
               "cameraFollowLower": {
                 "x": 1.0,
                 "y": 0.07000000029802322,
@@ -1668,40 +1592,38 @@
                 }
               },
               "canMove": false,
-              "OMHGAKJIEFB": ""
+              "BPJCLAEPBPL": ""
             }
           ],
           "onRemoved": [
             {
-              "$type": "LJEDLFDLLDP",
-              "shieldHP": true,
+              "$type": "AvatarExitFocus",
+              "cdDelta": true,
               "keepRotation": true
             },
             {
-              "$type": "KJCHPDPBJHL",
-              "shieldHP": true,
+              "$type": "SetAnimatorBool",
+              "cdDelta": true,
               "boolID": "LockMotionFlagExitChannel"
             }
           ]
         },
         "Player_Water_PermanentSkill_2_Handler": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "LDBCDLJECKF",
-              "attackTags": [
-                "Elemental_Art"
-              ],
-              "actorWindSubHurtDelta": 0.0,
-              "HMBONGBFIAP": [
+              "$type": "ModifyDamageMixin",
+              "attackTags": ["Elemental_Art"],
+              "damagePercentageRatio": 0.0,
+              "damageExtra": [
                 "LoseHPRatio_P2",
                 "LoseHPRatio_P2_DamageUpRatio",
                 "MUL"
               ],
               "predicates": [
                 {
-                  "$type": "EGKHHMLPGLB",
+                  "$type": "NBNBHFBBAGP",
                   "attackType": "Default"
                 }
               ]
@@ -1711,77 +1633,77 @@
       },
       "onAdded": [
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Cache",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_ArkheGrade_Attack_CD",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_Avatar_Player_Water_Has_Target_Mark",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "ratio": 0.0,
           "key": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_Avatar_Player_Water_EArtlose_LoseHP_Sum",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_Avatar_Player_Water_Lose_Count",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "shieldHP": true,
-          "param3": 0.0,
+          "$type": "SetGlobalValue",
+          "cdDelta": true,
+          "ratio": 0.0,
           "key": "_ABILITY_Player_Water_Core_Count",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "JLDEMMJAMLC",
-          "shieldHP": true,
+          "$type": "AttachModifier",
+          "cdDelta": true,
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "PermanentSkill_2"
             }
           ],
           "modifierName": "Player_Water_PermanentSkill_2_Handler"
         },
         {
-          "$type": "JLDEMMJAMLC",
-          "shieldHP": true,
+          "$type": "AttachModifier",
+          "cdDelta": true,
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "PermanentSkill_1"
             }
           ],
@@ -1793,7 +1715,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Water_Talent_4_Shield",
       "abilitySpecials": {
         "ShieldRatio": 0.0,
@@ -1803,10 +1725,10 @@
       "modifiers": {
         "Player_Water_Talent_4_Handler": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "JJFFOLOAJFO",
+              "$type": "AttachToMultiNormalizedTimeMixin",
               "normalizedStateIDList": [
                 {
                   "stateID": "Player_Water_ElementalArt_BS"
@@ -1826,53 +1748,49 @@
                 }
               ],
               "modifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield_Driver",
-              "DGFCLAIDIFI": ""
+              "BILMCNCKIAO": ""
             }
           ]
         },
         "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield_Driver": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "target": "Team",
-              "shieldHP": true,
+              "cdDelta": true,
               "modifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield"
             }
           ],
           "onHittingOther": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ANIMAL_ENTITY_TYPE",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Art_Hold"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Art_Hold"]
                 },
                 {
-                  "$type": "EGKHHMLPGLB",
+                  "$type": "NBNBHFBBAGP",
                   "attackType": "Range"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "target": "Caster",
                   "modifierName": "UNIQUE_PlayerBoy_Water_Shield_Add"
                 }
@@ -1882,39 +1800,38 @@
         },
         "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": 15.0,
-          "IPFJJJGABPL": 15.0,
+          "isUnique": true,
+          "duration": 15.0,
+          "bonusCritical": 15.0,
           "modifierMixins": [
             {
-              "$type": "PLJLDPCFKKJ",
+              "$type": "GlobalMainShieldMixin",
               "shieldType": "Avatar_Water",
-              "DLBHHADKGJN": 360.0,
+              "shieldAngle": 360.0,
               "maxShieldByHPRatio": "ShieldRatio",
-              "HOBPOPLIMAC": "Shield_Amount",
+              "LIFMFNHDDKO": "Shield_Amount",
               "costShieldRatioName": "",
               "showDamageText": "INFO_ELITE_DEFENCE",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Shield",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Shield",
               "childShieldModifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield_Child"
             }
           ],
           "onRemoved": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Shield_Dissapear",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Shield_Dissapear",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield_Child": {
           "stacking": "Unique",
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "FPGALFBAHMD",
+              "$type": "GlobalSubShieldMixin",
               "mainShieldModifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield"
             }
           ],
@@ -1923,17 +1840,17 @@
           },
           "onBeingHit": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Target",
               "targetPredicates": [
                 {
-                  "$type": "KNBFJBFMGLD",
-                  "enBreak": 0.0
+                  "$type": "CBCHJBKDBDE",
+                  "damage": 0.0
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "target": "Team",
                   "modifierName": "ShieldHitEffect"
                 }
@@ -1944,59 +1861,57 @@
         "UNIQUE_PlayerBoy_Water_Shield_Add": {
           "stacking": "Unique",
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": "RefreshCD",
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": "RefreshCD",
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "JLDEMMJAMLC",
+              "$type": "AttachModifier",
               "target": "Team",
-              "shieldHP": true,
+              "cdDelta": true,
               "modifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield"
             },
             {
-              "$type": "LAGLPFLMECK",
+              "$type": "ChangeShieldValue",
               "target": "Team",
-              "shieldHP": true,
+              "cdDelta": true,
               "maxShieldByHPRatio": "ShieldRatio",
-              "HOBPOPLIMAC": 0.0,
+              "LIFMFNHDDKO": 0.0,
               "shieldHPRatio": "ShieldRatio",
               "maxShieldHP": 0.0,
               "modifierName": "UNIQUE_PlayerBoy_Water_Elemental_Art_Shield",
               "refreshTime": true
             },
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Shield_Trigger",
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Shield_Trigger",
               "born": {
-                "$type": "KLPANPDGHHA",
+                "$type": "ConfigBornByAttachPoint",
                 "useRotation": true,
                 "attachPointName": "RootNode"
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             }
           ]
         },
         "ShieldHitEffect": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.5,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.5,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Shield_Hit",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Shield_Hit",
+              "effectTempleteID": -1.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
-          "shieldHP": true,
+          "$type": "AttachModifier",
+          "cdDelta": true,
           "modifierName": "Player_Water_Talent_4_Handler"
         }
       ],
@@ -2005,7 +1920,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Player_Water_ElementalArt_Bullet_Hold",
       "abilitySpecials": {
         "DamageUpRatio": 0.0,
@@ -2015,29 +1930,27 @@
       "modifiers": {
         "Water_Eff": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Bullet",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Bullet",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Bullet_Trail",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Bullet_Trail",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Check_Target": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onThinkInterval": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "AngularVelocityUp"
             }
           ]
@@ -2049,23 +1962,21 @@
             "maxModifierNumForMultipleType": 2.0
           },
           "modifierName": "",
-          "elementDurability": 5.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 5.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_BulletMoveAngularVelocityRatio": 50.0
           }
         },
         "DamageUp": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "LDBCDLJECKF",
-              "attackTags": [
-                "Elemental_Art_Hold"
-              ],
-              "actorWindSubHurtDelta": 0.0,
-              "HMBONGBFIAP": [
+              "$type": "ModifyDamageMixin",
+              "attackTags": ["Elemental_Art_Hold"],
+              "damagePercentageRatio": 0.0,
+              "damageExtra": [
                 "DamageUpRatio",
                 "DamageUpCache",
                 "MUL"
@@ -2076,51 +1987,51 @@
       },
       "onAdded": [
         {
-          "$type": "BEMPFJGAPHG",
+          "$type": "CopyGlobalValue",
           "srcTarget": "OriginOwner",
           "dstTarget": "Self",
           "srcKey": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache",
           "dstKey": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache_Bullet"
         },
         {
-          "$type": "LDIAIDLOPEE",
+          "$type": "SetGlobalValueToOverrideMap",
           "globalValueKey": "_ABILITY_Avatar_Player_Water_EArt_LoseHP_Cache_Bullet",
           "overrideMapKey": "DamageUpCache"
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "DamageUp"
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Water_Eff"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Check_Target"
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "attackEvent": {
             "attackPattern": {
-              "$type": "JHKEHNJBMOF",
+              "$type": "GGBJACPDDCM",
               "triggerType": "TriggerNoRepeat",
               "checkHitLayerType": "Both",
               "born": {
-                "$type": "JGEBAJLEBMO",
+                "$type": "ConfigBornByCollisionPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": -0.4000000059604645
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": -0.4000000059604645
                 },
                 "useRotation": true
               },
               "size": {
-                "KGEPIMHBMOL": 0.30000001192092896,
-                "JEBHCGDPFEJ": 0.30000001192092896,
-                "LPCHALMFFOD": 1.2999999523162842
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.2999999523162842
               }
             },
             "attackInfo": {
@@ -2128,18 +2039,17 @@
               "attenuationTag": "Player_Water_Sustained_Shooting",
               "attenuationGroup": "Player_Water_Sustained_Shooting",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "DamageRatio",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "DamageRatio",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Water",
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 25.0,
+                "damage": 25.0,
                 "attackType": "Range",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "Eff_Player_Water_ElementalArt_Bullet_Hit",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV2",
                 "hitHaltTimeScale": 0.009999999776482582
               },
@@ -2149,7 +2059,7 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "GFANIJMFNOJ",
+          "$type": "FireHitEffect",
           "hitEntity": "",
           "hitScene": {
             "defaultEffect": "Eff_Player_Water_ElementalArt_Bullet_Hit"
@@ -2160,7 +2070,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_Core_Heal",
       "abilitySpecials": {
         "HealOnceRatio": 0.0,
@@ -2171,67 +2081,67 @@
       "modifiers": {
         "Avatar_PlayerBoy_Core_Heal_UnlockMark": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 1.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 1.0,
               "key": "_ABILITY_Player_Water_P1_Unlock_Mark",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "BOBCOJHOKKD",
-              "shieldHP": true,
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "cdDelta": true,
+              "ratio": 0.0,
               "key": "_ABILITY_Player_Water_P1_Unlock_Mark",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ]
         },
         "Player_Water_Talent_1_Energy_Revive": {
           "stacking": "Multiple",
           "modifierName": "",
-          "elementDurability": 0.30000001192092896,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.30000001192092896,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "AHCALEMEJPJ",
+              "$type": "ReviveElemEnergy",
               "target": "Caster",
-              "shieldHP": true,
-              "param3": "ReviveEnergy"
+              "cdDelta": true,
+              "ratio": "ReviveEnergy"
             }
           ]
         },
         "Player_Water_Talent_6_HP_Revive_Driver": {
           "stacking": "Multiple",
           "modifierName": "",
-          "elementDurability": 0.30000001192092896,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.30000001192092896,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "GHCGDDCEJKD",
+                "$type": "KFFKGHBAOMB",
                 "topLimit": 1,
                 "sortType": "LowHpRatio",
                 "target": "AllPlayerAvatars"
               },
-              "shieldHP": true,
+              "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "KGBDHDJLELL",
+                  "$type": "DAACDELLMJG",
                   "isSelf": false
                 },
                 {
-                  "$type": "FMBJAJFLDIP",
+                  "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "param3": 40.0,
-                  "DDALGNLEHOD": ""
+                  "ratio": 40.0,
+                  "PHMALDNHHLD": ""
                 }
               ],
               "modifierName": "Player_Water_Talent_6_HP_Revive"
@@ -2241,14 +2151,14 @@
         "Player_Water_Talent_6_HP_Revive": {
           "stacking": "Multiple",
           "modifierName": "",
-          "elementDurability": 0.30000001192092896,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.30000001192092896,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "FHGPOFDJDCO",
-              "shieldHP": true,
-              "GHINLKIEMFA": "HealOnceBase",
-              "CKDBFHCIJEK": "HealOnceRatioT6",
+              "$type": "HealHP",
+              "cdDelta": true,
+              "amount": "HealOnceBase",
+              "amountByCasterMaxHPRatio": "HealOnceRatioT6",
               "cdRatio": ""
             }
           ]
@@ -2256,11 +2166,11 @@
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
-          "shieldHP": true,
+          "$type": "AttachModifier",
+          "cdDelta": true,
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "PermanentSkill_1"
             }
           ],
@@ -2269,30 +2179,30 @@
       ],
       "onAbilityStart": [
         {
-          "$type": "FHGPOFDJDCO",
-          "shieldHP": true,
-          "GHINLKIEMFA": "HealOnceBase",
-          "ECOAIFKENNM": "HealOnceRatio",
+          "$type": "HealHP",
+          "cdDelta": true,
+          "amount": "HealOnceBase",
+          "amountByCasterMaxHPRatio": "HealOnceRatio",
           "cdRatio": ""
         },
         {
-          "$type": "PELJALPANCA",
-          "shieldHP": true,
+          "$type": "ApplyModifier",
+          "cdDelta": true,
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_1"
             }
           ],
           "modifierName": "Player_Water_Talent_1_Energy_Revive"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "target": "Caster",
-          "shieldHP": true,
+          "cdDelta": true,
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_6"
             }
           ],
@@ -2304,61 +2214,58 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Player_Water_ElementalArt_Core",
       "modifiers": {
         "Core_Driver": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": 1.0,
+              "$type": "SetGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Public_Core_Tag",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Core_Driver"
         }
       ],
       "onFieldEnter": [
         {
-          "$type": "INBCDALOHMP",
+          "$type": "Predicated",
           "target": "Target",
           "targetPredicates": [
             {
-              "$type": "NIMAPECDNKD",
-              "entityTypes": [
-                "Avatar"
-              ],
+              "$type": "ByEntityTypes",
+              "entityTypes": ["Avatar"],
               "isAuthority": 1
             },
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "key": "_ABILITY_Player_Water_P1_Unlock_Mark",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
           "successActions": [
             {
-              "$type": "GJCAPCBELPA",
+              "$type": "TriggerAbility",
               "target": "Target",
               "abilityName": "Avatar_PlayerBoy_Core_Heal"
             },
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Public_Heal",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Public_Heal",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         }
@@ -2367,46 +2274,43 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Player_Water_ElementalArt_Core_Eff",
       "modifiers": {
         "Core_Eff": {
           "modifierName": "",
-          "elementDurability": 15.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 15.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "muteRemoteAction": true,
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Public_Core",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Public_Core",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
+              "$type": "AttachEffect",
               "muteRemoteAction": true,
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Public_Core_Sub",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Public_Core_Sub",
+              "effectTempleteID": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "muteRemoteAction": true,
-              "rotationDampTime": "Eff_Player_Water_ElementalArt_Public_AS",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalArt_Public_AS",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Core_Eff"
         }
       ]
@@ -2414,44 +2318,40 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_ElementalArt_Water_ElemBall",
       "modifiers": {
         "ElemBall_Drop_Driver": {
           "stacking": "Unique",
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onHittingOther": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Target",
               "targetPredicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Art"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Art"]
                 },
                 {
-                  "$type": "EGKHHMLPGLB",
+                  "$type": "NBNBHFBBAGP",
                   "attackType": "Default"
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ANIMAL_ENTITY_TYPE",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "modifierName": "PlayerBoy_Water_Elemball_Drop"
                 }
               ]
@@ -2461,41 +2361,41 @@
         "PlayerBoy_Water_Elemball_Drop": {
           "stacking": "Unique",
           "modifierName": "",
-          "elementDurability": 0.30000001192092896,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.30000001192092896,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OGPDKJJJKNN",
+              "$type": "GenerateElemBall",
               "configID": 2018,
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "useRotation": true
               },
-              "hpRatio": 1.0,
+              "value": 1.0,
               "baseEnergy": 9.0
             },
             {
-              "$type": "BEIEKAHLNED",
+              "$type": "Randomed",
               "chance": 0.3330000042915344,
               "successActions": [
                 {
-                  "$type": "OGPDKJJJKNN",
+                  "$type": "GenerateElemBall",
                   "configID": 2018,
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 0.0,
-                      "LPCHALMFFOD": 0.0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "useRotation": true
                   },
-                  "hpRatio": 1.0,
+                  "value": 1.0,
                   "baseEnergy": 3.0
                 }
               ]
@@ -2505,7 +2405,7 @@
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "ElemBall_Drop_Driver"
         }
       ],
@@ -2514,87 +2414,83 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Water_ElementalBurst_Initiate",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Player_Water_ElementalBurst"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Player_Water_ElementalBurst"],
           "modifierName": "Player_Water_ElementalBurst_Invincible",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "Player_Water_ElementalBurst",
             "Player_Water_ElementalBurst_AS"
           ],
           "modifierName": "Player_Water_Burst_CameraHeadControl",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Player_Water_ElementalBurst"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Player_Water_ElementalBurst"],
           "modifierName": "Player_Water_ElementalBurst_Perform",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "Player_Water_ElementalBurst_AS",
           "modifierName": "Water_ElementalBurst_Exit_Camera",
           "normalizeEnd": 0.20000000298023224,
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "NAFEDCNOIGL",
+          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "Player_Water_ElementalBurst",
           "modifierName": "Player_Water_ElementalBurst_CameraBlur",
           "normalizeStart": 0.6200000047683716,
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
+          "$type": "AttachToStateIDMixin",
           "stateIDs": [
             "Player_Water_ElementalBurst",
             "Player_Water_ElementalBurst_AS"
           ],
           "modifierName": "Player_Water_ElementalBurst_Weather",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "Player_Water_Burst_CameraHeadControl": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "GPGGCODEFIF",
+              "$type": "EnableHeadControl",
               "blend": false
             }
           ],
           "onRemoved": [
             {
-              "$type": "GPGGCODEFIF",
-              "shieldHP": true,
+              "$type": "EnableHeadControl",
+              "cdDelta": true,
               "enable": true
             }
           ]
         },
         "Water_ElementalBurst_Exit_Camera": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PEIPIGEMHEK",
-              "shieldHP": true
+              "$type": "AvatarExitCameraShot",
+              "cdDelta": true
             },
             {
-              "$type": "LJBFFDLKIKL",
-              "shieldHP": true,
+              "$type": "AvatarCameraParam",
+              "cdDelta": true,
               "cameraParam": {
                 "forceRadius": 6.0,
                 "forceRadiusDuration": 0.0,
@@ -2605,10 +2501,10 @@
         },
         "Player_Water_ElementalBurst_CameraBlur": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "JPHLIDGMGBG",
+              "$type": "ActCameraRadialBlur",
               "cameraRadialBlur": {
                 "power": 1.5,
                 "blurTime": 0.20000000298023224,
@@ -2619,11 +2515,11 @@
         },
         "Player_Water_ElementalBurst_Weather": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "JFFOPFFEBPN",
-              "damageRatio": "Skill",
+              "$type": "TriggerWeatherMixin",
+              "type": "Skill",
               "weatherPattern": "Weather_Player_Water_ElementalBurst",
               "duration": 1.100000023841858
             }
@@ -2631,29 +2527,28 @@
         },
         "Player_Water_ElementalBurst_Perform": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Player_Water_ElementalBurst_BS",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalBurst_BS",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Player_Water_ElementalBurst_Invincible": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "state": "Invincible",
           "onAdded": [
             {
-              "$type": "OPAOGKPJLIG",
+              "$type": "AttachAbilityStateResistance",
               "resistanceListID": 11002
             },
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10088,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": 1.0
             }
           ]
@@ -2661,22 +2556,22 @@
       },
       "onAbilityStart": [
         {
-          "$type": "JKFLDIKGJEF",
-          "shieldHP": true,
+          "$type": "KillGadget",
+          "cdDelta": true,
           "gadgetInfo": {
             "configID": 41008003
           }
         },
         {
-          "$type": "CAKDDHLKOAB",
-          "shieldHP": true,
+          "$type": "TriggerBullet",
+          "cdDelta": true,
           "bulletID": 41008003,
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 1.2999999523162842,
-              "LPCHALMFFOD": 0.5
+              "x": 0.0,
+              "y": 1.2999999523162842,
+              "z": 0.5
             },
             "useRotation": true
           },
@@ -2688,7 +2583,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Player_Water_ElementalBurst_Bullet",
       "abilitySpecials": {
         "T2_Speed_Down_Ratio": 0.0,
@@ -2698,56 +2593,55 @@
       "modifiers": {
         "Slow_WaterBall_Eff": {
           "modifierName": "",
-          "elementDurability": "Duration",
-          "IPFJJJGABPL": 100.0,
+          "duration": "Duration",
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "GFOOGEIKGBI",
+              "$type": "SendEffectTrigger",
               "parameter": "Dissapear",
               "attachPoint": "",
-              "damageRatio": "Int",
+              "type": "Int",
               "value": 1,
-              "rotationDampTime": "Eff_Player_Water_ElementalBurst_Bullet"
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalBurst_Bullet"
             },
             {
-              "$type": "BOBCOJHOKKD",
-              "param3": 0.0,
+              "$type": "SetGlobalValue",
+              "ratio": 0.0,
               "key": "_ABILITY_Player_Water_Burst_Bullet_Drive_Mark",
-              "param2": 0.0,
-              "repeatTimes": 0.0
+              "maxValue": 0.0,
+              "minValue": 0.0
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Remove_Eff_Delay"
             }
           ]
         },
         "Remove_Eff_Delay": {
           "modifierName": "",
-          "elementDurability": 1.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.0,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PFKNEFGOHIH",
+              "$type": "RemoveModifier",
               "modifierName": "Slow_WaterBall_Eff_Ins"
             }
           ]
         },
         "Slow_WaterBall_Eff_Ins": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Player_Water_ElementalBurst_Bullet",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Player_Water_ElementalBurst_Bullet",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Talent_2_Handler": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_BulletMoveSpeedRatio": [
               0.0,
@@ -2761,44 +2655,40 @@
         },
         "Slow_WaterBall_Duration": {
           "modifierName": "",
-          "elementDurability": [
-            "Duration",
-            1.0,
-            "ADD"
-          ],
-          "IPFJJJGABPL": 100.0,
+          "duration": ["Duration", 1.0, "ADD"],
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Slow_WaterBall_Eff"
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Slow_WaterBall_Duration"
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "modifierName": "Slow_WaterBall_Eff_Ins"
         },
         {
-          "$type": "BOBCOJHOKKD",
-          "param3": 1.0,
+          "$type": "SetGlobalValue",
+          "ratio": 1.0,
           "key": "_ABILITY_Player_Water_Burst_Bullet_Drive_Mark",
-          "param2": 0.0,
-          "repeatTimes": 0.0
+          "maxValue": 0.0,
+          "minValue": 0.0
         },
         {
-          "$type": "JLDEMMJAMLC",
+          "$type": "AttachModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Talent_2"
             }
           ],
@@ -2807,48 +2697,47 @@
       ],
       "onAbilityStart": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "CNGGLKHONAA",
+              "$type": "ByTargetGlobalValue",
               "target": "Self",
               "key": "_ABILITY_Player_Water_Burst_Bullet_Drive_Mark",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "BELNOFAKNBA",
+              "$type": "ConfigAttackSphere",
               "triggerType": "TriggerNoRepeat",
               "checkHitLayerType": "Both",
               "born": {
-                "$type": "JGEBAJLEBMO",
+                "$type": "ConfigBornByCollisionPoint",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "useRotation": true
               },
-              "OAHPDLJIADP": 0.15000000596046448
+              "radius": 0.15000000596046448
             },
             "attackInfo": {
               "attackTag": "Elemental_Burst",
               "attenuationTag": "Player_Water_Burst_Bullet",
               "attenuationGroup": "Player_Water_Burst_Bullet",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "DamageRatio",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "DamageRatio",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Water",
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Default",
-                "enBreak": 40.0,
+                "damage": 40.0,
                 "attackType": "Range",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "Eff_Player_Water_ElementalArt_Bullet_Hit",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV2",
                 "hitHaltTimeScale": 0.009999999776482582
               },

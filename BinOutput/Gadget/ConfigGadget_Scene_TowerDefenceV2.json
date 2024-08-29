@@ -1,6 +1,6 @@
 {
   "SceneObj_Gear_TowerDefenceV2_Electric": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -77,16 +77,16 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
@@ -96,7 +96,7 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Wind": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -162,22 +162,22 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Charge": []
             }
@@ -187,7 +187,7 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_WindBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -229,31 +229,32 @@
       "lifeTime": 0.4000000059604645
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 50.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_WindBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Physics": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerPhysics_01_Idle"
+      "attachEffect": "Eff_SceneObj_TowerPhysics_01_Idle",
+      "BKPFGNPLDNJ": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -317,22 +318,22 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Charge": []
             }
@@ -343,7 +344,7 @@
     "partControl": {
       "parts": [
         {
-          "$type": "CDKJENLIMGM",
+          "$type": "INCPGKCDCIO",
           "angularSpeed": 270.0,
           "partRootName": "ShootControl",
           "forwardByTransName": "",
@@ -351,7 +352,7 @@
           "limitVertical": 360.0
         },
         {
-          "$type": "CDKJENLIMGM",
+          "$type": "INCPGKCDCIO",
           "angularSpeed": 270.0,
           "partRootName": "DirControl",
           "forwardByTransName": "",
@@ -362,7 +363,7 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_PhysicsBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -397,27 +398,27 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_PhysicsBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_PhysicsEnergyBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -452,36 +453,37 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "EFCFKHDONLB",
+      "$type": "GMOHNHFHLAO",
       "speed": 3.0,
       "maxSpeed": 30.0,
       "acceleration": 3.0,
       "accelerationTime": 10.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_PhysicsEnergyBullet"
         }
       ]
     }
   },
   "SceneObj_Level_Common_Property_Prop_TowerAbsorberV2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle"
+      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle",
+      "BKPFGNPLDNJ": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -537,7 +539,7 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerEnhancerV2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_UpgradeAttackLevel",
@@ -592,7 +594,7 @@
     ]
   },
   "SceneObj_Gear_TowerDefenceV2_Water": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -666,12 +668,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
@@ -681,7 +683,7 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Water_Bubble": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -723,28 +725,28 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "EFCFKHDONLB",
+      "$type": "GMOHNHFHLAO",
       "speed": 3.0,
       "anglerVelocity": 720.0,
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_Water_Bubble"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Fire": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -822,12 +824,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
@@ -837,13 +839,14 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_FireBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerFire_01_Fire",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -880,10 +883,10 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 40.0,
-      "AIJKOKCHLMM": {
-        "$type": "LDKNHBJJMPC",
+      "DPAAFHNMHHN": {
+        "$type": "GNJNGGEPACE",
         "angularVelocity": {
           "x": -900.0
         }
@@ -891,34 +894,37 @@
       "angleOffHor": 25.0,
       "gravityOfAcceleration": 10.0,
       "correction": {
-        "$type": "DCOKOADIFCP",
+        "$type": "FEHDIANJKBF",
         "deviation": 0.5,
         "fixAngleOfVer": 15.0,
         "minSpeed": 5.0,
         "maxSpeed": 20.0
-      }
+      },
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_FireBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_FireArea": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerFire_Hit_FireRuin_Up"
+      "attachEffect": "Eff_SceneObj_TowerFire_Hit_FireRuin_Up",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -957,7 +963,7 @@
     ]
   },
   "SceneObj_Gear_TowerDefenceV2_FireMissileCreator": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -997,7 +1003,7 @@
     ]
   },
   "SceneObj_Gear_TowerDefenceV2_FireMissile": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -1036,27 +1042,27 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 30.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_FireMissile"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Ice": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1134,12 +1140,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Shoot": []
             }
@@ -1149,13 +1155,14 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_IceBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerIce_01_Fire",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1196,33 +1203,34 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Gear_TowerDefenceV2_IceBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Ice_Fog": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerIce_ShieldActivated_01"
+      "attachEffect": "Eff_SceneObj_TowerIce_ShieldActivated_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1261,7 +1269,7 @@
     ]
   },
   "SceneObj_Gear_TowerDefenceV2_Mine": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1339,7 +1347,7 @@
     }
   },
   "SceneObj_Gear_TowerDefenceV2_Trap": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1416,10 +1424,11 @@
     }
   },
   "SceneObj_Level_Common_Property_Prop_TowerRepelV2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle"
+      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle",
+      "BKPFGNPLDNJ": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1485,7 +1494,7 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   }
 }

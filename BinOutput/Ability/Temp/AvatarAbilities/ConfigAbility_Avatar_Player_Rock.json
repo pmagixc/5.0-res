@@ -1,79 +1,79 @@
 [
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerBoy_ExtraAttack_Rock",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100545,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -82,13 +82,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -98,10 +98,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -114,12 +114,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -129,12 +127,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -145,79 +143,79 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_PlayerGirl_ExtraAttack_Rock",
       "abilityMixins": [
         {
-          "$type": "GODEMHMODCN",
+          "$type": "ButtonHoldChargeMixin",
           "skillID": 100555,
           "chargeTime": 0.11999999731779099,
-          "EKKJNADOEMB": 0.20000000298023224,
-          "onBeginUncharged": [
+          "secondChargeTime": 0.20000000298023224,
+          "OnBeginUncharged": [
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "DoSkill"
+              "$type": "SetAnimatorTrigger",
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "HHHMNCNPBDK",
+                  "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 0,
+                      "ratio": 0,
                       "parameter": "ComboCount"
                     },
                     {
-                      "$type": "ALLFFNEOPGA",
+                      "$type": "ByAnimatorInt",
                       "logic": "Equal",
-                      "param3": 5,
+                      "ratio": 5,
                       "parameter": "ComboCount"
                     }
                   ]
                 }
               ],
               "intID": "SkillID",
-              "param3": 99.0
+              "ratio": 99.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
-          "onReleaseUncharged": [
+          "OnReleaseUncharged": [
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginCharged": [
+          "OnBeginCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging",
-              "param3": true
+              "ratio": true
             }
           ],
-          "onReleaseCharged": [
+          "OnReleaseCharged": [
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "intID": "SkillID",
-              "param3": 1.0
+              "ratio": 1.0
             }
           ],
-          "onBeginSecondCharged": [
+          "OnBeginSecondCharged": [
             {
-              "$type": "BLCCGIPAOIP",
+              "$type": "SetAnimatorTrigger",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -226,13 +224,13 @@
                   ]
                 }
               ],
-              "PLLJBINMGJK": "DoSkill"
+              "triggerID": "DoSkill"
             },
             {
-              "$type": "AKEEDILMOJF",
+              "$type": "SetAnimatorInt",
               "predicates": [
                 {
-                  "$type": "BHALEMOHOLJ",
+                  "$type": "ByLocalAvatarStamina",
                   "logic": "GreaterOrEqual",
                   "stamina": [
                     "ExtraAttack_Sword_Stamina_Cost",
@@ -242,10 +240,10 @@
                 }
               ],
               "intID": "SkillID",
-              "param3": 6.0
+              "ratio": 6.0
             },
             {
-              "$type": "KJCHPDPBJHL",
+              "$type": "SetAnimatorBool",
               "boolID": "IsCharging"
             }
           ],
@@ -258,12 +256,10 @@
           ]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "ExtraAttack"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["ExtraAttack"],
           "modifierName": "ExtraAttack_StaminaCost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -273,12 +269,12 @@
       "modifiers": {
         "ExtraAttack_StaminaCost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OCLNBBMMIOK",
+              "$type": "AvatarSkillStart",
               "skillID": 10001,
-              "amountByTargetCurrentHPRatio": 1.0,
+              "amount": 1.0,
               "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
             }
           ]
@@ -289,17 +285,17 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku",
       "onAbilityStart": [
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 2.0
+              "x": 0.0,
+              "y": 0.0,
+              "z": 2.0
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
@@ -310,9 +306,9 @@
           "campTargetType": "Enemy"
         },
         {
-          "$type": "OCLNBBMMIOK",
+          "$type": "AvatarSkillStart",
           "skillID": 10077,
-          "amountByTargetCurrentHPRatio": 1.0,
+          "amount": 1.0,
           "costStaminaRatio": 1.0
         }
       ],
@@ -321,49 +317,38 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku_ChargeStrike",
       "abilityMixins": [
         {
-          "$type": "ADCFAHFIPHN",
+          "$type": "SkillButtonHoldChargeMixin",
           "skillID": 10077,
           "nextLoopTriggerID": "NextLoopTrigger",
           "endHoldTrigger": "EndHoldTrigger",
-          "beforeStateIDs": [
-            "Hogyoku_BS"
-          ],
-          "chargeLoopStateIDs": [
-            "Hogyoku_Charge"
-          ],
-          "chargeLoopDurations": [
-            10.0
-          ]
+          "beforeStateIDs": ["Hogyoku_BS"],
+          "chargeLoopStateIDs": ["Hogyoku_Charge"],
+          "chargeLoopDurations": [10.0]
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Hogyoku_Charge",
-            "Hogyoku_Charge_2"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Hogyoku_Charge", "Hogyoku_Charge_2"],
           "modifierName": "Focus",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Hogyoku_Charge"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Hogyoku_Charge"],
           "modifierName": "Charge",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "Focus": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "BAGMOLODOME",
+              "$type": "AvatarEnterFocus",
               "cameraFollowLower": {
                 "x": 0.800000011920929,
                 "y": 0.20000000298023224,
@@ -385,53 +370,52 @@
               "canMove": false,
               "showCrosshair": false,
               "focusAnchorVerAngle": 5.0,
-              "OMHGAKJIEFB": ""
+              "BPJCLAEPBPL": ""
             }
           ],
           "onRemoved": [
             {
-              "$type": "LJEDLFDLLDP",
+              "$type": "AvatarExitFocus",
               "keepRotation": true
             }
           ]
         },
         "Charge": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 10.0,
+              "$type": "AddGlobalValue",
+              "ratio": 10.0,
               "key": "_HOGYOKU_THROW_RANGE",
               "useLimitRange": true,
-              "param2": 10.0,
-              "repeatTimes": 10.0
+              "maxValue": 10.0,
+              "minValue": 10.0
             },
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Hogyoku_Aim_Line",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Aim_Line",
+              "effectTempleteID": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "OCLNBBMMIOK",
+          "$type": "AvatarSkillStart",
           "skillID": 10077,
-          "amountByTargetCurrentHPRatio": 1.0,
+          "amount": 1.0,
           "costStaminaRatio": 1.0
         },
         {
-          "$type": "CAKDDHLKOAB",
+          "$type": "TriggerBullet",
           "bulletID": 41005008,
           "born": {
-            "$type": "KLPANPDGHHA",
+            "$type": "ConfigBornByAttachPoint",
             "offset": {
-              "KGEPIMHBMOL": 0.20000000298023224,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.6000000238418579
+              "x": 0.20000000298023224,
+              "y": 0.0,
+              "z": 0.6000000238418579
             },
             "attachPointName": "FocusAnchor"
           }
@@ -442,17 +426,17 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_HogyokuBullet",
       "onAbilityStart": [
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JGEBAJLEBMO",
+            "$type": "ConfigBornByCollisionPoint",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.0
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
@@ -467,17 +451,17 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_HogyokuBullet_LifeOver",
       "onAbilityStart": [
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.0
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
@@ -492,40 +476,39 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku_Base",
       "modifiers": {
         "Hogyoku_Base_Appear": {
           "modifierName": "",
-          "elementDurability": 0.6000000238418579,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.6000000238418579,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Avatar_Hogyoku_Bullet",
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Bullet",
               "born": {
-                "$type": "JHEBKCMEMLN",
+                "$type": "ConfigBornByTarget",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1.0
                 },
                 "onGround": true,
                 "alongGround": true
               },
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "effectTempleteID": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "KFCDMIMBBLD",
+              "$type": "CreateGadget",
               "born": {
-                "$type": "JHEBKCMEMLN",
+                "$type": "ConfigBornByTarget",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 1.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1.0
                 },
                 "onGround": true,
                 "onGroundIgnoreWater": true,
@@ -541,7 +524,7 @@
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_Base_Appear"
         }
       ]
@@ -549,7 +532,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku_Barrier",
       "abilitySpecials": {
         "GetElementRatio": 1.0,
@@ -559,44 +542,43 @@
       "modifiers": {
         "Hogyoku_AttackHandler": {
           "modifierName": "",
-          "elementDurability": 5.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 5.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GMDIMKKHACA",
+                  "$type": "ConfigAttackCircle",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": -0.5,
-                      "LPCHALMFFOD": 0.0
+                      "x": 0.0,
+                      "y": -0.5,
+                      "z": 0.0
                     },
                     "useRotation": true
                   },
                   "height": 2.0,
-                  "OAHPDLJIADP": 3.0
+                  "radius": 3.0
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art",
                   "attenuationTag": "Elemental_Art",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Damage_Explode",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Damage_Explode",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Rock",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 50.0,
+                    "bonusCritical": 50.0,
                     "strikeType": "Blunt",
-                    "enBreak": 133.1999969482422,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 133.1999969482422,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV5",
                     "retreatType": "ByHitDirection",
                     "hitHaltTime": 0.05000000074505806,
@@ -616,88 +598,84 @@
           ],
           "onAttackLanded": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Target",
               "targetPredicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Art"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Art"]
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "key": "_ANIMAL_ENTITY_TYPE",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "PEJAIAPIAJD",
+                  "$type": "CNGBNECMGGP",
                   "target": "OriginOwner",
                   "elementType": "Rock"
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Hogyoku_Barrier_Limitation",
-                  "param3": 1.0
+                  "ratio": 1.0
                 },
                 {
-                  "$type": "CNGGLKHONAA",
+                  "$type": "ByTargetGlobalValue",
                   "target": "Self",
                   "key": "_ABILITY_Hogyoku_Barrier_ElemBallMark",
-                  "param3": 0.0,
+                  "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "OGPDKJJJKNN",
+                  "$type": "GenerateElemBall",
                   "configID": 2023,
                   "born": {
-                    "$type": "JHEBKCMEMLN",
+                    "$type": "ConfigBornByTarget",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 0.0,
-                      "LPCHALMFFOD": 0.0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     }
                   },
-                  "hpRatio": "GetElementRatio",
+                  "value": "GetElementRatio",
                   "baseEnergy": 9.0
                 },
                 {
-                  "$type": "BEIEKAHLNED",
+                  "$type": "Randomed",
                   "chance": 0.33000001311302185,
                   "successActions": [
                     {
-                      "$type": "OGPDKJJJKNN",
+                      "$type": "GenerateElemBall",
                       "configID": 2023,
                       "born": {
-                        "$type": "JHEBKCMEMLN",
+                        "$type": "ConfigBornByTarget",
                         "offset": {
-                          "KGEPIMHBMOL": 0.0,
-                          "JEBHCGDPFEJ": 0.0,
-                          "LPCHALMFFOD": 0.0
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
                         }
                       },
-                      "hpRatio": "GetElementRatio",
+                      "value": "GetElementRatio",
                       "baseEnergy": 3.0
                     }
                   ]
                 },
                 {
-                  "$type": "LCOEFEMOHLP",
-                  "param3": 1.0,
+                  "$type": "AddGlobalValue",
+                  "ratio": 1.0,
                   "key": "_ABILITY_Hogyoku_Barrier_ElemBallMark",
                   "useLimitRange": true,
-                  "param2": 1.0,
-                  "repeatTimes": 1.0
+                  "maxValue": 1.0,
+                  "minValue": 1.0
                 }
               ]
             }
@@ -705,46 +683,42 @@
         },
         "Hogyoku_Barrier_HP": {
           "modifierName": "",
-          "elementDurability": [
-            "BarrierLifeTimeDelta",
-            30.0,
-            "ADD"
-          ],
-          "IPFJJJGABPL": 100.0,
+          "duration": ["BarrierLifeTimeDelta", 30.0, "ADD"],
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         },
         "Hogyoku_Barrier_Explode_Timer": {
           "modifierName": "",
-          "elementDurability": 0.8999999761581421,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.8999999761581421,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": 1.0,
+              "$type": "AddGlobalValue",
+              "ratio": 1.0,
               "key": "_ABILITY_Hogyoku_Barrier_Limitation",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "LCOEFEMOHLP",
-              "param3": -1.0,
+              "$type": "AddGlobalValue",
+              "ratio": -1.0,
               "key": "_ABILITY_Hogyoku_Barrier_Limitation",
               "useLimitRange": true,
-              "param2": 1.0,
-              "repeatTimes": 0.0
+              "maxValue": 1.0,
+              "minValue": 0.0
             },
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Player_Rock_UnstablePrime"
                 }
               ],
@@ -754,43 +728,42 @@
         },
         "Hogyoku_Barrier_Explode": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onKill": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GMDIMKKHACA",
+                  "$type": "ConfigAttackCircle",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 0.0,
-                      "LPCHALMFFOD": 0.0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     },
                     "useRotation": true
                   },
                   "height": 1.5,
-                  "OAHPDLJIADP": 3.0
+                  "radius": 3.0
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Art",
                   "attenuationTag": "Elemental_Art",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "Damage_Explode",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "Damage_Explode",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Rock",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Blunt",
-                    "enBreak": 133.1999969482422,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 133.1999969482422,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV5",
                     "retreatType": "ByHitDirection",
                     "hitHaltTime": 0.05000000074505806,
@@ -808,25 +781,24 @@
               "targetType": "Enemy"
             },
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Avatar_Hogyoku_Crystal_Explode",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Crystal_Explode",
+              "effectTempleteID": -1.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_Barrier_Explode_Timer"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_AttackHandler"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_Barrier_HP"
         }
       ]
@@ -834,7 +806,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku_Barrier_EndBoom",
       "abilitySpecials": {
         "Damage_Explode": 0.0
@@ -842,51 +814,50 @@
       "modifiers": {
         "Life_Timer": {
           "modifierName": "",
-          "elementDurability": 2.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 2.0,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "attackEvent": {
             "attackPattern": {
-              "$type": "GMDIMKKHACA",
+              "$type": "ConfigAttackCircle",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 },
                 "useRotation": true
               },
               "height": 1.5,
-              "OAHPDLJIADP": 3.0
+              "radius": 3.0
             },
             "attackInfo": {
               "attackTag": "Elemental_Art",
               "attenuationTag": "Elemental_Art",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "Damage_Explode",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "Damage_Explode",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Rock",
                 "elementRank": 1.5,
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Blunt",
-                "enBreak": 133.1999969482422,
-                "GLKMCMDJBIK": 0.0
+                "damage": 133.1999969482422,
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV5",
                 "retreatType": "ByHitDirection",
                 "hitHaltTime": 0.05000000074505806,
@@ -904,13 +875,12 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "KBFEIHEAMBM",
-          "rotationDampTime": "Eff_Avatar_Hogyoku_Crystal_Explode",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "$type": "FireEffect",
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Crystal_Explode",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Life_Timer"
         }
       ]
@@ -918,59 +888,57 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Hogyoku_Barrier_Material",
       "modifiers": {
         "Hogyoku_Barrier_Material_Timer": {
           "modifierName": "",
-          "elementDurability": 0.05000000074505806,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.05000000074505806,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Hogyoku_Barrier_Material"
             },
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "Start"
+              "$type": "SetAnimatorTrigger",
+              "value": "Start"
             }
           ]
         },
         "Hogyoku_Barrier_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_Hogyoku_Crystal",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Crystal",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Hogyoku_Barrier_Disappear": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onKill": [
             {
-              "$type": "KBFEIHEAMBM",
+              "$type": "FireEffect",
               "predicates": [
                 {
-                  "$type": "BCFNGJHILAG",
+                  "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "GKDKGMAMGGN",
+                      "$type": "ByUnlockTalentParam",
                       "talentParam": "Player_Rock_UnstablePrime"
                     }
                   ]
                 }
               ],
-              "rotationDampTime": "Eff_Avatar_Hogyoku_Crystal_Disappear",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Crystal_Disappear",
+              "effectTempleteID": -1.0
             },
             {
-              "$type": "PFKNEFGOHIH",
+              "$type": "RemoveModifier",
               "modifierName": "Hogyoku_Barrier_Material"
             }
           ]
@@ -978,17 +946,16 @@
       },
       "onAdded": [
         {
-          "$type": "KBFEIHEAMBM",
-          "rotationDampTime": "Eff_Avatar_Hogyoku_Crystal_Impact",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "$type": "FireEffect",
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Hogyoku_Crystal_Impact",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_Barrier_Material_Timer"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Hogyoku_Barrier_Disappear"
         }
       ]
@@ -996,58 +963,54 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_RockTide",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "RockTide"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["RockTide"],
           "modifierName": "RockTide_Camera_Protection_Ghost",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         },
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "RockTide"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["RockTide"],
           "modifierName": "RockTide_Camera_Protection_Invincible",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "modifiers": {
         "RockTide_Camera_Protection_Ghost": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "OPAOGKPJLIG",
+              "$type": "AttachAbilityStateResistance",
               "resistanceListID": 11002
             }
           ]
         },
         "RockTide_Camera_Protection_Invincible": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "state": "Invincible"
         }
       },
       "onAbilityStart": [
         {
-          "$type": "JKFLDIKGJEF",
+          "$type": "KillGadget",
           "gadgetInfo": {
             "configID": 41005006
           }
         },
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.0
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
             }
           },
           "gadgetID": 41005005,
@@ -1055,9 +1018,9 @@
           "campTargetType": "Enemy"
         },
         {
-          "$type": "OCLNBBMMIOK",
+          "$type": "AvatarSkillStart",
           "skillID": 10078,
-          "amountByTargetCurrentHPRatio": 1.0,
+          "amount": 1.0,
           "costStaminaRatio": 1.0
         }
       ],
@@ -1066,7 +1029,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_RockTide_AttackWave",
       "abilitySpecials": {
         "ReviveElemEnergyRatio": 5.0,
@@ -1078,36 +1041,34 @@
       "modifiers": {
         "RockTide_Push": {
           "modifierName": "",
-          "elementDurability": 1.2000000476837158,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.2000000476837158,
+          "bonusCritical": 100.0,
           "modifierMixins": [
             {
-              "$type": "EIMGEIJIDNO",
+              "$type": "WindZoneMixin",
               "shapeName": "CircleR6",
               "born": {
-                "$type": "JHEBKCMEMLN",
+                "$type": "ConfigBornByTarget",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 0.0,
-                  "LPCHALMFFOD": 0.0
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
                 }
               },
               "strength": -2.0,
-              "IAELBHDMINN": 4.0,
-              "MMBCLAEOEFB": 0.0,
+              "attenuation": 4.0,
+              "innerRadius": 0.0,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Avatar"
-                  ],
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Avatar"],
                   "reject": true
                 },
                 {
-                  "$type": "GDIBFABBADA",
+                  "$type": "ByTargetWeight",
                   "logic": "LesserOrEqual",
-                  "BHOOHGLJDHM": 100.0
+                  "weight": 100.0
                 }
               ],
               "modifierName": ""
@@ -1116,50 +1077,49 @@
         },
         "RockTide_Attack_Start": {
           "modifierName": "",
-          "elementDurability": 1.100000023841858,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.100000023841858,
+          "bonusCritical": 100.0,
           "thinkInterval": 0.25,
           "onRemoved": [
             {
-              "$type": "GJCAPCBELPA",
+              "$type": "TriggerAbility",
               "abilityName": "Avatar_Player_RockTide_Barrier_Appear"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GMDIMKKHACA",
+                  "$type": "ConfigAttackCircle",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD",
+                    "$type": "ConfigBornBySelf",
                     "offset": {
-                      "KGEPIMHBMOL": 0.0,
-                      "JEBHCGDPFEJ": 0.0,
-                      "LPCHALMFFOD": 0.0
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
                     }
                   },
                   "height": 1.5,
-                  "OAHPDLJIADP": 6.0
+                  "radius": 6.0
                 },
                 "attackInfo": {
                   "attackTag": "Elemental_Burst",
                   "attenuationTag": "Player_RockTide",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": "AttackWaveDamage",
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": "AttackWaveDamage",
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Rock",
                     "elementRank": 3.0,
-                    "IPFJJJGABPL": 50.0,
+                    "bonusCritical": 50.0,
                     "strikeType": "Blunt",
-                    "enBreak": 100.0,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 100.0,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV4",
                     "retreatType": "ByHitDirection",
                     "hitHaltTimeScale": 0.05000000074505806
@@ -1178,54 +1138,45 @@
         },
         "RockTide_AttackWave_Material": {
           "modifierName": "",
-          "elementDurability": [
-            "GaeaAnthem_TimeDelta",
-            18.0,
-            "ADD"
-          ],
-          "IPFJJJGABPL": 100.0,
+          "duration": ["GaeaAnthem_TimeDelta", 18.0, "ADD"],
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Avatar_RockTide_Crest_Move",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_RockTide_Crest_Move",
+              "effectTempleteID": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         },
         "RockTide_AttackWave_StarDustReturn": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAttackLanded": [
             {
-              "$type": "INBCDALOHMP",
+              "$type": "Predicated",
               "target": "Target",
               "targetPredicates": [
                 {
-                  "$type": "NNEHDJHMING",
-                  "attackTags": [
-                    "Elemental_Burst"
-                  ]
+                  "$type": "ByAttackTags",
+                  "attackTags": ["Elemental_Burst"]
                 },
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Monster"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Monster"]
                 }
               ],
               "successActions": [
                 {
-                  "$type": "PELJALPANCA",
+                  "$type": "ApplyModifier",
                   "target": "Target",
                   "predicates": [
                     {
-                      "$type": "PEJAIAPIAJD",
+                      "$type": "CNGBNECMGGP",
                       "target": "Owner",
                       "elementType": "Rock"
                     }
@@ -1238,11 +1189,11 @@
         },
         "StarDustReturn_Mark": {
           "modifierName": "",
-          "elementDurability": 2.0,
-          "IPFJJJGABPL": 100.0,
+          "duration": 2.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "target": "CasterOriginOwner",
               "modifierName": "StarDustReturn_Restore"
             }
@@ -1255,41 +1206,35 @@
             "maxModifierNumForMultipleType": 5.0
           },
           "modifierName": "",
-          "elementDurability": 1.5,
-          "IPFJJJGABPL": 100.0,
+          "duration": 1.5,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "AHCALEMEJPJ",
-              "shieldHP": true,
-              "param3": "ReviveElemEnergyRatio"
+              "$type": "ReviveElemEnergy",
+              "cdDelta": true,
+              "ratio": "ReviveElemEnergyRatio"
             }
           ]
         },
         "UNIQUE_RockTide_GaeaAnthem": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": [
-            "GaeaAnthem_TimeDelta",
-            15.0,
-            "ADD"
-          ],
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": ["GaeaAnthem_TimeDelta", 15.0, "ADD"],
+          "bonusCritical": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "IJOFJOGLDHE",
+                "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR7",
                 "campTargetType": "Alliance",
-                "doOffStage": 1.0
+                "SelectTargetsByShape": 1.0
               },
               "predicates": [
                 {
-                  "$type": "NIMAPECDNKD",
-                  "entityTypes": [
-                    "Avatar"
-                  ]
+                  "$type": "ByEntityTypes",
+                  "entityTypes": ["Avatar"]
                 }
               ],
               "modifierName": "UNIQUE_GaeaAnthem_PowerUp"
@@ -1298,9 +1243,9 @@
         },
         "UNIQUE_GaeaAnthem_PowerUp": {
           "modifierName": "",
-          "forceTriggerWhenChangeAuthority": true,
-          "elementDurability": 2.0,
-          "IPFJJJGABPL": 100.0,
+          "isUnique": true,
+          "duration": 2.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_EndureDelta": "GaeaAnthem_EndureDelta",
             "Actor_CriticalDelta": "GaeaAnthem_CriticalDelta"
@@ -1310,35 +1255,35 @@
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "RockTide_Push"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "RockTide_Attack_Start"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "RockTide_AttackWave_Material"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Player_Rock_StarDustReturn"
             }
           ],
           "modifierName": "RockTide_AttackWave_StarDustReturn"
         },
         {
-          "$type": "PFKNEFGOHIH",
+          "$type": "RemoveModifier",
           "predicates": [
             {
-              "$type": "BCFNGJHILAG",
+              "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Player_Rock_StarDustReturn"
                 }
               ]
@@ -1347,23 +1292,23 @@
           "modifierName": "RockTide_AttackWave_StarDustReturn"
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Player_Rock_GaeaAnthem"
             }
           ],
           "modifierName": "UNIQUE_RockTide_GaeaAnthem"
         },
         {
-          "$type": "KBODPNEEFGD",
+          "$type": "RemoveUniqueModifier",
           "predicates": [
             {
-              "$type": "BCFNGJHILAG",
+              "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GKDKGMAMGGN",
+                  "$type": "ByUnlockTalentParam",
                   "talentParam": "Player_Rock_GaeaAnthem"
                 }
               ]
@@ -1376,22 +1321,22 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_RockTide_Barrier_Appear",
       "onAbilityStart": [
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 2.75,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 6.670000076293945
+              "x": 2.75,
+              "y": 0.0,
+              "z": 6.670000076293945
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
             "direction": {
-              "$type": "PIKKPLPCLKE",
+              "$type": "KPKEFLCHOHD",
               "namedTransform": ""
             },
             "alongGround": true
@@ -1401,18 +1346,18 @@
           "campTargetType": "Enemy"
         },
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": -2.75,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": -6.670000076293945
+              "x": -2.75,
+              "y": 0.0,
+              "z": -6.670000076293945
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
             "direction": {
-              "$type": "PIKKPLPCLKE",
+              "$type": "KPKEFLCHOHD",
               "namedTransform": ""
             },
             "alongGround": true
@@ -1422,18 +1367,18 @@
           "campTargetType": "Enemy"
         },
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": 6.670000076293945,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": -2.75
+              "x": 6.670000076293945,
+              "y": 0.0,
+              "z": -2.75
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
             "direction": {
-              "$type": "PIKKPLPCLKE",
+              "$type": "KPKEFLCHOHD",
               "namedTransform": ""
             },
             "alongGround": true
@@ -1443,18 +1388,18 @@
           "campTargetType": "Enemy"
         },
         {
-          "$type": "KFCDMIMBBLD",
+          "$type": "CreateGadget",
           "born": {
-            "$type": "JHEBKCMEMLN",
+            "$type": "ConfigBornByTarget",
             "offset": {
-              "KGEPIMHBMOL": -6.670000076293945,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 2.75
+              "x": -6.670000076293945,
+              "y": 0.0,
+              "z": 2.75
             },
             "onGround": true,
             "onGroundIgnoreWater": true,
             "direction": {
-              "$type": "PIKKPLPCLKE",
+              "$type": "KPKEFLCHOHD",
               "namedTransform": ""
             },
             "alongGround": true
@@ -1468,7 +1413,7 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_RockTide_Barrier",
       "abilitySpecials": {
         "BarrierHP": 0.25,
@@ -1477,94 +1422,87 @@
       "modifiers": {
         "Barrier_Stat": {
           "modifierName": "",
-          "elementDurability": [
-            "BarrierLifeTimeDelta",
-            15.0,
-            "ADD"
-          ],
-          "IPFJJJGABPL": 100.0,
+          "duration": ["BarrierLifeTimeDelta", 15.0, "ADD"],
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_MaxHPRatio": "BarrierHP"
           },
           "onRemoved": [
             {
-              "$type": "NCFFNDHGCMH"
+              "$type": "KillSelf"
             }
           ]
         },
         "Barrier_Material_Timer": {
           "modifierName": "",
-          "elementDurability": 0.05000000074505806,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.05000000074505806,
+          "bonusCritical": 100.0,
           "onRemoved": [
             {
-              "$type": "PELJALPANCA",
+              "$type": "ApplyModifier",
               "modifierName": "Barrier_Material"
             },
             {
-              "$type": "BLCCGIPAOIP",
-              "PLLJBINMGJK": "Start"
+              "$type": "SetAnimatorTrigger",
+              "value": "Start"
             }
           ]
         },
         "Barrier_Material": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "ANLOBBMKNIJ",
-              "rotationDampTime": "Eff_Avatar_RockTide_RockWall",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "AttachEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_RockTide_RockWall",
+              "effectTempleteID": -1.0
             }
           ],
           "onKill": [
             {
-              "$type": "KBFEIHEAMBM",
-              "rotationDampTime": "Eff_Avatar_RockTide_RockWall_Disappear",
-              "PPPDJGDDOGD": 1.0,
-              "AJDILHJFNKE": -1.0
+              "$type": "FireEffect",
+              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_RockTide_RockWall_Disappear",
+              "effectTempleteID": -1.0
             }
           ]
         },
         "Barrier_Damage": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0
+          "bonusCritical": 100.0
         },
         "Barrier_Damage_Modifier": {
           "modifierName": "",
-          "elementDurability": 0.10000000149011612,
-          "IPFJJJGABPL": 100.0,
+          "duration": 0.10000000149011612,
+          "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "AIFPLABJNMA",
+              "$type": "TriggerAttackEvent",
               "target": "Caster",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "BELNOFAKNBA",
+                  "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "IAENDIPDFKD"
+                    "$type": "ConfigBornBySelf"
                   },
-                  "OAHPDLJIADP": 1.0
+                  "radius": 1.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "actorGrassSubHurtDelta": 0.10000000149011612,
-                    "actorWindSubHurtDelta": 0.0,
+                    "damagePercentage": 0.10000000149011612,
+                    "damagePercentageRatio": 0.0,
                     "elementType": "Rock",
                     "elementRank": 1.5,
-                    "IPFJJJGABPL": 25.0,
+                    "bonusCritical": 25.0,
                     "strikeType": "Default",
-                    "enBreak": 10.59000015258789,
-                    "GLKMCMDJBIK": 0.0
+                    "damage": 10.59000015258789,
+                    "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
-                    "hitImpulseY": "",
                     "hitImpulseType": "LV3",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -1577,17 +1515,16 @@
       },
       "onAdded": [
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Barrier_Stat"
         },
         {
-          "$type": "KBFEIHEAMBM",
-          "rotationDampTime": "Eff_Avatar_RockTide_RockWall_Impact",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "$type": "FireEffect",
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_RockTide_RockWall_Impact",
+          "effectTempleteID": -1.0
         },
         {
-          "$type": "PELJALPANCA",
+          "$type": "ApplyModifier",
           "modifierName": "Barrier_Material_Timer"
         }
       ]
@@ -1595,51 +1532,50 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Rock_Avalanche",
       "abilitySpecials": {
         "Avalanche_Damage": 0.6000000238418579
       },
       "onAbilityStart": [
         {
-          "$type": "AIFPLABJNMA",
+          "$type": "TriggerAttackEvent",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Player_Rock_Avalanche"
             }
           ],
           "attackEvent": {
             "attackPattern": {
-              "$type": "BELNOFAKNBA",
+              "$type": "ConfigAttackSphere",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "IAENDIPDFKD",
+                "$type": "ConfigBornBySelf",
                 "offset": {
-                  "KGEPIMHBMOL": 0.0,
-                  "JEBHCGDPFEJ": 1.0,
-                  "LPCHALMFFOD": 1.2000000476837158
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 1.2000000476837158
                 }
               },
-              "OAHPDLJIADP": 2.4000000953674316
+              "radius": 2.4000000953674316
             },
             "attackInfo": {
               "attackTag": "NormalAttack_05",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "actorGrassSubHurtDelta": "Avalanche_Damage",
-                "actorWindSubHurtDelta": 0.0,
+                "damagePercentage": "Avalanche_Damage",
+                "damagePercentageRatio": 0.0,
                 "elementType": "Rock",
-                "IPFJJJGABPL": 25.0,
+                "bonusCritical": 25.0,
                 "strikeType": "Blunt",
-                "enBreak": 13.5,
+                "damage": 13.5,
                 "attackType": "Melee",
-                "GLKMCMDJBIK": 0.0
+                "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
-                "hitImpulseY": "",
                 "hitImpulseType": "LV2",
                 "hitHaltTimeScale": 0.05000000074505806
               },
@@ -1652,16 +1588,15 @@
           "targetType": "Enemy"
         },
         {
-          "$type": "KBFEIHEAMBM",
+          "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "GKDKGMAMGGN",
+              "$type": "ByUnlockTalentParam",
               "talentParam": "Player_Rock_Avalanche"
             }
           ],
-          "rotationDampTime": "Eff_Avatar_RockBlade_Explode",
-          "PPPDJGDDOGD": 1.0,
-          "AJDILHJFNKE": -1.0
+          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_RockBlade_Explode",
+          "effectTempleteID": -1.0
         }
       ],
       "isDynamicAbility": true
@@ -1669,16 +1604,14 @@
   },
   {
     "Default": {
-      "$type": "CBPBEHLOHKI",
+      "$type": "ConfigAbility",
       "abilityName": "Avatar_Player_Rock_Climber",
       "abilityMixins": [
         {
-          "$type": "EKMHJKDLBJH",
-          "stateIDs": [
-            "Climb"
-          ],
+          "$type": "AttachToStateIDMixin",
+          "stateIDs": ["Climb"],
           "modifierName": "Player_Rock_Climber",
-          "DGFCLAIDIFI": ""
+          "BILMCNCKIAO": ""
         }
       ],
       "abilitySpecials": {
@@ -1687,7 +1620,7 @@
       "modifiers": {
         "Player_Rock_Climber": {
           "modifierName": "",
-          "IPFJJJGABPL": 100.0,
+          "bonusCritical": 100.0,
           "properties": {
             "Actor_CostStaminaRatio": "Climber_CostStaminaRatio"
           },

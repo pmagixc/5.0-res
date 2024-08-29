@@ -1,20 +1,20 @@
 {
   "Element_Crystal": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC",
-        "OBEFFBEFICB": 0.4000000059604645
+        "$type": "OMIODKONOMG",
+        "scaleZ": 0.4000000059604645
       }
     },
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -31,27 +31,28 @@
         "dieDisappearEffect": ""
       }
     },
-    "attackAttenuation": "",
-    "DDOEFBHBEPJ": {
-      "HGPCDAIJCNJ": {
-        "EGDOMILHFPA": 3,
-        "BPIDGKFOHCK": 1,
-        "DAANNJELMKI": [6, 10],
-        "LDPDFEMMKKD": 15,
-        "JIDKKIDPCNP": "",
-        "EJIONAJBFEK": 5,
-        "EJKOGAMBFLF": 5
+    "combatTemplate": "",
+    "misc": {
+      "crystal": {
+        "gainSpeed": 3,
+        "drainSpeed": 1,
+        "resonateLevels": [6, 10],
+        "burstResonate": 15,
+        "burstSkill": "",
+        "burstTime": 5,
+        "respawnTime": 5
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "KFHJINNNDPN",
-        "BOPIBFKFKCA": "",
+        "$type": "GBGJJIIEMBD",
+        "layerIndexName": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Burst_Skill": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Ani_Scene_Crystal_Burst_Skill": ["Crystal_Burst_Skill_Wind"]
             }
           }
@@ -73,14 +74,14 @@
     }
   },
   "SearchPoint": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -93,41 +94,43 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "attackAttenuation": "",
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": ""
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SearchPoint_Active"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SearchPoint_Active"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     },
-    "JEMDHNLFOGF": {
-      "APGKCLJCPJN": 2.0,
-      "OHLENMNOCCK": 3.5
+    "intee": {
+      "triggerRadius": 2.0,
+      "triggerHeight": 3.5,
+      "KAMIAMNMFCP": ""
     }
   },
   "SearchPoint_Big": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Quest_SiteInteract"
+      "attachEffect": "Eff_Quest_SiteInteract",
+      "BKPFGNPLDNJ": ""
     },
-    "KNGBEDDABOM": true,
+    "hasModel": true,
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -140,40 +143,41 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "attackAttenuation": "",
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": ""
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SearchPoint_Active"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SearchPoint_Active"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     },
-    "JEMDHNLFOGF": {
-      "APGKCLJCPJN": 2.0,
-      "OHLENMNOCCK": 3.5
+    "intee": {
+      "triggerRadius": 2.0,
+      "triggerHeight": 3.5,
+      "KAMIAMNMFCP": ""
     }
   },
   "SearchPoint_OnWater": {
-    "$type": "IOHCOOOBCPH",
-    "KNGBEDDABOM": true,
+    "$type": "CJKJIENLOHD",
+    "hasModel": true,
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignorePurgeRate": false
+        "canTriggerBullet": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true
+        "muteAllHit": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -185,41 +189,42 @@
         "dieDisappearEffect": ""
       }
     },
-    "attackAttenuation": "",
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": "",
-      "MFKPDAFBPLH": true
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": "",
+      "PBMCACCMPEJ": true
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SceneObj_SearchWater_01"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SceneObj_SearchWater_01"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     },
-    "JEMDHNLFOGF": {
-      "APGKCLJCPJN": 2.0,
-      "OHLENMNOCCK": 3.5
+    "intee": {
+      "triggerRadius": 2.0,
+      "triggerHeight": 3.5,
+      "KAMIAMNMFCP": ""
     }
   },
   "SearchPoint_Rock": {
-    "$type": "IOHCOOOBCPH",
-    "KNGBEDDABOM": true,
+    "$type": "CJKJIENLOHD",
+    "hasModel": true,
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignorePurgeRate": false
+        "canTriggerBullet": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true
+        "muteAllHit": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -231,7 +236,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "SearchPoint_Rock",
@@ -239,41 +244,42 @@
         "abilityOverride": ""
       }
     ],
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": "",
-      "MFKPDAFBPLH": true
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": "",
+      "PBMCACCMPEJ": true
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SearchPoint_Active"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SearchPoint_Active"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_SearchPoint_UW_01": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_SearchPoint_InWater_02"
+      "attachEffect": "Eff_SceneObj_SearchPoint_InWater_02",
+      "BKPFGNPLDNJ": ""
     },
-    "KNGBEDDABOM": true,
+    "hasModel": true,
     "hasAbility": true,
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignorePurgeRate": false
+        "canTriggerBullet": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true
+        "muteAllHit": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -285,32 +291,32 @@
         "dieDisappearEffect": ""
       }
     },
-    "attackAttenuation": "",
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": ""
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SceneObj_SearchPoint_InWater_01"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SceneObj_SearchPoint_InWater_01"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     }
   },
   "SearchPoint_Invisible": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -323,7 +329,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "ability_01",
@@ -331,39 +337,86 @@
         "abilityOverride": ""
       }
     ],
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": ""
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": ""
+    "misc": {
+      "chest": {
+        "openEffect": ""
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     }
   },
-  "SceneObj_Area_Common_Property_Ani_Prop_BGM_01": {
-    "$type": "IOHCOOOBCPH",
-    "model": {
-      "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_BGM_01"
-    },
-    "KNGBEDDABOM": true,
+  "SearchPoint_Invisible_Single": {
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
-        "HP": 99999.0,
+        "hp": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true
+        "hitAutoRedirect": false,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Gadget_Lv1"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "ability_01",
+        "abilityName": "SearchPoint_Invisible",
+        "abilityOverride": ""
+      }
+    ],
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
+      "icon": "",
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": "",
+      "showCondTypesV2": ["SINGLE"]
+    },
+    "misc": {
+      "chest": {
+        "openEffect": ""
+      },
+      "escapeEffect": ""
+    }
+  },
+  "SceneObj_Area_Common_Property_Ani_Prop_BGM_01": {
+    "$type": "CJKJIENLOHD",
+    "model": {
+      "bornEffect": "",
+      "attachEffect": "Eff_SceneObj_BGM_01",
+      "BKPFGNPLDNJ": ""
+    },
+    "hasModel": true,
+    "combat": {
+      "property": {
+        "hp": 99999.0,
+        "weight": 50.0,
+        "isLockHP": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -375,26 +428,27 @@
         "dieDisappearEffect": ""
       }
     },
-    "attackAttenuation": "",
-    "JJENAKLGBNC": {
-      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
-      "ALEGNEJBLAF": "",
-      "JHAIJNHCFPC": "NormalChest",
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
       "icon": "",
-      "KKMMGKBKLNB": "",
-      "GEDPHHDMFAD": "",
-      "NIBCCLBLADB": "",
-      "MFKPDAFBPLH": true
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": "",
+      "PBMCACCMPEJ": true
     },
-    "DDOEFBHBEPJ": {
-      "AFCFPBCEJKH": {
-        "DOIONKMFNCD": "Eff_SearchPoint_Active"
+    "misc": {
+      "chest": {
+        "openEffect": "Eff_SearchPoint_Active"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     },
-    "JEMDHNLFOGF": {
-      "APGKCLJCPJN": 2.0,
-      "OHLENMNOCCK": 3.5
+    "intee": {
+      "triggerRadius": 2.0,
+      "triggerHeight": 3.5,
+      "KAMIAMNMFCP": ""
     }
   }
 }

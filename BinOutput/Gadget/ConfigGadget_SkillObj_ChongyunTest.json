@@ -1,6 +1,6 @@
 {
   "ChongyunTest_TestConeDummy": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -41,7 +41,7 @@
     }
   },
   "Chongyun_IceCrystal": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -87,10 +87,10 @@
     }
   },
   "ChongyunTest_TestBlade": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -123,7 +123,7 @@
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "velocityForce": {
         "muteAll": true
       },
@@ -139,7 +139,7 @@
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 1.0,
@@ -148,27 +148,28 @@
       },
       "triggerActions": [
         {
-          "$type": "EMKCIHFAOJA",
+          "$type": "HILFMFBKIKF",
           "attackInfo": {
             "attackTag": "IceBlades",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "AGMNCBAKCEF": 0.0,
-              "AILJJDMKONE": 0.0,
+              "actorGrassSubHurtDelta": 0.0,
+              "actorWindSubHurtDelta": 0.0,
               "elementType": "Ice",
-              "bonusCriticalHurt": 25.0,
+              "IPFJJJGABPL": 25.0,
               "strikeType": "Default",
               "enBreak": 36.0,
-              "bonusCritical": 0.0
+              "GLKMCMDJBIK": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
+              "hitImpulseY": "",
               "hitImpulseType": "",
               "overrideHitImpulse": {
                 "hitLevel": "Heavy",
-                "DJKONCLKGJH": 200.0,
-                "DKJLLKDHBNJ": 0.0
+                "IMIJMPGJOGG": 200.0,
+                "BPCDKKBKOBM": 0.0
               },
               "hitHaltTimeScale": 0.05000000074505806
             },

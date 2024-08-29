@@ -1,9 +1,9 @@
 {
   "Yaoyao_ExtraAttack_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -38,19 +38,19 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "",
       "followRotation": true,
       "offset": {
         "y": 0.8999999761581421
       },
-      "NGGDECKKKIO": {
+      "HOMINCCNFHE": {
         "z": 1.0
       },
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -61,17 +61,17 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ExtraAttack_Bullet"
         }
       ]
     }
   },
   "Avatar_Yaoyao_Turnip_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -102,14 +102,14 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "MDHEIHLJKNL",
+      "$type": "HEADEKDJIPD",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 20.0,
       "acceleration": 5.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 45.0,
@@ -118,7 +118,7 @@
       "targetDistance": 4.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -129,7 +129,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_Turnip_Bullet"
         }
       ],
@@ -140,10 +140,10 @@
     }
   },
   "Avatar_Yaoyao_Turnip_Bullet_Parabola": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -167,14 +167,16 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 15.0,
       "acceleration": 5.0,
       "angleOffHor": 55.0,
-      "gravityOfAcceleration": 45.0
+      "gravityOfAcceleration": 45.0,
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -190,10 +192,10 @@
     }
   },
   "Avatar_Yaoyao_Turnip": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "affectedByWorld": true
     },
@@ -224,31 +226,31 @@
       "lifeTime": 16.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["WindZoneType", "RetreatType", "RetreatAirType"]
       },
       "startCloseToGround": false
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_Turnip"
         }
       ]
     }
   },
   "Avatar_Yaoyao_Golden_Turnip_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -279,15 +281,15 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "MDHEIHLJKNL",
+      "$type": "HEADEKDJIPD",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 15.0,
       "anglerVelocity": 2900.0,
       "acceleration": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "delay": 0.10000000149011612,
       "angleOffHor": 55.0,
@@ -297,7 +299,7 @@
       "targetDistance": 4.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -308,7 +310,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_Golden_Turnip_Bullet"
         }
       ],
@@ -319,10 +321,10 @@
     }
   },
   "Avatar_Yaoyao_Golden_Turnip": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "affectedByWorld": true
     },
@@ -353,31 +355,31 @@
       "lifeTime": 16.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["WindZoneType", "RetreatType", "RetreatAirType"]
       },
       "startCloseToGround": false
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_Golden_Turnip"
         }
       ]
     }
   },
   "Yaoyao_ElementalArt_Rabbit": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "checkInSurface": true,
       "enableCrashDamage": false
@@ -385,7 +387,8 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -418,7 +421,7 @@
       "lifeTime": 12.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       },
@@ -426,23 +429,23 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Yaoyao_ElementalArt_Rabbit_Born": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Born": []
             }
           },
           "Yaoyao_ElementalArt_Rabbit_Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": ["Yaoyao_ElementalArt_Rabbit_Attack"]
             },
             "cullingModelAlwaysAnimate": true,
-            "enableLeanLayer": true
+            "loopClampNormalizeTime": true
           }
         }
       }
@@ -452,10 +455,10 @@
     }
   },
   "Yaoyao_ElementalArt_Rabbit_Throw": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "affectedByWorld": true
     },
@@ -489,14 +492,16 @@
       "lifeTime": 10.199999809265137
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 18.0,
       "syncToRemote": true,
       "gravityOfAcceleration": 30.0,
-      "useInitForwardIgnoreAngleOffHor": true
+      "useInitForwardIgnoreAngleOffHor": true,
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -506,7 +511,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalArt_Rabbit_Throw"
         }
       ],
@@ -514,10 +519,10 @@
     }
   },
   "Yaoyao_ElementalArt_Rabbit_Throw_Short": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "affectedByWorld": true
     },
@@ -551,14 +556,16 @@
       "lifeTime": 10.199999809265137
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 8.5,
       "syncToRemote": true,
       "angleOffHor": 60.0,
-      "gravityOfAcceleration": 30.0
+      "gravityOfAcceleration": 30.0,
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -568,7 +575,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalArt_Rabbit_Throw"
         }
       ],
@@ -576,10 +583,10 @@
     }
   },
   "Yaoyao_ElementalBurst_Rabbit": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "checkInSurface": true,
       "enableCrashDamage": false
@@ -587,7 +594,8 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -620,29 +628,29 @@
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Yaoyao_ElementalArt_Rabbit_Idle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Idle": []
             }
           },
           "Yaoyao_ElementalArt_Rabbit_Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": ["Yaoyao_ElementalBurst_Rabbit_Attack"]
             },
-            "enableLeanLayer": true
+            "loopClampNormalizeTime": true
           }
         }
       }
@@ -652,10 +660,10 @@
     }
   },
   "Yaoyao_ElementalBurst_Rabbit_Throw": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleX": 2.4000000953674316,
         "scaleY": 2.4000000953674316,
         "scaleZ": 2.4000000953674316
@@ -692,16 +700,18 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 6.0,
       "acceleration": 1.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
-      "gravityOfAcceleration": 25.0
+      "gravityOfAcceleration": 25.0,
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -711,24 +721,25 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalBurst_Rabbit_Throw"
         }
       ]
     }
   },
   "Yaoyao_ElementalBurst_Rabbit_Throw_Pre": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "enableCrashDamage": false
     },
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -761,17 +772,17 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "PRIVATE_Back",
       "followOwnerInvisible": true,
       "followPositionSmoothedDampTimeX": 0.11999999731779099,
       "followPositionSmoothedDampTimeY": 0.18000000715255737,
       "followPositionSmoothedDampTimeZ": 0.11999999731779099,
       "followRotationSmoothedDampTime": 0.5,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -781,13 +792,13 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalBurst_Rabbit_Throw_Pre"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalBurst_Rabbit_Throw_Pre"
         }
       ]
@@ -798,10 +809,10 @@
     "canRemoveByClient": true
   },
   "Yaoyao_ElementalBurst_Rabbit_Throw_Pre_BulletTrigger": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "enableCrashDamage": false
     },
@@ -835,14 +846,14 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "BulletTrigger",
       "followOwnerInvisible": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -852,7 +863,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Yaoyao_ElementalBurst_Rabbit_Throw_Pre_BulletTrigger"
         }
       ]

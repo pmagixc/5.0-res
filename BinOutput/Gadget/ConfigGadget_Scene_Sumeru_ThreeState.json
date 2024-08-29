@@ -1,9 +1,9 @@
 {
   "SceneObj_Area_Xm_Property_Ani_Prop_XuMiVisualizationplant_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -50,16 +50,16 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Withered": [],
               "Normal": [],
@@ -73,10 +73,10 @@
     "openWatcher": true
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_XuMiBombmushroom_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -142,18 +142,18 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Normal": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "AttackLoop": ["Gadget_Bombmushroom_Attack01"]
             }
           },
           "Excited": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ActiveBS": [],
               "ActiveLoop": [],
@@ -166,10 +166,10 @@
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_JumpMushroom_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -216,12 +216,12 @@
       }
     ],
     "move": {
-      "$type": "FMPBGCJJHLL",
+      "$type": "IDIPBKCPBDP",
       "attachPoint": "MoguCollider"
     },
     "misc": {
       "forceField": {
-        "$type": "JDGDKOHJIMK",
+        "$type": "JJKKHJJMEFJ",
         "specialTipsIconPath": "",
         "colliderWhiteList": ["InteeTrigger"],
         "horizonValRatio": 0.10000000149011612,
@@ -232,12 +232,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Jump": ["TrampolineJump"],
               "ToWithered": ["Audio_SceneObj_JumpMushroom_01_Dis"],
@@ -252,10 +252,10 @@
     "openWatcher": true
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_XuMiLifeMushroom_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -268,7 +268,8 @@
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_Small"
+      "attachEffect": "Eff_Item_Hint_Small",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -319,26 +320,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "LKMJGOPHAPM",
+          "$type": "PIHDGPJLCIL",
           "materialID": 101212
         },
         {
-          "$type": "LKMJGOPHAPM",
-          "FKJCCMPLHIJ": "ExcitedState",
+          "$type": "PIHDGPJLCIL",
+          "triggerID": "ExcitedState",
           "materialID": 101226
         },
         {
-          "$type": "LKMJGOPHAPM",
-          "FKJCCMPLHIJ": "DestroyState",
+          "$type": "PIHDGPJLCIL",
+          "triggerID": "DestroyState",
           "materialID": 101227
         },
         {
-          "$type": "LKMJGOPHAPM",
-          "FKJCCMPLHIJ": "CrystalResonate1",
+          "$type": "PIHDGPJLCIL",
+          "triggerID": "CrystalResonate1",
           "materialID": 101227
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -347,10 +348,10 @@
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_XuMiRisingShitou_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -397,17 +398,17 @@
       }
     ],
     "move": {
-      "$type": "FMPBGCJJHLL",
+      "$type": "IDIPBKCPBDP",
       "attachPoint": "ColliderRoot"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "HasHitBox": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Withered": [],
               "Normal": [],
@@ -415,7 +416,7 @@
             }
           },
           "NoHitBox": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "WtoN": ["Gadget_XuMiRisingShitou_WtoN"],
               "NtoW": ["Gadget_XuMiRisingShitou_NtoW"],
@@ -429,10 +430,10 @@
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Xm_Property_Prop_DreamlandFlower_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -488,10 +489,10 @@
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Lens_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true,
@@ -506,7 +507,8 @@
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Lens_01"
+      "attachEffect": "Eff_SceneObj_Lens_01",
+      "BKPFGNPLDNJ": ""
     },
     "globalValue": {
       "serverGlobalValues": [

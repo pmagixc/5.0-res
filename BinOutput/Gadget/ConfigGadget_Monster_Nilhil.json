@@ -1,9 +1,9 @@
 {
   "Nihil_Born_Gadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -36,10 +36,10 @@
     }
   },
   "Nihil_GoodKid_BeforeBattle": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "disableTickDistance": 10000.0
     },
@@ -98,10 +98,10 @@
     }
   },
   "Nihil_GoodKid_BeforeBattle2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "disableTickDistance": 10000.0
     },
@@ -160,10 +160,10 @@
     }
   },
   "Nihil_GoodKid_BeforeBattle3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "disableTickDistance": 10000.0
     },
@@ -222,10 +222,10 @@
     }
   },
   "Nihil_GoodKid_Standby": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "disableTickDistance": 10000.0
     },
@@ -259,10 +259,10 @@
     }
   },
   "Nihil_BadKid_Standby": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "disableTickDistance": 10000.0
     },
@@ -296,10 +296,10 @@
     }
   },
   "Nihil_Harbinger_MustKill_Pos": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -338,7 +338,7 @@
     }
   },
   "Nihil_RushAtk_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -369,7 +369,7 @@
       "lifeTime": 5.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -380,7 +380,7 @@
     }
   },
   "Nihil_ThrowAtk_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -411,14 +411,14 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "WeaponR",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always",
@@ -429,15 +429,47 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_ThrowAttack_BulletDamage"
         }
       ]
     },
     "useRetreatType": true
   },
+  "Nihil_DonimatAttack_Control": {
+    "$type": "CJKJIENLOHD",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_Nihil_DominateAttack_Control",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 9.0
+    }
+  },
   "Nihil_DonimatAttack_Dam1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -468,7 +500,7 @@
       "lifeTime": 0.30000001192092896
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -478,14 +510,14 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_DominateAttack_Area1"
         }
       ]
     }
   },
   "Nihil_DonimatAttack_Dam2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -516,7 +548,7 @@
       "lifeTime": 0.30000001192092896
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -526,14 +558,14 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_DominateAttack_Area2"
         }
       ]
     }
   },
   "Nihil_WalkSilk_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -564,14 +596,14 @@
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -581,17 +613,17 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_WalkSilkAttack_Bullet"
         }
       ]
     }
   },
   "Nihil_MustKill_ThrowSpearNormal": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -619,7 +651,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.20000000298023224,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -639,37 +671,37 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet1"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet_LifeOverExplode"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_NormalSpear_Around"
       }
     }
   },
   "Nihil_MustKill_ThrowSpearNormal_Around": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -697,7 +729,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.20000000298023224,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -717,37 +749,37 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet1"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet_LifeOverExplode"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_NormalSpear2_Around"
       }
     }
   },
   "Nihil_MustKill_FinalSpear": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -783,7 +815,7 @@
     }
   },
   "Nihil_WalkSilk_ShadowBullet1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -815,14 +847,14 @@
       "lifeTime": 2.309999942779541
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "excludeForces": ["WindZoneType", "RetreatAirType", "RetreatType"]
       },
       "useAniamtorVelocity": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -832,14 +864,14 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_WalkSilk_Shadow_Bullet1"
         }
       ]
     }
   },
   "Nihil_WalkSilk_ShadowBullet2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -871,14 +903,14 @@
       "lifeTime": 2.309999942779541
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "excludeForces": ["WindZoneType", "RetreatAirType", "RetreatType"]
       },
       "useAniamtorVelocity": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -888,17 +920,17 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_WalkSilk_Shadow_Bullet2"
         }
       ]
     }
   },
   "Nihil_Harbinger_MustKill_MultiBulletAppear": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -923,7 +955,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.20000000298023224,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -943,36 +975,36 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet1"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet_LifeOverExplode"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_NormalSpear"
       }
     }
   },
   "Nihil_Harbinger_MustKill_MultiBulletGround": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -997,7 +1029,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.20000000298023224,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -1017,36 +1049,36 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet2"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBullet_LifeOverExplode"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_NormalSpear2"
       }
     }
   },
   "Nihil_Harbinger_MustKill_MultiBulletFinal": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1071,7 +1103,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -1091,31 +1123,31 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBulletFinal"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_FinalSpear"
       }
     }
   },
   "Nihil_Harbinger_MustKill_MultiBulletFinal2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1140,7 +1172,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -1160,31 +1192,31 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBulletFinal"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_FinalSpear2"
       }
     }
   },
   "Nihil_Harbinger_MustKill_MultiBulletFinal3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1209,7 +1241,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612,
-        "OGOCKKBFBDG": 0.10000000149011612
+        "NHHHFPLNPGJ": 0.10000000149011612
       }
     },
     "combatTemplate": "",
@@ -1224,31 +1256,31 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Harbinger_MustKill_MultiBulletFinal"
         }
       ],
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Nihil_MustKill_FinalSpear3"
       }
     }
   },
   "Nihil_Story_HelpSkillHandler": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1287,10 +1319,10 @@
     }
   },
   "Nihil_Story_HelpSkill_Arrow": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1326,39 +1358,39 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 25.0,
       "maxSpeed": 25.0,
       "anglerVelocity": 3000.0,
       "acceleration": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "delay": 0.5,
-      "DOJLHPPLCHD": 0.5,
-      "LKFFGHFCJKG": 720.0,
+      "PIFNKDIHEIG": 0.5,
+      "EIHBHBLDOGP": 720.0,
       "guidanceMinAnglerVelocity": 300.0,
       "guidanceDuration": 3.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Nihil_Story_HelpSkill_Arrow"
         }
       ]
     }
   },
   "Nihil_Story_HelpSkill_RushAtk": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1395,10 +1427,10 @@
     }
   },
   "Nihil_Story_HelpSkill_Bomb": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1435,10 +1467,10 @@
     }
   },
   "Nihil_FollowWarning": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -1461,19 +1493,19 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "GMLMHJGAGHM": true,
-      "FFGOMBFFBFB": "_GO_FOLLOW"
+      "DFIMBMIEJMJ": true,
+      "LFOHLEKJFBI": "_GO_FOLLOW"
     }
   },
   "Nihil_SnapWave_SoundBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "mass": 100000.0
     },
@@ -1508,7 +1540,7 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 15.0
     }
   }

@@ -1,9 +1,10 @@
 {
   "SceneObj_Level_Common_Property_Ani_Prop_MuqadasPotionV2_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Gear_ElementDungeon_Operator"
+      "attachEffect": "Eff_Gear_ElementDungeon_Operator",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -68,31 +69,31 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "GLGHFICHFLC",
+          "$type": "OLDOOKBEKJI",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Gear_ElementDungeon_Operator"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStop",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStop",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_Gear_ElementDungeon_Operator"
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     }

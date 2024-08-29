@@ -1,9 +1,9 @@
 {
   "Qiqi_ElementalArt": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "hasModel": true,
@@ -28,31 +28,32 @@
       "animEvents": {
         "ELEMENTAL_ART": {
           "attackPattern": {
-            "$type": "ABPNLDBPPHF",
+            "$type": "GMDIMKKHACA",
             "triggerType": "TriggerNoRepeat",
             "height": 1.0,
-            "IDLDJCPGNHD": 2.5
+            "OAHPDLJIADP": 2.5
           },
           "attackInfo": {
             "attackTag": "Elemental_Art",
             "attenuationTag": "Elemental_Art",
             "attenuationGroup": "default",
             "attackProperty": {
-              "AGMNCBAKCEF": 0.30000001192092896,
-              "AILJJDMKONE": 0.0,
+              "actorGrassSubHurtDelta": 0.30000001192092896,
+              "actorWindSubHurtDelta": 0.0,
               "elementType": "Ice",
-              "bonusCriticalHurt": 25.0,
+              "IPFJJJGABPL": 25.0,
               "strikeType": "Default",
               "enBreak": 80.0,
-              "bonusCritical": 0.0
+              "GLKMCMDJBIK": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "Eff_Qiqi_ElementalArt_Bullet_Hit",
+              "hitImpulseY": "",
               "hitImpulseType": "",
               "overrideHitImpulse": {
                 "hitLevel": "Light",
-                "DJKONCLKGJH": 600.0,
-                "DKJLLKDHBNJ": 400.0
+                "IMIJMPGJOGG": 600.0,
+                "BPCDKKBKOBM": 400.0
               },
               "retreatType": "ByHitDirection",
               "hitHaltTime": 0.05000000074505806,
@@ -76,17 +77,17 @@
       "lifeTime": 25.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "",
       "followRotation": true,
-      "NGGDECKKKIO": {
+      "HOMINCCNFHE": {
         "z": 1.0
       },
       "followOwnerInvisible": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -95,26 +96,26 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Qiqi_ElementalArt_Bullet"
         }
       ]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "SkillObj_Qiqi_ElementalArt": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "SkillObj_Qiqi_ElementalArt": ["SkillObj_Qiqi_ElementalArt"]
             },
             "cullingModelAlwaysAnimate": true
           },
           "Wait": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Wait": []
             },

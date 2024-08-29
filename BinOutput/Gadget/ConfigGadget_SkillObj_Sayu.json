@@ -1,9 +1,9 @@
 {
   "Sayu_ElementalArt_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -39,13 +39,13 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "RootNode",
       "followOwnerInvisible": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -57,17 +57,17 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Sayu_ElementalArt_Bullet"
         }
       ]
     }
   },
   "Sayu_ElementalArt_Roll_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -108,13 +108,13 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "attachPoint": "RootNode",
       "followOwnerInvisible": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -126,17 +126,17 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Avatar_Sayu_ElementalArt_Roll_Bullet"
         }
       ]
     }
   },
   "Sayu_ElementalBurst_Phantom": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       },
       "checkInSurface": true,
       "enableCrashDamage": false
@@ -144,7 +144,8 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -178,44 +179,44 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Sayu_Phantom_Born": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Sayu_Phantom_Born": ["Sayu_Phantom_Born"],
               "Sayu_Phantom_Born_BS": ["Sayu_Phantom_Born"]
             }
           },
           "Sayu_Phantom_Idle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Sayu_Phantom_Idle": ["Sayu_Phantom_Idle"]
             }
           },
           "Sayu_Phantom_Heal": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Sayu_Phantom_Heal": ["Sayu_Phantom_Heal"]
             }
           },
           "Sayu_Phantom_Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Sayu_Phantom_Attack": ["Sayu_Phantom_Attack"]
             }
           },
           "Sayu_Phantom_Break": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Sayu_Phantom_Break": ["Sayu_Phantom_Break"]
             }

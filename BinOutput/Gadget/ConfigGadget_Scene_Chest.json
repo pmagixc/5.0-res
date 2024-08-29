@@ -1,6 +1,6 @@
 {
   "SceneObj_Chest_Flora": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 3000.0
     },
@@ -62,30 +62,30 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Open": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": []
             }
           },
           "InIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Idle": []
             }
           },
           "FloraBorn": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Born": []
             }
           },
           "InVisible": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Buffer": []
             }
@@ -96,7 +96,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -104,10 +104,11 @@
     }
   },
   "SceneObj_Chest_Default_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -166,12 +167,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -183,16 +184,16 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -200,13 +201,14 @@
     }
   },
   "SceneObj_Chest_Locked_Lv1_FollowMove": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -242,12 +244,12 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
       "handleInLateTick": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -273,12 +275,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -290,21 +292,21 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "syncState": true
         }
@@ -312,10 +314,11 @@
     }
   },
   "SceneObj_Chest_Default_Lv1_AboveWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": "Eff_SceneObj_ChestFloatingWave_01"
+      "attachEffect": "Eff_SceneObj_ChestFloatingWave_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -374,12 +377,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -391,16 +394,16 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -408,7 +411,7 @@
     }
   },
   "SceneObj_Chest_Default_Lv1_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -455,23 +458,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV1",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -485,12 +488,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -502,16 +505,16 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -519,10 +522,11 @@
     }
   },
   "SceneObj_Chest_Default_Lv1_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_01",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -564,19 +568,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV1",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -590,12 +594,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -607,16 +611,16 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -624,10 +628,11 @@
     }
   },
   "SceneObj_Chest_Default_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -686,12 +691,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -703,18 +708,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv2_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -761,23 +766,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV2",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV2",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV2",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV2",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV2",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -791,12 +796,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -808,21 +813,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv2_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_02",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -864,19 +870,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV2",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -890,12 +896,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -907,21 +913,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -980,12 +987,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -997,18 +1004,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv3_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1055,23 +1062,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV3",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV3",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV3",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV3",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV3",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1085,12 +1092,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1102,21 +1109,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv3_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_02",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -1158,19 +1166,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV3",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1184,12 +1192,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1201,21 +1209,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1274,12 +1283,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1291,18 +1300,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv4_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1349,23 +1358,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV4",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV4",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV4",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV4",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV4",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1379,12 +1388,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1396,21 +1405,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv4_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_04",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -1452,19 +1462,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV4",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1478,12 +1488,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1495,21 +1505,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1568,12 +1579,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1585,18 +1596,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv5_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1643,23 +1654,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV5",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV5",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV5",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV5",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV5",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1673,12 +1684,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1690,21 +1701,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_Default_Lv5_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_05",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -1746,23 +1758,23 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV5",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": ""
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": ""
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -1776,12 +1788,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1793,24 +1805,25 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Chest_DefaultFollowMove_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1846,11 +1859,11 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -1876,12 +1889,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -1893,12 +1906,12 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     },
@@ -1908,17 +1921,18 @@
       "triggerOffset": {
         "y": 1.5
       },
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Chest_DefaultFollowMove_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1954,11 +1968,11 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -1984,12 +1998,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -2001,12 +2015,12 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     },
@@ -2016,14 +2030,15 @@
       "triggerOffset": {
         "y": 1.5
       },
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Chest_Locked_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -2075,12 +2090,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2088,7 +2103,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -2099,26 +2114,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -2126,10 +2141,11 @@
     }
   },
   "SceneObj_Chest_Locked_Lv1_AboveWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": "Eff_SceneObj_ChestFloatingWave_01"
+      "attachEffect": "Eff_SceneObj_ChestFloatingWave_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -2181,12 +2197,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2194,7 +2210,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -2205,26 +2221,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -2232,7 +2248,7 @@
     }
   },
   "SceneObj_Chest_Locked_Lv1_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2279,23 +2295,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV1",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -2309,12 +2325,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2322,7 +2338,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -2333,26 +2349,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -2360,10 +2376,11 @@
     }
   },
   "SceneObj_Chest_Locked_Lv1_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_01",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -2405,19 +2422,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV1",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -2431,12 +2448,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2444,7 +2461,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -2455,26 +2472,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "ChestOpened",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "ChestOpened",
           "parameter": "Disappear",
           "rotationDampTime": "Eff_SceneObj_ChestFloatingWave_01"
         }
@@ -2482,10 +2499,11 @@
     }
   },
   "SceneObj_Chest_Locked_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -2537,12 +2555,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2550,7 +2568,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -2561,34 +2579,35 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv2_FollowMove": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -2624,12 +2643,12 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
       "handleInLateTick": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -2655,12 +2674,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -2672,15 +2691,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "syncState": true
         }
@@ -2692,11 +2711,11 @@
       "triggerOffset": {
         "y": 1.5
       },
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Chest_Locked_Lv2_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2743,23 +2762,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV2",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV2",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV2",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV2",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV2",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -2773,12 +2792,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2786,7 +2805,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -2797,31 +2816,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv2_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_02",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -2863,19 +2883,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV2",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -2889,12 +2909,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -2902,7 +2922,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -2913,34 +2933,35 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv2_RemusLanternFish": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_02",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -2970,13 +2991,13 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
       "syncTransToServer": true,
       "handleInLateTick": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -2991,19 +3012,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV2",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01_Floating",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01_Floating",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01_Floating",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01_Floating",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -3017,12 +3038,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3030,7 +3051,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -3041,31 +3062,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -3117,12 +3139,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3130,7 +3152,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -3141,28 +3163,28 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv3_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3209,23 +3231,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV3",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV3",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV3",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV3",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV3",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -3239,12 +3261,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3252,7 +3274,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -3263,31 +3285,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv3_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_02",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -3329,19 +3352,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV3",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -3355,12 +3378,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3368,7 +3391,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -3379,31 +3402,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -3455,12 +3479,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3468,7 +3492,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -3479,34 +3503,35 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv4_FollowMove": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -3542,12 +3567,12 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
       "handleInLateTick": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -3573,12 +3598,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -3590,15 +3615,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "syncState": true
         }
@@ -3610,11 +3635,11 @@
       "triggerOffset": {
         "y": 1.5
       },
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Chest_Locked_Lv4_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3661,23 +3686,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV4",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV4",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV4",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV4",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV4",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -3691,12 +3716,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3704,7 +3729,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -3715,31 +3740,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv4_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_04",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -3781,19 +3807,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV4",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -3807,12 +3833,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3820,7 +3846,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -3831,31 +3857,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -3907,12 +3934,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -3920,7 +3947,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -3931,28 +3958,28 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv5_Amphibious": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3999,23 +4026,23 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV5",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "Default": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_Item_SpecialTreasureBox_Born"
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_Item_SpecialTreasureBox_Born"
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV5",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV5",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV5",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV5",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -4029,12 +4056,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -4042,7 +4069,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -4053,31 +4080,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv5_UnderWater": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_FloatingChestSpray_05",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "hasAbility": true,
@@ -4119,19 +4147,19 @@
       "chest": {
         "openEffect": "Eff_SceneObj_FloatingChest_LV5",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -4145,12 +4173,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -4158,7 +4186,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock_UW"]
             }
@@ -4169,31 +4197,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Locked_Lv6": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4234,24 +4263,24 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous_LV5",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "AboveWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_ChestFloatingWave_01",
-            "BJPHIJALKBA": true
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_ChestFloatingWave_01",
+            "LLCNLIDPFDJ": true
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -4265,12 +4294,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"],
@@ -4278,7 +4307,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock"]
             }
@@ -4289,21 +4318,21 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
@@ -4313,14 +4342,14 @@
         "y": 1.2000000476837158,
         "z": 2.200000047683716
       },
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Chest_Bramble_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -4328,7 +4357,8 @@
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4388,12 +4418,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4405,10 +4435,10 @@
     }
   },
   "SceneObj_Chest_Bramble_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -4416,7 +4446,8 @@
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4476,12 +4507,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4493,10 +4524,10 @@
     }
   },
   "SceneObj_Chest_Bramble_Lv3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -4504,7 +4535,8 @@
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4564,12 +4596,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4581,10 +4613,10 @@
     }
   },
   "SceneObj_Chest_Bramble_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -4592,7 +4624,8 @@
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4652,12 +4685,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4669,10 +4702,10 @@
     }
   },
   "SceneObj_Chest_Bramble_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -4680,7 +4713,8 @@
     },
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4740,12 +4774,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4757,10 +4791,11 @@
     }
   },
   "SceneObj_Chest_Rock_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4820,12 +4855,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Middle": ["HideCollider"],
@@ -4837,7 +4872,7 @@
       }
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.5
@@ -4849,10 +4884,11 @@
     }
   },
   "SceneObj_Chest_Frozen_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4912,12 +4948,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -4929,10 +4965,11 @@
     }
   },
   "SceneObj_Chest_Frozen_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -4992,12 +5029,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -5009,10 +5046,11 @@
     }
   },
   "SceneObj_Chest_Frozen_Lv3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5072,12 +5110,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -5089,10 +5127,11 @@
     }
   },
   "SceneObj_Chest_Frozen_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5152,12 +5191,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -5169,10 +5208,11 @@
     }
   },
   "SceneObj_Chest_Frozen_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5232,12 +5272,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EffectInvisible"],
               "Special_State": [],
@@ -5249,10 +5289,10 @@
     }
   },
   "SceneObj_Chest_NormalChest": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "mass": 500.0,
@@ -5307,24 +5347,24 @@
       "chest": {
         "openEffect": "Eff_Chest_Open_Continuous",
         "triggerOpenChestVo": true,
-        "FMKAAHKNKBC": {
+        "PMHPJGHILMC": {
           "AboveWaterFloat": {
-            "OEDGIMIOJFB": "",
-            "CKPMLBFLLMI": "Eff_SceneObj_ChestFloatingWave_01",
-            "BJPHIJALKBA": true
+            "AGHNMGBNICP": "",
+            "GCEDHOHPJBF": "Eff_SceneObj_ChestFloatingWave_01",
+            "LLCNLIDPFDJ": true
           },
           "UnderWaterFloat": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "BJPHIJALKBA": true,
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "LLCNLIDPFDJ": true,
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           },
           "UnderWater": {
-            "OEDGIMIOJFB": "Eff_SceneObj_FloatingChest_LV1",
-            "CKPMLBFLLMI": "Eff_SceneObj_FloatingChest_01",
-            "JKADKAOMNFC": 5.0,
-            "APABPEOFFKD": 5.0
+            "AGHNMGBNICP": "Eff_SceneObj_FloatingChest_LV1",
+            "GCEDHOHPJBF": "Eff_SceneObj_FloatingChest_01",
+            "OMMMIJJOMPK": 5.0,
+            "AHMFAPIOLEN": 5.0
           }
         }
       },
@@ -5337,12 +5377,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "000_Default": ["Chest_State_Clear"],
               "101_LockState": [],
@@ -5359,10 +5399,10 @@
     }
   },
   "SceneObj_Chest_Test_FM02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "mass": 500.0,
@@ -5405,11 +5445,11 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "FollowMove02",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -5429,12 +5469,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "000_Default": ["Chest_State_Clear"],
               "101_LockState": ["Chest_State_Clear"],
@@ -5448,10 +5488,10 @@
     }
   },
   "SceneObj_Chest_Drop_Chest": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "mass": 500.0,
@@ -5525,7 +5565,7 @@
     }
   },
   "SceneObj_Chest_Hero_Treasure": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5584,12 +5624,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Success": ["Hero_Treasure_Middle"]
             }
@@ -5600,42 +5640,43 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearAction2"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearAction2"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "Action01"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "Action01"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestOpened"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestOpened"
         }
       ]
     }
   },
   "SceneObj_Chest_Empty": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5693,10 +5734,11 @@
     }
   },
   "SceneObj_Chest_RigidMove_WhiteBox": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5733,7 +5775,7 @@
       }
     ],
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
@@ -5761,10 +5803,10 @@
     }
   },
   "SceneObj_Chest_FollowMove_Chest": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "FINCJGEJBLH",
+        "$type": "OMCHDAEMBOG",
         "mesh": "EffectMesh"
       },
       "mass": 500.0,
@@ -5807,11 +5849,11 @@
       }
     ],
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "GroupGadgetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -5836,12 +5878,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "000_Default": ["Chest_State_Clear"],
               "101_LockState": [],
@@ -5858,10 +5900,11 @@
     }
   },
   "SceneObj_Chest_Calibur_Mitsurugi": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_DropWeapon_Lv3"
+      "attachEffect": "Eff_DropWeapon_Lv3",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5904,10 +5947,11 @@
     }
   },
   "SceneObj_Chest_Carlibur_Noire": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_DragonNest_Tornado_Bullet_SlowDown"
+      "attachEffect": "Eff_DragonNest_Tornado_Bullet_SlowDown",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -5950,7 +5994,7 @@
     }
   },
   "SceneObj_Chest_Wendy_Sword": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5987,10 +6031,11 @@
     ]
   },
   "SceneObj_Chest_Relic": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_QuestGuide_Position"
+      "attachEffect": "Eff_QuestGuide_Position",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6033,10 +6078,58 @@
     }
   },
   "SceneObj_Chest_Relic02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_DropWeapon_Lv4"
+      "attachEffect": "Eff_DropWeapon_Lv4",
+      "BKPFGNPLDNJ": ""
+    },
+    "hasModel": true,
+    "combat": {
+      "property": {
+        "hp": 99999.0,
+        "weight": 50.0,
+        "isLockHP": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Gadget_Lv1"
+      }
+    },
+    "combatTemplate": "",
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
+      "icon": "",
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
+    },
+    "misc": {
+      "chest": {
+        "openEffect": ""
+      },
+      "pickup": {
+        "bornEffect": "",
+        "dropEffect": "",
+        "attractAudio": ""
+      },
+      "escapeEffect": ""
+    }
+  },
+  "SceneObj_Chest_Relic03": {
+    "$type": "CJKJIENLOHD",
+    "model": {
+      "bornEffect": "",
+      "attachEffect": "Eff_DropWeapon_Lv5",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6079,10 +6172,11 @@
     }
   },
   "SceneObj_Chest_TreasureMap": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6141,12 +6235,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
@@ -6158,21 +6252,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Default_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6231,12 +6326,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6251,21 +6346,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Default_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6324,12 +6420,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6344,21 +6440,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Default_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6417,12 +6514,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6437,21 +6534,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Default_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6510,12 +6608,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6530,21 +6628,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Locked_Lv1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6596,12 +6695,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6612,7 +6711,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock", "EssenceChest_Lock"]
             }
@@ -6623,31 +6722,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Locked_Lv2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6699,12 +6799,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6715,7 +6815,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock", "EssenceChest_Lock"]
             }
@@ -6726,31 +6826,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Locked_Lv4": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6802,12 +6903,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6818,7 +6919,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock", "EssenceChest_Lock"]
             }
@@ -6829,31 +6930,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_EssenceChest_Locked_Lv5": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -6905,12 +7007,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Default": ["EssenceChest_Lock"],
               "ChestOpen": [
@@ -6921,7 +7023,7 @@
             }
           },
           "Lock": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Special_State": ["Chest_Lock", "EssenceChest_Lock"]
             }
@@ -6932,31 +7034,32 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GEPCCLANDFB",
-          "FKJCCMPLHIJ": "ChestLocked",
+          "$type": "FJGKLJLPOGL",
+          "triggerID": "ChestLocked",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Chest_Hero": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -7009,22 +7112,23 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         }
       ]
     }
   },
   "SceneObj_Chest_Hero_03": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -7077,22 +7181,23 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         }
       ]
     }
   },
   "SceneObj_Chest_Hero_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -7145,19 +7250,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_LaylineShard_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -7207,18 +7312,18 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "ChestNoOpenState": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestNoOpen": []
             }
           },
           "ChestOpenState": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": ["LayLineShard_Open"]
             }
@@ -7229,11 +7334,11 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE"
+          "$type": "DEMJBAICBKO"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart",
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart",
           "enable": true
         }
       ]
@@ -7241,14 +7346,15 @@
     "intee": {
       "triggerRadius": 4.0,
       "triggerHeight": 6.0,
-      "MMOOJIADAEN": ""
+      "KAMIAMNMFCP": ""
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_JunkChest_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -7305,18 +7411,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }
   },
   "SceneObj_Area_Xm_Property_Prop_SumeruCrudeChest_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7372,12 +7478,85 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
+        }
+      ]
+    }
+  },
+  "SceneObj_Area_Nt_Property_Prop_NataCrudeChest_01": {
+    "$type": "CJKJIENLOHD",
+    "model": {
+      "bornEffect": "",
+      "attachEffect": "Eff_SceneObj_NataCrudeChest_Idle",
+      "KOCEMHIPJOP": true,
+      "BKPFGNPLDNJ": ""
+    },
+    "hasModel": true,
+    "combat": {
+      "property": {
+        "hp": 99999.0,
+        "weight": 50.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Gadget_Lv1"
+      },
+      "die": {
+        "dieForceDisappearTime": 0.0,
+        "dieDisappearEffect": "Eff_SceneObj_NataCrudeChest_Open"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "SceneObj_Area_Nt_Property_Prop_NataCrudeChest_01",
+        "abilityName": "SceneObj_Area_Nt_Property_Prop_NataCrudeChest_01",
+        "abilityOverride": ""
+      }
+    ],
+    "uiInteract": {
+      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
+      "uiName": "",
+      "onTouch": "NormalChest",
+      "icon": "",
+      "groupName": "",
+      "confirmDialogTitle": "",
+      "confirmDialogContent": ""
+    },
+    "misc": {
+      "chest": {
+        "openEffect": ""
+      },
+      "pickup": {
+        "bornEffect": "",
+        "dropEffect": "",
+        "attractAudio": ""
+      },
+      "escapeEffect": "",
+      "targetIndicatorYOffset": 1.7000000476837158
+    },
+    "gadgetAction": {
+      "gadgetStateActionList": [
+        {
+          "$type": "DEMJBAICBKO",
+          "enable": true
+        },
+        {
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         }
       ]
     }

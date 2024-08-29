@@ -1,6 +1,6 @@
 {
   "SceneObj_MichiaeMatsuri_Bullet_WhiteBox": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -42,23 +42,23 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 5.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Alliance"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_MichiaeMatsuri_Bullet_WhiteBox"
         }
       ],
@@ -66,7 +66,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_RayShooter": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -103,7 +103,7 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_RayPuzzle_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -115,7 +115,7 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_Mirror": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -146,11 +146,11 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_Mirror_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -175,7 +175,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_Absorb": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -208,7 +208,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -216,7 +216,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_HuaRongDaoPlat": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "overrideCullBoundsRadius": 150.0,
       "disableTickDistance": 1500.0
@@ -272,14 +272,15 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_HuaRongDaoPlat_Pickup": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_Small"
+      "attachEffect": "Eff_Item_Hint_Small",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": "",
@@ -295,7 +296,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_HuaRongDaoPlat_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -307,19 +308,21 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_HuaRongDaoPlat_Center": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_MuralPuzzlePiece_01_UnitAppear",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_MichiaeMatsuri_HuaRongDaoPlat_CreateEff": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_SceneObj_MuralPuzzlePiece_01_Appear",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": "",
@@ -332,7 +335,7 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_Challengestarter_Circle": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeLockOn",
     "abilities": [
@@ -358,52 +361,52 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "GLGHFICHFLC",
+          "$type": "OLDOOKBEKJI",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStart",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStop",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearAction2"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearAction2"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     },
     "billboard": {
-      "$type": "AEEMGNKHEDI",
+      "$type": "KMCIKEIBFAH",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 3.0
@@ -411,7 +414,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_Challengestarter_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeLockOn",
     "abilities": [
@@ -441,49 +444,49 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "GLGHFICHFLC",
+          "$type": "OLDOOKBEKJI",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStart",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStop",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearAction2"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearAction2"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Challengestarter_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeLockOn",
     "abilities": [
@@ -513,49 +516,49 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "GLGHFICHFLC",
+          "$type": "OLDOOKBEKJI",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStart",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStop",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearAction2"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearAction2"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Challengestarter_03": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeLockOn",
     "abilities": [
@@ -585,52 +588,53 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "GLGHFICHFLC",
+          "$type": "OLDOOKBEKJI",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStart",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GLGHFICHFLC",
-          "FKJCCMPLHIJ": "GearStop",
+          "$type": "OLDOOKBEKJI",
+          "triggerID": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearAction2"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearAction2"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Chest_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -689,12 +693,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
             }
@@ -705,38 +709,39 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestTrap"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestTrap"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestBramble"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestBramble"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestFrozen"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestFrozen"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Chest_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -795,12 +800,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
             }
@@ -811,38 +816,39 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestTrap"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestTrap"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestBramble"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestBramble"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestFrozen"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestFrozen"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Chest_03": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -901,12 +907,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
             }
@@ -917,38 +923,39 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestTrap"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestTrap"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestBramble"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestBramble"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestFrozen"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestFrozen"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Chest_04": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": ""
+      "attachEffect": "",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1007,12 +1014,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
             }
@@ -1023,38 +1030,39 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestLocked"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestLocked"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestTrap"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestTrap"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestBramble"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestBramble"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "ChestFrozen"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "ChestFrozen"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Ore": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Hint_01_Big"
+      "attachEffect": "Eff_SceneObj_Hint_01_Big",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1095,10 +1103,11 @@
     "radarHint": true
   },
   "SceneObj_MichiaeMatsuri_DarkPlant": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_Small"
+      "attachEffect": "Eff_Item_Hint_Small",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1153,7 +1162,7 @@
     "radarHint": true
   },
   "SceneObj_MichiaeMatsuri_EnergySrouce": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1196,7 +1205,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_DarkPlatform": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1232,12 +1241,12 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove",
+      "$type": "OEFHHKHPMCJ",
       "avatarTriggerEventDistance": 3.0
     }
   },
   "SceneObj_MichiaeMatsuri_DarkPlatform_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1266,12 +1275,12 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "ConfigPlatformMove",
+      "$type": "OEFHHKHPMCJ",
       "avatarTriggerEventDistance": 3.0
     }
   },
   "SceneObj_MichiaeMatsuri_BrightArea": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1307,17 +1316,17 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightTower_Final": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -1325,24 +1334,25 @@
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightTower_Top": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TopBeamTransmitter_Idle"
+      "attachEffect": "Eff_SceneObj_TopBeamTransmitter_Idle",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": "default",
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Rot0To90": ["Audio_SceneObj_Gear_DarkNightTower_01"],
               "Rot90To180": ["Audio_SceneObj_Gear_DarkNightTower_01"],
@@ -1356,7 +1366,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -1364,20 +1374,20 @@
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightTower_Mid": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Rot0To90": ["Audio_SceneObj_Gear_DarkNightTower_01"],
               "Rot90To180": ["Audio_SceneObj_Gear_DarkNightTower_01"],
@@ -1391,7 +1401,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -1399,7 +1409,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightTower_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1411,7 +1421,7 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_DiplodermaSpecialBornBS": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1432,23 +1442,23 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         },
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_TransPoint_Interact": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1469,18 +1479,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_Hurarongdao_Interact": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1501,22 +1511,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GBLOODKIFJE",
+          "$type": "DEMJBAICBKO",
           "enable": true
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStart"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStart"
         },
         {
-          "$type": "GBLOODKIFJE",
-          "FKJCCMPLHIJ": "GearStop"
+          "$type": "DEMJBAICBKO",
+          "triggerID": "GearStop"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightTowerPassword": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1528,26 +1538,26 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_CircleConsole": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "Glow"
         }
       ]
     }
   },
   "SceneObj_MichiaeMatsuri_CircleConsole_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "Glow",
           "value": 100
         }
@@ -1555,7 +1565,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_TopBeamTransmitter": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -1567,19 +1577,20 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_TopBeamTransmitter_Light": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TopBeamTransmitter_Pured"
+      "attachEffect": "Eff_SceneObj_TopBeamTransmitter_Pured",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": "",
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_Offering": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -1612,7 +1623,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_BeamTransmitter": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -1624,13 +1635,13 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_BeamTransmitter_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -1638,7 +1649,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_RotatingStair": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -1649,11 +1660,11 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_ResurrectionCircle": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1678,7 +1689,7 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_DarkNightOperationBranch": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -1702,11 +1713,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     }
   },
   "SceneObj_MichiaeMatsuri_DarkNightOperationBranch_Light": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combatTemplate": "",
     "abilities": [
       {
@@ -1717,25 +1728,25 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_DarkNightOperationBranch_Base": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_MichiaeMatsuri_Mural": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "default",
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Move": ["Eff_Mural_Move"]
             }
@@ -1746,25 +1757,25 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "gadgetState",
           "syncState": true
         }
       ],
       "platformActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "predicate": {
-            "$type": "FMENNNFPLIJ",
+            "$type": "MMCKMEIDNBD",
             "isStart": true
           },
           "intID": "IsMoving",
           "value": 1
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "predicate": {
-            "$type": "FMENNNFPLIJ"
+            "$type": "MMCKMEIDNBD"
           },
           "intID": "IsMoving"
         }
@@ -1772,7 +1783,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_Ritual_Lamp": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -1785,7 +1796,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -1793,10 +1804,11 @@
     }
   },
   "SceneObj_MichiaeMatsuri_ReviveCircle": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_ResurrectionCircle_01"
+      "attachEffect": "Eff_SceneObj_ResurrectionCircle_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1822,16 +1834,17 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_FogObstacle": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FogObstacle_01"
+      "attachEffect": "Eff_SceneObj_FogObstacle_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_MichiaeMatsuri_DQPlatform_Double": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -1842,30 +1855,30 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "GadgetState",
           "syncState": true
         }
       ],
       "platformActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "predicate": {
-            "$type": "FMENNNFPLIJ",
+            "$type": "MMCKMEIDNBD",
             "isStart": true
           },
           "intID": "GadgetState",
           "value": 201
         },
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "predicate": {
-            "$type": "FMENNNFPLIJ"
+            "$type": "MMCKMEIDNBD"
           },
           "intID": "GadgetState"
         }
@@ -1873,7 +1886,7 @@
     }
   },
   "SceneObj_MichiaeMatsuri_Possession": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1909,10 +1922,11 @@
     ]
   },
   "SceneObj_MichiaeMatsuri_DarkNightChildTower": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DarkNightChildTower_Smoke_Idle"
+      "attachEffect": "Eff_SceneObj_DarkNightChildTower_Smoke_Idle",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {

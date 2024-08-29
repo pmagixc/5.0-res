@@ -88,28 +88,19 @@
       },
       {
         "trigger": "Open",
-        "states": [
-          "NormalStandbyWeapon",
-          "BeHit",
-          "BeHitAir",
-          "Die"
-        ],
+        "states": ["NormalStandbyWeapon", "BeHit", "BeHitAir", "Die"],
         "floatID": "PlaySpeed",
         "floatValue": 1.0
       },
       {
         "trigger": "Close",
-        "states": [
-          "NormalMoveWeaponPutaway/StandbyPutaway"
-        ],
+        "states": ["NormalMoveWeaponPutaway/StandbyPutaway"],
         "floatID": "PlaySpeed",
         "floatValue": 1.0
       },
       {
         "trigger": "PlayDone",
-        "states": [
-          "NormalMoveWeaponOver/StandbyPutawayOver"
-        ],
+        "states": ["NormalMoveWeaponOver/StandbyPutawayOver"],
         "floatID": "PlaySpeed",
         "floatValue": 0.5
       },
@@ -236,9 +227,7 @@
         "NormalStandby": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Standby": [
-              "Avatar_ResetFreeStyle"
-            ]
+            "Standby": ["Avatar_ResetFreeStyle"]
           },
           "canDoSkill": true,
           "massRatio": 100.0,
@@ -247,30 +236,22 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "NormalMove": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ShowUp": [
-              "Audio_Girl_Showup"
-            ],
-            "WalkToRun": [
-              "Audio_Girl_WalkToRun"
-            ],
+            "ShowUp": ["Audio_Girl_Showup"],
+            "WalkToRun": ["Audio_Girl_WalkToRun"],
             "Walk": [
               "Ani_WalkSprint01",
               "Audio_Girl_Walk",
               "WalkStepOnWater",
               "Audio_Girl_Foley_Walk_Mualani"
             ],
-            "RunToWalk": [
-              "Audio_Girl_RunToWalk"
-            ],
+            "RunToWalk": ["Audio_Girl_RunToWalk"],
             "Run": [
               "Ani_Run01",
               "Audio_Girl_Run",
@@ -280,33 +261,19 @@
               "Audio_Girl_RunToIdle",
               "Audio_Girl_Foley_RunToIdle_Mualani"
             ],
-            "WalkToIdle": [
-              "Audio_Girl_WalkToIdle"
-            ],
+            "WalkToIdle": ["Audio_Girl_WalkToIdle"],
             "RunningTurn": [],
-            "SprintToRun": [
-              "Audio_Girl_SprintToRun"
-            ],
+            "SprintToRun": ["Audio_Girl_SprintToRun"],
             "SprintToIdle": [
               "Audio_Girl_SprintToIdle",
               "Emo_Girl_Sprint_AS",
               "Audio_Girl_Foley_SprintToIdle_Mualani"
             ],
-            "FallOnGround": [
-              "Audio_Girl_FallOnGround"
-            ],
-            "FallOnGroundLit": [
-              "Audio_Girl_FallOnGroundLit"
-            ],
-            "FallToGroundRun": [
-              "Audio_Girl_FallToGroundRun"
-            ],
-            "FallToGroundRunHard": [
-              "Audio_Girl_FallToGroundRunHard"
-            ],
-            "FallToGroundSprint": [
-              "Audio_Girl_FallToGroundSprint"
-            ]
+            "FallOnGround": ["Audio_Girl_FallOnGround"],
+            "FallOnGroundLit": ["Audio_Girl_FallOnGroundLit"],
+            "FallToGroundRun": ["Audio_Girl_FallToGroundRun"],
+            "FallToGroundRunHard": ["Audio_Girl_FallToGroundRunHard"],
+            "FallToGroundSprint": ["Audio_Girl_FallToGroundSprint"]
           },
           "canDoSkill": true,
           "massRatio": 1.0,
@@ -315,9 +282,7 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -332,10 +297,7 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill",
-            "AimEnd"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill",
@@ -366,9 +328,7 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -376,12 +336,8 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "CrouchIdle": [],
-            "CrouchMove": [
-              "Audio_Girl_CrouchMove"
-            ],
-            "CrouchRoll": [
-              "Audio_Girl_CrouchRoll"
-            ]
+            "CrouchMove": ["Audio_Girl_CrouchMove"],
+            "CrouchRoll": ["Audio_Girl_CrouchRoll"]
           },
           "canDoSkill": true,
           "massRatio": 1.0,
@@ -390,9 +346,7 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Squat",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -400,13 +354,9 @@
         "CrouchToStandby": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "CrouchToStandby": [
-              "Audio_Girl_CrouchToStandby"
-            ]
+            "CrouchToStandby": ["Audio_Girl_CrouchToStandby"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -416,11 +366,7 @@
             "SkiffNormal": []
           },
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -432,24 +378,13 @@
               "Audio_Girl_Climb",
               "Audio_Girl_Foley_Climb_Mualani"
             ],
-            "ClimbMove1": [
-              "ClimbStep",
-              "Audio_Girl_Climb"
-            ],
+            "ClimbMove1": ["ClimbStep", "Audio_Girl_Climb"],
             "ClimbIdle": [],
-            "ClimbJump": [
-              "Audio_Girl_ClimbDash"
-            ],
-            "JumpUpWallForStandby": [
-              "Audio_Girl_JumpUpWallStandby"
-            ],
-            "Standby2ClimbB": [
-              "Audio_Girl_Standby2ClimbB"
-            ]
+            "ClimbJump": ["Audio_Girl_ClimbDash"],
+            "JumpUpWallForStandby": ["Audio_Girl_JumpUpWallStandby"],
+            "Standby2ClimbB": ["Audio_Girl_Standby2ClimbB"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "actionPanelState": "Climb",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -458,26 +393,18 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "JumpWallReady": [],
-            "Standby2ClimbA": [
-              "Audio_Girl_Standby2ClimbA"
-            ]
+            "Standby2ClimbA": ["Audio_Girl_Standby2ClimbA"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "Upstairs": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Upstairs": [
-              "Audio_Girl_Upstairs"
-            ]
+            "Upstairs": ["Audio_Girl_Upstairs"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -492,33 +419,22 @@
             "SlipFaceWall": [],
             "SlipBackWall": []
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "Swim": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SwimIdle": [
-              "Audio_Girl_SwimIdle"
-            ],
-            "SwimMove": [
-              "SwimStep",
-              "Audio_Girl_SwimMove"
-            ],
+            "SwimIdle": ["Audio_Girl_SwimIdle"],
+            "SwimMove": ["SwimStep", "Audio_Girl_SwimMove"],
             "SwimDash": [
               "Audio_Girl_SwimDash",
               "Avatar_Girl_SwimDash_Hand_Effect"
             ],
-            "SwimJumpToWater": [
-              "Audio_Girl_SwimJumpToWater"
-            ]
+            "SwimJumpToWater": ["Audio_Girl_SwimJumpToWater"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "actionPanelState": "Swim",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -526,9 +442,7 @@
         "Fly": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Fly": [
-              "Audio_Girl_Fly"
-            ],
+            "Fly": ["Audio_Girl_Fly"],
             "FlyStart": [
               "Audio_Girl_FlyStart",
               "FlyStart_Weapon",
@@ -536,9 +450,7 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -551,25 +463,13 @@
         "Jump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Jump": [
-              "Audio_Girl_Jump",
-              "Audio_Girl_Foley_Jump_Mualani"
-            ],
-            "JumpForRun": [
-              "Audio_Girl_Jump"
-            ],
-            "JumpForWalk": [
-              "Audio_Girl_Jump"
-            ],
-            "JumpForSprint": [
-              "Audio_Girl_Jump"
-            ]
+            "Jump": ["Audio_Girl_Jump", "Audio_Girl_Foley_Jump_Mualani"],
+            "JumpForRun": ["Audio_Girl_Jump"],
+            "JumpForWalk": ["Audio_Girl_Jump"],
+            "JumpForSprint": ["Audio_Girl_Jump"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill",
-            "AimEnd"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -582,23 +482,15 @@
         "Fall": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "JumpOffWall": [
-              "Audio_Girl_Jump"
-            ],
-            "SwimJump": [
-              "Audio_Girl_SwimJump"
-            ],
+            "JumpOffWall": ["Audio_Girl_Jump"],
+            "SwimJump": ["Audio_Girl_SwimJump"],
             "SwimJumpDrop": [],
-            "DropDown": [
-              "Audio_Girl_DropDown"
-            ],
+            "DropDown": ["Audio_Girl_DropDown"],
             "DropDownLit": [],
             "WalkDropDownLit": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -619,45 +511,25 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
         "NormalMoveWeapon": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "WalkToRunWeapon": [
-              "Audio_Girl_WalkToRun"
-            ],
-            "WalkWeapon": [
-              "Audio_Girl_Walk"
-            ],
-            "RunToWalkWeapon": [
-              "Audio_Girl_RunToWalk"
-            ],
-            "RunWeapon": [
-              "Audio_Girl_Run"
-            ],
+            "WalkToRunWeapon": ["Audio_Girl_WalkToRun"],
+            "WalkWeapon": ["Audio_Girl_Walk"],
+            "RunToWalkWeapon": ["Audio_Girl_RunToWalk"],
+            "RunWeapon": ["Audio_Girl_Run"],
             "RunToIdleWeapon": [],
             "WalkToIdleWeapon": [],
             "RunningTurnWeapon": [],
-            "FallOnGroundWeapon": [
-              "Audio_Girl_FallOnGround"
-            ],
-            "FallOnGroundLitWeapon": [
-              "Audio_Girl_FallOnGroundLit"
-            ],
-            "FallOnGroundMiddleWeapon": [
-              "Audio_Girl_FallOnGroundMiddle"
-            ],
-            "FallToGroundRunWeapon": [
-              "Audio_Girl_FallToGroundRun"
-            ],
-            "FallToGroundRunHardWeapon": [
-              "Audio_Girl_FallToGroundRunHard"
-            ]
+            "FallOnGroundWeapon": ["Audio_Girl_FallOnGround"],
+            "FallOnGroundLitWeapon": ["Audio_Girl_FallOnGroundLit"],
+            "FallOnGroundMiddleWeapon": ["Audio_Girl_FallOnGroundMiddle"],
+            "FallToGroundRunWeapon": ["Audio_Girl_FallToGroundRun"],
+            "FallToGroundRunHardWeapon": ["Audio_Girl_FallToGroundRunHard"]
           },
           "canDoSkill": true,
           "massRatio": 2.0,
@@ -666,18 +538,14 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
         "NormalMoveWeaponPutaway": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "StandbyPutaway": [
-              "Girl_Catalyst_Putaway_Standby"
-            ],
+            "StandbyPutaway": ["Girl_Catalyst_Putaway_Standby"],
             "WalkPutaway": [
               "Girl_Catalyst_Putaway_Walk",
               "Audio_Girl_Sword_WalkPutAway"
@@ -698,9 +566,7 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
         },
@@ -708,15 +574,9 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "StandbyPutawayOver": [],
-            "WalkPutawayOver": [
-              "Audio_Girl_Sword_WalkPutAwayOver"
-            ],
-            "RunPutawayOver": [
-              "Audio_Girl_Sword_RunPutAwayOver"
-            ],
-            "RunToSprintWeaponOver": [
-              "Audio_Girl_Sword_RunToSprintWeaponOver"
-            ]
+            "WalkPutawayOver": ["Audio_Girl_Sword_WalkPutAwayOver"],
+            "RunPutawayOver": ["Audio_Girl_Sword_RunPutAwayOver"],
+            "RunToSprintWeaponOver": ["Audio_Girl_Sword_RunToSprintWeaponOver"]
           },
           "canDoSkill": true,
           "massRatio": 2.0,
@@ -725,37 +585,25 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "JumpWeapon": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "JumpWeapon": [
-              "Audio_Girl_Jump"
-            ],
-            "JumpForRunWeapon": [
-              "Audio_Girl_Jump"
-            ],
-            "JumpForWalkWeapon": [
-              "Audio_Girl_Jump"
-            ]
+            "JumpWeapon": ["Audio_Girl_Jump"],
+            "JumpForRunWeapon": ["Audio_Girl_Jump"],
+            "JumpForWalkWeapon": ["Audio_Girl_Jump"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Jump",
           "animatorTriggerOnLanded": "",
           "battouOnStart": true
@@ -763,16 +611,12 @@
         "FallWeapon": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DropDownWeapon": [
-              "Audio_Girl_DropDown"
-            ],
+            "DropDownWeapon": ["Audio_Girl_DropDown"],
             "DropDownLitWeapon": [],
             "WalkDropDownLitWeapon": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -784,21 +628,12 @@
         "BeHit": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Hit_L": [
-              "Audio_Girl_Hit_L"
-            ],
-            "Hit_H": [
-              "Audio_Girl_Hit_H"
-            ]
+            "Hit_L": ["Audio_Girl_Hit_L"],
+            "Hit_H": ["Audio_Girl_Hit_H"]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit",
-            "HitAir2HitDrop"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
           "jumpCancelEnd": 0.0,
           "animatorTriggerOnLanded": "",
@@ -813,13 +648,8 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit",
-            "HitAir2HitDrop"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseLiquid"
@@ -833,25 +663,13 @@
         "BeHitAir": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Hit_Throw": [
-              "Audio_Girl_Hit_Throw",
-              "BeHitAir_Weapon"
-            ],
-            "Hit_ThrowAir": [
-              "Audio_Girl_Hit_ThrowAir",
-              "BeHitAir_Weapon"
-            ],
-            "Struggle": [
-              "BeHitAir_Weapon"
-            ]
+            "Hit_Throw": ["Audio_Girl_Hit_Throw", "BeHitAir_Weapon"],
+            "Hit_ThrowAir": ["Audio_Girl_Hit_ThrowAir", "BeHitAir_Weapon"],
+            "Struggle": ["BeHitAir_Weapon"]
           },
           "MOKBIKEEHMJ": "combatAir",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
           "actionPanelState": "CombatAir",
           "jumpCancelEnd": 0.0,
@@ -861,25 +679,11 @@
         "Die": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveDie": [
-              "Die",
-              "Audio_Girl_Dive_Die"
-            ],
-            "FallDie": [
-              "Audio_Girl_Death"
-            ],
-            "NormalDie": [
-              "Die",
-              "Audio_Girl_Death"
-            ],
-            "SwimDie": [
-              "Swim_Die",
-              "Audio_Girl_SwimDie"
-            ],
-            "HitGroundDie": [
-              "Die",
-              "Audio_Girl_Death"
-            ]
+            "DiveDie": ["Die", "Audio_Girl_Dive_Die"],
+            "FallDie": ["Audio_Girl_Death"],
+            "NormalDie": ["Die", "Audio_Girl_Death"],
+            "SwimDie": ["Swim_Die", "Audio_Girl_SwimDie"],
+            "HitGroundDie": ["Die", "Audio_Girl_Death"]
           },
           "animatorTriggerOnLanded": ""
         },
@@ -903,9 +707,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseExtra"
@@ -915,9 +717,7 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "battouOnStartNormalizedTime": 0.5299999713897705
@@ -934,9 +734,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseExtra"
@@ -946,9 +744,7 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -965,9 +761,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseExtra",
@@ -978,9 +772,7 @@
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -992,11 +784,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1009,14 +797,10 @@
         "ExtraAttack_Charge": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ExtraAttack_Charge": [
-              "Audio_Char_Mualani_Catalyst_ExtraAttack"
-            ]
+            "ExtraAttack_Charge": ["Audio_Char_Mualani_Catalyst_ExtraAttack"]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1029,17 +813,10 @@
         "ExtraAttack": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ExtraAttack": [
-              "Mualani_ExtraAttack",
-              "Interaction_Bad"
-            ]
+            "ExtraAttack": ["Mualani_ExtraAttack", "Interaction_Bad"]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanCancelSkill"
@@ -1060,24 +837,18 @@
         "ExtraAttack_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ExtraAttack_AS": [
-              "Audio_Char_Mualani_Catalyst_ExtraAttack_AS"
-            ]
+            "ExtraAttack_AS": ["Audio_Char_Mualani_Catalyst_ExtraAttack_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -1092,9 +863,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatSkillMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1116,9 +885,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatSkillMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1141,9 +908,7 @@
           },
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1166,9 +931,7 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.4000000059604645,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1191,9 +954,7 @@
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.17000000178813934,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1220,9 +981,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatSkillMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1239,16 +998,12 @@
         "SkateRush_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateRush_AS": [
-              "Audio_Char_Mualani_Catalyst_SkateRush_AS"
-            ]
+            "SkateRush_AS": ["Audio_Char_Mualani_Catalyst_SkateRush_AS"]
           },
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.05000000074505806,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1269,16 +1024,12 @@
         "SkateRush_AS_2": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateRush_AS_2": [
-              "Audio_Char_Mualani_Catalyst_SkateRush_AS_2"
-            ]
+            "SkateRush_AS_2": ["Audio_Char_Mualani_Catalyst_SkateRush_AS_2"]
           },
           "MOKBIKEEHMJ": "combatSkillMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.15000000596046448,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1305,9 +1056,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatAir",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1329,10 +1078,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1358,9 +1104,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatAir",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1382,10 +1126,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatAir",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1410,10 +1151,7 @@
             ]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -1439,11 +1177,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": ""
@@ -1451,24 +1185,16 @@
         "Mualani_ElementalBurst_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Mualani_ElementalBurst_AS": [
-              "Mualani_ElementalBurst_AS"
-            ]
+            "Mualani_ElementalBurst_AS": ["Mualani_ElementalBurst_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -1484,19 +1210,13 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.15000000596046448,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelStart": 0.15000000596046448,
           "sprintCancelStart": 0.15000000596046448,
           "animatorTriggerOnLanded": "",
@@ -1512,19 +1232,13 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "canDoSkillStart": 0.20000000298023224,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelStart": 0.20000000298023224,
           "sprintCancelStart": 0.20000000298023224,
           "animatorTriggerOnLanded": "",
@@ -1533,20 +1247,14 @@
         "ArcLightRailRush": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcLightRailRush": [
-              "Audio_Char_Mualani_Catalyst_ArcLightAirRush"
-            ],
+            "ArcLightRailRush": ["Audio_Char_Mualani_Catalyst_ArcLightAirRush"],
             "ArcLightRailRushAS": [
               "Audio_Char_Mualani_Catalyst_ArcLightRailRush_AS"
             ]
           },
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "enableCCD": true,
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
@@ -1558,17 +1266,11 @@
         "ArcDash": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcDash": [
-              "Audio_Char_Mualani_Catalyst_SkateDash"
-            ]
+            "ArcDash": ["Audio_Char_Mualani_Catalyst_SkateDash"]
           },
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "enableCCD": true,
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
@@ -1580,17 +1282,11 @@
         "ArcLightMoving": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcLightBS": [
-              "Audio_Char_Mualani_Catalyst_SkateJump"
-            ],
+            "ArcLightBS": ["Audio_Char_Mualani_Catalyst_SkateJump"],
             "ArcLightLoop": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "CanArcLean"
@@ -1606,16 +1302,10 @@
         "ArcLightToRail": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcLightToRail": [
-              "Audio_Char_Mualani_Catalyst_ArcLightToRail"
-            ]
+            "ArcLightToRail": ["Audio_Char_Mualani_Catalyst_ArcLightToRail"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "CanArcLean",
@@ -1632,22 +1322,12 @@
         "ArcLightJump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcLightJumpOut": [
-              "Audio_Char_Mualani_Catalyst_SkateJumpOut"
-            ],
-            "ArcLightDropDown": [
-              "Audio_Girl_DropDown"
-            ],
-            "ArcChangeRail": [
-              "Audio_Char_Mualani_Catalyst_ArcRail"
-            ]
+            "ArcLightJumpOut": ["Audio_Char_Mualani_Catalyst_SkateJumpOut"],
+            "ArcLightDropDown": ["Audio_Girl_DropDown"],
+            "ArcChangeRail": ["Audio_Char_Mualani_Catalyst_ArcRail"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "enableCCD": true,
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
@@ -1658,17 +1338,11 @@
         "ArcLightAirRushBS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ArcLightAirRushBS": [
-              "Audio_Char_Mualani_Catalyst_ArcLightAirRush"
-            ]
+            "ArcLightAirRushBS": ["Audio_Char_Mualani_Catalyst_ArcLightAirRush"]
           },
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "enableCCD": true,
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
@@ -1685,12 +1359,8 @@
             ]
           },
           "addEndure": 0.6000000238418579,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "enableCCD": true,
           "cameraType": "combatNormal",
           "jumpCancelEnd": -1.0,
@@ -1706,17 +1376,11 @@
               "Emo_Girl_Catalyst_FallingAttack_BS_01",
               "Audio_Girl_Catalyst_Mualani_FallingAnthem_BS_1"
             ],
-            "FallingAnthem_BS_2": [
-              "Emo_Girl_Catalyst_FallingAttack_BS_02"
-            ]
+            "FallingAnthem_BS_2": ["Emo_Girl_Catalyst_FallingAttack_BS_02"]
           },
           "MOKBIKEEHMJ": "combatAir",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "cameraType": "combatNormal",
           "actionPanelState": "Fly",
           "equipReattach": [
@@ -1737,11 +1401,7 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "addEndure": 0.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "actionPanelState": "Fly",
           "equipReattach": [
             {
@@ -1764,11 +1424,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "equipReattach": [
             {
               "equip": "equip01",
@@ -1789,20 +1445,14 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill",
               "normalizeStart": 0.05000000074505806
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "equipReattach": [
             {
               "equip": "equip01",
@@ -1817,15 +1467,9 @@
         "Sit": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SitDown": [
-              "Audio_Girl_SitDown",
-              "Audio_Girl_Sit_Mualani"
-            ],
+            "SitDown": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Mualani"],
             "SitLoop": [],
-            "SitUp": [
-              "Audio_Girl_SitDown",
-              "Audio_Girl_Sit_Mualani"
-            ]
+            "SitUp": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Mualani"]
           },
           "MOKBIKEEHMJ": "performMove",
           "massRatio": 100.0,
@@ -1836,15 +1480,9 @@
         "SitB": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SitBDown": [
-              "Audio_Girl_SitDown",
-              "Audio_Girl_Sit_Mualani"
-            ],
+            "SitBDown": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Mualani"],
             "SitBLoop": [],
-            "SitBUp": [
-              "Audio_Girl_SitDown",
-              "Audio_Girl_Sit_Mualani"
-            ]
+            "SitBUp": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Mualani"]
           },
           "MOKBIKEEHMJ": "performMove",
           "massRatio": 100.0,
@@ -1855,9 +1493,7 @@
         "StandbyShow": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "StandbyVoice": [
-              "Audio_Girl_StandbyVoice"
-            ],
+            "StandbyVoice": ["Audio_Girl_StandbyVoice"],
             "StandbyShow_01": [
               "Emo_Manekin_Mualani_Show01",
               "Audio_Girl_Catalyst_Mualani_StandbyShow_01"
@@ -1875,9 +1511,7 @@
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1896,26 +1530,18 @@
         "Channel_BS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "ChannelBS": [
-              "Emo_Avatar_Common_Manekin_Default"
-            ]
+            "ChannelBS": ["Emo_Avatar_Common_Manekin_Default"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1927,19 +1553,13 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -1951,203 +1571,133 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Lyre_BS": [
-              "PlayMusic_Lyre_Girl"
-            ],
-            "PlayMusic_Lyre_Loop": [
-              "PlayMusic_Lyre_Girl_Loop"
-            ]
+            "PlayMusic_Lyre_BS": ["PlayMusic_Lyre_Girl"],
+            "PlayMusic_Lyre_Loop": ["PlayMusic_Lyre_Girl_Loop"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Lyre_AS": [
-              "PlayMusic_Lyre_Girl_AS"
-            ]
+            "PlayMusic_Lyre_AS": ["PlayMusic_Lyre_Girl_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Qin": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Qin_BS": [
-              "PlayMusic_Qin_Girl"
-            ],
-            "PlayMusic_Qin_Loop": [
-              "PlayMusic_Qin_Girl_Loop"
-            ]
+            "PlayMusic_Qin_BS": ["PlayMusic_Qin_Girl"],
+            "PlayMusic_Qin_Loop": ["PlayMusic_Qin_Girl_Loop"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Qin_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Qin_AS": [
-              "PlayMusic_Qin_Girl_AS"
-            ]
+            "PlayMusic_Qin_AS": ["PlayMusic_Qin_Girl_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Drum": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Drum_BS": [
-              "PlayMusic_Drum_Girl"
-            ],
-            "PlayMusic_Drum_Loop": [
-              "PlayMusic_Drum_Girl_Loop"
-            ]
+            "PlayMusic_Drum_BS": ["PlayMusic_Drum_Girl"],
+            "PlayMusic_Drum_Loop": ["PlayMusic_Drum_Girl_Loop"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Drum_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_Drum_AS": [
-              "PlayMusic_Drum_Girl_AS"
-            ]
+            "PlayMusic_Drum_AS": ["PlayMusic_Drum_Girl_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_FrenchHorn_BS": [
-              "PlayMusic_Frenchhorn_Girl"
-            ],
-            "PlayMusic_FrenchHorn_Loop": [
-              "PlayMusic_Frenchhorn_Girl_Loop"
-            ]
+            "PlayMusic_FrenchHorn_BS": ["PlayMusic_Frenchhorn_Girl"],
+            "PlayMusic_FrenchHorn_Loop": ["PlayMusic_Frenchhorn_Girl_Loop"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "PlayMusic_FrenchHorn_AS": [
-              "PlayMusic_Frenchhorn_Girl_AS"
-            ]
+            "PlayMusic_FrenchHorn_AS": ["PlayMusic_Frenchhorn_Girl_AS"]
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
@@ -2158,9 +1708,7 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnEnter": [
-            "ElectricCoreFly_End"
-          ],
+          "resetAnimatorTriggerOnEnter": ["ElectricCoreFly_End"],
           "resetAnimatorTriggerOnExit": [
             "BeHit",
             "DoSkill",
@@ -2177,9 +1725,7 @@
           },
           "MOKBIKEEHMJ": "combatAir",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnEnter": [
-            "GrapplingHook_Drop"
-          ],
+          "resetAnimatorTriggerOnEnter": ["GrapplingHook_Drop"],
           "resetAnimatorTriggerOnExit": [
             "BeHit",
             "DoSkill",
@@ -2240,11 +1786,7 @@
           },
           "addEndure": 0.0,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "enableBoneFollowMove": true,
           "jumpCancelStart": -1.0,
           "sprintCancelStart": -1.0,
@@ -2261,19 +1803,13 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2286,19 +1822,13 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2307,27 +1837,19 @@
         "DiveChannel_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveChannelAS": [
-              "Audio_Girl_DiveChannel_AS"
-            ]
+            "DiveChannelAS": ["Audio_Girl_DiveChannel_AS"]
           },
           "MOKBIKEEHMJ": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.30000001192092896,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelStart": 0.11999999731779099,
           "animatorTriggerOnLanded": "",
@@ -2343,19 +1865,13 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2368,19 +1884,13 @@
           },
           "MOKBIKEEHMJ": "combatDive",
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2389,27 +1899,19 @@
         "DiveCast_AS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveCast_AS": [
-              "Audio_Girl_DiveCast_AS"
-            ]
+            "DiveCast_AS": ["Audio_Girl_DiveCast_AS"]
           },
           "MOKBIKEEHMJ": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.10000000149011612,
           "massRatio": 100.0,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit",
-            "DoSkill",
-            "Jump"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "sprintCancelStart": 0.09000000357627869,
           "animatorTriggerOnLanded": "",
@@ -2419,69 +1921,33 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "DiveIdle": [],
-            "DiveMoveBS": [
-              "Audio_Girl_Dive_MoveBS"
-            ],
-            "DiveMoveAS": [
-              "Audio_Girl_Dive_MoveAS"
-            ],
-            "DiveMoveU_A": [
-              "Audio_Girl_Dive_MoveU_A"
-            ],
-            "DiveMoveU_B": [
-              "Audio_Girl_Dive_MoveU_B"
-            ],
+            "DiveMoveBS": ["Audio_Girl_Dive_MoveBS"],
+            "DiveMoveAS": ["Audio_Girl_Dive_MoveAS"],
+            "DiveMoveU_A": ["Audio_Girl_Dive_MoveU_A"],
+            "DiveMoveU_B": ["Audio_Girl_Dive_MoveU_B"],
             "DiveMoveF_A": [],
-            "DiveMoveF_B": [
-              "Audio_Girl_Dive_MoveF_B"
-            ],
-            "DiveMoveD_A": [
-              "Audio_Girl_Dive_MoveD_A"
-            ],
-            "DiveMoveD_B": [
-              "Audio_Girl_Dive_MoveD_B"
-            ],
-            "DiveTurn": [
-              "Audio_Girl_Dive_Turn"
-            ],
-            "DiveTurnAS": [
-              "Audio_Girl_Dive_Turn_AS"
-            ],
-            "DiveTurn2": [
-              "Audio_Girl_Dive_Turn"
-            ],
-            "DiveTurnAS2": [
-              "Audio_Girl_Dive_Turn_AS"
-            ],
-            "DiveDashBS": [
-              "Audio_Girl_Dive_Dash_BS"
-            ],
-            "DiveDashAS": [
-              "Audio_Girl_Dive_Dash_AS"
-            ],
+            "DiveMoveF_B": ["Audio_Girl_Dive_MoveF_B"],
+            "DiveMoveD_A": ["Audio_Girl_Dive_MoveD_A"],
+            "DiveMoveD_B": ["Audio_Girl_Dive_MoveD_B"],
+            "DiveTurn": ["Audio_Girl_Dive_Turn"],
+            "DiveTurnAS": ["Audio_Girl_Dive_Turn_AS"],
+            "DiveTurn2": ["Audio_Girl_Dive_Turn"],
+            "DiveTurnAS2": ["Audio_Girl_Dive_Turn_AS"],
+            "DiveDashBS": ["Audio_Girl_Dive_Dash_BS"],
+            "DiveDashAS": ["Audio_Girl_Dive_Dash_AS"],
             "DiveDash": [],
-            "DiveDashB": [
-              "Audio_Girl_Dive_Out_DashB"
-            ],
-            "DiveSuperDash": [
-              "Audio_Girl_Dive_SuperDash"
-            ],
-            "DiveSuperDash2": [
-              "Audio_Girl_Dive_SuperDash2"
-            ]
+            "DiveDashB": ["Audio_Girl_Dive_Out_DashB"],
+            "DiveSuperDash": ["Audio_Girl_Dive_SuperDash"],
+            "DiveSuperDash2": ["Audio_Girl_Dive_SuperDash2"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
             }
           ],
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "actionPanelState": "Dive",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
@@ -2489,28 +1955,14 @@
         "Dive_In_Out": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Dive_In_Up": [
-              "Audio_Girl_Dive_In_Up"
-            ],
-            "Dive_In_Side": [
-              "Audio_Girl_Dive_In_Side"
-            ],
-            "Dive_In_Bottom": [
-              "Audio_Girl_Dive_In_Bottom"
-            ],
-            "Dive_Out_Side": [
-              "Audio_Girl_Dive_Out_Side"
-            ],
-            "Dive_Out_Bottom": [
-              "Audio_Girl_Dive_Out_Bottom"
-            ],
-            "Dive_Out_Up": [
-              "Audio_Girl_Dive_Out_Up"
-            ]
+            "Dive_In_Up": ["Audio_Girl_Dive_In_Up"],
+            "Dive_In_Side": ["Audio_Girl_Dive_In_Side"],
+            "Dive_In_Bottom": ["Audio_Girl_Dive_In_Bottom"],
+            "Dive_Out_Side": ["Audio_Girl_Dive_Out_Side"],
+            "Dive_Out_Bottom": ["Audio_Girl_Dive_Out_Bottom"],
+            "Dive_Out_Up": ["Audio_Girl_Dive_Out_Up"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2523,24 +1975,14 @@
         "DiveStream": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "DiveStreamIn": [
-              "Audio_Girl_Dive_Stream_In"
-            ],
-            "DiveStreamOut": [
-              "Audio_Girl_Dive_Stream_Out"
-            ],
+            "DiveStreamIn": ["Audio_Girl_Dive_Stream_In"],
+            "DiveStreamOut": ["Audio_Girl_Dive_Stream_Out"],
             "DiveStream": [],
-            "DiveStreamRoll_L": [
-              "Audio_Girl_Dive_Stream_Roll_L"
-            ],
-            "DiveStreamRoll_R": [
-              "Audio_Girl_Dive_Stream_Roll_R"
-            ]
+            "DiveStreamRoll_L": ["Audio_Girl_Dive_Stream_Roll_L"],
+            "DiveStreamRoll_R": ["Audio_Girl_Dive_Stream_Roll_R"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2553,25 +1995,14 @@
         "DiveJump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "Dive_Out_DashU": [
-              "Audio_Girl_Dive_Out_DashU"
-            ],
-            "Dive_Out_DashD": [
-              "Audio_Girl_Dive_Out_DashD"
-            ],
-            "Dive_Out_DashFBS": [
-              "Audio_Girl_Dive_Out_DashFBS"
-            ],
-            "Dive_Out_DashFAS": [
-              "Audio_Girl_Dive_Out_DashFAS"
-            ],
+            "Dive_Out_DashU": ["Audio_Girl_Dive_Out_DashU"],
+            "Dive_Out_DashD": ["Audio_Girl_Dive_Out_DashD"],
+            "Dive_Out_DashFBS": ["Audio_Girl_Dive_Out_DashFBS"],
+            "Dive_Out_DashFAS": ["Audio_Girl_Dive_Out_DashFAS"],
             "Dive_Out_DashFLoop": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill",
-            "AimEnd"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -2584,18 +2015,12 @@
         "BeHitDive": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "BeHitDive": [
-              "Audio_Girl_Dive_beHit"
-            ],
+            "BeHitDive": ["Audio_Girl_Dive_beHit"],
             "DiveStruggle": []
           },
           "MOKBIKEEHMJ": "combatDive",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
           "actionPanelState": "Dive",
           "jumpCancelEnd": 0.0,
@@ -2647,9 +2072,7 @@
             "SkateStandby": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2662,9 +2085,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2685,9 +2106,7 @@
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
           "addEndure": 0.30000001192092896,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2714,9 +2133,7 @@
             ]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2729,9 +2146,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2743,9 +2158,7 @@
             "SkateSprintToRun": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2759,9 +2172,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2770,14 +2181,10 @@
         "SkateSprintStop": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateSprintStop": [
-              "Audio_Char_Mualani_Catalyst_SkateSprintStop"
-            ]
+            "SkateSprintStop": ["Audio_Char_Mualani_Catalyst_SkateSprintStop"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2791,9 +2198,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2804,23 +2209,13 @@
           "animatorStates": {
             "SkateFallH": [],
             "SkateFallL": [],
-            "MoveTurnL": [
-              "Audio_Char_Mualani_Catalyst_Skate_MoveTurnL"
-            ],
-            "MoveTurnR": [
-              "Audio_Char_Mualani_Catalyst_Skate_MoveTurnL"
-            ],
-            "MoveTurnBL": [
-              "Audio_Char_Mualani_Catalyst_Skate_MoveTurnBR"
-            ],
-            "MoveTurnBR": [
-              "Audio_Char_Mualani_Catalyst_Skate_MoveTurnBR"
-            ]
+            "MoveTurnL": ["Audio_Char_Mualani_Catalyst_Skate_MoveTurnL"],
+            "MoveTurnR": ["Audio_Char_Mualani_Catalyst_Skate_MoveTurnL"],
+            "MoveTurnBL": ["Audio_Char_Mualani_Catalyst_Skate_MoveTurnBR"],
+            "MoveTurnBR": ["Audio_Char_Mualani_Catalyst_Skate_MoveTurnBR"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2830,9 +2225,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2841,14 +2234,10 @@
         "SkateSprintFall": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateSprintFall": [
-              "Audio_Char_Mualani_Catalyst_SkateSprintStop"
-            ]
+            "SkateSprintFall": ["Audio_Char_Mualani_Catalyst_SkateSprintStop"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2862,9 +2251,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2873,14 +2260,10 @@
         "SkateRunStop": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateRunStop": [
-              "Audio_Char_Mualani_Catalyst_SkateRunStop"
-            ]
+            "SkateRunStop": ["Audio_Char_Mualani_Catalyst_SkateRunStop"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2890,9 +2273,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2909,14 +2290,10 @@
               "CombatAir_Disable_Liuyun",
               "Audio_Char_Mualani_Catalyst_SkateJumpForSprint"
             ],
-            "SkateJumpInplace": [
-              "Audio_Char_Mualani_Catalyst_SkateJump"
-            ]
+            "SkateJumpInplace": ["Audio_Char_Mualani_Catalyst_SkateJump"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2936,21 +2313,15 @@
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
             "SkateRunLoop": [],
-            "MoveTurnF": [
-              "Audio_Char_Mualani_Catalyst_Skate_MoveTurnF"
-            ],
-            "SkateFallToRun": [
-              "Audio_Char_Mualani_Catalyst_SkateFallToRun"
-            ],
+            "MoveTurnF": ["Audio_Char_Mualani_Catalyst_Skate_MoveTurnF"],
+            "SkateFallToRun": ["Audio_Char_Mualani_Catalyst_SkateFallToRun"],
             "MoveTurnLStep": [],
             "MoveTurnRStep": [],
             "MoveTurnBLStep": [],
             "MoveTurnBRStep": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2963,9 +2334,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -2978,9 +2347,7 @@
             "SkateFallToSprint": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -2996,9 +2363,7 @@
             }
           ],
           "enableCCD": true,
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "jumpCancelEnd": -1.0,
           "sprintCancelEnd": -1.0,
           "animatorTriggerOnLanded": "",
@@ -3018,9 +2383,7 @@
           },
           "MOKBIKEEHMJ": "combatMove",
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -3043,13 +2406,9 @@
           "MOKBIKEEHMJ": "combatAir",
           "combatMoveOnWater": true,
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "HitAir2HitDrop",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -3065,13 +2424,9 @@
           "MOKBIKEEHMJ": "combatAir",
           "combatMoveOnWater": true,
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "HitAir2HitDrop",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -3079,19 +2434,13 @@
         "NyxSwitchAS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "NyxSwitchAS": [
-              "Audio_Char_Mualani_Catalyst_Skate_NyxSwitchAS"
-            ]
+            "NyxSwitchAS": ["Audio_Char_Mualani_Catalyst_Skate_NyxSwitchAS"]
           },
           "combatMoveOnWater": true,
           "canDoSkill": true,
-          "resetAnimatorTriggerOnExit": [
-            "BeHit"
-          ],
+          "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
-          "canChangeAvatar": [
-            {}
-          ],
+          "canChangeAvatar": [{}],
           "animatorTriggerOnLanded": "",
           "battouOnStart": true,
           "sheatheOnEnd": true
@@ -3099,13 +2448,9 @@
         "SkateUpstairs": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateUpstairs": [
-              "Audio_Char_Mualani_Catalyst_SkateUpstairs"
-            ]
+            "SkateUpstairs": ["Audio_Char_Mualani_Catalyst_SkateUpstairs"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseSkill"
@@ -3120,14 +2465,10 @@
         "SpecialFall": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SkateDropDown": [
-              "Audio_Char_Mualani_Catalyst_SkateDropDown"
-            ]
+            "SkateDropDown": ["Audio_Char_Mualani_Catalyst_SkateDropDown"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill"
@@ -3149,9 +2490,7 @@
               "Audio_Char_Mualani_Catalyst_SkateSlipFaceWall"
             ]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "IsSkating"
@@ -3163,14 +2502,9 @@
         "RocketJump": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "RocketJump": [
-              "Audio_Char_Mualani_Catalyst_Skate_RocketJump"
-            ]
+            "RocketJump": ["Audio_Char_Mualani_Catalyst_Skate_RocketJump"]
           },
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill",
-            "AimEnd"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
           "setAnimatorBoolean": [
             {
               "name": "IsSkateAir"
@@ -3183,15 +2517,10 @@
         "RocketJumpAS": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "RocketJumpAS": [
-              "Audio_Char_Mualani_Catalyst_Skate_RocketJumpAS"
-            ]
+            "RocketJumpAS": ["Audio_Char_Mualani_Catalyst_Skate_RocketJumpAS"]
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": [
-            "DoSkill",
-            "AimEnd"
-          ],
+          "resetAnimatorTriggerOnEnter": ["DoSkill", "AimEnd"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseAirSkill",
@@ -3208,18 +2537,11 @@
         "SpecialBeHit": {
           "$type": "KBOPIKLCBOA",
           "animatorStates": {
-            "SpecialBeHit_H": [
-              "Audio_Girl_Hit_H"
-            ]
+            "SpecialBeHit_H": ["Audio_Girl_Hit_H"]
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit",
-            "HitAir2HitDrop"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
           "jumpCancelEnd": 0.0,
           "animatorTriggerOnLanded": "",
@@ -3231,13 +2553,8 @@
             "SpecialBeHit_Throw_Recover": []
           },
           "MOKBIKEEHMJ": "combatMove",
-          "resetAnimatorTriggerOnEnter": [
-            "BeHit",
-            "HitAir2HitDrop"
-          ],
-          "resetAnimatorTriggerOnExit": [
-            "DoSkill"
-          ],
+          "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
+          "resetAnimatorTriggerOnExit": ["DoSkill"],
           "setAnimatorBoolean": [
             {
               "name": "&CanUseLiquid"
@@ -3266,9 +2583,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateRunLoop"
-          ],
+          "otherStateNames": ["SkateRunLoop"],
           "usage": "Except"
         },
         {
@@ -3276,9 +2591,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnF"
-          ],
+          "otherStateNames": ["MoveTurnF"],
           "usage": "Except"
         },
         {
@@ -3286,9 +2599,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnLStep"
-          ],
+          "otherStateNames": ["MoveTurnLStep"],
           "usage": "Except"
         },
         {
@@ -3296,9 +2607,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnRStep"
-          ],
+          "otherStateNames": ["MoveTurnRStep"],
           "usage": "Except"
         },
         {
@@ -3306,9 +2615,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnBLStep"
-          ],
+          "otherStateNames": ["MoveTurnBLStep"],
           "usage": "Except"
         },
         {
@@ -3316,9 +2623,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnBRStep"
-          ],
+          "otherStateNames": ["MoveTurnBRStep"],
           "usage": "Except"
         },
         {
@@ -3326,9 +2631,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateFallToRun"
-          ],
+          "otherStateNames": ["SkateFallToRun"],
           "usage": "Except"
         },
         {
@@ -3336,9 +2639,7 @@
           "audioEvent": {
             "text": "Play_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateFallToRun"
-          ],
+          "otherStateNames": ["SkateFallToRun"],
           "usage": "Except"
         },
         {
@@ -3364,9 +2665,7 @@
           "audioEvent": {
             "text": "Play_sfx_char_land"
           },
-          "otherStateNames": [
-            "FallOnGround"
-          ],
+          "otherStateNames": ["FallOnGround"],
           "usage": "InSet"
         },
         {
@@ -3392,9 +2691,7 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_dash_lp"
           },
-          "otherStateNames": [
-            "DiveDashBS"
-          ],
+          "otherStateNames": ["DiveDashBS"],
           "usage": "InSet"
         },
         {
@@ -3428,9 +2725,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_Attack"
           },
-          "otherStateNames": [
-            "Mualani_Attack02"
-          ],
+          "otherStateNames": ["Mualani_Attack02"],
           "usage": "Except"
         },
         {
@@ -3438,9 +2733,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_Attack"
           },
-          "otherStateNames": [
-            "Mualani_Attack03"
-          ],
+          "otherStateNames": ["Mualani_Attack03"],
           "usage": "Except"
         },
         {
@@ -3448,9 +2741,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_Attack"
           },
-          "otherStateNames": [
-            "Mualani_ExtraAttack"
-          ],
+          "otherStateNames": ["Mualani_ExtraAttack"],
           "usage": "Except"
         },
         {
@@ -3506,9 +2797,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateRunLoop"
-          ],
+          "otherStateNames": ["SkateRunLoop"],
           "usage": "Except"
         },
         {
@@ -3516,9 +2805,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnF"
-          ],
+          "otherStateNames": ["MoveTurnF"],
           "usage": "Except"
         },
         {
@@ -3526,9 +2813,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnLStep"
-          ],
+          "otherStateNames": ["MoveTurnLStep"],
           "usage": "Except"
         },
         {
@@ -3536,9 +2821,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnRStep"
-          ],
+          "otherStateNames": ["MoveTurnRStep"],
           "usage": "Except"
         },
         {
@@ -3546,9 +2829,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnBLStep"
-          ],
+          "otherStateNames": ["MoveTurnBLStep"],
           "usage": "Except"
         },
         {
@@ -3556,9 +2837,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "MoveTurnBRStep"
-          ],
+          "otherStateNames": ["MoveTurnBRStep"],
           "usage": "Except"
         },
         {
@@ -3566,9 +2845,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateFallToRun"
-          ],
+          "otherStateNames": ["SkateFallToRun"],
           "usage": "Except"
         },
         {
@@ -3576,9 +2853,7 @@
           "audioEvent": {
             "text": "Stop_Sfx_Char_Mualani_Catalyst_SkateRun_LP"
           },
-          "otherStateNames": [
-            "SkateFallToRun"
-          ],
+          "otherStateNames": ["SkateFallToRun"],
           "usage": "Except"
         },
         {
@@ -3622,9 +2897,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_swim_drop"
           },
-          "otherStateNames": [
-            "SwimJumpDrop"
-          ],
+          "otherStateNames": ["SwimJumpDrop"],
           "usage": "Except"
         },
         {
@@ -3832,11 +3105,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_dash_lp"
           },
-          "otherStateNames": [
-            "DiveDashB",
-            "DiveTurn",
-            "DiveTurn2"
-          ],
+          "otherStateNames": ["DiveDashB", "DiveTurn", "DiveTurn2"],
           "usage": "Except"
         },
         {
@@ -3844,10 +3113,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_stream_lp"
           },
-          "otherStateNames": [
-            "DiveStreamRoll_L",
-            "DiveStreamRoll_R"
-          ],
+          "otherStateNames": ["DiveStreamRoll_L", "DiveStreamRoll_R"],
           "usage": "Except"
         },
         {
@@ -3891,9 +3157,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_moveF_A"
           },
-          "otherStateNames": [
-            "DiveMoveF_B"
-          ],
+          "otherStateNames": ["DiveMoveF_B"],
           "usage": "Except"
         }
       ],
@@ -3965,9 +3229,7 @@
           "audioEvent": {
             "text": "Play_sfx_char_drop"
           },
-          "otherStateNames": [
-            "Fly"
-          ],
+          "otherStateNames": ["Fly"],
           "usage": "InSet"
         },
         {
@@ -3975,9 +3237,7 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": [
-            "Dive"
-          ],
+          "otherStateNames": ["Dive"],
           "usage": "Except"
         },
         {
@@ -3985,9 +3245,7 @@
           "audioEvent": {
             "text": "Play_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": [
-            "CombatDive"
-          ],
+          "otherStateNames": ["CombatDive"],
           "usage": "Except"
         }
       ],
@@ -4009,9 +3267,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": [
-            "CombatDive"
-          ],
+          "otherStateNames": ["CombatDive"],
           "usage": "Except"
         },
         {
@@ -4019,9 +3275,7 @@
           "audioEvent": {
             "text": "Stop_sfx_char_dive_move_swim_idle"
           },
-          "otherStateNames": [
-            "Dive"
-          ],
+          "otherStateNames": ["Dive"],
           "usage": "Except"
         }
       ]
@@ -4040,12 +3294,7 @@
     "standby": {
       "minTime": 10.0,
       "maxTime": 20.0,
-      "performIDs": [
-        201,
-        202,
-        200,
-        200
-      ]
+      "performIDs": [201, 202, 200, 200]
     }
   },
   "moveStateEffect": {

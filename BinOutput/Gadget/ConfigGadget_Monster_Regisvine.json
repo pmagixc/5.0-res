@@ -1,6 +1,6 @@
 {
   "Regisvine_PartControlTarget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -32,7 +32,7 @@
     ]
   },
   "Regisvine_FruitGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -41,7 +41,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -64,13 +64,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Fruit",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -83,7 +83,7 @@
     }
   },
   "Regisvine_CoreGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -92,7 +92,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -115,14 +115,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Core",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -132,10 +132,10 @@
     }
   },
   "Regisvine_RangedAttack01_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -177,29 +177,29 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "JPEHENOKMKN",
+      "$type": "BFICFPAEFPB",
       "speed": 60.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "straightRange": 100.0,
       "gravityOfAcceleration": 2.0,
       "airResistance": 0.5
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack01_Bullet_Collide"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack01_Bullet_Collide"
         }
       ],
@@ -207,10 +207,10 @@
     }
   },
   "Regisvine_RangedAttack01_Guide": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -247,14 +247,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "BulletSourceCore",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "APPIEPGMMKL",
+      "$type": "KKJCBNGMKBL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 1.0,
@@ -263,7 +263,7 @@
       },
       "collisionActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Ice_BlizzardSpit_Hit"
         }
       ],
@@ -272,10 +272,10 @@
     }
   },
   "Regisvine_RangedAttack01_GuideL": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -317,14 +317,14 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 8.0,
       "maxSpeed": 50.0,
       "minSpeed": 2.0,
       "anglerVelocity": 240.0,
       "acceleration": 100.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM",
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
         "traceLerpCoef": 360.0
       },
       "delay": 0.5,
@@ -340,7 +340,7 @@
       "guidanceDuration": 0.20000000298023224
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -348,7 +348,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Ice_PartControlBullet_Bullet"
         }
       ],
@@ -356,10 +356,10 @@
     }
   },
   "Regisvine_RangedAttack01_GuideR": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -401,14 +401,14 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 8.0,
       "maxSpeed": 50.0,
       "minSpeed": 2.0,
       "anglerVelocity": 240.0,
       "acceleration": 100.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM",
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
         "traceLerpCoef": 360.0
       },
       "delay": 0.5,
@@ -424,7 +424,7 @@
       "guidanceDuration": 0.20000000298023224
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -432,7 +432,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Ice_PartControlBullet_Bullet"
         }
       ],
@@ -440,10 +440,10 @@
     }
   },
   "Regisvine_RangedAttack02_Bomb": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -484,14 +484,14 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 15.0,
       "maxSpeed": 60.0,
       "minSpeed": 7.5,
       "anglerVelocity": 90.0,
       "acceleration": -40.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "guidanceDelay": 0.4000000059604645,
       "guidanceSpeedChange": false,
@@ -499,19 +499,19 @@
       "guidanceDuration": 2.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack02_Bomb_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack02_Bomb_Explode"
         }
       ],
@@ -519,10 +519,10 @@
     }
   },
   "Regisvine_RangedAttack02_BombOnGround": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -557,13 +557,13 @@
       "lifeTime": 4.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack02_BombOnGround_Explode"
         }
       ],
@@ -571,10 +571,10 @@
     }
   },
   "Regisvine_RangedAttack02_MinorMissile": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -608,14 +608,14 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 2.0,
       "maxSpeed": 15.0,
       "minSpeed": 2.0,
       "anglerVelocity": 180.0,
       "acceleration": 15.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM",
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
         "traceLerpCoef": 360.0
       },
       "guidanceDelay": 0.800000011920929,
@@ -623,26 +623,26 @@
       "guidanceDuration": 1.2000000476837158
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack02_MinorMissile"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_RangedAttack02_MinorMissile"
         }
       ]
     }
   },
   "Regisvine_MissileAttack_LargeMissile": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -672,10 +672,10 @@
     }
   },
   "Regisvine_MissileAttack_OnGround": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -710,13 +710,13 @@
       "lifeTime": 1.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_MissileAttack_OnGround_Explode"
         }
       ],
@@ -724,10 +724,10 @@
     }
   },
   "Regisvine_RangedAttack02_IceFog": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -762,10 +762,10 @@
     }
   },
   "Regisvine_MeleeAttack03_IceFog": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -800,10 +800,10 @@
     }
   },
   "Regisvine_BlizzardSpit_IceFog": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -833,10 +833,10 @@
     }
   },
   "Regisvine_Ice_IceWave": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -873,11 +873,11 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -886,7 +886,7 @@
     }
   },
   "Regisvine_Fire_FruitGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -895,7 +895,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -918,13 +918,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Fruit",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -937,7 +937,7 @@
     }
   },
   "Regisvine_Fire_CoreGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -946,7 +946,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -969,14 +969,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Core",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -986,10 +986,10 @@
     }
   },
   "Regisvine_Fire_WillOWisp": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1030,14 +1030,14 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 13.0,
       "maxSpeed": 60.0,
       "minSpeed": 5.0,
       "anglerVelocity": 180.0,
       "acceleration": -10.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "itanoCircusStartAngler": 240.0,
       "guidanceDelay": 0.5,
@@ -1045,19 +1045,19 @@
       "guidanceDuration": 4.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_Fire_WillOWisp_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_Fire_WillOWisp_Explode"
         }
       ],
@@ -1065,10 +1065,10 @@
     }
   },
   "Regisvine_Fire_FireWave": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -1105,11 +1105,11 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -1118,10 +1118,10 @@
     }
   },
   "Regisvine_Fire_MeleeAttack03_FireArea": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1156,10 +1156,10 @@
     }
   },
   "Regisvine_Fire_SurroundingFire": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1193,10 +1193,10 @@
     }
   },
   "Regisvine_Fire_SurroundingFire_CloseField": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1240,10 +1240,10 @@
     }
   },
   "Regisvine_Fire_FireBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1284,29 +1284,29 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "JPEHENOKMKN",
+      "$type": "BFICFPAEFPB",
       "speed": 30.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "straightRange": 100.0,
       "gravityOfAcceleration": 2.0,
       "airResistance": 0.5
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_FireBullet_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_FireBullet_Explode"
         }
       ],
@@ -1314,7 +1314,7 @@
     }
   },
   "Regisvine_Fire_BlazeSeed": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1355,13 +1355,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Core",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -1374,10 +1374,10 @@
     }
   },
   "Regisvine_Fire_BlazeSeed_FireArea": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1417,10 +1417,10 @@
     }
   },
   "Regisvine_Fire_BlazeSeed_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1461,23 +1461,23 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 40.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_BlazeSeed_Bullet_Landed"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_BlazeSeed_Bullet_Landed"
         }
       ],
@@ -1485,10 +1485,10 @@
     }
   },
   "Regisvine_Fire_WillOWispLauncher": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1529,13 +1529,13 @@
       "lifeTime": 1.7000000476837158
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Regisvine_Fire_WillOWispLauncher_Launch"
         }
       ],
@@ -1543,7 +1543,7 @@
     }
   },
   "Regisvine_Ice_Event_DropIce": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1577,7 +1577,7 @@
     ]
   },
   "Regisvine_Ice_FruitGadget_Activity": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1608,13 +1608,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Fruit",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -1627,7 +1627,7 @@
     }
   },
   "Regisvine_Ice_CoreGadget_Activity": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1658,14 +1658,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Core",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -1675,10 +1675,10 @@
     }
   },
   "Regisvine_Electric_RangeAttack_Bullet_Cathode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1719,10 +1719,10 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JPEHENOKMKN",
+      "$type": "BFICFPAEFPB",
       "speed": 30.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "delay": 0.44999998807907104,
       "straightRange": 100.0,
@@ -1730,19 +1730,19 @@
       "airResistance": 0.5
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_RangeAttack_Bullet_Damage"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_RangeAttack_Bullet_Damage"
         }
       ],
@@ -1750,10 +1750,10 @@
     }
   },
   "Regisvine_Electric_ThunderNet_Cathode_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -1786,7 +1786,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -1794,8 +1794,8 @@
       "minSpeed": 5.0,
       "acceleration": -10.0,
       "accelerationTime": 1.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM",
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -1811,10 +1811,10 @@
     }
   },
   "Regisvine_Electric_LaserAttack_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL",
+        "$type": "OMIODKONOMG",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1844,14 +1844,14 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 20.0,
       "maxSpeed": 20.0,
       "minSpeed": 2.0,
       "anglerVelocity": 240.0,
       "acceleration": 100.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM",
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
         "traceLerpCoef": 180.0
       },
       "delay": 0.20000000298023224,
@@ -1867,7 +1867,7 @@
       "guidanceDuration": 0.20000000298023224
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -1877,10 +1877,10 @@
     }
   },
   "Regisvine_Electric_Anode_Charge": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -1914,7 +1914,7 @@
       "lifeTime": 200.0
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -1926,10 +1926,10 @@
     }
   },
   "Regisvine_Electric_Cathode_Charge": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -1963,7 +1963,7 @@
       "lifeTime": 200.0
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -1975,7 +1975,7 @@
     }
   },
   "Regisvine_Electric_ThunderAttack_Gadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2005,10 +2005,10 @@
     "canRemoveByClient": true
   },
   "Regisvine_Electric_ThunderAttack_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -2038,20 +2038,22 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "LEODECGNCML",
+      "$type": "BFDBCCCADKH",
       "speed": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "angleOffHor": 45.0,
-      "gravityOfAcceleration": 15.0
+      "gravityOfAcceleration": 15.0,
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     }
   },
   "Regisvine_Electric_MeleeAttack01_Wave_Anode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -2088,11 +2090,11 @@
       "lifeTime": 1.7000000476837158
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -2101,10 +2103,10 @@
     }
   },
   "Regisvine_Electric_MeleeAttack01_Wave_Cathode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -2141,11 +2143,11 @@
       "lifeTime": 1.7000000476837158
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -2154,7 +2156,7 @@
     }
   },
   "Regisvine_Electric_FruitGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2163,7 +2165,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2186,13 +2188,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Fruit",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -2205,7 +2207,7 @@
     }
   },
   "Regisvine_Electric_CoreGadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2214,7 +2216,7 @@
         "defense": 999999.0,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2237,14 +2239,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Core",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -2254,7 +2256,7 @@
     }
   },
   "Regisvine_Electric_CathodeRings": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2278,7 +2280,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -2288,10 +2290,10 @@
     }
   },
   "Regisvine_Electric_CollapseBullet_Anode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -2326,7 +2328,7 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 1.0,
       "maxSpeed": 25.0,
       "acceleration": 12.5,
@@ -2335,7 +2337,7 @@
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.10000000149011612,
@@ -2344,7 +2346,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Anode_Charge_Collapse_Bullet"
         }
       ],
@@ -2352,10 +2354,10 @@
     }
   },
   "Regisvine_Electric_CollapseBullet_Cathode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -2390,7 +2392,7 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 0.800000011920929,
       "maxSpeed": 25.0,
       "acceleration": 12.5,
@@ -2399,7 +2401,7 @@
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.10000000149011612,
@@ -2409,7 +2411,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Cathode_Charge_Collapse_Bullet"
         }
       ],
@@ -2417,7 +2419,7 @@
     }
   },
   "Regisvine_Electric_Collapse_Gadget": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2447,7 +2449,7 @@
     "canRemoveByClient": true
   },
   "Regisvine_Electric_Swtich_SenceDamageGadget_Anode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2477,7 +2479,7 @@
     "canRemoveByClient": true
   },
   "Regisvine_Electric_Swtich_SenceDamageGadget_Cathode": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2507,13 +2509,13 @@
     "canRemoveByClient": true
   },
   "Regisvine_Fire_BossEvent_HeadCore": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "isLockHP": true,
         "canTriggerBullet": false,
-        "KPDJPHDECCP": true
+        "DAIAKCFLDCC": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2537,13 +2539,13 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Fruit",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -2554,7 +2556,7 @@
     }
   },
   "Regisvine_Fire_BossEvent_FireStorm_LogicPoint": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2585,7 +2587,7 @@
     }
   },
   "Regisvine_Fire_BossEvent_LavaLock_LogicPoint": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2609,7 +2611,7 @@
     }
   },
   "Regisvine_Fire_BossEvent_RapidFire_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2634,24 +2636,24 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "JPEHENOKMKN",
+      "$type": "BFICFPAEFPB",
       "speed": 40.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "straightRange": 50.0,
       "gravityOfAcceleration": 2.0,
       "airResistance": 0.5
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "ccd": {},
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_BossEvent_RapidFire_BulletLogic"
         }
       ],
@@ -2659,7 +2661,7 @@
     }
   },
   "Regisvine_Fire_BossEvent_LavaBlast_MultiBullet_Logic": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2695,31 +2697,31 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "PAOCELNKDLB",
+      "$type": "JGEFBHJPMOL",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       }
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_BossEvent_LavaBlast_BulletLogic"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Monster_Regisvine_Fire_BossEvent_LavaBlast_BulletLogic"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Regisvine_Fire_BossEvent_LavaBlast_Attack_Trail"
       }
     },

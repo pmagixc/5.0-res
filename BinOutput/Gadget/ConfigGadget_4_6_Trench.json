@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_BigWhale_Trench_Play": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -32,24 +32,24 @@
       "animEvents": {
         "CastAttack_Gate_Shake": {
           "attackPattern": {
-            "$type": "CDFDJKDFCFJ",
+            "$type": "BELNOFAKNBA",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "AHBFOPDDMPB",
+              "$type": "IAENDIPDFKD",
               "useRotation": true
             },
-            "IDLDJCPGNHD": 1.0
+            "OAHPDLJIADP": 1.0
           },
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "AGMNCBAKCEF": 0.0,
-              "AILJJDMKONE": 0.0,
-              "bonusCriticalHurt": 0.0,
+              "actorGrassSubHurtDelta": 0.0,
+              "actorWindSubHurtDelta": 0.0,
+              "IPFJJJGABPL": 0.0,
               "enBreak": 0.0,
-              "bonusCritical": 0.0
+              "GLKMCMDJBIK": 0.0
             },
             "forceCameraShake": true,
             "cameraShake": {
@@ -72,24 +72,24 @@
         },
         "CastAttack_Gate_Shake_Once": {
           "attackPattern": {
-            "$type": "CDFDJKDFCFJ",
+            "$type": "BELNOFAKNBA",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "AHBFOPDDMPB",
+              "$type": "IAENDIPDFKD",
               "useRotation": true
             },
-            "IDLDJCPGNHD": 1.0
+            "OAHPDLJIADP": 1.0
           },
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "AGMNCBAKCEF": 0.0,
-              "AILJJDMKONE": 0.0,
-              "bonusCriticalHurt": 0.0,
+              "actorGrassSubHurtDelta": 0.0,
+              "actorWindSubHurtDelta": 0.0,
+              "IPFJJJGABPL": 0.0,
               "enBreak": 0.0,
-              "bonusCritical": 0.0
+              "GLKMCMDJBIK": 0.0
             },
             "forceCameraShake": true,
             "cameraShake": {
@@ -128,7 +128,7 @@
       }
     ],
     "move": {
-      "$type": "OGCFDKLMAHA"
+      "$type": "DFOIIIKDOFG"
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
@@ -141,19 +141,19 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Move": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Move": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "CastAttack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "CastAttack": ["SceneObj_Area_BigWhale_Trench_CastAttack"],
               "CastAttack_Hit_Gate": [
@@ -171,11 +171,11 @@
       "triggerOffset": {
         "z": 6.0
       },
-      "MMOOJIADAEN": "CircleR10H8"
+      "KAMIAMNMFCP": "CircleR10H8"
     }
   },
   "SceneObj_Cat_Whale_Trench": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -183,7 +183,8 @@
       "bornEffect": "",
       "attachEffect": "",
       "setPerObjectShadowGroupID": true,
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -221,12 +222,12 @@
       }
     ],
     "move": {
-      "$type": "OGCFDKLMAHA"
+      "$type": "DFOIIIKDOFG"
     },
     "gadgetAction": {}
   },
   "SceneObj_WhaleTrenchPlay_Player_Protect_Shield": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -253,16 +254,16 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
       "followInFixedUpdate": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     }
   },
   "SceneObj_HaiGou_Whale_Rock": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -297,12 +298,12 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         }
@@ -310,10 +311,11 @@
     }
   },
   "SceneObj_WhaleTrenchPlay_FallingStone_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_FallenStone_01"
+      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_FallenStone_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -345,10 +347,11 @@
     "combatTemplate": ""
   },
   "SceneObj_WhaleTrenchPlay_FallingStone_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_FallenStone_02"
+      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_FallenStone_02",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -380,10 +383,11 @@
     "combatTemplate": ""
   },
   "SceneObj_WhaleTrenchPlay_BigWater_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_WaterFlow_01"
+      "attachEffect": "Eff_Stages_SceneObj_DeepSea_Tunnel_WaterFlow_01",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -415,7 +419,7 @@
     "combatTemplate": ""
   },
   "SceneObj_HaiGou_Whale_Rock_Big": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -450,12 +454,12 @@
       }
     ],
     "move": {
-      "$type": "ConfigPlatformMove"
+      "$type": "OEFHHKHPMCJ"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "GEPCCLANDFB",
+          "$type": "FJGKLJLPOGL",
           "intID": "State",
           "syncState": true
         }
@@ -463,7 +467,7 @@
     }
   },
   "SceneObj_HaiGou_Whale_DangerBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -502,34 +506,34 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "PAOCELNKDLB"
+      "$type": "JGEFBHJPMOL"
     },
     "gadget": {
-      "$type": "LHMANANEFOM",
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_HaiGou_Whale_DangerBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_HaiGou_Whale_DangerBullet_LifeOver"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "KEEJMAIFDMH",
+        "$type": "OAKJCHGIBPC",
         "rotationDampTime": "Eff_Monster_Ptahur_Devourer_02_Swimming_DangerEffect"
       }
     }
   },
   "SceneObj_HaiGou_Whale_DangerBulletLauncher": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -563,7 +567,7 @@
       "lifeInfinite": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "killByOther": true
     }
   }

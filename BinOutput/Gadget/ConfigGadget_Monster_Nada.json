@@ -1,14 +1,14 @@
 {
   "Nada_Circle_Electric": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -16,7 +16,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -27,29 +27,29 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 20.0
     }
   },
   "Nada_Circle_Electric_Mirror": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -57,7 +57,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -68,29 +68,29 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 20.0
     }
   },
   "Nada_Circle_Fire": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -98,7 +98,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -109,29 +109,29 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 20.0
     }
   },
   "Nada_Circle_Ice": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -139,7 +139,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -150,28 +150,28 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_Circle_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -179,7 +179,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -190,28 +190,28 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_Circle_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -219,7 +219,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -230,28 +230,28 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 10.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_WeakAtk_EnergyBullet_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -259,7 +259,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -267,37 +267,37 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "CJBKMBOOPHF",
-      "NOFDPFHMFNM": 30.0
+      "$type": "GONNMCBKAOC",
+      "speed": 30.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_WeakAtk_EnergyBullet_Wind_Explode"
         }
       ]
     }
   },
   "Nada_WeakAtk_EnergyBullet_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -305,7 +305,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -313,48 +313,48 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "CJBKMBOOPHF",
-      "NOFDPFHMFNM": 30.0
+      "$type": "GONNMCBKAOC",
+      "speed": 30.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_WeakAtk_EnergyBullet_Water_Explode"
         }
       ]
     }
   },
   "Nada_EnergyFIre_EnergyBullet_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -362,12 +362,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -375,55 +375,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_EnergyBullet_Wind_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_EnergyBullet_Wind_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_EnergyFire_EnergyBulletLoop_Wind"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_EnergyFire_EnergyBulletLoop_Wind"
       }
     }
   },
   "Nada_EnergyFIre_EnergyBullet_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -431,12 +431,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -444,45 +444,45 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_EnergyBullet_Water_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_EnergyBullet_Water_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_EnergyFire_EnergyBulletLoop_Water"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_EnergyFire_EnergyBulletLoop_Water"
       }
     }
   },
   "Nada_EnergyFire_TargetPos_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -490,7 +490,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -498,21 +498,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_EnergyFire_TargetPos_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -520,7 +520,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -528,21 +528,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_EnergyFire_LastBullet_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -550,7 +550,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -558,48 +558,48 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "MNCDFIAEMIA",
-      "NOFDPFHMFNM": 6.0,
+      "$type": "DMLAFKAOGID",
+      "speed": 6.0,
       "maxSpeed": 12.0,
       "minSpeed": 6.0,
-      "NDLHJKADBGC": 360.0,
-      "EILJBCHMAIH": 3.0,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ"
+      "anglerVelocity": 360.0,
+      "acceleration": 3.0,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
-      "ELPLIOJMJND": 360.0,
-      "NNDCMFPMIFK": 0.20000000298023224,
-      "NIMNPPDBKIH": 0.6000000238418579
+      "itanoCircusStartAngler": 360.0,
+      "guidanceDelay": 0.20000000298023224,
+      "guidanceDuration": 0.6000000238418579
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_LastBullet_Wind_Explode"
         }
       ]
     }
   },
   "Nada_EnergyFire_LastBullet_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -607,7 +607,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -615,48 +615,48 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "MNCDFIAEMIA",
-      "NOFDPFHMFNM": 6.0,
+      "$type": "DMLAFKAOGID",
+      "speed": 6.0,
       "maxSpeed": 12.0,
       "minSpeed": 6.0,
-      "NDLHJKADBGC": 360.0,
-      "EILJBCHMAIH": 3.0,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ"
+      "anglerVelocity": 360.0,
+      "acceleration": 3.0,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
-      "ELPLIOJMJND": 360.0,
-      "NNDCMFPMIFK": 0.20000000298023224,
-      "NIMNPPDBKIH": 0.6000000238418579
+      "itanoCircusStartAngler": 360.0,
+      "guidanceDelay": 0.20000000298023224,
+      "guidanceDuration": 0.6000000238418579
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_EnergyFire_LastBullet_Water_Explode"
         }
       ]
     }
   },
   "Nada_EnergySpire_TornadoPos": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -664,7 +664,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -672,21 +672,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_EnergySpire_Tornado": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -694,7 +694,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -702,12 +702,12 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 12.0
     },
     "move": {
-      "$type": "DDKFBOMNHAJ",
-      "BGKIHCPJBMO": {
+      "$type": "POHFDPGKAFL",
+      "velocityForce": {
         "excludeForces": [
           "WindZoneType",
           "AirflowType",
@@ -716,30 +716,30 @@
           "AirflowAccType"
         ]
       },
-      "NOFDPFHMFNM": 3.5,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ",
-        "LMMIHLFCHOD": 360.0
+      "speed": 3.5,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
+        "traceLerpCoef": 360.0
       },
-      "CAMKOAKMJHD": 1.7999999523162842,
+      "delay": 1.7999999523162842,
       "radius": 6.0,
-      "HFFPPCEMOGJ": true,
-      "MPIHEFDEJPH": 60.0,
-      "FHNHGAMGOKE": 0.20000000298023224,
-      "HGJFIENGDNH": 0.5
+      "traceOnYAxis": true,
+      "randomBackAngleAdded": 60.0,
+      "reboundInterval": 0.20000000298023224,
+      "outOfRangeFixCD": 0.5
     }
   },
   "Nada_LarrayArray": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -747,7 +747,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -755,35 +755,35 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 10.5
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_LaserArrayAtk"
         }
       ]
     }
   },
   "Nada_CoreExlpode_ElectricPulse": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -791,7 +791,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -799,21 +799,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_SwapAtkL": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -821,7 +821,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -829,41 +829,41 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "HandEffectAttachPointL01",
-      "IHAJOCLBEOK": ""
+      "attachPoint": "HandEffectAttachPointL01",
+      "LFOHLEKJFBI": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_SwapAtkL_Attack"
         }
       ]
     }
   },
   "Nada_SwapAtkR": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -871,7 +871,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -879,60 +879,60 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "HandEffectAttachPointR01",
-      "ABIHJGPBBFD": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "HandEffectAttachPointR01",
+      "followRotation": true,
+      "LFOHLEKJFBI": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_SwapAtkR_Attack"
         }
       ]
     }
   },
   "Nada_Airflow": {
-    "$type": "IOHCOOOBCPH",
-    "attackAttenuation": "",
-    "BDPGABAMMPP": {
+    "$type": "CJKJIENLOHD",
+    "combatTemplate": "",
+    "timer": {
       "lifeTime": 20.0
     },
-    "DDOEFBHBEPJ": {
-      "CAPPPCGOCIH": {
-        "$type": "GPFENCHGIDA",
-        "alias": "",
+    "misc": {
+      "forceField": {
+        "$type": "NJNBPMFBLMP",
+        "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
         "enterEffect": "Eff_Windfield_Enter"
       },
-      "HGJJHLBEICG": ""
+      "escapeEffect": ""
     }
   },
   "Nada_WaterShield": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "weight": 9999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -941,7 +941,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_WaterShield_Settings",
@@ -952,29 +952,29 @@
     "field": {
       "concernType": "AllTeams",
       "shape": "CircleR3.5H2",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "checkInterval": 0.20000000298023224,
       "lifeTime": 20.0,
       "useCollider": false,
-      "PKBIFJFAJEK": "",
-      "CJIOPEJJHDM": ""
+      "colliderName": "",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_Stomp_ElectricCircle": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -982,7 +982,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -990,44 +990,44 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 3.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_Stomp_ElectricCircle_Hit"
         }
       ]
     }
   },
   "Nada_ElementBomb_FireBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1035,12 +1035,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1048,55 +1048,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_FireBullet_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_FireBullet_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Fire"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Fire"
       }
     }
   },
   "Nada_ElementBomb_IceBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1104,12 +1104,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1117,55 +1117,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Ice"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Ice"
       }
     }
   },
   "Nada_ElementBomb_WindBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1173,12 +1173,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1186,55 +1186,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WindBullet_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WindBullet_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Wind"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Wind"
       }
     }
   },
   "Nada_ElementBomb_WaterBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1242,12 +1242,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1255,36 +1255,36 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WaterBullet_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WaterBullet_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Water"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Water"
       }
     }
   },
   "Nada_ElementBomb_FireBomb": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -1294,10 +1294,10 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1308,7 +1308,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1316,24 +1316,24 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.75
       },
-      "HECLHMINJII": 0.5,
+      "radiusOffset": 0.5,
       "showDistance": 48.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 48.0,
-      "GFHHHAEBHHL": true
+      "showHPBar": true,
+      "forceShowDistance": 48.0,
+      "shieldBarOnly": true
     }
   },
   "Nada_ElementBomb_IceBomb": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -1343,10 +1343,10 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1357,7 +1357,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1365,24 +1365,24 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.75
       },
-      "HECLHMINJII": 0.5,
+      "radiusOffset": 0.5,
       "showDistance": 48.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 48.0,
-      "GFHHHAEBHHL": true
+      "showHPBar": true,
+      "forceShowDistance": 48.0,
+      "shieldBarOnly": true
     }
   },
   "Nada_ElementBomb_WindBomb": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -1392,10 +1392,10 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1406,7 +1406,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1414,24 +1414,24 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.75
       },
-      "HECLHMINJII": 0.5,
+      "radiusOffset": 0.5,
       "showDistance": 48.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 48.0,
-      "GFHHHAEBHHL": true
+      "showHPBar": true,
+      "forceShowDistance": 48.0,
+      "shieldBarOnly": true
     }
   },
   "Nada_ElementBomb_WaterBomb": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -1441,10 +1441,10 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1455,7 +1455,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1463,33 +1463,33 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.75
       },
-      "HECLHMINJII": 0.5,
+      "radiusOffset": 0.5,
       "showDistance": 48.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 48.0,
-      "GFHHHAEBHHL": true
+      "showHPBar": true,
+      "forceShowDistance": 48.0,
+      "shieldBarOnly": true
     }
   },
   "Nada_ElementCircle_Wind": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1501,7 +1501,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1509,21 +1509,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_ElementCircle_Water": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1531,7 +1531,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1539,20 +1539,20 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Nada_BarrageArray_Array": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1560,7 +1560,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1568,16 +1568,16 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "EHIGOGOLKOO",
-      "NOFDPFHMFNM": 4.0,
-      "CAMKOAKMJHD": 4.0
+      "$type": "GMOHNHFHLAO",
+      "speed": 4.0,
+      "delay": 4.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
@@ -1585,26 +1585,26 @@
     }
   },
   "Nada_BarrageArray_Bullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1612,12 +1612,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1625,45 +1625,45 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_BarrageArray_Bullet_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_BarrageArray_Bullet_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_BarrageArray_Bullet"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_BarrageArray_Bullet"
       }
     }
   },
   "Nada_FistDrop_Charge_Fire": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1671,7 +1671,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1679,41 +1679,41 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 0.699999988079071
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "RootNode",
-      "ABIHJGPBBFD": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "RootNode",
+      "followRotation": true,
+      "LFOHLEKJFBI": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_FistDrop_Charge_Fire"
         }
       ]
     }
   },
   "Nada_FistDrop_Charge_Ice": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1721,7 +1721,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1729,41 +1729,41 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 0.699999988079071
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "RootNode",
-      "ABIHJGPBBFD": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "RootNode",
+      "followRotation": true,
+      "LFOHLEKJFBI": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_FistDrop_Charge_Ice"
         }
       ]
     }
   },
   "Nada_FistDrop_Area_Fire": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1771,7 +1771,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1779,21 +1779,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     }
   },
   "Nada_FistDrop_Area_Ice": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1801,7 +1801,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1809,31 +1809,31 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     }
   },
   "Nada_ElementBomb_FireBullet02": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1841,12 +1841,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1854,55 +1854,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_FireBullet02_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_FireBullet02_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Fire02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Fire02"
       }
     }
   },
   "Nada_ElementBomb_IceBullet02": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1910,12 +1910,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1923,55 +1923,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet02_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet02_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Ice02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Ice02"
       }
     }
   },
   "Nada_ElementBomb_WindBullet02": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1979,12 +1979,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -1992,55 +1992,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WindBullet02_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WindBullet02_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Wind02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Wind02"
       }
     }
   },
   "Nada_ElementBomb_WaterBullet02": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2048,12 +2048,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2061,45 +2061,45 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WaterBullet02_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_WaterBullet02_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Water02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Water02"
       }
     }
   },
   "Nada_BornAnchor": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2107,7 +2107,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2115,22 +2115,22 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 20.0
     }
   },
   "Nada_BlinkAnchor": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2138,7 +2138,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2146,12 +2146,12 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     }
   },
   "Nada_FortInAir": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2999999523162842,
@@ -2160,9 +2160,9 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2174,7 +2174,7 @@
         "lockType": "Avatar&Monster_Lv4"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2182,28 +2182,29 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 25.0
     },
-    "MNNPNOAELLI": {
-      "$type": "GPJNFBDFPCK",
+    "gadget": {
+      "$type": "PKNKIPAMNBB",
       "collision": {}
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "KFHJINNNDPN",
-        "BOPIBFKFKCA": "",
+        "$type": "GBGJJIIEMBD",
+        "layerIndexName": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Standby": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Standby": []
             }
           },
           "ChargeAtk": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "ChargeAtk_BS": [],
               "ChargeAtk_AS": []
             }
@@ -2225,36 +2226,37 @@
         }
       },
       "threat": {
+        "GHIJMOKOLMB": "",
         "feelThreatGrow": 1000.0
       }
     },
     "partControl": {
       "parts": [
         {
-          "$type": "PMGKKACOLIC",
+          "$type": "INCPGKCDCIO",
           "angularSpeed": 120.0,
-          "BGKPNLALNPD": "AutoShootAim",
-          "AJBEMCBABJF": "",
-          "GPAPEPNEEMC": 360.0,
-          "OGNBJMIOCPO": 35.0
+          "partRootName": "AutoShootAim",
+          "forwardByTransName": "",
+          "limitHorizontal": 360.0,
+          "limitVertical": 35.0
         }
       ]
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.25
       },
       "showDistance": 100.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 100.0,
-      "GFHHHAEBHHL": true
+      "showHPBar": true,
+      "forceShowDistance": 100.0,
+      "shieldBarOnly": true
     },
-    "JMMIKMOFAMO": true
+    "correctOwner": true
   },
   "Nada_FortOnGround": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2999999523162842,
@@ -2263,9 +2265,9 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2277,7 +2279,7 @@
         "lockType": "Avatar&Monster_Lv4"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2285,33 +2287,34 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 25.0
     },
-    "MNNPNOAELLI": {
-      "$type": "GPJNFBDFPCK",
+    "gadget": {
+      "$type": "PKNKIPAMNBB",
       "collision": {}
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "KFHJINNNDPN",
-        "BOPIBFKFKCA": "",
+        "$type": "GBGJJIIEMBD",
+        "layerIndexName": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Standby": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Standby": []
             }
           },
           "ChargeAtk": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "ChargeAtk_BS": [],
               "ChargeAtk_Loop": [],
               "ChargeAtk_AS": []
             },
-            "KNOHBHKACHA": true
+            "canDoSkill": true
           }
         }
       }
@@ -2330,50 +2333,51 @@
         }
       },
       "threat": {
+        "GHIJMOKOLMB": "",
         "feelThreatGrow": 1000.0
       }
     },
     "partControl": {
       "parts": [
         {
-          "$type": "PMGKKACOLIC",
+          "$type": "INCPGKCDCIO",
           "angularSpeed": 45.0,
-          "BGKPNLALNPD": "AutoShootAim",
-          "NOGNNDABDHA": "RotateToForward",
-          "AJBEMCBABJF": "",
-          "GPAPEPNEEMC": 360.0,
-          "OGNBJMIOCPO": 15.0
+          "partRootName": "AutoShootAim",
+          "doOnUnEabled": "RotateToForward",
+          "forwardByTransName": "",
+          "limitHorizontal": 360.0,
+          "limitVertical": 15.0
         }
       ]
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.25
       },
       "showDistance": 100.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 100.0,
+      "showHPBar": true,
+      "forceShowDistance": 100.0,
       "size": "Big",
-      "GFHHHAEBHHL": true
+      "shieldBarOnly": true
     },
-    "JMMIKMOFAMO": true
+    "correctOwner": true
   },
   "Nada_Dummy_AnkleL": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2381,7 +2385,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_Dummy_AnkleL",
@@ -2389,32 +2393,32 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "LockPoint05",
-      "KEDHAOHPJKL": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "LockPoint05",
+      "syncTransToServer": true,
+      "LFOHLEKJFBI": ""
     }
   },
   "Nada_Dummy_AnkleR": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2422,7 +2426,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_Dummy_AnkleR",
@@ -2430,32 +2434,32 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "LockPoint06",
-      "KEDHAOHPJKL": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "LockPoint06",
+      "syncTransToServer": true,
+      "LFOHLEKJFBI": ""
     }
   },
   "Nada_Dummy_WristL": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2463,32 +2467,32 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
-    "BDPGABAMMPP": {
+    "combatTemplate": "",
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "LockPoint17",
-      "IHAJOCLBEOK": ""
+      "attachPoint": "LockPoint17",
+      "LFOHLEKJFBI": ""
     }
   },
   "Nada_Dummy_WristR": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2496,32 +2500,32 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
-    "BDPGABAMMPP": {
+    "combatTemplate": "",
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "LockPoint18",
-      "IHAJOCLBEOK": ""
+      "attachPoint": "LockPoint18",
+      "LFOHLEKJFBI": ""
     }
   },
   "Nada_Dummy_Chest": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "isLockHP": true,
-        "canTriggerBullet": true
+        "isGhostToAllied": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "JEPGCKHKDDD": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2529,7 +2533,7 @@
         "lockType": "Boss_Lv5"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_Dummy_Chest",
@@ -2537,40 +2541,40 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
-      "IIKEHINGEME": "LockPoint01",
-      "ABIHJGPBBFD": true,
-      "KEDHAOHPJKL": true,
-      "IHAJOCLBEOK": ""
+      "attachPoint": "LockPoint01",
+      "followRotation": true,
+      "syncTransToServer": true,
+      "LFOHLEKJFBI": ""
     }
   },
   "Nada_BarrageArray_Laser01": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2578,12 +2582,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2591,59 +2595,59 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_BarrageArray_Laser01_Hit"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_BarrageArray_Laser01_Hit"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_BarrageArray_Laser01"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_BarrageArray_Laser01"
       }
     }
   },
   "Nada_FortInAir_ChargeAtk": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2651,12 +2655,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.5
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2664,55 +2668,55 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {},
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet02_Explode"
         }
       ],
-      "MHOEMLCBJOO": [
+      "triggerLifeOverActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElementBomb_IceBullet02_Explode"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_ElementalBomb_Ice02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_ElementalBomb_Ice02"
       }
     }
   },
   "Nada_FortOnGround_ChargeAtk": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2720,12 +2724,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2733,42 +2737,42 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_FortOnGround_ChargeAtk_Hit"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_Monster_Nada_FortOnGround_Fire_EnergyBullet"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_Monster_Nada_FortOnGround_Fire_EnergyBullet"
       }
     },
-    "JMMIKMOFAMO": true
+    "correctOwner": true
   },
   "Nada_ElectricBall_Pos": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2776,7 +2780,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_ElectricBall_Pos_CreateElectricBall",
@@ -2784,21 +2788,21 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 15.0
     }
   },
   "Nada_ElectricBall": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2806,7 +2810,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "Nada_ElectricBall_Hit",
@@ -2814,37 +2818,37 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CJBKMBOOPHF",
-      "NOFDPFHMFNM": 60.0,
-      "EILJBCHMAIH": 20.0,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ"
+      "$type": "GONNMCBKAOC",
+      "speed": 60.0,
+      "acceleration": 20.0,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Nada_ElectricBall_Hit"
         }
       ]
     }
   },
   "Gagana_Controller": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "CMIPFEGOJCH",
-        "EJAEFCDBDFB": "EffectMesh"
+        "$type": "FJNPJANPGGC",
+        "mesh": "EffectMesh"
       },
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -2853,17 +2857,18 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true
+      "hasCharacterRenderering": true,
+      "BKPFGNPLDNJ": ""
     },
-    "KNGBEDDABOM": true,
+    "hasModel": true,
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2871,7 +2876,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2879,113 +2884,114 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 25.0
     },
     "move": {
-      "$type": "BELFBLEANMG",
-      "IIKEHINGEME": "",
-      "ABIHJGPBBFD": true,
+      "$type": "MMAPEFIEGAL",
+      "attachPoint": "",
+      "followRotation": true,
       "offset": {
         "x": -1.75,
         "y": 1.25
       },
-      "KEDHAOHPJKL": true,
-      "AEJBDAJOLBP": 0.6000000238418579,
-      "FNHHLGJFBPL": 0.125,
-      "IHAJOCLBEOK": ""
+      "syncTransToServer": true,
+      "followPositionSmoothedDampTime": 0.6000000238418579,
+      "followRotationSmoothedDampTime": 0.125,
+      "LFOHLEKJFBI": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "GPJNFBDFPCK",
+    "gadget": {
+      "$type": "PKNKIPAMNBB",
       "collision": {}
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "KFHJINNNDPN",
-        "BOPIBFKFKCA": "",
+        "$type": "GBGJJIIEMBD",
+        "layerIndexName": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "Standby": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Standby": []
             }
           },
           "Move": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Move": []
             },
-            "BAABNFCMKIO": true
+            "canSyncMove": true
           },
           "AutoShoot_BS": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "AutoShoot_BS": []
             },
-            "KNOHBHKACHA": true,
-            "PJFELLIJONH": ["AutoShootStart", "AutoShootEnd"]
+            "canDoSkill": true,
+            "resetAnimatorTriggerOnEnter": ["AutoShootStart", "AutoShootEnd"]
           },
           "AutoShoot_Loop": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "AutoShoot_Loop": []
             },
-            "KNOHBHKACHA": true
+            "canDoSkill": true
           },
           "AutoShoot_AS": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "AutoShoot_AS": []
             },
-            "KNOHBHKACHA": true,
-            "ADPGACLPFHN": ["AutoShootEnd"]
+            "canDoSkill": true,
+            "resetAnimatorTriggerOnExit": ["AutoShootEnd"]
           },
           "ChargeAtk_BS": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "ChargeAtk_BS": []
             },
-            "KNOHBHKACHA": true,
-            "PJFELLIJONH": ["ChargeAtkStart", "ChargeAtkEnd"]
+            "canDoSkill": true,
+            "resetAnimatorTriggerOnEnter": ["ChargeAtkStart", "ChargeAtkEnd"]
           },
           "ChargeAtk_Loop": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "ChargeAtk_Loop": []
             },
-            "KNOHBHKACHA": true
+            "canDoSkill": true
           },
           "ChargeAtk_AS": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "ChargeAtk_AS": []
             },
-            "KNOHBHKACHA": true,
-            "ADPGACLPFHN": ["ChargeAtkEnd"]
+            "canDoSkill": true,
+            "resetAnimatorTriggerOnExit": ["ChargeAtkEnd"]
           },
           "Blink": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Blink_BS": [],
               "Blink_AS": []
             },
-            "KNOHBHKACHA": true
+            "canDoSkill": true
           },
           "Control": {
-            "$type": "ILLKEGMDAEF",
-            "HKPCLGHBKFD": {
+            "$type": "BEIEGKBABOF",
+            "animatorStates": {
               "Control": []
             },
-            "KNOHBHKACHA": true,
-            "PJFELLIJONH": ["Control"]
+            "canDoSkill": true,
+            "resetAnimatorTriggerOnEnter": ["Control"]
           }
         }
       }
     },
     "audio": {
-      "$type": "IGNGMHPHOEP",
-      "LKJIHNLBIJL": "",
+      "$type": "DEGGADLMEOK",
+      "overrideEmitterName": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -3023,6 +3029,7 @@
         }
       },
       "threat": {
+        "GHIJMOKOLMB": "",
         "feelThreatGrow": 1000.0
       },
       "defendArea": {
@@ -3032,28 +3039,28 @@
     "partControl": {
       "parts": [
         {
-          "$type": "PMGKKACOLIC",
+          "$type": "INCPGKCDCIO",
           "angularSpeed": 360.0,
-          "BGKPNLALNPD": "AutoShootAim",
-          "NOGNNDABDHA": "RotateToForward",
-          "AJBEMCBABJF": "",
-          "GPAPEPNEEMC": 360.0,
-          "OGNBJMIOCPO": 30.0
+          "partRootName": "AutoShootAim",
+          "doOnUnEabled": "RotateToForward",
+          "forwardByTransName": "",
+          "limitHorizontal": 360.0,
+          "limitVertical": 30.0
         }
       ]
     },
     "billboard": {
-      "$type": "HFEGKLAIGGI",
-      "IIKEHINGEME": "BillboardAttach",
+      "$type": "DNGNMAJBCNP",
+      "attachPoint": "BillboardAttach",
       "showDistance": 48.0,
-      "DMHOOGGGDKG": true,
-      "KAJOCAAOIFN": 48.0,
+      "showHPBar": true,
+      "forceShowDistance": 48.0,
       "size": "Grand",
-      "GFHHHAEBHHL": true
+      "shieldBarOnly": true
     }
   },
   "Gagana_EnergyCube": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -3061,12 +3068,12 @@
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3074,7 +3081,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3085,20 +3092,20 @@
     "field": {
       "concernType": "AllTeams",
       "shape": "CircleR1.5",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "checkInterval": 0.20000000298023224,
       "triggerCount": 1,
       "lifeTime": 15.5,
       "useCollider": false,
-      "PKBIFJFAJEK": "",
-      "CJIOPEJJHDM": ""
+      "colliderName": "",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Gagana_EnergyCube_Large": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -3106,12 +3113,12 @@
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3119,7 +3126,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3130,20 +3137,20 @@
     "field": {
       "concernType": "AllTeams",
       "shape": "CircleR1.5",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "checkInterval": 0.20000000298023224,
       "triggerCount": 1,
       "lifeTime": 18.0,
       "useCollider": false,
-      "PKBIFJFAJEK": "",
-      "CJIOPEJJHDM": ""
+      "colliderName": "",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 20.0
     }
   },
   "Gagana_EnergyCube_Small": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -3151,12 +3158,12 @@
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3164,7 +3171,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3172,39 +3179,39 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "MNCDFIAEMIA",
-      "NOFDPFHMFNM": 5.0,
+      "$type": "DMLAFKAOGID",
+      "speed": 5.0,
       "maxSpeed": 25.0,
       "minSpeed": 5.0,
-      "EILJBCHMAIH": 10.0,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ"
+      "acceleration": 10.0,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
-      "ELPLIOJMJND": 180.0,
-      "NNDCMFPMIFK": 0.30000001192092896,
-      "NIMNPPDBKIH": 10.0
+      "itanoCircusStartAngler": 180.0,
+      "guidanceDelay": 0.30000001192092896,
+      "guidanceDuration": 10.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Alliance",
         "ignoreScene": true
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Ganaga_EnergyCubeSmallController"
         }
       ],
-      "DKKLBGFLJBK": 0.30000001192092896
+      "enableCollisionDelay": 0.30000001192092896
     }
   },
   "Gagana_EnergyCubeSpecial": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -3212,12 +3219,12 @@
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3225,7 +3232,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3236,39 +3243,39 @@
     "field": {
       "concernType": "AllTeams",
       "shape": "CircleR1.5",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "checkInterval": 0.20000000298023224,
       "triggerCount": 1,
       "lifeTime": 39.5,
       "useCollider": false,
-      "PKBIFJFAJEK": "",
-      "CJIOPEJJHDM": ""
+      "colliderName": "",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 40.0
     }
   },
   "Gagana_AutoShootBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3276,12 +3283,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3289,51 +3296,51 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 240.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Gagana_AutoShootBullet_Hit"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_SkillObj_Gagana_EnergyBullet"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_SkillObj_Gagana_EnergyBullet"
       }
     }
   },
   "Gagana_ChargeAtkBullet": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3342,7 +3349,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3350,39 +3357,39 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "EHIGOGOLKOO",
-      "NOFDPFHMFNM": 30.0,
+      "$type": "GMOHNHFHLAO",
+      "speed": 30.0,
       "maxSpeed": 60.0,
       "minSpeed": 30.0,
-      "NDLHJKADBGC": 20.0,
-      "EILJBCHMAIH": 15.0,
-      "BLECDCEAOFM": {
-        "$type": "HMFDMPDLMCJ",
-        "LMMIHLFCHOD": 360.0
+      "anglerVelocity": 20.0,
+      "acceleration": 15.0,
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP",
+        "traceLerpCoef": 360.0
       },
-      "HFFPPCEMOGJ": true
+      "traceOnYAxis": true
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Gagana_ChargeAtkBullet_Hit"
         }
       ]
     },
-    "JMMIKMOFAMO": true
+    "correctOwner": true
   },
   "Gagana_EnergyShield": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "scale": 1.2000000476837158,
@@ -3390,12 +3397,12 @@
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3403,7 +3410,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3411,31 +3418,31 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 10.5
     }
   },
   "Gagana_ChargeAtkBullet_Failed": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3444,7 +3451,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3452,39 +3459,39 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "CJBKMBOOPHF",
-      "NOFDPFHMFNM": 30.0,
+      "$type": "GONNMCBKAOC",
+      "speed": 30.0,
       "minSpeed": 30.0
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Gagana_ChargeAtkBullet_Hit"
         }
       ]
     }
   },
   "Gagana_EnergyCube_ForDrop": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3492,7 +3499,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3500,51 +3507,53 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "LIEFJMKKLOF",
-      "NOFDPFHMFNM": 10.0,
-      "EILJBCHMAIH": -2.5,
-      "HBECHHMLGEP": 60.0,
-      "EPLFGAAFNIM": 40.0,
-      "HDBDFEKENOD": {
-        "$type": "CDOBEEBHCCO",
-        "GACCDPNMLNP": 2.0,
+      "$type": "BFDBCCCADKH",
+      "speed": 10.0,
+      "acceleration": -2.5,
+      "angleOffHor": 60.0,
+      "gravityOfAcceleration": 40.0,
+      "correction": {
+        "$type": "FEHDIANJKBF",
+        "deviation": 2.0,
         "minSpeed": 7.5,
         "maxSpeed": 12.5
-      }
+      },
+      "GEBCKKDCGDP": "",
+      "NKPHOKHJKGC": ""
     },
-    "MNNPNOAELLI": {
-      "$type": "AFPECAAHDNC",
+    "gadget": {
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Gagana_EnergyCube_ForDrop_CreateEnergyCube"
         }
       ],
-      "DKKLBGFLJBK": 0.20000000298023224
+      "enableCollisionDelay": 0.20000000298023224
     }
   },
   "Nada_Platform": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 1000000000.0,
       "disableTickDistance": 100000.0
     },
     "combat": {
       "property": {
-        "HP": 100.0,
+        "hp": 100.0,
         "attack": 10.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true,
-        "ignorePurgeRate": false
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -3552,7 +3561,7 @@
         "lockType": "Default"
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3563,40 +3572,40 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "AGKCOGKCAGC": "",
+      "fromShape": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "lifeTime": 40.0,
-      "PKBIFJFAJEK": "Trigger",
-      "CJIOPEJJHDM": ""
+      "colliderName": "Trigger",
+      "fromColliderName": ""
     },
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeInfinite": true,
       "lifeTime": 10.5
     }
   },
   "Gagana_AutoShootBullet_Powerful": {
-    "$type": "IOHCOOOBCPH",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "PBGINMMOLDC"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
+        "hp": 999999.0,
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "canTriggerBullet": true,
-        "denyElementStick": true
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "GKIOKIDJLCA": true,
-        "JEPGCKHKDDD": true,
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3604,12 +3613,12 @@
         "denyLockOn": true,
         "lockType": "Default"
       },
-      "JLOMBNMJCLL": {
+      "simulatePhysics": {
         "enable": true,
         "radius": 0.10000000149011612
       }
     },
-    "attackAttenuation": "",
+    "combatTemplate": "",
     "abilities": [
       {
         "abilityID": "",
@@ -3617,29 +3626,29 @@
         "abilityOverride": ""
       }
     ],
-    "BDPGABAMMPP": {
+    "timer": {
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "CBDOHADLMPD"
+      "$type": "JGEFBHJPMOL"
     },
-    "MNNPNOAELLI": {
-      "$type": "CJFAOCEMMFK",
+    "gadget": {
+      "$type": "AKGCANNFFGI",
       "collision": {
         "targetType": "Enemy"
       },
-      "HDABNDJLLCO": [
+      "triggerActions": [
         {
-          "$type": "HLFEAMOONEP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Gagana_AutoShootBullet_Powerful_Hit"
         }
       ],
-      "GOMGCHKCHKI": true,
-      "DPNINCLDJBF": {
-        "$type": "ELMJDPBOJFP",
-        "healLimitedByCasterMaxHPRatio": "Eff_SkillObj_Gagana_EnergyBullet02"
+      "killByOther": true,
+      "multiBulletConfig": {
+        "$type": "OAKJCHGIBPC",
+        "rotationDampTime": "Eff_SkillObj_Gagana_EnergyBullet02"
       }
     },
-    "JMMIKMOFAMO": true
+    "correctOwner": true
   }
 }

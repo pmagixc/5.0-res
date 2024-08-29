@@ -1,6 +1,6 @@
 {
   "Dvalin_S04_GadgetController": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -60,7 +60,7 @@
     }
   },
   "Dvalin_S04_AirFlowController": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -99,7 +99,7 @@
     }
   },
   "Dvalin_S04_Roar_Comparer1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -133,7 +133,7 @@
     }
   },
   "Dvalin_S04_Roar_Comparer2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -167,7 +167,7 @@
     }
   },
   "Dvalin_S04_Roar_Comparer3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -201,7 +201,7 @@
     }
   },
   "Dvalin_S04_DeadZone1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -236,7 +236,7 @@
     }
   },
   "Dvalin_S04_DeadZone2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -271,7 +271,7 @@
     }
   },
   "Dvalin_S04_DeadZone3": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -306,7 +306,7 @@
     }
   },
   "Dvalin_S04_DeathCannonZone": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -340,7 +340,7 @@
     }
   },
   "Dvalin_S04_DeathCannon_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -378,31 +378,31 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "EFCFKHDONLB",
+      "$type": "GMOHNHFHLAO",
       "speed": 110.0,
       "anglerVelocity": 360.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Dvalin_S04_DeathCannon_Bullet_Hit"
         }
       ]
     }
   },
   "Dvalin_S04_WindField01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "CGDKJAEBJFB",
+        "$type": "NJNBPMFBLMP",
         "specialTipsIconPath": "",
         "velocity": 20.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -412,10 +412,11 @@
     }
   },
   "Dvalin_S04_WindField02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_WindSeed_WindField"
+      "attachEffect": "Eff_Item_WindSeed_WindField",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combatTemplate": "",
@@ -425,7 +426,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "CGDKJAEBJFB",
+        "$type": "NJNBPMFBLMP",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 0.800000011920929,
@@ -436,11 +437,11 @@
     }
   },
   "Dvalin_S04_WindField03": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "CGDKJAEBJFB",
+        "$type": "NJNBPMFBLMP",
         "specialTipsIconPath": "",
         "velocity": 20.0,
         "scale": 0.30000001192092896,
@@ -451,7 +452,7 @@
     }
   },
   "Dvalin_S04_Platform01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -478,7 +479,7 @@
     ]
   },
   "Dvalin_S04_AbyssTrigger": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -510,7 +511,7 @@
       "lifeInfinite": true
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 1.0,
@@ -519,14 +520,14 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Dvalin_S04_FallInAbyss"
         }
       ]
     }
   },
   "Dvalin_S04_StarFall_Platform1": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -563,7 +564,7 @@
     }
   },
   "Dvalin_S04_StarFall_Platform2": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -602,7 +603,7 @@
     }
   },
   "Dvalin_S04_StarFall_Launcher": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -641,7 +642,7 @@
     }
   },
   "Dvalin_S04_StarFall_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -679,24 +680,24 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 80.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Dvalin_S04_StarFall_Bullet"
         }
       ]
     }
   },
   "Dvalin_S04_Breathe_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -731,11 +732,11 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 99.0
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -743,14 +744,14 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Dvalin_S04_Breathe_Explode"
         }
       ]
     }
   },
   "Dvalin_S04_TwistedWind_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -785,37 +786,37 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "JAFPLJCPHAM",
+      "$type": "DMLAFKAOGID",
       "speed": 20.0,
       "maxSpeed": 40.0,
       "minSpeed": 20.0,
       "anglerVelocity": 360.0,
       "acceleration": 20.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       },
       "itanoCircusStartAngler": 240.0,
       "guidanceDelay": 0.20000000298023224,
       "guidanceDuration": 0.699999988079071
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "Dvalin_S04_TwistedWind_Bullet"
         }
       ]
     }
   },
   "Dvalin_S04_Hurricane_Bullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "effectAttachShape": {
-        "$type": "ILHLMOLNFLL"
+        "$type": "OMIODKONOMG"
       }
     },
     "combat": {
@@ -840,25 +841,26 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "CDFDJKDFCFJ",
+            "$type": "BELNOFAKNBA",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "KKKABMDCNIJ"
+              "$type": "JGEBAJLEBMO"
             },
-            "IDLDJCPGNHD": 3.0
+            "OAHPDLJIADP": 3.0
           },
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "AGMNCBAKCEF": 2.0,
-              "AILJJDMKONE": 0.0,
-              "bonusCriticalHurt": 100.0,
-              "bonusCritical": 0.0
+              "actorGrassSubHurtDelta": 2.0,
+              "actorWindSubHurtDelta": 0.0,
+              "IPFJJJGABPL": 100.0,
+              "GLKMCMDJBIK": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
+              "hitImpulseY": "",
               "hitImpulseType": "LV0",
               "hitHaltTime": 0.11999999731779099,
               "hitHaltTimeScale": 0.009999999776482582
@@ -883,14 +885,14 @@
       "lifeTime": 25.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "HurricaneRoot",
       "followRotation": true,
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.20000000298023224,
@@ -900,7 +902,7 @@
     }
   },
   "Dvalin_S04_Camera_Center": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -914,13 +916,13 @@
     ]
   },
   "Dvalin_S04_ClimbCollider": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "cameraAdjust": {
-      "DJMCKCANNME": true,
-      "HPNENDHFPBO": ""
+    "vodIntee": {
+      "GIOMFJPNIDM": true,
+      "GHIJHHPHJLN": ""
     },
     "combat": {
       "property": {
@@ -950,7 +952,7 @@
     }
   },
   "Dvalin_S04_WindSeed": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -994,7 +996,7 @@
       "lifeTime": 16.0
     },
     "move": {
-      "$type": "JDCIOPIOMMC",
+      "$type": "MGENMIHFEJO",
       "velocityForce": {
         "includeForces": ["WindZoneType"]
       },
@@ -1002,12 +1004,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "All": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Buffer": ["HideCollider"],
               "ShowCollider": ["ShowCollider"]
@@ -1018,7 +1020,7 @@
     }
   },
   "Dvalin_S04_LockDummy": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1050,14 +1052,14 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "Seal_01",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     }
   },
   "Dvalin_S04_LockDummy_LeftClaw": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1089,14 +1091,14 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "ClawLeft",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     }
   },
   "Dvalin_S04_LockDummy_RightClaw": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1128,17 +1130,18 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "AMLNFOCHHEB",
+      "$type": "MMAPEFIEGAL",
       "target": "TargetEntity",
       "attachPoint": "ClawRight",
-      "FFGOMBFFBFB": ""
+      "LFOHLEKJFBI": ""
     }
   },
   "Dvalin_S04_AirFlow": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_WindSeed_WindField"
+      "attachEffect": "Eff_Item_WindSeed_WindField",
+      "BKPFGNPLDNJ": ""
     },
     "hasModel": true,
     "combat": {
@@ -1175,7 +1178,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "CGDKJAEBJFB",
+        "$type": "NJNBPMFBLMP",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 0.800000011920929,
@@ -1186,7 +1189,7 @@
     }
   },
   "Dvalin_S04_Weak_PushCollider": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "disableTickDistance": 10000.0
     },

@@ -1,10 +1,10 @@
 {
   "SceneObj_Monster_Eldritch_Tentacle_Message": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combatTemplate": ""
   },
   "SceneObj_Monster_Eldritch_Tentacle_Control": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "endureType": "Monster_Boss_Other",
@@ -29,7 +29,7 @@
     ]
   },
   "SceneObj_Monster_Eldritch_Tentacle_SkillControl": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -58,7 +58,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_WaterBulletTargeting": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -90,7 +90,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_WaterBullet": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -125,22 +125,22 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0,
       "acceleration": 5.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "targetType": "SelfCamp",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Monster_Eldritch_Tentacle_WaterBullet_Explode"
         }
       ],
@@ -148,7 +148,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_ElementalBurst": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -180,7 +180,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_ElementalBurst_Damage": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -215,15 +215,15 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "OHBOAPACKBJ",
+      "$type": "GONNMCBKAOC",
       "speed": 20.0,
       "acceleration": 5.0,
-      "AIJKOKCHLMM": {
-        "$type": "KAMDCIONLAM"
+      "DPAAFHNMHHN": {
+        "$type": "IFAANDLLGLP"
       }
     },
     "gadget": {
-      "$type": "IGHEOLFOAKN",
+      "$type": "JENBBNKGGJP",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "SelfCamp",
@@ -231,7 +231,7 @@
       },
       "triggerActions": [
         {
-          "$type": "NLIBPPPDELP",
+          "$type": "AILPBJHDHDG",
           "abilityName": "SceneObj_Monster_Eldritch_Tentacle_ElementalBurst_Damage_Ability"
         }
       ],
@@ -239,7 +239,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_PA": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 100000000.0,
       "scale": 4.0,
@@ -271,26 +271,26 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "NormalIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Standby": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BeHit": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BeHit": ["Audio_Eldritch_Tentacle_Behit"]
             },
             "cullingModelAlwaysAnimate": true
           },
           "Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": [
                 "Gadget_Scene_Monster_Eldritch_Tentacle_Attack",
@@ -300,7 +300,7 @@
             "cullingModelAlwaysAnimate": true
           },
           "BattleIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BattleIdle": []
             },
@@ -311,7 +311,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_PB": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 100000000.0,
       "scale": 4.0,
@@ -343,33 +343,33 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "NormalIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Standby": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BeHit": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BeHit": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BattleIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BattleIdle": []
             },
@@ -380,7 +380,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_PC": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 100000000.0,
       "scale": 4.0,
@@ -412,33 +412,33 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "NormalIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Standby": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BeHit": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BeHit": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BattleIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BattleIdle": []
             },
@@ -449,7 +449,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_PD": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 100000000.0,
       "scale": 4.0,
@@ -481,33 +481,33 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "NormalIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Standby": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BeHit": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BeHit": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BattleIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BattleIdle": []
             },
@@ -518,7 +518,7 @@
     }
   },
   "SceneObj_Monster_Eldritch_Tentacle_PE": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "common": {
       "mass": 100000000.0,
       "scale": 4.0,
@@ -550,33 +550,33 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "DEMOGNGMPCC",
+        "$type": "GBGJJIIEMBD",
         "layerIndexName": "",
-        "OFKGBGMCPBM": "",
+        "CPAANEIJCGD": "",
         "stateIDs": {
           "NormalIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Standby": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BeHit": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BeHit": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "Attack": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "Attack": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "BattleIdle": {
-            "$type": "ELIEEDNCIPE",
+            "$type": "BEIEGKBABOF",
             "animatorStates": {
               "BattleIdle": []
             },
@@ -587,7 +587,7 @@
     }
   },
   "SceneObj_Level_Common_Property_Ani_Prop_AdeptusBallista_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -614,7 +614,7 @@
       }
     ],
     "billboard": {
-      "$type": "NJADPPLCLIE",
+      "$type": "DNGNMAJBCNP",
       "attachPoint": "HpBarNode",
       "radiusOffset": 1.5,
       "showDistance": 48.0,
@@ -623,7 +623,7 @@
     }
   },
   "SceneObj_Level_Common_Property_Prop_DeerFairy_01": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -649,7 +649,7 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_DeerFairy_02": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "hasModel": true,
     "combat": {
       "property": {
@@ -675,7 +675,7 @@
     ]
   },
   "SceneObj_Monster_Hound_CleanUpCorruption": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "endureType": "Monster_Boss_Other",
@@ -700,7 +700,7 @@
     ]
   },
   "SceneObj_Monster_Sylph_AttackEnhance": {
-    "$type": "ConfigGadget",
+    "$type": "CJKJIENLOHD",
     "combat": {
       "property": {
         "endureType": "Monster_Boss_Other",
