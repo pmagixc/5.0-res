@@ -11,7 +11,7 @@
       "mainId": 70521,
       "order": 1,
       "descTextMapHash": 1316361180,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -60,14 +60,8 @@
           "param_str": ""
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_LOCATION",
-        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["Q7052101_N1002", "0"],
-        "guideScene": 3,
-        "guideStyle": "QUEST_GUIDE_STYLE_POINT",
-        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
-      },
+      "failCond": [],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_QUEST_GLOBAL_VAR",
@@ -80,9 +74,15 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
-      "beginExec": [],
-      "failExec": []
+      "failExec": [],
+      "guide": {
+        "type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": ["Q7052101_N1002", "0"],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_POINT",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      }
     }
   ],
   "talks": [

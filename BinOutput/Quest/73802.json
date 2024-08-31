@@ -32,14 +32,8 @@
           "param_str": ""
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_NPC",
-        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
-        "param": ["4019"],
-        "guideScene": 3,
-        "guideStyle": "QUEST_GUIDE_STYLE_START",
-        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
-      },
+      "failCond": [],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_CLEAR_TIME_VAR",
@@ -47,9 +41,15 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
-      "beginExec": [],
-      "failExec": []
+      "failExec": [],
+      "guide": {
+        "type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": ["4019"],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_START",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      }
     }
   ],
   "talks": [

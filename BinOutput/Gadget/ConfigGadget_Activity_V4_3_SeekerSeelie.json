@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -37,12 +37,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -79,12 +79,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_ToughBalloonFruit_UnderWater_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -121,12 +121,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_DirtyBalloonFruit_UnderWater_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -163,12 +163,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_DirtyBalloonFruit_UnderWater_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -205,12 +205,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "forceSetEntityType": "Gadget"
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_BubbleCage_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1000.0
     },
@@ -265,7 +265,7 @@
       }
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.649999976158142
@@ -273,15 +273,15 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_Indicator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "GroupMonsterEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "misc": {
       "escapeEffect": "",
@@ -295,7 +295,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_SeelieDigPoint_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -340,7 +340,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Prop_SeelieChallangePoint_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1000.0
     },
@@ -389,7 +389,7 @@
       "guidePointManagedByIndicator": true
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.649999976158142
@@ -397,14 +397,13 @@
     }
   },
   "SceneObj_Area_Fd_Property_Prop_SeelieChallangePointBullet_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_ElementParticle_02_Fly",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_ElementParticle_02_Fly"
     },
     "hasModel": true,
     "combat": {
@@ -440,24 +439,24 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "anglerVelocity": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Area_Fd_Property_Prop_SeelieChallangePointBullet_Fontaine_01"
         }
       ],
@@ -467,7 +466,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -508,7 +507,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_OnGround_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -549,7 +548,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_Generator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -580,7 +579,7 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyBall_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -633,7 +632,7 @@
     "radarHint": true
   },
   "SceneObj_Area_Fd_Property_Prop_TreasureSeekingSeelieFarAway_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -663,15 +662,14 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Fd_Property_Prop_SeelieDigPointRing_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Seeker_Exploration_02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Seeker_Exploration_02"
     },
     "hasModel": true,
     "combat": {
@@ -697,7 +695,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Area_Fd_Property_Prop_TreasureSeekingSeelieTask_Fontaine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,

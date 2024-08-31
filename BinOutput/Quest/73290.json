@@ -12,7 +12,7 @@
       "mainId": 73290,
       "order": 1,
       "descTextMapHash": 2531262596,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -34,6 +34,7 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_ACTIVE_ITEM_GIVING",
@@ -41,7 +42,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "finishExec": [],
       "failExec": [],
       "guide": {}
@@ -51,7 +51,7 @@
       "mainId": 73290,
       "order": 2,
       "descTextMapHash": 1488133852,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [

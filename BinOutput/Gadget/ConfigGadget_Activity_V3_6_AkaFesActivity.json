@@ -1,6 +1,6 @@
 {
   "SceneObj_Level_Common_Property_Prop_AkaFesUGCBase_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -27,7 +27,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Level_Common_Property_Prop_AkaFesUGCBaseBlock_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -54,7 +54,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_AkaFesGrapplingHookPoint_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -80,7 +80,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -88,7 +88,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_AkaFesGrapplingHookPoint_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -113,11 +113,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_AkaFesGrapplingHookPoint_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_GrappleHook_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_GrappleHook_01"
     },
     "hasModel": true,
     "combat": {
@@ -144,7 +143,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -152,11 +151,10 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_AkaFesDungeonMushroom_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_BouncingMushroom_01_Appear",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -175,7 +173,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_AkaFesArcCheckPoint_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -213,7 +211,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_AkaFesArcStartUI_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -230,17 +228,17 @@
     },
     "combatTemplate": "",
     "billboard": {
-      "$type": "MCINMKADGHP",
+      "$type": "BEIGNEFIOCI",
       "attachPoint": "BillboardAttach",
       "prefabPluginName": "NPCBoard",
       "damageRatio": "LocalAvatarSlideIcon"
     }
   },
   "SceneObj_Gear_Combat_MonseterPowerUp_CoolDown_Increase_AkaFes": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -274,12 +272,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Stop": ["ShowCollider"],
               "Close": ["ShowCollider"],
@@ -293,7 +291,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -301,7 +299,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_AkaFesLocalTriggerGadget_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {

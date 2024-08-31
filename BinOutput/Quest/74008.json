@@ -1617,7 +1617,7 @@
         }
       ],
       "priority": 5,
-      "nextTalks": [7400812, 7400830],
+      "nextTalks": [7400812],
       "initDialog": 740081001,
       "npcId": [21030, 1005],
       "performCfg": "QuestDialogue/WQ/Fontaine_74040/Q7400810",
@@ -1627,16 +1627,10 @@
     {
       "id": 7400812,
       "activeMode": "PLAY_MODE_HOST",
-      "beginCondComb": "LOGIC_AND",
       "beginCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
           "param": ["7400810", "2"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["402501", "0"],
           "param_str": ""
         }
       ],
@@ -1962,30 +1956,6 @@
       "initDialog": 740080302,
       "npcId": [21030, 1005],
       "performCfg": "QuestDialogue/WQ/Fontaine_74008/Q7400803",
-      "questId": 74008,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 7400830,
-      "activeMode": "PLAY_MODE_HOST",
-      "beginCondComb": "LOGIC_AND",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7400810", "2"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["402501", "1"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "nextTalks": [7400813],
-      "initDialog": 740083001,
-      "npcId": [1005, 21030],
-      "performCfg": "QuestDialogue/WQ/Fontaine_74008/Q7400830",
       "questId": 74008,
       "prePerformCfg": ""
     }

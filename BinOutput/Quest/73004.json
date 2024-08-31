@@ -11,10 +11,10 @@
       "mainId": 73004,
       "order": 1,
       "descTextMapHash": 518494932,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_OR",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_PLAYER_ENTER_REGION",
@@ -45,10 +45,10 @@
       "mainId": 73004,
       "order": 2,
       "descTextMapHash": 3736001484,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_AND",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
@@ -95,10 +95,10 @@
       "mainId": 73004,
       "order": 3,
       "descTextMapHash": 3425932460,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_OR",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
@@ -133,6 +133,7 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -167,7 +168,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "failExec": [],
       "guide": {}
     }

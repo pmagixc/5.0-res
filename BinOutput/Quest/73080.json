@@ -12,7 +12,7 @@
       "mainId": 73080,
       "order": 1,
       "descTextMapHash": 4284478004,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -40,7 +40,7 @@
       "mainId": 73080,
       "order": 2,
       "descTextMapHash": 3816965268,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_OR",
       "acceptCond": [
@@ -73,7 +73,7 @@
       "mainId": 73080,
       "order": 3,
       "descTextMapHash": 977107564,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -101,7 +101,7 @@
       "mainId": 73080,
       "order": 4,
       "descTextMapHash": 2688160012,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -118,6 +118,8 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -125,8 +127,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
-      "beginExec": [],
       "failExec": [],
       "guide": {}
     },
@@ -135,7 +135,7 @@
       "mainId": 73080,
       "order": 5,
       "descTextMapHash": 637716268,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -152,6 +152,7 @@
           "param_str": "201"
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -159,7 +160,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "finishExec": [],
       "failExec": [],
       "guide": {}
@@ -169,7 +169,7 @@
       "mainId": 73080,
       "order": 6,
       "descTextMapHash": 625418812,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [

@@ -1,10 +1,9 @@
 {
   "SceneObj_DvalinEntry_Shake": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_DvalinDungeonEntry_Shake",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stages_DvalinDungeonEntry_Shake"
     },
     "hasModel": true,
     "combat": {
@@ -38,7 +37,7 @@
     }
   },
   "Dvalin_Tower_Seal_Ring": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 10.0,
       "disableTickDistance": 1500.0
@@ -64,12 +63,12 @@
     "combatTemplate": "",
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Ani_Stages_DvalinSeal_State_02": ["Davlin_SealFireEffect"]
             },
@@ -81,25 +80,25 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState"
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStart",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "GearStart",
           "intID": "GadgetState",
           "value": 201
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStop",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "GearStop",
           "intID": "GadgetState"
         }
       ]
     }
   },
   "DungeonEntry_Dvalin": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -116,12 +115,12 @@
     "combatTemplate": "",
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Entry_Lock": [],
               "Entry_Unlock": []

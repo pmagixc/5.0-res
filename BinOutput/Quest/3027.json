@@ -10,7 +10,7 @@
       "mainId": 3027,
       "order": 3,
       "descTextMapHash": 1197900004,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -38,7 +38,7 @@
       "mainId": 3027,
       "order": 1,
       "descTextMapHash": 708345780,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -55,6 +55,7 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -69,7 +70,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "failExec": [],
       "guide": {}
     },
@@ -78,7 +78,7 @@
       "mainId": 3027,
       "order": 2,
       "descTextMapHash": 1212046244,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [

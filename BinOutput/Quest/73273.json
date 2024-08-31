@@ -12,7 +12,7 @@
       "mainId": 73273,
       "order": 1,
       "descTextMapHash": 2511717604,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_OR",
@@ -36,10 +36,7 @@
           "count": 1
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_NPC",
-        "guideScene": 3
-      },
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -47,16 +44,19 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "finishExec": [],
-      "failExec": []
+      "failExec": [],
+      "guide": {
+        "type": "QUEST_GUIDE_NPC",
+        "guideScene": 3
+      }
     },
     {
       "subId": 7327302,
       "mainId": 73273,
       "order": 2,
       "descTextMapHash": 1155339476,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_OR",
       "acceptCond": [
@@ -79,6 +79,8 @@
           "count": 1
         }
       ],
+      "failCond": [],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_INIT_TIME_VAR",
@@ -86,8 +88,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
-      "beginExec": [],
       "failExec": [],
       "guide": {}
     }

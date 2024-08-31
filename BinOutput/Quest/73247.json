@@ -11,7 +11,7 @@
       "mainId": 73247,
       "order": 1,
       "descTextMapHash": 3947331612,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_AND",
@@ -29,6 +29,7 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
@@ -43,7 +44,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "failExec": [],
       "guide": {}
     },
@@ -52,7 +52,7 @@
       "mainId": 73247,
       "order": 2,
       "descTextMapHash": 3717642004,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_NONE",
@@ -81,7 +81,7 @@
       "mainId": 73247,
       "order": 3,
       "descTextMapHash": 209473788,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_NONE",
@@ -115,6 +115,7 @@
           "param_str": ""
         }
       ],
+      "finishExec": [],
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
@@ -122,7 +123,6 @@
           "param_str": ""
         }
       ],
-      "finishExec": [],
       "guide": {}
     },
     {
@@ -130,7 +130,7 @@
       "mainId": 73247,
       "order": 4,
       "descTextMapHash": 3384111996,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_AND",

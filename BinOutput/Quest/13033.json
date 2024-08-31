@@ -12,11 +12,11 @@
       "mainId": 13033,
       "order": 1,
       "descTextMapHash": 1398958724,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "showGuide": "QUEST_GUIDE_ITEM_DISABLE",
       "finishCondComb": "LOGIC_NONE",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
@@ -24,13 +24,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],

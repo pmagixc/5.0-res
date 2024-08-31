@@ -1,6 +1,6 @@
 {
   "Ptahur_StateController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -24,10 +24,10 @@
     }
   },
   "Bullet_Ptahur_Phantom_01_ThrowBlade_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -69,14 +69,14 @@
       "lifeTime": 1.600000023841858
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 40.0,
       "maxSpeed": 40.0,
       "minSpeed": 24.0,
       "anglerVelocity": 150.0,
       "acceleration": -50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 20.0,
@@ -91,20 +91,20 @@
       "guidanceDuration": 0.20000000298023224
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Phantom_01_ThrowBlade_Bullet_Damage"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Phantom_01_ThrowBlade_Bullet"
         }
       ],
@@ -112,10 +112,10 @@
     }
   },
   "Bullet_Ptahur_JellyFish_ShootAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -152,14 +152,14 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 20.0,
       "maxSpeed": 20.0,
       "minSpeed": 16.0,
       "anglerVelocity": 30.0,
       "acceleration": -20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 20.0,
@@ -173,19 +173,19 @@
       "guidanceDuration": 3.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Ptahur_JellyFish_ShootAttack_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Ptahur_JellyFish_ShootAttack_Bullet"
         }
       ],
@@ -193,10 +193,10 @@
     }
   },
   "Ptahur_Devourer_Summon_Gadget_Phantom_OnGround": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -224,10 +224,10 @@
     }
   },
   "Ptahur_Devourer_Summon_Gadget_Drake_OnGround": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -255,10 +255,10 @@
     }
   },
   "Ptahur_Devourer_Summon_Gadget_Panther_OnGround": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -286,10 +286,10 @@
     }
   },
   "Ptahur_Devourer_Summon_Gadget_JellyFish_OnGround": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -317,7 +317,7 @@
     }
   },
   "Ptahur_Devourer_DimensionGate_PhaseIn": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -346,14 +346,14 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 40.0,
       "maxSpeed": 160.0,
       "minSpeed": 10.0,
       "anglerVelocity": 0.0,
       "acceleration": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5,
       "guidanceSpeedChange": false,
@@ -361,7 +361,7 @@
     }
   },
   "Ptahur_Devourer_DimensionGate_PhaseOut": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -390,14 +390,14 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 120.0,
       "minSpeed": 10.0,
       "anglerVelocity": 0.0,
       "acceleration": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5,
       "guidanceSpeedChange": false,
@@ -405,7 +405,7 @@
     }
   },
   "Ptahur_Devourer_DimensionGate_PhaseIn_Static": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -435,7 +435,7 @@
     }
   },
   "Ptahur_Devourer_DimensionGate_PhaseOut_Static": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -465,7 +465,7 @@
     }
   },
   "Ptahur_Underlings_DrakeAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 0.5
     },
@@ -486,36 +486,35 @@
       "animEvents": {
         "JumpAtk": {
           "attackPattern": {
-            "$type": "GMDIMKKHACA",
+            "$type": "ABPNLDBPPHF",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "IAENDIPDFKD",
+              "$type": "AHBFOPDDMPB",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": 0.0
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": 0.0
               },
               "onGround": true
             },
             "height": 3.0,
-            "OAHPDLJIADP": 4.0
+            "IDLDJCPGNHD": 4.0
           },
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.4000000059604645,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.4000000059604645,
+              "AILJJDMKONE": 0.0,
               "elementType": "Rock",
-              "IPFJJJGABPL": 10.0,
+              "bonusCriticalHurt": 10.0,
               "strikeType": "Blunt",
               "enBreak": 50.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV4"
             },
             "cameraShake": {
@@ -552,7 +551,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["RushMoveType"]
       },
@@ -560,12 +559,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "JumpAtk": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "JumpAtkBS": [
                 "Monster_Ptahur_Drake_QuakeAttack_BS",
@@ -592,7 +591,7 @@
     }
   },
   "Ptahur_Underlings_DrakeAttack_Vertex": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -622,11 +621,11 @@
     }
   },
   "Ptahur_Phantom_PantherAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 1.5
     },
-    "KJGJCNANPJP": true,
+    "hasAudio": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -644,20 +643,20 @@
       "animEvents": {
         "ChargeAtk01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "IAENDIPDFKD",
+              "$type": "AHBFOPDDMPB",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": 0.0
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": 0.0
               }
             },
             "size": {
-              "KGEPIMHBMOL": 2.0,
-              "JEBHCGDPFEJ": 2.0,
-              "LPCHALMFFOD": 2.0
+              "AOFNOGLCGMP": 2.0,
+              "CHEGDAPFFHA": 2.0,
+              "JEGKAACFHJK": 2.0
             }
           },
           "attackInfo": {
@@ -665,17 +664,16 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.4000000059604645,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.4000000059604645,
+              "AILJJDMKONE": 0.0,
               "elementType": "Rock",
-              "IPFJJJGABPL": 50.0,
+              "bonusCriticalHurt": 50.0,
               "strikeType": "Blunt",
               "enBreak": 50.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV4"
             },
             "cameraShake": {
@@ -690,20 +688,20 @@
         },
         "ChargeAtk02": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "IAENDIPDFKD",
+              "$type": "AHBFOPDDMPB",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": 0.0
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": 0.0
               }
             },
             "size": {
-              "KGEPIMHBMOL": 2.0,
-              "JEBHCGDPFEJ": 2.0,
-              "LPCHALMFFOD": 2.0
+              "AOFNOGLCGMP": 2.0,
+              "CHEGDAPFFHA": 2.0,
+              "JEGKAACFHJK": 2.0
             }
           },
           "attackInfo": {
@@ -711,17 +709,16 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.4000000059604645,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.4000000059604645,
+              "AILJJDMKONE": 0.0,
               "elementType": "Rock",
-              "IPFJJJGABPL": 50.0,
+              "bonusCriticalHurt": 50.0,
               "strikeType": "Blunt",
               "enBreak": 50.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV4"
             },
             "cameraShake": {
@@ -758,7 +755,7 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "muteAll": true
       },
@@ -766,12 +763,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Sacred_Attack04_BS": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Sacred_Attack04_BS": ["Audio_Monster_Ptahur_PantherAttack_BS"]
             },
@@ -779,7 +776,7 @@
             "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
           },
           "Sacred_Attack04_Loop": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Sacred_Attack04_Loop": [
                 "Ptahur_Phantom_PantherAttack_Loop",
@@ -790,7 +787,7 @@
             "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
           },
           "Sacred_Attack04_AS": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Sacred_Attack04_AS": [
                 "Ptahur_Phantom_PantherAttack_AS",
@@ -805,7 +802,7 @@
     }
   },
   "Ptahur_Phantom_PantherAttack_Vertex": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -835,11 +832,11 @@
     }
   },
   "Ptahur_Phantom_JellyFishAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 1.25
     },
-    "KJGJCNANPJP": true,
+    "hasAudio": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -873,17 +870,17 @@
       "lifeTime": 30.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "dieDelayTime": 0.5
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "NormalAttack": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "NormalAttack": [
                 "Monster_Ptahur_JellyFish_ShootAttack",
@@ -898,7 +895,7 @@
     }
   },
   "Ptahur_Phantom_JellyFishAttack_Vertex": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -928,7 +925,7 @@
     }
   },
   "Ptahur_Vertex_Attack01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -958,7 +955,7 @@
       "lifeTime": 30.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 4.5
@@ -971,10 +968,10 @@
     }
   },
   "Ptahur_Devourer_BackFire_Multibullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1010,29 +1007,29 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_BackFire_Multibullet"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
-        "OCBKMOLPHOK": 200,
+        "$type": "KEEJMAIFDMH",
+        "MPPJANKMBEH": 200,
         "rotationDampTime": "Eff_Monster_Ptahur_Devourer_BackFire_Multibullet"
       }
     }
   },
   "Ptahur_Devourer_BackFire_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1068,10 +1065,10 @@
       "lifeTime": 1.75
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_BackFire_Bullet"
         }
       ],
@@ -1079,10 +1076,10 @@
     }
   },
   "Ptahur_Devourer_WideRangeAttack_Multibullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1118,29 +1115,29 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_WideRangeAttack_Multibullet"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
-        "OCBKMOLPHOK": 300,
+        "$type": "KEEJMAIFDMH",
+        "MPPJANKMBEH": 300,
         "rotationDampTime": "Eff_Monster_Ptahur_Devourer_WideRangeAttack_MultiBullet"
       }
     }
   },
   "Ptahur_Devourer_WideRangeAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1176,10 +1173,10 @@
       "lifeTime": 2.4000000953674316
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_WideRangeAttack_Bullet"
         }
       ],
@@ -1187,10 +1184,10 @@
     }
   },
   "Ptahur_Devourer_Rise_Multibullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1226,28 +1223,28 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Rise_Multibullet"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Ptahur_Devourer_Rise_Attack02"
       }
     }
   },
   "Ptahur_Devourer_Fall_Multibullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1273,7 +1270,7 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 0.5,
-        "NHHHFPLNPGJ": 0.05000000074505806
+        "OGOCKKBFBDG": 0.05000000074505806
       }
     },
     "combatTemplate": "",
@@ -1288,38 +1285,38 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Vertex_Multibullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Vertex_Multibullet"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
-        "OCBKMOLPHOK": 200,
+        "$type": "KEEJMAIFDMH",
+        "MPPJANKMBEH": 200,
         "rotationDampTime": "Eff_Monster_Ptahur_Underlings_Vertex_Multibullet"
       }
     }
   },
   "Ptahur_Devourer_WideRangeAttack_Bullet_Damage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1355,18 +1352,18 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "killByOther": true
     }
   },
   "Ptahur_Devourer_Phantom_BladeSlash01_AfterStrike": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1400,10 +1397,10 @@
       "lifeTime": 1.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Phantom_BladeSlash01_AfterStrike"
         }
       ],
@@ -1411,10 +1408,10 @@
     }
   },
   "Ptahur_Devourer_Phantom_BladeSlash02_AfterStrike": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1448,10 +1445,10 @@
       "lifeTime": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Phantom_BladeSlash02_AfterStrike"
         }
       ],
@@ -1459,10 +1456,10 @@
     }
   },
   "Ptahur_Devourer_Phantom_BladeSlash03_AfterStrike": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1496,10 +1493,10 @@
       "lifeTime": 1.75
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_Phantom_BladeSlash03_AfterStrike"
         }
       ],
@@ -1507,7 +1504,7 @@
     }
   },
   "Ptahur_Devourer_DimensionGate_PhaseOut_Static_Big": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1537,10 +1534,10 @@
     }
   },
   "Ptahur_Devourer_Phantom_EnvironmentAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1574,15 +1571,15 @@
       "lifeTime": 5.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "killByOther": true
     }
   },
   "Ptahur_Phantom_VertexBreakingBuffAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1616,12 +1613,12 @@
       "lifeTime": 5.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "killByOther": true
     }
   },
   "Ptahur_Devourer_RockBreaker_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 2.0
     },
@@ -1656,14 +1653,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RockBreakerNode_01",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1674,7 +1671,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_RockBreaker_Bullet"
         }
       ],
@@ -1682,7 +1679,7 @@
     }
   },
   "Ptahur_Devourer_RockBreaker_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 2.0
     },
@@ -1717,14 +1714,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RockBreakerNode_02",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1735,7 +1732,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Ptahur_Devourer_RockBreaker_Bullet"
         }
       ],

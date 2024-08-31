@@ -1,6 +1,6 @@
 {
   "Hermit_FastAttack_Water_DamageGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -36,7 +36,7 @@
     }
   },
   "Hermit_WindShieldBall_Base": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -46,7 +46,7 @@
         "isLockHP": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -70,18 +70,17 @@
     ],
     "timer": {
       "lifeTime": 25.0
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShieldBall01_Gather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "hp": 100.0,
         "weight": 150.0,
         "isLockHP": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -110,33 +109,32 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindBall1",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
       }
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShieldBall02_Gather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "hp": 100.0,
         "weight": 150.0,
         "isLockHP": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -165,33 +163,32 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindBall2",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
       }
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShieldBall03_Gather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "hp": 100.0,
         "weight": 150.0,
         "isLockHP": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -220,26 +217,25 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindBall3",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
       }
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShield_Shoot": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -248,7 +244,7 @@
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -272,18 +268,17 @@
     ],
     "timer": {
       "lifeTime": 15.0
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShieldBall_NoMove": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "hp": 100.0,
         "weight": 150.0,
         "isLockHP": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -305,11 +300,10 @@
     ],
     "timer": {
       "lifeTime": 30.0
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_WindShieldBall_WindZone": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -318,7 +312,7 @@
         "attack": 10.0,
         "defense": 999999.0,
         "isInvincible": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -344,7 +338,7 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "POHFDPGKAFL",
+      "$type": "HJLGJGIFENH",
       "velocityForce": {
         "excludeForces": [
           "WindZoneType",
@@ -370,11 +364,10 @@
       "randomBackAngleAdded": 60.0,
       "reboundInterval": 0.20000000298023224,
       "outOfRangeFixCD": 0.5
-    },
-    "correctOwner": true
+    }
   },
   "Hermit_UltAttack_DamageGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -410,7 +403,7 @@
     }
   },
   "Hermit_UltAttack_DamageGadget_FinalHit": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -446,10 +439,10 @@
     }
   },
   "Hermit_WaterAttack_Blade": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -482,19 +475,19 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 25.0,
       "maxSpeed": 35.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -502,17 +495,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Hermit_WaterAttack_Blade"
         }
       ]
     }
   },
   "Hermit_WindAttack_WindBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -545,14 +538,14 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 17.5,
       "anglerVelocity": 480.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 1.0,
@@ -570,7 +563,7 @@
       "guidanceDuration": 0.20000000298023224
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -578,14 +571,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Hermit_WindAttack_WindBall"
         }
       ]
     }
   },
   "Hermit_GasWaterBall_Point": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -612,7 +605,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }

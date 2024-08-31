@@ -11,7 +11,7 @@
       "mainId": 73208,
       "order": 1,
       "descTextMapHash": 1973725548,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -40,7 +40,7 @@
       "mainId": 73208,
       "order": 2,
       "descTextMapHash": 4002283580,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -69,7 +69,7 @@
       "mainId": 73208,
       "order": 3,
       "descTextMapHash": 1975454100,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -98,7 +98,7 @@
       "mainId": 73208,
       "order": 4,
       "descTextMapHash": 531889172,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -127,7 +127,7 @@
       "mainId": 73208,
       "order": 5,
       "descTextMapHash": 898139108,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -156,7 +156,7 @@
       "mainId": 73208,
       "order": 6,
       "descTextMapHash": 2062327340,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_AND",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -166,13 +166,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],

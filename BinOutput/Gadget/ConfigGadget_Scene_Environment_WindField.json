@@ -1,10 +1,10 @@
 {
   "SceneObj_Environment_WindField_AirflowField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -15,11 +15,11 @@
     }
   },
   "Airflow_Block3001": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -29,7 +29,7 @@
     }
   },
   "SceneObj_Environment_WindField_PeriodWindField_Plus": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -54,7 +54,7 @@
     "misc": {
       "gear": {},
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -66,29 +66,29 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "EGMIBCKFBKI",
+          "$type": "PMGPCOIBILC",
           "enable": true
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "Action01",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "Action01",
           "intID": "DieFlag",
           "value": 1
         },
         {
-          "$type": "EGMIBCKFBKI",
-          "triggerID": "Action02"
+          "$type": "PMGPCOIBILC",
+          "FKJCCMPLHIJ": "Action02"
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "Action02",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "Action02",
           "intID": "DieFlag"
         }
       ]
     }
   },
   "SceneObj_Environment_WindField_PeriodWindField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -122,7 +122,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -133,11 +133,11 @@
     }
   },
   "AirflowFieldBlue": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -148,7 +148,7 @@
     }
   },
   "SceneObj_Environment_WindField_SpeedupField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -170,7 +170,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "ENNDLGKNGPC",
+        "$type": "PCCLIENDIID",
         "specialTipsIconPath": "",
         "velocity": 19.0,
         "attenuation": 2.299999952316284
@@ -179,7 +179,7 @@
     }
   },
   "SceneObj_Environment_WindField_SpeedSlowField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -217,7 +217,7 @@
     }
   },
   "SceneObj_Environment_WindField_BombField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -246,11 +246,10 @@
     ]
   },
   "SceneObj_Environment_WindField_FleurVortexField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FleurVortex_01_Float",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_FleurVortex_01_Float"
     },
     "hasModel": true,
     "combat": {
@@ -287,11 +286,10 @@
     ]
   },
   "SceneObj_Environment_WindField_FleurDownField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FleurDown_01_Float",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_FleurDown_01_Float"
     },
     "hasModel": true,
     "combat": {
@@ -322,7 +320,7 @@
     ],
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -332,11 +330,11 @@
     }
   },
   "SceneObj_Environment_WindField_CannonField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "DMKEBCBLLCI",
+        "$type": "LAANPNNDECP",
         "specialTipsIconPath": "",
         "velocity": 19.0,
         "attenuation": 2.299999952316284
@@ -345,7 +343,7 @@
     }
   },
   "SceneObj_Environment_WindField_AirflowAgent": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -372,7 +370,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_AirflowAgent2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -399,7 +397,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_AirflowAgent3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -426,7 +424,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_AirflowAgent4": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -453,7 +451,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_AirflowAgent5": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -480,7 +478,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PushField01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -513,14 +511,14 @@
       "fromColliderName": ""
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_PushForce_01"
         }
       ],
@@ -529,7 +527,7 @@
     }
   },
   "SceneObj_Environment_WindField_PushField02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -562,14 +560,14 @@
       "fromColliderName": ""
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_PushForce_02"
         }
       ],
@@ -578,7 +576,7 @@
     }
   },
   "SceneObj_Environment_WindField_PushField03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -611,14 +609,14 @@
       "fromColliderName": ""
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_PushForce_03"
         }
       ],
@@ -627,7 +625,7 @@
     }
   },
   "SceneObj_Environment_WindField_PushField03_FollowMove": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 150000.0
     },
@@ -663,21 +661,21 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_PushForce_03_Follow"
         }
       ],
@@ -686,7 +684,7 @@
     }
   },
   "SceneObj_Environment_WindField_PushField04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -719,14 +717,14 @@
       "fromColliderName": ""
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_PushForce_04"
         }
       ],
@@ -735,7 +733,7 @@
     }
   },
   "SceneObj_Environment_WindField_DragonNest_Barrier": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 450.0
     },
@@ -787,8 +785,7 @@
         }
       ],
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -826,14 +823,14 @@
       }
     ],
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_WindField_DragonNest_Barrier_Attack"
         }
       ],
@@ -842,7 +839,7 @@
     }
   },
   "SceneObj_Environment_WindField_Desert_Island": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 450.0
     },
@@ -894,8 +891,7 @@
         }
       ],
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -930,7 +926,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -938,7 +934,7 @@
     }
   },
   "DragonNest_Tornado_WindField_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 450.0
     },
@@ -965,17 +961,16 @@
     ]
   },
   "SceneObj_Environment_WindField_DragonNest_Tornado_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "disableTickDistance": 450.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_DragonNest_Tornado",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_DragonNest_Tornado"
     },
     "hasModel": true,
     "combat": {
@@ -1011,7 +1006,7 @@
       }
     ],
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "excludeForces": [
           "WindZoneType",
@@ -1035,7 +1030,7 @@
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -1045,7 +1040,7 @@
     }
   },
   "SceneObj_Environment_WindField_DragonNest_Tornado_Tiny": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 450.0
     },
@@ -1071,7 +1066,7 @@
     ]
   },
   "SceneObj_Environment_WindField_DragonNest_StrongWind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 800.0
     },
@@ -1098,7 +1093,7 @@
     ]
   },
   "DragonNest_StrongWindSafeRegion": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1132,7 +1127,7 @@
     }
   },
   "SceneObj_Environment_WindField_PeriodWindField_Continue": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 5000.0,
@@ -1161,7 +1156,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1173,14 +1168,13 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_H50": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H50_Continue",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H50_Continue"
     },
     "hasModel": true,
     "combat": {
@@ -1211,7 +1205,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1223,14 +1217,13 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_H20": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H20_Continue",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H20_Continue"
     },
     "hasModel": true,
     "combat": {
@@ -1261,7 +1254,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1272,14 +1265,13 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_H30": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H30_Continue",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H30_Continue"
     },
     "hasModel": true,
     "combat": {
@@ -1310,7 +1302,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1321,14 +1313,13 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_TowerDefense_H30": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H30_Continue",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H30_Continue"
     },
     "hasModel": true,
     "combat": {
@@ -1369,7 +1360,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1380,7 +1371,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_ContinueNoScale": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1412,7 +1403,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1423,7 +1414,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_Dungeon": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -1449,7 +1440,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1460,14 +1451,13 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_Normal50": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H50_Continue",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_PeriodVerticalWindField_H50_Continue"
     },
     "hasModel": true,
     "combat": {
@@ -1498,7 +1488,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1509,7 +1499,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Environment_WindField_PeriodWindField_Invisible50": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -1542,7 +1532,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1553,7 +1543,7 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Other_Property_Prop_WindField_BigTree_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 150000.0
     },
@@ -1586,7 +1576,7 @@
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 3.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -1597,7 +1587,7 @@
     "keepModifierOutSight": false
   },
   "Element_WindCream": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -1634,7 +1624,7 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "MGENMIHFEJO"
+      "$type": "JDCIOPIOMMC"
     },
     "misc": {
       "windSeed": {},
@@ -1642,17 +1632,16 @@
     }
   },
   "SceneObj_Environment_WindField_Anbai_FlyTest_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_WindField_Vertical_Cushion",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_WindField_Vertical_Cushion"
     },
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1663,17 +1652,16 @@
     }
   },
   "SceneObj_Environment_WindField_Anbai_FlyTest_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_WindField_Vertical_Cushion02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_WindField_Vertical_Cushion02"
     },
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1684,17 +1672,16 @@
     }
   },
   "SceneObj_Environment_WindField_Anbai_FlyTest_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_WindField_Vertical_Cushion03",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_WindField_Vertical_Cushion03"
     },
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1705,17 +1692,16 @@
     }
   },
   "SceneObj_Environment_WindField_ShootFeather_Vertical_Feather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_WindField_Vertical_Feather_02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_WindField_Vertical_Feather_02"
     },
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1726,17 +1712,16 @@
     }
   },
   "SceneObj_Environment_WindField_Anbai_Vertical_Feather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_WindField_Vertical_Feather_03",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_WindField_Vertical_Feather_03"
     },
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -1747,14 +1732,13 @@
     }
   },
   "Widget_Gadget_WindField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Widget_WindField",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Widget_WindField"
     },
     "hasModel": true,
     "combat": {
@@ -1788,7 +1772,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",

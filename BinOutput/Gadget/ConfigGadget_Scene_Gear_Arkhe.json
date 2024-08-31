@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_Fd_Property_Ani_Prop_Airship_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 150000.0
     },
@@ -64,12 +64,12 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_FDCollector_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -108,7 +108,7 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPLamp_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -148,7 +148,7 @@
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPAmplifier_Fire_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -187,7 +187,7 @@
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPAmplifier_Ice_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -226,7 +226,7 @@
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPAmplifier_Elec_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -265,7 +265,7 @@
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPAmplifier_Water_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -304,7 +304,7 @@
     "openWatcher": true
   },
   "SceneObj_Undersea_ArkheSeed_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -348,35 +348,35 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "Pneuma",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "Pneuma",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "Ousia",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "Ousia",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO"
+          "$type": "GBLOODKIFJE"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "LockOusia"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "LockOusia"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "LockPneuma"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "LockPneuma"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Undersea_ArkheSeed_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -420,35 +420,35 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "Pneuma",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "Pneuma",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "Ousia",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "Ousia",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO"
+          "$type": "GBLOODKIFJE"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "LockOusia"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "LockOusia"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "LockPneuma"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "LockPneuma"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Undersea_ArkheLocker_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -461,7 +461,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_OPLocker_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_EnvironmentType"],
       "initServerGlobalValues": {
@@ -510,25 +510,25 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "DEMJBAICBKO"
+          "$type": "GBLOODKIFJE"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction1",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearAction1",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction2",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearAction2",
           "enable": true
         }
       ]
@@ -536,7 +536,7 @@
     "openWatcher": true
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_ArkheSpreader_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -549,7 +549,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_ArkheSpreader_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -562,7 +562,7 @@
     "combatTemplate": ""
   },
   "SceneObj_UnderSea_Nutcracker_ShowGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -631,12 +631,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Dance1": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Dance1_First": [
                 "Monster_MachinaIustitia_Nutcracker_BeforeBattle_Dance1",
@@ -651,7 +651,7 @@
             "canSteer": true
           },
           "Dance2": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Dance2": [
                 "Monster_MachinaIustitia_Nutcracker_BeforeBattle_Dance2",
@@ -665,12 +665,12 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
-      "MMPNNCHHIDJ": [
+      "KCMCAANGOCM": [
         {
           "name": "AudioEntity_Dance",
-          "HIPBJIAPBID": "Audio_Body"
+          "LMIDEFAEHFM": "Audio_Body"
         }
       ]
     }

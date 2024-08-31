@@ -11,7 +11,7 @@
       "mainId": 73683,
       "order": 1,
       "descTextMapHash": 1546983828,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_OR",
       "acceptCond": [
@@ -33,6 +33,8 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_UNLOCK_POINT",
@@ -40,8 +42,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
-      "beginExec": [],
       "failExec": [],
       "guide": {}
     }

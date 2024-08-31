@@ -1,9 +1,9 @@
 {
   "Liney_Arrow_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -29,21 +29,21 @@
       "animEvents": {
         "Arrow_ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -51,16 +51,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 13.536999702453613,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -89,27 +88,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_LightFX"
         }
       ],
@@ -117,10 +116,10 @@
     }
   },
   "Liney_Arrow_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -146,21 +145,21 @@
       "animEvents": {
         "Arrow_ATK02": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -168,16 +167,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 13.251999855041504,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -206,27 +204,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK02"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_LightFX"
         }
       ],
@@ -234,10 +232,10 @@
     }
   },
   "Liney_Arrow_03_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -263,21 +261,21 @@
       "animEvents": {
         "Arrow_ATK03_01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -285,16 +283,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 9.508500099182129,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "Eff_Avatar_Boy_Bow_Liney_ShootSpark_Hit",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -323,27 +320,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK03_01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_LightCardFX"
         }
       ],
@@ -351,10 +348,10 @@
     }
   },
   "Liney_Arrow_03_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -380,21 +377,21 @@
       "animEvents": {
         "Arrow_ATK03_02": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -402,16 +399,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 9.508500099182129,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "Eff_Avatar_Boy_Bow_Liney_ShootSpark_Hit",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -440,27 +436,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK03_02"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_LightCardFX"
         }
       ],
@@ -468,10 +464,10 @@
     }
   },
   "Liney_Arrow_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -497,21 +493,21 @@
       "animEvents": {
         "Arrow_ATK04": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -519,16 +515,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 19.871999740600586,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "Eff_Avatar_Boy_Bow_Liney_ShootSpark_Hit",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -557,27 +552,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK04"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_HeavyCardFX"
         }
       ],
@@ -585,10 +580,10 @@
     }
   },
   "Liney_AimingArrow_WithoutFire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -624,23 +619,23 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Liney_ShootArrow_Enchanted_WithoutFire"
         }
       ],
@@ -648,10 +643,10 @@
     }
   },
   "Liney_AimingArrow_WithFire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -687,23 +682,23 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_WithFire"
         }
       ],
@@ -711,10 +706,10 @@
     }
   },
   "Liney_AimingArrow_BeforeFission": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -750,27 +745,27 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {},
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_WithFire_BeforeFission"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_WithFire_BeforeFission"
         }
       ],
@@ -778,10 +773,10 @@
     }
   },
   "Liney_AimingArrow_BeforeFission_Sub": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -817,14 +812,14 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true,
@@ -832,23 +827,23 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_WithFire_BeforeFission_Sub"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_ShootArrow_WithFire_BeforeFission_Sub"
         }
       ]
     }
   },
   "Liney_FissionAgent": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -858,8 +853,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -895,7 +889,7 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
@@ -906,10 +900,10 @@
     "canRemoveByClient": true
   },
   "Liney_FissionAgent_PermanentSkill_1_Enhanced": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -919,8 +913,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -956,7 +949,7 @@
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
@@ -967,10 +960,10 @@
     "canRemoveByClient": true
   },
   "Liney_FissionAgent_EndBoom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -1011,7 +1004,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -1019,22 +1012,22 @@
       "anglerVelocity": 20.0,
       "acceleration": -2.0,
       "accelerationTime": 2.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.05000000074505806,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "IAENDIPDFKD",
+          "$type": "AHBFOPDDMPB",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": -0.10000000149011612
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": -0.10000000149011612
           },
           "bornRandom": {
-            "$type": "OJKHDGHBNKP",
+            "$type": "OCDANLJMNNK",
             "minRandomRange": 2.5,
             "maxRandomRange": 3.5
           }
@@ -1044,7 +1037,7 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1053,17 +1046,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom_NoTarget"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom"
         }
       ],
@@ -1074,10 +1067,10 @@
     }
   },
   "Liney_FissionAgent_EndBoom_Constellation_6": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -1118,7 +1111,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -1126,19 +1119,19 @@
       "anglerVelocity": 20.0,
       "acceleration": -2.0,
       "accelerationTime": 2.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.05000000074505806,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": -1.0,
-            "LPCHALMFFOD": 15.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": -1.0,
+            "JEGKAACFHJK": 15.0
           }
         },
         "radius": 0.6000000238418579,
@@ -1146,7 +1139,7 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1155,17 +1148,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom_Constellation_6"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom_NoTarget"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Liney_FissionAgent_EndBoom_Constellation_6"
         }
       ],
@@ -1173,10 +1166,10 @@
     }
   },
   "Liney_FissionAgent_EndBoom_Enhanced": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -1213,10 +1206,10 @@
     }
   },
   "Liney_ElementalArt_GetPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -1253,10 +1246,10 @@
     }
   },
   "Liney_OusiaAgent": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },

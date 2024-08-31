@@ -1,6 +1,6 @@
 {
   "SceneObj_Gear_Other_Test_MoveGear": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 50.0
     },
@@ -30,7 +30,7 @@
       }
     ],
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       }
@@ -41,7 +41,7 @@
     }
   },
   "SceneObj_Gear_Other_Test_StayGear": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 8000.0,
@@ -73,10 +73,10 @@
     }
   },
   "SceneObj_Gear_Other_Test_FollowMoveGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.0,
@@ -108,18 +108,18 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "GearAttachPoint02",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Gear_Other_Test_Sculpture": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -157,12 +157,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Basic": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Angle_0_Idle": [],
               "Angle_120_Idle": [],
@@ -174,7 +174,7 @@
     }
   },
   "SceneObj_Gear_Other_PowerCharge": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -208,10 +208,10 @@
     ]
   },
   "SceneObj_Gear_Other_Bullet_ShoterGear_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -251,30 +251,30 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 60.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Bullet_ShoterGear_Electric_Burst"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Bullet_ShoterGear_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -318,27 +318,27 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 60.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Bullet_ShoterGear_Fire_Burst"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_SpeedUper": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -384,7 +384,7 @@
     }
   },
   "SceneObj_Gear_Other_WarmArea": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -430,11 +430,10 @@
     }
   },
   "SceneObj_Gear_Other_LaserSwitch": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Gear_Laser_Switch",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Gear_Laser_Switch"
     },
     "hasModel": true,
     "combat": {
@@ -472,19 +471,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Gear_Laser_Switch"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -494,10 +493,10 @@
     }
   },
   "SceneObj_Gear_Other_Bullet_ShoterGear_None": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -536,30 +535,30 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 80.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Bullet_ShoterGear_None_Burst"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Bullet_ShoterGear_None_HitPlayer": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -598,14 +597,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 80.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -614,14 +613,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Bullet_ShoterGear_None_HitPlayer"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Electric_Switch": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -656,12 +655,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Stage_Ani_Gear_Dungeon_Electirc_Disabled": [],
               "Ani_Gear_Dungeon_Electirc_Switch_ToDisabled": [],
@@ -672,7 +671,7 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
       "animAudio": {
         "onTransitionIn": [
@@ -702,7 +701,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -710,7 +709,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementCube": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -755,10 +754,10 @@
     }
   },
   "SceneObj_Gear_Other_ElementCube_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -793,35 +792,33 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 20.0,
       "angleOffHor": 30.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Alliance",
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_ElementCube_Bullet_Crash"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_ElementCube_Bullet_Crash"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Badminton_Shooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -853,7 +850,7 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 0.5
@@ -865,7 +862,7 @@
     }
   },
   "SceneObj_Gear_Other_Badminton_Border": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -897,7 +894,7 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "attachPoint3",
       "offset": {
         "y": 0.5
@@ -909,7 +906,7 @@
     }
   },
   "SceneObj_Gear_Other_Badminton_Camera_Dummy": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -943,13 +940,13 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "CameraLook",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Gear_Other_Rope_Skipping": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -997,12 +994,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Ani_Test_Rope_Skipping_Loop": ["Test_Rope_Skipping"]
             }
@@ -1013,12 +1010,12 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState"
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStart",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "GearStart",
           "intID": "gadgetState",
           "value": 201
         }
@@ -1026,10 +1023,10 @@
     }
   },
   "SceneObj_Gear_Other_Badminton_Bullet_QA": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1063,15 +1060,13 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 6.0,
       "angleOffHor": 50.0,
-      "gravityOfAcceleration": 2.5,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 2.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All",
@@ -1079,14 +1074,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Badminton_Bullet_Crash_QA"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Badminton_Shooter_QA": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1118,7 +1113,7 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 0.5
@@ -1130,7 +1125,7 @@
     }
   },
   "SceneObj_Gear_Other_Spring": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1169,7 +1164,7 @@
     }
   },
   "Shaman_Water_Evn_HealRain_Field_Circle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1204,7 +1199,7 @@
     ]
   },
   "Shaman_Water_Evn_HealRain_Field_Control": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1239,7 +1234,7 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 0.5
@@ -1250,7 +1245,7 @@
     }
   },
   "Shaman_Water_Evn_HealRain_Field": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1286,7 +1281,7 @@
     ]
   },
   "ElementField_Water_HealRain": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1322,7 +1317,7 @@
     ]
   },
   "Shaman_Water_Evn_HealRain_Field_Constant": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1358,7 +1353,7 @@
     ]
   },
   "SceneObj_Gear_Other_Mole": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1404,12 +1399,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Ani_Test_Cear_Mole_Dig": ["Mole_DigHole"]
             }
@@ -1419,7 +1414,7 @@
     }
   },
   "SceneObj_Gear_Other_Mole_OriginBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -1452,7 +1447,7 @@
       "lifeTime": 30.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy",
@@ -1460,7 +1455,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Mole_Check"
         }
       ],
@@ -1468,7 +1463,7 @@
     }
   },
   "SceneObj_Gear_Other_Mole_Hole": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 450.0
     },
@@ -1516,12 +1511,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Default": ["Hole_Rollback"],
               "ShowHole": ["Hole_ShowHole"],
@@ -1536,7 +1531,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -1544,10 +1539,10 @@
     }
   },
   "SceneObj_Gear_Other_Mole_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1582,7 +1577,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 6.0,
       "acceleration": 1.0,
       "stickToGround": {
@@ -1595,7 +1590,7 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All",
@@ -1603,7 +1598,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Mole_Crash"
         }
       ],
@@ -1611,7 +1606,7 @@
     }
   },
   "SceneObj_Gear_Other_Mole_Destination": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -1644,12 +1639,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "empty": ["Hide_MoleHole"],
               "hole": ["Show_MoleHole"]
@@ -1661,7 +1656,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -1669,7 +1664,7 @@
     }
   },
   "SceneObj_Gear_Other_Badminton_Barrel": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -1702,10 +1697,10 @@
     ]
   },
   "SceneObj_Gear_Other_Badminton_Barrel_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1739,25 +1734,25 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 1.0,
       "acceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Alliance"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Badminton_Barrel_Crash"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_ThunderBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1793,7 +1788,7 @@
     ]
   },
   "SceneObj_Gear_Other_FireWorks": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -1827,10 +1822,10 @@
     ]
   },
   "SceneObj_Gear_Other_FireWorks_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1864,26 +1859,26 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 6.0,
       "acceleration": -1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_FireWorks_Crash"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Lamp_Post": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1931,12 +1926,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Default": ["Seelie_Body_Hide"],
               "GearStart": ["Seelie_Body_Visible"]
@@ -1946,7 +1941,7 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
       "animAudio": {
         "onTransitionIn": [
@@ -1976,18 +1971,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState"
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStart",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "GearStart",
           "intID": "gadgetState",
           "value": 201
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearAction1",
+          "$type": "GEPCCLANDFB",
+          "FKJCCMPLHIJ": "GearAction1",
           "intID": "gadgetState",
           "value": 203
         }
@@ -1995,7 +1990,7 @@
     }
   },
   "SceneObj_Gear_Other_DungeonThunder_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2030,7 +2025,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonThunder_Controller_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2065,7 +2060,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonThunder_Controller_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2100,7 +2095,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonFire_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2135,7 +2130,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonFire_Controller_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2170,7 +2165,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonFire_Controller_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2205,7 +2200,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonWater_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2240,7 +2235,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonWater_Controller_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2275,7 +2270,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonWater_Controller_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2310,7 +2305,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonIce_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2345,7 +2340,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonIce_Controller_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2380,7 +2375,7 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonIce_Controller_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2415,10 +2410,10 @@
     ]
   },
   "SceneObj_Gear_Other_DungeonIce_DropIce": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2457,29 +2452,29 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 5.0,
       "acceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_DungeonIce_DropIce"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_DungeonIce_DropIce02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2518,29 +2513,29 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 5.0,
       "acceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_DungeonIce_DropIce02"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_DungeonIce_DropIce03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2579,26 +2574,26 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 5.0,
       "acceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_DungeonIce_DropIce03"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_DungeonRock_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -2633,7 +2628,7 @@
     ]
   },
   "SceneObj_Gear_Other_FireCracker": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -2669,7 +2664,7 @@
     ]
   },
   "SceneObj_Gear_Other_Windmill": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -2703,7 +2698,7 @@
     ]
   },
   "SceneObj_Gear_Other_BoxStrange": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -2739,7 +2734,7 @@
     ]
   },
   "SceneObj_Gear_Other_Crack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -2776,12 +2771,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Watered": ["Test_Crack"]
             }
@@ -2791,7 +2786,7 @@
     }
   },
   "SceneObj_Gear_Other_Fountain": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -2828,7 +2823,7 @@
     ]
   },
   "SceneObj_Gear_Other_ElementRune_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -2868,12 +2863,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -2887,7 +2882,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2895,7 +2890,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Rock": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -2935,12 +2930,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Ani_ElementRune_Enabled": [
                 "Audio_SceneObj_Gear_ElemRune_Rock_Start"
@@ -2953,7 +2948,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2961,7 +2956,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -3001,12 +2996,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -3020,7 +3015,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3028,7 +3023,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -3068,12 +3063,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -3087,7 +3082,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3095,7 +3090,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -3135,12 +3130,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -3154,7 +3149,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3162,7 +3157,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -3202,12 +3197,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -3221,7 +3216,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3229,7 +3224,7 @@
     }
   },
   "SceneObj_Gear_Other_ElementRune_Grass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -3269,12 +3264,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Eff_Hide": ["Hide_RootNode"],
               "Eff_Ani_ElementRune_Enabled": [
@@ -3288,7 +3283,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3296,7 +3291,7 @@
     }
   },
   "SceneObj_Gear_Other_Balloon_Tree": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3349,12 +3344,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OnHit_Default": [
                 "BalloonTreeSetState",
@@ -3369,13 +3364,13 @@
         }
       },
       "fruitLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndex": 1,
         "layerIndexName": "Fruit Layer",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Shoot": ["HideBalloon"],
               "Growup": ["Audio_SceneObj_Gear_Ballon_Tree_Growup"]
@@ -3387,16 +3382,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
-    },
-    "DADEGCDMOBD": false
+    }
   },
   "SceneObj_Gear_Other_GhostBalloon_Tree": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3437,12 +3431,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OnHit_Default": [
                 "BalloonTreeSetState",
@@ -3457,13 +3451,13 @@
         }
       },
       "fruitLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndex": 1,
         "layerIndexName": "Fruit Layer",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Shoot": ["HideBalloonGhost"],
               "Growup": ["Audio_SceneObj_Gear_Ballon_Tree_Growup"]
@@ -3475,19 +3469,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
-    },
-    "DADEGCDMOBD": false
+    }
   },
   "SceneObj_Gear_Other_Balloon_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "hasModel": true,
@@ -3527,14 +3520,14 @@
       }
     ],
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "anglerVelocity": 720.0,
       "acceleration": 8.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Alliance",
@@ -3543,17 +3536,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Balloon_Bullet"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Balloon_Bullet1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "hasModel": true,
@@ -3591,14 +3584,14 @@
       }
     ],
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "anglerVelocity": 720.0,
       "acceleration": 8.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Alliance",
@@ -3607,17 +3600,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Balloon_Bullet_01"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Balloon_Bullet2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "hasModel": true,
@@ -3655,14 +3648,14 @@
       }
     ],
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "anglerVelocity": 720.0,
       "acceleration": 8.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Alliance",
@@ -3671,17 +3664,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Balloon_Bullet_02"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Balloon_Bullet3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "hasModel": true,
@@ -3719,14 +3712,14 @@
       }
     ],
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "anglerVelocity": 720.0,
       "acceleration": 8.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Alliance",
@@ -3735,14 +3728,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Gear_Other_Balloon_Bullet_03"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Balloon_Destination": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -3776,7 +3769,7 @@
     ]
   },
   "SceneObj_Gear_Other_Balloon_Destination1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -3810,7 +3803,7 @@
     ]
   },
   "SceneObj_Gear_Other_Balloon_Destination2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -3844,7 +3837,7 @@
     ]
   },
   "SceneObj_Gear_Other_Balloon_Destination3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -3878,7 +3871,7 @@
     ]
   },
   "SceneObj_Gear_Other_Floor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -3925,12 +3918,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Destroy": ["HideCollider", "Floor_TriggerAbility"]
             }
@@ -3939,7 +3932,7 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
       "animAudio": {
         "onTransitionIn": [
@@ -3974,7 +3967,7 @@
     }
   },
   "SceneObj_Gear_Other_FadeoutFloor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -4024,24 +4017,24 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "ToDie": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "ToDie": []
             }
           },
           "Born": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Born": ["ShowCollider"]
             }
           },
           "Destroy": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Destroy": ["HideCollider"]
             }
@@ -4052,7 +4045,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -4060,7 +4053,7 @@
     }
   },
   "SceneObj_Gear_Other_Goddess": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4088,7 +4081,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Level_Common_Property_Build_CorrosiveFloor_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -4108,14 +4101,13 @@
     ]
   },
   "SceneObj_Level_Common_Property_Build_DarkWaterShoot_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DarkWaterShoot_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_DarkWaterShoot_01"
     },
     "hasModel": true,
     "combat": {
@@ -4137,14 +4129,13 @@
     ]
   },
   "SceneObj_Level_Common_Property_Build_DarkWaterShoot_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DarkWaterShoot_01_Shoot",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_DarkWaterShoot_01_Shoot"
     },
     "hasModel": true,
     "combat": {
@@ -4193,11 +4184,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Gear_Other_TriggerPlant": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4241,7 +4232,7 @@
     }
   },
   "SceneObj_Gear_Other_View": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4285,7 +4276,7 @@
     }
   },
   "SceneObj_Gear_Other_ViewTrigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4318,7 +4309,7 @@
     ]
   },
   "SceneObj_Gear_Other_Compass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4384,12 +4375,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "State0": ["Compass_Right"],
               "State90": ["Compass_Wrong202"],
@@ -4415,7 +4406,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -4423,11 +4414,10 @@
     }
   },
   "SceneObj_Gear_Other_Compass_FarHint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Altar_FarHint",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Altar_FarHint"
     },
     "hasModel": true,
     "combat": {
@@ -4458,11 +4448,10 @@
     }
   },
   "SceneObj_Gear_Other_Compass_FarLine01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Compass_FarLine01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Compass_FarLine01"
     },
     "hasModel": true,
     "combat": {
@@ -4490,11 +4479,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_Compass_FarLine02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Compass_FarLine02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Compass_FarLine02"
     },
     "hasModel": true,
     "combat": {
@@ -4522,11 +4510,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_Compass_FarLine03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Compass_FarLine03",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Compass_FarLine03"
     },
     "hasModel": true,
     "combat": {
@@ -4554,11 +4541,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_Compass_Guide": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_CommonTrail",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_CommonTrail"
     },
     "hasModel": true,
     "combat": {
@@ -4586,7 +4572,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_MonsterCreater": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4620,7 +4606,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -4628,7 +4614,7 @@
     }
   },
   "SceneObj_Gear_Other_DungeonLightLamp": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4655,7 +4641,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -4663,7 +4649,7 @@
     }
   },
   "SceneObj_Gear_Other_IceWindEff": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4707,7 +4693,7 @@
     }
   },
   "SceneObj_Gear_TorchPuzzle_Base": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4742,30 +4728,30 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "OneLight": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OneLight": []
             }
           },
           "TwoLight": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "TwoLight": []
             }
           },
           "ThreeLight": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "ThreeLight": []
             }
           },
           "FourLight": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FourLight": []
             }
@@ -4776,7 +4762,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -4784,7 +4770,7 @@
     }
   },
   "SceneObj_Gear_Other_LimitRing": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4829,7 +4815,7 @@
     }
   },
   "SceneObj_Gear_Other_LimitDestination": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -4863,11 +4849,10 @@
     ]
   },
   "SceneObj_Gear_Other_NPC_Hint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_NPC",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_Hint_NPC"
     },
     "hasModel": true,
     "combat": {
@@ -4897,11 +4882,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_StaticHint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_SmallPoint",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_Hint_SmallPoint"
     },
     "hasModel": true,
     "combat": {
@@ -4931,7 +4915,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_DungeonFog": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -4967,7 +4951,7 @@
     ]
   },
   "SceneObj_Gear_Other_RuinsTreasure": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 20.0,
@@ -5014,12 +4998,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Basic": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Active": [
                 "Audio_SceneObj_Gear_LiYueplain_Mainpuzzle_Active",
@@ -5034,7 +5018,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -5042,7 +5026,7 @@
     }
   },
   "SceneObj_Gear_Other_XianglingDungeon_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -5076,7 +5060,7 @@
     ]
   },
   "SceneObj_Gear_Other_Dvalin_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 10.0
     },
@@ -5118,7 +5102,7 @@
     ]
   },
   "SceneObj_Gear_Other_RockTotem_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5158,12 +5142,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5175,14 +5159,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5194,7 +5178,7 @@
     }
   },
   "SceneObj_Gear_Other_RockTotem_Fire_Max": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5238,12 +5222,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5255,14 +5239,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5274,7 +5258,7 @@
     }
   },
   "SceneObj_Gear_Other_RockTotem_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5314,12 +5298,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5331,14 +5315,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5350,7 +5334,7 @@
     }
   },
   "SceneObj_Gear_Other_RockTotem_Electric_Max": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5394,12 +5378,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5411,14 +5395,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5430,7 +5414,7 @@
     }
   },
   "SceneObj_Gear_Other_RockTotem_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5470,12 +5454,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5487,14 +5471,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5506,7 +5490,7 @@
     }
   },
   "SceneObj_Gear_Other_RockTotem_Ice_Max": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5550,12 +5534,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "HideCollider": ["HideCollider"],
               "Buffer": ["ShowCollider"]
@@ -5567,14 +5551,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "RootNode",
       "offset": {
         "y": 2.5
@@ -5586,7 +5570,7 @@
     }
   },
   "SceneObj_Gear_Other_Qingce_Treasure": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5617,19 +5601,19 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Active": ["Audio_Gear_Qctreasure_Light_StoneOpen"]
             },
             "cullingModelAlwaysAnimate": true
           },
           "Loop": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Idle": [],
               "Loop": []
@@ -5642,7 +5626,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -5650,7 +5634,7 @@
     }
   },
   "SceneObj_Gear_Other_Qingce_Treasure_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5692,7 +5676,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -5700,11 +5684,10 @@
     }
   },
   "SceneObj_Gear_Other_Dungeon_Bridge": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Model_FCdungeon_Bridge",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Model_FCdungeon_Bridge"
     },
     "hasModel": true,
     "combat": {
@@ -5729,19 +5712,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Model_FCdungeon_Bridge"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -5751,11 +5734,10 @@
     }
   },
   "SceneObj_Level_Common_Property_Prop_TowerBridge_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerBridge_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerBridge_01"
     },
     "hasModel": true,
     "combat": {
@@ -5787,19 +5769,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_TowerBridge_01"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -5809,11 +5791,10 @@
     }
   },
   "SceneObj_Gear_Other_Dungeon_Bridge_0_76": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Model_FCdungeon_Bridge03",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Model_FCdungeon_Bridge03"
     },
     "hasModel": true,
     "combat": {
@@ -5838,19 +5819,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Model_FCdungeon_Bridge03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -5860,11 +5841,10 @@
     }
   },
   "SceneObj_Gear_Other_Dungeon_Bridge_1_2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Model_FCdungeon_Bridge04",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Model_FCdungeon_Bridge04"
     },
     "hasModel": true,
     "combat": {
@@ -5889,19 +5869,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Model_FCdungeon_Bridge04"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -5911,11 +5891,10 @@
     }
   },
   "SceneObj_Gear_Other_Dungeon_Bridge_Multi": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Model_FCdungeon_Bridge_02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Model_FCdungeon_Bridge_02"
     },
     "hasModel": true,
     "combat": {
@@ -5940,19 +5919,19 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Model_FCdungeon_Bridge_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -5962,7 +5941,7 @@
     }
   },
   "SceneObj_Gear_Other_Treasureplatform": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5992,12 +5971,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Stay": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Stay": []
             }
@@ -6008,7 +5987,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "Active",
           "syncState": true
         }
@@ -6016,7 +5995,7 @@
     }
   },
   "SceneObj_Gear_Other_CommonOperator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6058,12 +6037,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Active": ["Audio_SceneObj_Gear_Prop_CommonOperator_01_Active"]
             }
@@ -6074,109 +6053,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "Active",
           "syncState": true
         }
       ]
     }
   },
-  "SceneObj_Property_Stages_Prop_Challengestarter_01_Special204": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
-    "combat": {
-      "property": {
-        "hp": 99999.0,
-        "attack": 50.0,
-        "weight": 50.0,
-        "isLockHP": true
-      },
-      "beHit": {
-        "hitBloodEffect": "",
-        "hitAutoRedirect": false,
-        "muteAllHitText": true
-      },
-      "combatLock": {
-        "lockShape": "CircleLockEnemy",
-        "denyLockOn": true,
-        "lockType": "Gadget_Lv1"
-      }
-    },
-    "combatTemplate": "",
-    "abilities": [
-      {
-        "abilityID": "SceneObj_Property_Stages_Prop_Challengestarter_01_Special204",
-        "abilityName": "SceneObj_Property_Stages_Prop_Challengestarter_01_Special204",
-        "abilityOverride": ""
-      }
-    ],
-    "field": {
-      "concernType": "AllAvatars",
-      "shape": "CircleR1.5",
-      "fromShape": "",
-      "triggerInfinite": true,
-      "lifeInfinite": true,
-      "checkInterval": 0.20000000298023224,
-      "overwriteCampType": true,
-      "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
-    },
-    "misc": {
-      "escapeEffect": "",
-      "guidePoint": true,
-      "guidePointManagedByIndicator": true
-    },
-    "gadgetAction": {
-      "gadgetStateActionList": [
-        {
-          "$type": "FJGKLJLPOGL",
-          "intID": "State",
-          "syncState": true
-        },
-        {
-          "$type": "OLDOOKBEKJI",
-          "parameter": "State",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Special204"
-        },
-        {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
-          "parameter": "State",
-          "damageRatio": "Int",
-          "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Special204"
-        },
-        {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
-          "parameter": "State",
-          "damageRatio": "Int",
-          "value": 202,
-          "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Special204"
-        },
-        {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
-          "parameter": "State",
-          "damageRatio": "Int",
-          "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Special204"
-        }
-      ]
-    },
-    "billboard": {
-      "$type": "KMCIKEIBFAH",
-      "attachPoint": "BillboardAttach",
-      "offset": {
-        "y": 2.5
-      },
-      "forceHideAllBars": true
-    }
-  },
   "SceneObj_Property_Stages_Prop_Challengestarter_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6224,27 +6109,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6253,7 +6138,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6262,7 +6147,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_MirageChallengestarter_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6310,27 +6195,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_01_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6339,7 +6224,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6348,7 +6233,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_Challengestarter_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6396,27 +6281,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6425,7 +6310,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6434,7 +6319,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_MirageChallengestarter_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6482,27 +6367,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6511,7 +6396,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6520,7 +6405,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_Challengestarter_02_Keep": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6568,27 +6453,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6597,7 +6482,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6606,7 +6491,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_Challengestarter_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6654,27 +6539,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6683,7 +6568,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6692,7 +6577,7 @@
     }
   },
   "SceneObj_Property_Stages_Prop_MirageChallengestarter_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6740,27 +6625,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03_Fade"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -6769,7 +6654,7 @@
       ]
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -6778,7 +6663,7 @@
     }
   },
   "SceneObj_Stages_Property_Prop_IndicatorHolder_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6804,7 +6689,7 @@
     }
   },
   "SceneObj_Stages_Property_Prop_IndicatorHolder_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6835,7 +6720,7 @@
     ]
   },
   "SceneObj_Item_ChargePointS": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -6885,7 +6770,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "Active",
           "syncState": true
         }
@@ -6893,7 +6778,7 @@
     }
   },
   "SceneObj_Item_ChargePointL": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -6948,11 +6833,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Rock": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -6989,15 +6873,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Rock"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Rock"
@@ -7006,11 +6890,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -7047,15 +6930,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Wind"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Wind"
@@ -7064,11 +6947,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -7105,15 +6987,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Electric"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Electric"
@@ -7122,11 +7004,10 @@
     }
   },
   "SceneObj_Area_Dq_Property_Prop_Bossplace_Water_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Build_Ruin_Bossplace_D_Water",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Build_Ruin_Bossplace_D_Water"
     },
     "hasModel": true,
     "combat": {
@@ -7156,15 +7037,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Water"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Water"
@@ -7173,11 +7054,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Plot_Rock": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -7214,15 +7094,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Rock"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Rock"
@@ -7231,11 +7111,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Plot_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -7272,15 +7151,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Wind"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Wind"
@@ -7289,11 +7168,10 @@
     }
   },
   "SceneObj_Gear_Bossplace_Plot_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -7330,15 +7208,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Electric"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Electric"
@@ -7347,11 +7225,10 @@
     }
   },
   "SceneObj_Area_Dq_Property_Prop_Bossplace_Plot_Water_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Water",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Water"
     },
     "hasModel": true,
     "combat": {
@@ -7381,15 +7258,15 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "Enter",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Water"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "Enter",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Build_Ruin_Bossplace_D_Plot_Water"
@@ -7398,7 +7275,7 @@
     }
   },
   "SceneObj_Gear_Other_SaviorRock_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7433,7 +7310,7 @@
     ]
   },
   "SceneObj_Gear_Other_SaviorRock_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7468,7 +7345,7 @@
     ]
   },
   "SceneObj_Gear_Other_SaviorRock_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7503,7 +7380,7 @@
     ]
   },
   "SceneObj_Gear_Other_SaviorRock_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7543,16 +7420,16 @@
       "groupName": "",
       "confirmDialogTitle": "",
       "confirmDialogContent": "",
-      "PBMCACCMPEJ": true
+      "NHKBKELBDHN": true
     },
     "intee": {
       "triggerRadius": 1.0,
       "triggerHeight": 1.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Area_Ly_Property_Prop_EyeStone_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -7563,7 +7440,7 @@
     ]
   },
   "SceneObj_Area_Ly_Property_Prop_LYG_Common_Candlestick_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -7574,11 +7451,10 @@
     ]
   },
   "SceneObj_Gear_Other_GlideChampOrb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_GlideChampOrb_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_GlideChampOrb_01"
     },
     "hasModel": true,
     "combat": {
@@ -7621,11 +7497,10 @@
     }
   },
   "SceneObj_Gear_Other_ViewPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_ViewPoint_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_ViewPoint_01"
     },
     "hasModel": true,
     "combat": {
@@ -7668,13 +7543,13 @@
     }
   },
   "SceneObj_Gear_Other_ViewPointRadar": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "radarHint": true
   },
   "SceneObj_Property_Area_Common_Stone_MeteoriteCore_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7724,7 +7599,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -7732,7 +7607,7 @@
     }
   },
   "SceneObj_Gear_Other_TreasureMapDigPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -7776,7 +7651,7 @@
     }
   },
   "SceneObj_Gear_Other_InvisibleUploader": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -7813,22 +7688,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Gear_Other_InvisibleUploader_TextOperate": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -7865,22 +7740,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Gear_Other_InvisibleUploader04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -7917,24 +7792,24 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "intee": {
       "triggerRadius": 2.0,
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     },
     "lowPriorityIntee": true
   },
   "SceneObj_Gear_Other_InvisibleUploader02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -7971,22 +7846,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Gear_Other_InvisibleUploader03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -8023,32 +7898,31 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "intee": {
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Gear_Other_DungeonAirWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stage_SealBorder_Test_CLX",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stage_SealBorder_Test_CLX"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Stages_Property_Prop_UnstableSprayDungeonAirWall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -8060,7 +7934,7 @@
     ]
   },
   "SceneObj_Stages_Property_Prop_UnstableSprayDungeonAirWall_05": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -8072,7 +7946,7 @@
     ]
   },
   "SceneObj_Stages_Property_Prop_SBDungeonAirWall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -8084,7 +7958,7 @@
     ]
   },
   "SceneObj_Stages_Property_Prop_SBDungeonAirWall_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -8096,17 +7970,16 @@
     ]
   },
   "SceneObj_Gear_Other_MountaintopAurora": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_SnowAurora_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_SnowAurora_01"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Area_Common_Property_Ani_Prop_SkyShards_AmbienceRockCloud": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -8129,7 +8002,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_XiaoUltra_Conroller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -8166,11 +8039,10 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerStart_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerStart_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerStart_01"
     },
     "hasModel": true,
     "combat": {
@@ -8199,11 +8071,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Level_Common_Property_Prop_TowerEnd_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerEnd_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerEnd_01"
     },
     "hasModel": true,
     "combat": {
@@ -8250,7 +8121,7 @@
     }
   },
   "TowerDefense_MonsterKiller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -8285,11 +8156,10 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerOperation_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Hint_02_Tall",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Hint_02_Tall"
     },
     "hasModel": true,
     "combat": {
@@ -8318,7 +8188,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Other_TreasureMapDigPointV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -8369,18 +8239,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO"
+          "$type": "GBLOODKIFJE"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart",
           "enable": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Prop_SuitcaseApparatus_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8427,7 +8297,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_SuitcaseApparatusScreen_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8464,7 +8334,7 @@
     ]
   },
   "SceneObj_Other_BrokenFloor_FallAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8498,7 +8368,7 @@
     ]
   },
   "SceneObj_Other_ThunderArrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8533,7 +8403,7 @@
     ]
   },
   "SceneObj_Other_ThunderArrowTarget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8567,7 +8437,7 @@
     ]
   },
   "SceneObj_Other_ThunderArrowBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -8604,28 +8474,28 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 12.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Other_ThunderArrowBullet"
         }
       ]
     }
   },
   "SceneObj_Other_Suspender": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8660,7 +8530,7 @@
     ]
   },
   "SceneObj_Other_SuspenderBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -8697,20 +8567,20 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 8.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Other_SuspenderBullet"
         }
       ],
@@ -8718,7 +8588,7 @@
     }
   },
   "SceneObj_Other_ThunderFloor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8754,7 +8624,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -8762,7 +8632,7 @@
     }
   },
   "SceneObj_Other_LiftLadder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -8793,12 +8663,12 @@
     "combatTemplate": "",
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Six": [],
               "SixUp": [],
@@ -8815,7 +8685,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -8823,7 +8693,7 @@
     }
   },
   "SceneObj_Other_OneWayDoor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -8861,12 +8731,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Opening": ["Audio_SceneObj_gear_prop_oneWayDoor_Open"],
               "Closing": ["Audio_SceneObj_gear_prop_oneWayDoor_Close"]
@@ -8878,7 +8748,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -8886,11 +8756,10 @@
     }
   },
   "SceneObj_Level_Common_Property_Prop_AwardBall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_AwardBall_Loop",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_AwardBall_Loop"
     },
     "hasModel": true,
     "combat": {
@@ -8933,7 +8802,7 @@
     }
   },
   "SceneObj_Level_Common_Property_Prop_CallEntity_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -8966,7 +8835,7 @@
     ]
   },
   "SceneObj_Area_Common_Property_Prop_FungusFightCam_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -8996,7 +8865,7 @@
         "abilityOverride": ""
       }
     ],
-    "cameraAdjust": {
+    "vodIntee": {
       "priority": 1.0,
       "enterRadius": 30.0,
       "exitRadius": 30.0,
@@ -9018,7 +8887,7 @@
     }
   },
   "SceneObj_Other_ElementFloor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -9054,7 +8923,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }

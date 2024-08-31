@@ -32,12 +32,7 @@
           "param_str": ""
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_NPC",
-        "param": ["4070"],
-        "guideScene": 3,
-        "guideStyle": "QUEST_GUIDE_STYLE_START"
-      },
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_UNLOCK_POINT",
@@ -45,9 +40,14 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "finishExec": [],
-      "failExec": []
+      "failExec": [],
+      "guide": {
+        "type": "QUEST_GUIDE_NPC",
+        "param": ["4070"],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_START"
+      }
     },
     {
       "subId": 7367302,
@@ -71,15 +71,15 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
+      "beginExec": [],
+      "finishExec": [],
+      "failExec": [],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "param": ["4070"],
         "guideScene": 3
-      },
-      "failCond": [],
-      "beginExec": [],
-      "finishExec": [],
-      "failExec": []
+      }
     }
   ],
   "talks": [

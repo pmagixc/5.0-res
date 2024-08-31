@@ -1,17 +1,47 @@
-scene_config = {
-	begin_pos = { x = -26.7, z = 27.2 },
-	size = { x = 1548.0, z = 1548.0 },
-	born_pos = { x = 241.327, y = -4.083, z = 300.712 },
-	born_rot = { x = 0.0, y = 90.0, z = 0.0 },
-	die_y = -6,
-	city_id = 4,
-	vision_anchor = { x = -1000.0, z = 0.0 }
-}
-
--- 所有的区块范围坐标
-block_rects = {
-	{ min = { x = -26.7, z = 27.2 }, max = { x = 1521.3, z = 1575.2 } }
-}
-
--- 所有的区块
-blocks = {}
+local L0_1, L1_1, L2_1
+L0_1 = {}
+L1_1 = {}
+L1_1.x = -26.7
+L1_1.z = 27.2
+L0_1.begin_pos = L1_1
+L1_1 = {}
+L1_1.x = 1548.0
+L1_1.z = 1548.0
+L0_1.size = L1_1
+L1_1 = {}
+L1_1.x = 241.327
+L1_1.y = -4.083
+L1_1.z = 300.712
+L0_1.born_pos = L1_1
+L1_1 = {}
+L1_1.x = 0.0
+L1_1.y = 90.0
+L1_1.z = 0.0
+L0_1.born_rot = L1_1
+L0_1.die_y = -6
+L0_1.city_id = 4
+L1_1 = {}
+L1_1.x = -1000.0
+L1_1.z = 0.0
+L0_1.vision_anchor = L1_1
+scene_config = L0_1
+L0_1 = {}
+L1_1 = 47617
+L0_1[1] = L1_1
+blocks = L0_1
+L0_1 = {}
+L1_1 = {}
+L2_1 = {}
+L2_1.x = -26.7
+L2_1.z = 27.2
+L1_1.min = L2_1
+L2_1 = {}
+L2_1.x = 1521.3
+L2_1.z = 1575.2
+L1_1.max = L2_1
+L0_1[1] = L1_1
+block_rects = L0_1
+L0_1 = {}
+dummy_points = L0_1
+L0_1 = {}
+routes_config = L0_1

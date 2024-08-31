@@ -1,9 +1,9 @@
 {
   "Scorpion_Sacred_SacredAttack03_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -44,36 +44,36 @@
       "lifeTime": 0.10000000149011612
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 40.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_SacredEnergy_Create"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_SacredEnergy_CreateO"
         }
       ]
     }
   },
   "Scorpion_Sacred_SacredAttack05_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -111,38 +111,38 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL",
+      "$type": "PAOCELNKDLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       }
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {},
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_Attack05_BulletExplode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_Attack05_BulletExplode"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Scorpion_Sacred_SacredAttack05_Bullet"
       }
     }
   },
   "Scorpion_Sacred_SacredAttack05_Bullet2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -180,38 +180,38 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL",
+      "$type": "PAOCELNKDLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       }
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {},
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_Attack05_BulletExplode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_Attack05_BulletExplode"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Scorpion_Sacred_SacredAttack05_Bullet_01"
       }
     }
   },
   "Scorpion_Sacred_SacredEnergy_Accum": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -249,28 +249,28 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL",
+      "$type": "PAOCELNKDLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       }
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "ignoreScene": true
       },
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Scorpion_Sacred_SacredAttack05_SacredEnergy_Bullet"
       }
     }
   },
   "Scorpion_Sacred_SacredEnergy_Gadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "specialPoint": {
@@ -312,7 +312,7 @@
       "lifeTime": 15.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 3.0,
       "showDistance": 48.0,
@@ -323,10 +323,10 @@
     }
   },
   "Scorpion_Sacred_SacredEnergy_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -363,21 +363,21 @@
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 10.0,
       "maxSpeed": 20.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.6000000238418579,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy",
@@ -385,7 +385,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_SacredEnergy_Bullet"
         }
       ],
@@ -393,10 +393,10 @@
     }
   },
   "Scorpion_Sacred_SacredEnergy_Bullet_ToMonster": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -433,21 +433,21 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 10.0,
       "maxSpeed": 20.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.4000000059604645,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf",
@@ -455,7 +455,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Scorpion_Sacred_SacredEnergy_Bullet_ToMonster"
         }
       ],

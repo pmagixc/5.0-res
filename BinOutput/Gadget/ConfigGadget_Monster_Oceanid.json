@@ -1,9 +1,9 @@
 {
   "Oceanid_MustKill_Empty": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -31,10 +31,10 @@
     }
   },
   "Oceanid_DelayWaterBall_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -67,7 +67,7 @@
     }
   },
   "Oceanid_PlatformDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -101,10 +101,10 @@
     }
   },
   "Oceanid_DelayWaterBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "hasModel": true,
@@ -139,42 +139,42 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 15.0,
       "minSpeed": 12.0,
       "anglerVelocity": 1000.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "guidanceDelay": 0.5,
       "guidanceMinAnglerVelocity": 1000.0,
       "guidanceDuration": 0.800000011920929
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_DelayWaterBall_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_DelayWaterBall_Explode"
         }
       ]
     }
   },
   "Oceanid_TraceWaterBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -206,26 +206,26 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 7.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_TraceWaterBall_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_TraceWaterBall_Explode"
         }
       ],
@@ -233,7 +233,7 @@
     }
   },
   "Oceanid_SmashAddAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -267,15 +267,15 @@
     }
   },
   "Oceanid_Elevator_Buttom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
-    "vodIntee": {
-      "FCEJEMOPPPE": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "HBGADCLDAFH": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -311,7 +311,7 @@
       "lifeTime": 35.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.30000001192092896,
@@ -322,7 +322,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Oceanid_02_ElevatorButtomGadget"
         }
       ],
@@ -330,16 +330,16 @@
     }
   },
   "Oceanid_Elevator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "FCEJEMOPPPE": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "HBGADCLDAFH": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -369,7 +369,7 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "route": {
         "localId": 42005015,
         "_name": "Oceanid_Elevator",
@@ -391,10 +391,10 @@
     }
   },
   "Oceanid_WaterLaser_LockTarget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -427,7 +427,7 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -444,10 +444,10 @@
     }
   },
   "Oceanid_WaterLaser_ChasingTarget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -487,13 +487,13 @@
       "lifeTime": 11.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 6.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -508,7 +508,7 @@
     }
   },
   "Oceanid_WaterLaser_Damage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -543,11 +543,11 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 60.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -556,17 +556,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Oceanid_02_WaterLaserDamage"
         }
       ]
     }
   },
   "Oceanid_Crab_Bubble": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -602,28 +602,28 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 4.800000190734863,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "All",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_Crab_Bubble_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_Crab_Bubble_Explode"
         }
       ],
@@ -631,10 +631,10 @@
     }
   },
   "Oceanid_Boar_WaterBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true
@@ -667,43 +667,41 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 40.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 5.0,
         "fixAngleOfVer": 15.0,
         "minSpeed": 6.0,
         "maxSpeed": 24.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Animal_Oceanid_Boar_02_BallExplode"
         }
       ]
     }
   },
   "Oceanid_Squirrel_WaterWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -740,15 +738,15 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -756,7 +754,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_Squirrel_WaterWaveEffect"
         }
       ],
@@ -764,7 +762,7 @@
     }
   },
   "Crane_WaterWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -805,11 +803,11 @@
       "lifeTime": 3.5
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 20.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 0.5,
@@ -822,7 +820,7 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -830,20 +828,20 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crane_WaterWave_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crane_WaterWave_LifeTimeOver"
         }
       ]
     }
   },
   "Crab_WaterBubble": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -879,35 +877,33 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 10.0,
       "angleOffHor": 60.0,
       "gravityOfAcceleration": 7.5,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 1.0,
         "fixAngleOfVer": 45.0,
         "minSpeed": 7.5,
         "maxSpeed": 20.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crab_WaterBubble_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crab_WaterBubble_Explode"
         }
       ],
@@ -915,7 +911,7 @@
     }
   },
   "Tit_WaterBubble": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -951,26 +947,26 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crane_WaterWave_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Crane_WaterWave_Explode"
         }
       ],
@@ -978,7 +974,7 @@
     }
   },
   "Frog_WaterWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -1014,22 +1010,22 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0,
       "acceleration": -4.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Frog_WaterWave_Damage"
         }
       ],
@@ -1037,7 +1033,7 @@
     }
   },
   "Frog_DeathExplode": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1066,7 +1062,7 @@
     }
   },
   "Oceanid_Affix_DeathExplode": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1095,7 +1091,7 @@
     }
   },
   "Oceanid_PlatForm": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -1126,7 +1122,7 @@
     }
   },
   "Oceanid_MoveAnchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1153,7 +1149,7 @@
     }
   },
   "Oceanid_SummonBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -1189,16 +1185,16 @@
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "acceleration": 3.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -1206,7 +1202,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Oceanid_SummonBullet_Explode"
         }
       ],
@@ -1214,7 +1210,7 @@
     }
   },
   "SceneObj_Oceanid_Platform": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0,
       "canTriggerElementReactionText": false,
@@ -1258,11 +1254,11 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "Oceanid_HpController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1296,7 +1292,7 @@
     }
   },
   "Oceanid_BornAnchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1332,10 +1328,10 @@
     }
   },
   "Necalevia_Small_RangeBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1372,26 +1368,26 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 7.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Necalevia_Small_RangeBullet_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Necalevia_Small_RangeBulletExplode_LifeOver"
         }
       ],
@@ -1399,10 +1395,10 @@
     }
   },
   "Necalevia_RangeBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1439,26 +1435,26 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Necalevia_RangeBullet_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Necalevia_RangeBulletExplode_LifeOver"
         }
       ],
@@ -1466,10 +1462,10 @@
     }
   },
   "Necalevia_AOERangeMulti": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 100000.0
     },
@@ -1507,32 +1503,32 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Necalevia_AOERangeMulti_Damage"
         }
       ],
       "multiBulletConfig": {
-        "$type": "JKIGOIBCBME",
+        "$type": "PBIIMNGFEDH",
         "rotationDampTime": "Eff_Monster_Necalevia_Big_RangeAOEAttack_Bullet",
-        "NPJEKAMLKKF": "",
-        "OIIFCKJNNFP": 0.5
+        "PLCJBFLHHHC": "",
+        "JEJABABGPJI": 0.5
       }
     }
   },
   "Oceanid_Animal_WaterDropAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true,

@@ -1,6 +1,6 @@
 {
   "MachinaIustitia_Nutcracker_InitialPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -23,10 +23,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage1_WindBullet1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -68,14 +68,14 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 14.0,
       "minSpeed": 8.0,
       "anglerVelocity": 120.0,
       "acceleration": 2.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -93,19 +93,19 @@
       "guidanceDuration": 0.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_WindBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_WindBullet_LifeOver"
         }
       ],
@@ -113,10 +113,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage1_WindBullet2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -158,14 +158,14 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 12.0,
       "minSpeed": 8.0,
       "anglerVelocity": 180.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -183,19 +183,19 @@
       "guidanceDuration": 0.699999988079071
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_WindBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_WindBullet_LifeOver"
         }
       ],
@@ -203,10 +203,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage1_IceBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -252,35 +252,35 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_IceBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage1_IceBullet_LifeOver"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "selectTargetDefaultType": "None",
         "rotationDampTime": "Eff_Monster_MachinaIustitia_Nutcracker_Stage01_IceBullet_Bullet"
       }
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceAreaBase": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -290,7 +290,7 @@
         "isLockHP": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -317,7 +317,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceArea1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -325,7 +325,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -350,17 +350,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "IceArea1",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -368,7 +368,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceArea2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -376,7 +376,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -401,17 +401,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "IceArea2",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -419,7 +419,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceArea3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -427,7 +427,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -452,17 +452,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "IceArea3",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -470,10 +470,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindBlade1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -515,7 +515,7 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -524,8 +524,8 @@
       "minSpeed": 25.0,
       "anglerVelocity": 270.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE"
+      "AIJKOKCHLMM": {
+        "$type": "LDKNHBJJMPC"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -541,7 +541,7 @@
       "guidanceDuration": 0.30000001192092896
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -551,7 +551,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage2_WindBlade_Damage"
         }
       ],
@@ -562,10 +562,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindBlade2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -607,7 +607,7 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -616,8 +616,8 @@
       "minSpeed": 25.0,
       "anglerVelocity": 270.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE"
+      "AIJKOKCHLMM": {
+        "$type": "LDKNHBJJMPC"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -633,7 +633,7 @@
       "guidanceDuration": 0.30000001192092896
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -643,7 +643,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage2_WindBlade_Damage"
         }
       ],
@@ -654,10 +654,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindBlade3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -699,7 +699,7 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -708,8 +708,8 @@
       "minSpeed": 25.0,
       "anglerVelocity": 270.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE"
+      "AIJKOKCHLMM": {
+        "$type": "LDKNHBJJMPC"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -725,7 +725,7 @@
       "guidanceDuration": 0.30000001192092896
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -735,7 +735,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage2_WindBlade_Damage"
         }
       ],
@@ -746,7 +746,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindAreaBase": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -756,7 +756,7 @@
         "isLockHP": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -783,7 +783,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindArea1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -791,7 +791,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -816,17 +816,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindArea1",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -834,7 +834,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindArea2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -842,7 +842,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -867,17 +867,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindArea2",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -885,7 +885,7 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_WindArea3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -893,7 +893,7 @@
         "weight": 150.0,
         "isLockHP": true,
         "isGhostToEnemy": true,
-        "BHHKPAJCADN": true
+        "KPCAEDMFOFJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -918,17 +918,17 @@
       "lifeTime": 120.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "target": "TargetEntity",
       "attachPoint": "WindArea3",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -936,10 +936,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceBullet1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -976,7 +976,7 @@
       "lifeTime": 1.2999999523162842
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -985,8 +985,8 @@
       "minSpeed": 35.0,
       "anglerVelocity": 120.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -1002,7 +1002,7 @@
       "guidanceDuration": 0.30000001192092896
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1012,7 +1012,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage2_IceBullet1"
         }
       ],
@@ -1020,10 +1020,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_Stage2_IceBullet2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1060,7 +1060,7 @@
       "lifeTime": 1.2999999523162842
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
@@ -1069,8 +1069,8 @@
       "minSpeed": 35.0,
       "anglerVelocity": 120.0,
       "acceleration": 1.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "stickToGround": {
         "maxStepHeight": 1.5,
@@ -1086,7 +1086,7 @@
       "guidanceDuration": 0.30000001192092896
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1096,7 +1096,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_Stage2_IceBullet2"
         }
       ],
@@ -1104,10 +1104,10 @@
     }
   },
   "MachinaIustitia_Nutcracker_StageChange_KillSummonBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1143,14 +1143,14 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1160,17 +1160,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_StageChange_KillSummonBullet"
         }
       ]
     }
   },
   "MachinaIustitia_Nutcracker_KillSummonBullet_Male": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1206,14 +1206,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode_Male",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1223,17 +1223,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_KillSummonBullet"
         }
       ]
     }
   },
   "MachinaIustitia_Nutcracker_KillSummonBullet_Female": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1269,14 +1269,14 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode_Female",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1286,7 +1286,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "MachinaIustitia_Nutcracker_KillSummonBullet"
         }
       ]

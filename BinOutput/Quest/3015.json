@@ -12,10 +12,10 @@
       "mainId": 3015,
       "order": 1,
       "descTextMapHash": 833183364,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
@@ -30,6 +30,7 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_SET_IS_GAME_TIME_LOCKED",
@@ -44,7 +45,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "failExec": [],
       "guide": {}
     },
@@ -53,10 +53,10 @@
       "mainId": 3015,
       "order": 2,
       "descTextMapHash": 2463080724,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
@@ -78,6 +78,7 @@
           "param_str": ""
         }
       ],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_IS_GAME_TIME_LOCKED",
@@ -85,7 +86,6 @@
           "param_str": ""
         }
       ],
-      "beginExec": [],
       "failExec": [],
       "guide": {}
     },
@@ -94,10 +94,10 @@
       "mainId": 3015,
       "order": 3,
       "descTextMapHash": 4132977164,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
-      "descTextMapHashShow": "QUEST_HIDDEN",
+      "failParentShow": "QUEST_HIDDEN",
       "acceptCond": [
         {
           "type": "QUEST_COND_STATE_EQUAL",
@@ -119,6 +119,7 @@
           "param_str": ""
         }
       ],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_SET_IS_GAME_TIME_LOCKED",
@@ -131,7 +132,6 @@
           "param_str": ""
         }
       ],
-      "beginExec": [],
       "failExec": [],
       "guide": {}
     }

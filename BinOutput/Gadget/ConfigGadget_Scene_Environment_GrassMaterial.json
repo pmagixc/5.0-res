@@ -1,9 +1,9 @@
 {
   "SceneObj_Environment_GrassMaterial_LeaveStacks": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "viewSize": 1.5,
@@ -43,10 +43,10 @@
     ]
   },
   "SceneObj_Environment_GrassMaterial_LeafBlanket": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.5,
@@ -94,10 +94,10 @@
     ]
   },
   "SceneObj_Environment_GrassMaterial_GrassStacks": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.5,
@@ -137,10 +137,10 @@
     ]
   },
   "SceneObj_Environment_GrassMaterial_LeafBlanket02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 6.0,
         "scaleY": 6.0,
         "scaleZ": 0.20000000298023224
@@ -190,10 +190,10 @@
     ]
   },
   "SceneObj_Environment_GrassMaterial_SakuraStacks": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "viewSize": 1.5,
@@ -233,10 +233,10 @@
     ]
   },
   "SceneObj_Environment_CobWeb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -285,12 +285,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Stay": ["Cobweb_Hit_Protect_Relieve"],
               "Hit": ["Cobweb_Hit_Protect", "Cobweb_Hit_Refresh"]
@@ -300,7 +300,7 @@
       }
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "AttachPoint",
       "offset": {
         "y": 0.8999999761581421
@@ -311,10 +311,10 @@
     }
   },
   "SceneObj_Environment_CobWeb_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -355,27 +355,27 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_CobWeb_Bullet_Explode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Environment_CobWeb_Bullet_Explode"
         }
       ],

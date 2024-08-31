@@ -1,10 +1,9 @@
 {
   "Element_SeedWind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_WindSeed_WindField",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_WindSeed_WindField"
     },
     "hasModel": true,
     "combatTemplate": "",
@@ -20,7 +19,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -30,7 +29,7 @@
     }
   },
   "Element_WindSeed_Custom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -60,7 +59,7 @@
     ]
   },
   "Element_WindSeed_Fixed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -90,7 +89,7 @@
     ]
   },
   "Element_WindFragment": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -125,24 +124,24 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MGENMIHFEJO"
+      "$type": "JDCIOPIOMMC"
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Alliance",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Element_WindFragment"
         }
       ]
     }
   },
   "Element_WindFragment_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -175,7 +174,7 @@
     ]
   },
   "Element_WindSeed_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -217,11 +216,10 @@
       "campType": "All",
       "colliderName": "",
       "fromColliderName": ""
-    },
-    "openWatcher": true
+    }
   },
   "Element_RockSeed_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -254,7 +252,7 @@
     ]
   },
   "Element_ElementSeed_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -287,11 +285,10 @@
     ]
   },
   "Element_AbsorptiveWind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_WhiteBox_AbsorptiveWind",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -318,7 +315,7 @@
     "combatTemplate": ""
   },
   "Element_AbsorptiveWind_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -353,10 +350,10 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MGENMIHFEJO"
+      "$type": "JDCIOPIOMMC"
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 5.0,
@@ -365,14 +362,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Element_AbsorptiveWind_Seed"
         }
       ]
     }
   },
   "Element_AbsorptiveWind_Seed_Follow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -407,25 +404,25 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "Neck",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Alliance",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Element_AbsorptiveWind_Seed_Follow"
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.4000000059604645
@@ -437,7 +434,7 @@
     }
   },
   "Element_CrystalSeed_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -477,7 +474,7 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["GorouZoneType"]
       },
@@ -486,7 +483,7 @@
     "correctOwner": true
   },
   "Element_CrystalSeed_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -526,7 +523,7 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["GorouZoneType"]
       },
@@ -535,7 +532,7 @@
     "correctOwner": true
   },
   "Element_CrystalSeed_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -575,7 +572,7 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["GorouZoneType"]
       },
@@ -584,7 +581,7 @@
     "correctOwner": true
   },
   "Element_CrystalSeed_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -624,7 +621,7 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["GorouZoneType"]
       },
@@ -633,10 +630,10 @@
     "correctOwner": true
   },
   "Element_CrystalSeed_Water_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -668,31 +665,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_CrystalSeed_Water_Trigger"
         }
       ],
@@ -700,10 +695,10 @@
     }
   },
   "Element_CrystalSeed_Fire_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -735,31 +730,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_CrystalSeed_Fire_Trigger"
         }
       ],
@@ -767,10 +760,10 @@
     }
   },
   "Element_CrystalSeed_Electric_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -802,31 +795,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_CrystalSeed_Electric_Trigger"
         }
       ],
@@ -834,10 +825,10 @@
     }
   },
   "Element_CrystalSeed_Ice_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -869,31 +860,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_CrystalSeed_Ice_Trigger"
         }
       ],
@@ -901,10 +890,10 @@
     }
   },
   "Element_OverGrow_Mushroom_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -937,31 +926,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_OverGrow_Mushroom_Seed"
         }
       ],
@@ -969,7 +956,7 @@
     }
   },
   "Element_OverGrow_Mushroom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "enableCrashDamage": false
     },
@@ -1000,7 +987,7 @@
       }
     ],
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["WindZoneType"]
       },
@@ -1008,10 +995,10 @@
     }
   },
   "Element_OverGrow_Alter_Mushroom_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -1044,31 +1031,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_OverGrow_Alter_Mushroom_Seed"
         }
       ],
@@ -1076,7 +1061,7 @@
     }
   },
   "Element_OverGrow_Alter_Mushroom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1106,7 +1091,7 @@
       }
     ],
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["WindZoneType"]
       },
@@ -1114,10 +1099,10 @@
     }
   },
   "Element_OverGrow_Avatar_Mushroom_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -1149,31 +1134,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
       "acceleration": -10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 70.0,
       "gravityOfAcceleration": 70.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 4.0,
         "maxSpeed": 12.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "bornWithTriggerEnabled": false
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "ElementAbility_OverGrow_Avatar_Mushroom_Seed"
         }
       ],
@@ -1181,7 +1164,7 @@
     }
   },
   "Element_OverGrow_Avatar_Mushroom": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1205,10 +1188,10 @@
     ]
   },
   "Element_OverGrow_Electric_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1251,20 +1234,20 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 14.0,
       "maxSpeed": 20.0,
       "minSpeed": 14.0,
       "anglerVelocity": 90.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.10000000149011612,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1273,13 +1256,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Element_OverGrow_Electric_Bullet_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Element_OverGrow_Electric_Bullet_LifeOver"
         }
       ],

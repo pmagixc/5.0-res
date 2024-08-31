@@ -1,6 +1,6 @@
 {
   "Tartaglia_Airwall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -30,7 +30,7 @@
     }
   },
   "Tartaglia_Airwall_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -60,7 +60,7 @@
     }
   },
   "Tartaglia_Riptide_AIController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -95,7 +95,7 @@
     }
   },
   "Tartaglia_ThunderClap_AIController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -130,7 +130,7 @@
     }
   },
   "Tartaglia_Harbinger_Riptide_AIController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -164,7 +164,7 @@
     }
   },
   "Tartaglia_Harbinger_ThunderClap_AIController": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -198,7 +198,7 @@
     }
   },
   "Tartaglia_Transform_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "hasAbility": true,
     "combat": {
@@ -239,7 +239,7 @@
     }
   },
   "Tartaglia_RangeAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -273,28 +273,28 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_RangeAttack_Bullet"
         }
       ]
     }
   },
   "Tartaglia_NormalAttack_Arrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -328,30 +328,30 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 30.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_NormalAttack_Arrow"
         }
       ]
     }
   },
   "Tartaglia_ComboAttack_Arrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -385,30 +385,30 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 30.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_ComboAttack_Arrow"
         }
       ]
     }
   },
   "Tartaglia_CoverAttack_Anchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -443,7 +443,7 @@
     }
   },
   "Tartaglia_PowerAttack_Monoceros": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 2.5
     },
@@ -476,22 +476,22 @@
       }
     ],
     "timer": {
-      "lifeTime": 10.0
+      "lifeInfinite": true
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Born": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Born": []
             }
           },
           "Burst": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Burst": ["Monster_Tartaglia_PowerAttack_Monoceros_Burst"]
             }
@@ -501,7 +501,7 @@
     }
   },
   "Tartaglia_PowerAttack_Monoceros_UpDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "hasAbility": true,
     "combat": {
@@ -530,7 +530,7 @@
     }
   },
   "Tartaglia_PowerAttack_Monoceros_DownDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "hasAbility": true,
     "combat": {
@@ -559,7 +559,7 @@
     }
   },
   "Tartaglia_Harbinger_PowerAttack_Monoceros": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 3.0
     },
@@ -592,22 +592,22 @@
       }
     ],
     "timer": {
-      "lifeTime": 10.0
+      "lifeInfinite": true
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Born": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Born": []
             }
           },
           "Burst": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Burst": [
                 "Monster_Tartaglia_Harbinger_PowerAttack_Monoceros_Burst"
@@ -619,7 +619,7 @@
     }
   },
   "Tartaglia_Harbinger_PowerAttack_Monoceros_UpDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "hasAbility": true,
     "combat": {
@@ -648,7 +648,7 @@
     }
   },
   "Tartaglia_Harbinger_PowerAttack_Monoceros_DownDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "hasAbility": true,
     "combat": {
@@ -677,7 +677,7 @@
     }
   },
   "Tartaglia_EvilEye_StrikeAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -708,14 +708,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -726,14 +726,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_EvilEye_StrikeAttack_Bullet"
         }
       ]
     }
   },
   "Tartaglia_EvilEye_StrikeAttack_Scene": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -764,14 +764,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -781,14 +781,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_EvilEye_StrikeAttack_Scene"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_NormalAttack01_Arrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -822,30 +822,30 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 30.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_NormalAttack01_Arrow"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_NormalAttack02_Impulse": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -878,14 +878,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "ignoreScene": true
@@ -893,7 +893,7 @@
     }
   },
   "Tartaglia_Harbinger_NormalAttack03_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -924,14 +924,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -942,14 +942,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_NormalAttack03_Bullet"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_NormalAttack03_Scene": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -980,14 +980,14 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -997,14 +997,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_NormalAttack03_Scene"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_CoverAttack_CenterAnchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1038,7 +1038,7 @@
     }
   },
   "Tartaglia_Harbinger_CoverAttack_SideAnchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1072,7 +1072,7 @@
     }
   },
   "Tartaglia_Harbinger_RangeAttack_Anchor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1106,7 +1106,7 @@
     }
   },
   "Tartaglia_Harbinger_ExtraAttackBullet_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1139,28 +1139,28 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_ExtraAttackBullet_01"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_StrikeAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1193,28 +1193,28 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_StrikeAttack_Bullet"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_CycleAttack_Bullet_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1252,16 +1252,16 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "POHFDPGKAFL",
+      "$type": "HJLGJGIFENH",
       "speed": 24.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "radius": 20.0,
       "outOfRangeFixCD": 0.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 1.0,
@@ -1269,20 +1269,20 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_CycleAttack_Bullet_Damage"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_CycleAttack_Bullet"
         }
       ]
     }
   },
   "Tartaglia_Harbinger_CycleAttack_Bullet_Scene": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1315,14 +1315,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1332,7 +1332,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tartaglia_Harbinger_CycleAttack_Bullet_Scene"
         }
       ]

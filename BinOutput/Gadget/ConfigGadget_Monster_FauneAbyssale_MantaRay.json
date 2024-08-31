@@ -1,9 +1,9 @@
 {
   "Monster_FauneAbyssale_MantaRay_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -43,30 +43,30 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 7.5,
       "maxSpeed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Bullet"
         }
       ],
@@ -74,10 +74,10 @@
     }
   },
   "Monster_FauneAbyssale_MantaRay_Large_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -117,30 +117,30 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 7.5,
       "maxSpeed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Large_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Large_Bullet"
         }
       ],
@@ -148,10 +148,10 @@
     }
   },
   "Monster_FauneAbyssale_MantaRay_BladeBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -177,29 +177,28 @@
       "animEvents": {
         "Atk": {
           "attackPattern": {
-            "$type": "BELNOFAKNBA",
+            "$type": "CDFDJKDFCFJ",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "JGEBAJLEBMO"
+              "$type": "KKKABMDCNIJ"
             },
-            "OAHPDLJIADP": 0.009999999776482582
+            "IDLDJCPGNHD": 0.009999999776482582
           },
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.5,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.5,
+              "AILJJDMKONE": 0.0,
               "elementType": "Water",
-              "IPFJJJGABPL": 0.0,
+              "bonusCriticalHurt": 0.0,
               "strikeType": "Slash",
               "enBreak": 50.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             }
           }
@@ -218,18 +217,18 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 26.0,
       "maxSpeed": 26.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -239,11 +238,11 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_Weak_BulletVFX"
         },
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Atk"
         }
       ],
@@ -251,7 +250,7 @@
     }
   },
   "Monster_FauneAbyssale_MantaRay_BladeBullet_Ult1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -273,29 +272,28 @@
       "animEvents": {
         "Atk": {
           "attackPattern": {
-            "$type": "BELNOFAKNBA",
+            "$type": "CDFDJKDFCFJ",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "JGEBAJLEBMO"
+              "$type": "KKKABMDCNIJ"
             },
-            "OAHPDLJIADP": 0.009999999776482582
+            "IDLDJCPGNHD": 0.009999999776482582
           },
           "attackInfo": {
             "attackTag": "BladeBullet_Ult",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
               "elementType": "Water",
-              "IPFJJJGABPL": 0.0,
+              "bonusCriticalHurt": 0.0,
               "strikeType": "Slash",
               "enBreak": 200.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV4"
             }
           }
@@ -314,18 +312,18 @@
       "lifeTime": 1.600000023841858
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 41.0,
       "maxSpeed": 41.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -335,11 +333,11 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_BulletVFX"
         },
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Atk"
         }
       ],
@@ -347,7 +345,7 @@
     }
   },
   "Monster_FauneAbyssale_MantaRay_SlashPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -375,7 +373,7 @@
       "lifeTime": 7.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.5

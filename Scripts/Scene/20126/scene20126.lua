@@ -1,24 +1,49 @@
--- 地图配置
-scene_config = {
-	begin_pos = { x = -250.1, z = -169.7 },
-	size = { x = 538.6, z = 529.8 },
-	born_pos = { x = 4.402, y = 25.973, z = 103.895 },
-	born_rot = { x = 0.000, y = 180.000, z = 0.000 },
-	die_y = -10,
-	city_id = 3,
-	vision_anchor = { x = -1000.0, z = -1000.0 }
-}
-
--- 所有的区块
-blocks = { 20126 }
-
--- 所有的区块范围坐标
-block_rects = {
-	{ min = { x = -250.1, z = -169.7 }, max = { x = 288.5, z = 360.2 } }
-}
-
--- Dummy Points
-dummy_points = { "dummy_points" }
-
--- Routes
-routes_config = { }
+local L0_1, L1_1, L2_1
+L0_1 = {}
+L1_1 = {}
+L1_1.x = -250.1
+L1_1.z = -169.7
+L0_1.begin_pos = L1_1
+L1_1 = {}
+L1_1.x = 538.6
+L1_1.z = 529.8
+L0_1.size = L1_1
+L1_1 = {}
+L1_1.x = 4.402
+L1_1.y = 25.973
+L1_1.z = 103.895
+L0_1.born_pos = L1_1
+L1_1 = {}
+L1_1.x = 0.0
+L1_1.y = 180.0
+L1_1.z = 0.0
+L0_1.born_rot = L1_1
+L0_1.die_y = -10
+L0_1.city_id = 3
+L1_1 = {}
+L1_1.x = -1000.0
+L1_1.z = -1000.0
+L0_1.vision_anchor = L1_1
+scene_config = L0_1
+L0_1 = {}
+L1_1 = 20126
+L0_1[1] = L1_1
+blocks = L0_1
+L0_1 = {}
+L1_1 = {}
+L2_1 = {}
+L2_1.x = -250.1
+L2_1.z = -169.7
+L1_1.min = L2_1
+L2_1 = {}
+L2_1.x = 288.5
+L2_1.z = 360.2
+L1_1.max = L2_1
+L0_1[1] = L1_1
+block_rects = L0_1
+L0_1 = {}
+L1_1 = "dummy_points"
+L0_1[1] = L1_1
+dummy_points = L0_1
+L0_1 = {}
+routes_config = L0_1

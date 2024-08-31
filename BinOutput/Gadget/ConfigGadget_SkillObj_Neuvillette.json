@@ -1,9 +1,9 @@
 {
   "Neuvillette_ExtraAttack_Absorb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -39,15 +39,15 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "MoveHead",
       "followRotation": true,
       "followOwnerInvisible": true,
       "syncTransToServer": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -59,17 +59,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Neuvillette_ExtraAttack_Absorb_Gadget"
         }
       ]
     }
   },
   "Neuvillette_ExtraAttack_Tornado": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -95,8 +95,8 @@
       "simulatePhysics": {
         "enable": true,
         "radius": 1.100000023841858,
-        "OMMNAODFHGH": true,
-        "DNFENPNONIC": true,
+        "DOFEANOENOA": true,
+        "GGLGMHMLDIF": true,
         "delay": 0.009999999776482582
       }
     },
@@ -112,13 +112,13 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "FocusAnchor",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -126,29 +126,29 @@
         "triggerType": "TriggerAlways",
         "targetType": "Enemy",
         "ignoreWater": true,
-        "CFOLOKHPLAC": true
+        "CGIFBJCLANP": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Neuvillette_ExtraAttack_Attack_Gadget"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "JKIGOIBCBME",
+        "$type": "PBIIMNGFEDH",
         "rotationDampTime": "Eff_Avatar_Male_Catalyst_Neuvillette_ExtraAttack_WaterTornado",
-        "NPJEKAMLKKF": "Eff_Avatar_Male_Catalyst_Neuvillette_ExtraAttack_WaterTornado_ThirdPerson",
-        "OIIFCKJNNFP": 0.4000000059604645,
-        "GHFCOHLDCFL": true
+        "PLCJBFLHHHC": "Eff_Avatar_Male_Catalyst_Neuvillette_ExtraAttack_WaterTornado_ThirdPerson",
+        "JEJABABGPJI": 0.4000000059604645,
+        "CPECCKOJADN": true
       }
     }
   },
   "Neuvillette_Core_Gadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -185,11 +185,6 @@
         "abilityID": "Player_Water_ElementalArt_Core",
         "abilityName": "Player_Water_ElementalArt_Core",
         "abilityOverride": ""
-      },
-      {
-        "abilityID": "Avatar_Sigewinne_ElementalArt_Core",
-        "abilityName": "Avatar_Sigewinne_ElementalArt_Core",
-        "abilityOverride": ""
       }
     ],
     "field": {
@@ -210,7 +205,7 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["WindZoneType"]
       },
@@ -219,10 +214,10 @@
     }
   },
   "Neuvillette_Core_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -256,20 +251,20 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "maxSpeed": 40.0,
       "minSpeed": 15.0,
       "anglerVelocity": 240.0,
       "acceleration": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 720.0
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "SelfCamp",
@@ -278,17 +273,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Neuvillette_Core_Bullet"
         }
       ]
     }
   },
   "Neuvillette_Constellation_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -322,21 +317,21 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 60.0,
       "maxSpeed": 60.0,
       "minSpeed": 20.0,
       "anglerVelocity": 7200.0,
       "acceleration": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 7200.0
       },
       "delay": 0.30000001192092896,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true,
@@ -344,13 +339,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Neuvillette_Constellation_6_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Neuvillette_Constellation_6_Bullet"
         }
       ]

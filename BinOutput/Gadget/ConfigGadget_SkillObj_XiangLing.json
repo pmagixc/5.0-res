@@ -1,9 +1,9 @@
 {
   "Xiangling_ExtraAttack_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -36,18 +36,18 @@
       "lifeTime": 0.5
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "",
       "offset": {
         "y": 0.8999999761581421
       },
-      "HOMINCCNFHE": {
+      "NGGDECKKKIO": {
         "z": 1.0
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -58,17 +58,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Xiangling_ExtraAttack_Bullet"
         }
       ]
     }
   },
   "Xiangling_Panda": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true,
@@ -77,8 +77,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -125,7 +124,7 @@
       "lifeTime": 7.300000190734863
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       },
@@ -133,18 +132,18 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "NormalMove": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Idle": ["Xiangling_PandaIdle"]
             }
           },
           "Attack": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Attack": [
                 "Xiangling_PandaAttack",
@@ -153,7 +152,7 @@
             }
           },
           "Born": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Born": [
                 "Xiangling_PandaBorn",
@@ -169,10 +168,10 @@
     }
   },
   "Xiangling_Panda_Pepper": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -205,10 +204,10 @@
     }
   },
   "Xiangling_FireCircle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -244,12 +243,12 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 12.0,
       "acceleration": 3.0,
       "accelerationTime": 1.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 60.0
       },
       "stickToGround": {
@@ -267,7 +266,7 @@
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.6000000238418579,
@@ -275,23 +274,22 @@
       },
       "triggerActions": [
         {
-          "$type": "HILFMFBKIKF",
+          "$type": "EMKCIHFAOJA",
           "attackInfo": {
             "attackTag": "Elemental_Burst",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
               "elementType": "Fire",
               "elementRank": 3.0,
-              "IPFJJJGABPL": 25.0,
+              "bonusCriticalHurt": 25.0,
               "strikeType": "Default",
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "Eff_Diluc_FireBlade_Hit_01",
-              "hitImpulseY": "",
               "hitImpulseType": "LV3",
               "retreatType": "ByOriginOwner",
               "hitHaltTimeScale": 0.009999999776482582
@@ -304,10 +302,10 @@
     }
   },
   "TalentBombGadget_EmptyGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -345,23 +343,23 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
-      "HOMINCCNFHE": {
+      "NGGDECKKKIO": {
         "z": 1.0
       },
       "followOwnerInvisible": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ignoreScene": true
       },
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Xiangling_TalentBombGadget"
         }
       ]

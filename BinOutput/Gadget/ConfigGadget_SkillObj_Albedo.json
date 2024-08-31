@@ -1,15 +1,15 @@
 {
   "Albedo_FuriousMonolith": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "FHNLFFCAKDM": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "PMBHMMJICKE": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -63,7 +63,7 @@
       "lifeTime": 35.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.30000001192092896,
@@ -74,7 +74,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SkillObj_Albedo_FuriousMonolith"
         }
       ],
@@ -83,15 +83,15 @@
     "canRemoveByClient": true
   },
   "Albedo_FuriousMonolith_Elevator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -125,7 +125,7 @@
       "lifeTime": 31.0
     },
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "velocityForce": {
         "muteAll": true
       },
@@ -148,10 +148,10 @@
     "canRemoveByClient": true
   },
   "Albedo_FuriousMonolith_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 2.4000000953674316,
         "scaleY": 2.4000000953674316,
         "scaleZ": 2.4000000953674316
@@ -187,12 +187,12 @@
       "lifeTime": 0.20000000298023224
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 50.0,
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -202,13 +202,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Albedo_FuriousMonolith_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Albedo_FuriousMonolith_Bullet_LifeOver"
         }
       ]

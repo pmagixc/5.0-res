@@ -1,6 +1,6 @@
 {
   "SceneObj_Level_Xm_Property_Unique_TwoDObj_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -12,11 +12,10 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Prop_BubblePlatform_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_BubbleShoot_01_Greaten",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_BubbleShoot_01_Greaten"
     },
     "hasModel": true,
     "combat": {
@@ -71,11 +70,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_DungeonMushroom_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -91,12 +90,12 @@
       }
     ],
     "move": {
-      "$type": "IDIPBKCPBDP",
+      "$type": "FMPBGCJJHLL",
       "attachPoint": "MoguCollider"
     },
     "misc": {
       "forceField": {
-        "$type": "JJKKHJJMEFJ",
+        "$type": "JDGDKOHJIMK",
         "specialTipsIconPath": "",
         "colliderWhiteList": ["InteeTrigger"],
         "horizonValRatio": 0.10000000149011612,
@@ -107,12 +106,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Jump": ["TrampolineJump"]
             },
@@ -124,7 +123,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -132,7 +131,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_DungeonMushroom_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 1.2000000476837158
     },
@@ -151,12 +150,12 @@
       }
     ],
     "move": {
-      "$type": "IDIPBKCPBDP",
+      "$type": "FMPBGCJJHLL",
       "attachPoint": "MoguCollider"
     },
     "misc": {
       "forceField": {
-        "$type": "JJKKHJJMEFJ",
+        "$type": "JDGDKOHJIMK",
         "specialTipsIconPath": "",
         "colliderWhiteList": ["InteeTrigger"],
         "horizonValRatio": 0.10000000149011612,
@@ -167,12 +166,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Jump": ["TrampolineJump"]
             },
@@ -184,7 +183,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -192,7 +191,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Prop_SmrEnigmaticSeal_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -204,7 +203,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Prop_Woodenpile_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -216,7 +215,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_TighnariBlankDoor_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -228,11 +227,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Flying_Orb_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Flying_Orb",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Flying_Orb"
     },
     "hasModel": true,
     "combatTemplate": "default",
@@ -254,12 +252,12 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "avatarTriggerEventDistance": 20.0
     }
   },
   "SceneObj_Level_Xm_Property_Prop_PlantOperator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -287,7 +285,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_NutTransformPlatform_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -315,11 +313,11 @@
       "confirmDialogContent": ""
     },
     "intee": {
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_NutTransformPlatform_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -330,15 +328,14 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Level_Xm_Property_Prop_ThornsTrap_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_ThornsTrap_05",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_ThornsTrap_05"
     },
     "hasModel": true,
     "combatTemplate": "default",
@@ -351,11 +348,10 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Prop_FlowerPortal_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FlowerPortal_01_Channel",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_FlowerPortal_01_Channel"
     },
     "hasModel": true,
     "combatTemplate": "default",
@@ -377,11 +373,10 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_VineDoor_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_VineDoor_02_Default_Full",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_VineDoor_02_Default_Full"
     },
     "hasModel": true,
     "combatTemplate": "default",
@@ -395,7 +390,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -403,11 +398,10 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_VineDoor_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_VineDoor_02_Default",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_VineDoor_02_Default"
     },
     "hasModel": true,
     "combatTemplate": "default",
@@ -421,7 +415,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -429,7 +423,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Prop_PlantSeal_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -446,7 +440,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Prop_PlantSeal_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -463,7 +457,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Prop_PlantSeal_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "default",
     "abilities": [
@@ -480,7 +474,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_DestructibleVine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "canBeAttacked",
     "abilities": [
@@ -492,7 +486,7 @@
     ]
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_DestructiblePavement_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "default",
     "abilities": [
       {
@@ -507,7 +501,7 @@
       }
     ],
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.20000000298023224,
@@ -515,7 +509,7 @@
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Level_Xm_Property_Ani_Prop_DestructiblePavement_01_Ability"
         }
       ],
@@ -524,7 +518,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_PlantMovingPlatform_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -538,55 +532,50 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Level_Xm_Property_Prop_TransparentBrick_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TransparentBrick_01_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TransparentBrick_01_01"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Level_Xm_Property_Prop_TransparentBrick_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TransparentBrick_01_02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TransparentBrick_01_02"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Level_Xm_Property_Prop_TransparentBrick_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TransparentBrick_01_03",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TransparentBrick_01_03"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Level_Xm_Property_Prop_TransparentBrick_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TransparentBrick_01_04",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TransparentBrick_01_04"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Level_Xm_Property_Prop_TransparentBrick_05": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TransparentBrick_01_05",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TransparentBrick_01_05"
     },
     "hasModel": true,
     "combatTemplate": ""

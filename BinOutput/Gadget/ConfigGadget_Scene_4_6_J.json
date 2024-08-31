@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_BigWhale_Interact": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0,
       "isForceRefreshAuthotiryToHost": true
@@ -8,8 +8,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "JKLKJPMFNGD": true,
-      "BKPFGNPLDNJ": ""
+      "MLEAGMCMCNI": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -61,7 +60,7 @@
       }
     ],
     "move": {
-      "$type": "DFOIIIKDOFG"
+      "$type": "OGCFDKLMAHA"
     },
     "uiInteract": {
       "gadgetUIBtnCfgPath": "UI/open_gadget_whale_cannon",
@@ -88,19 +87,19 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Move": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Move": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "CastAttack": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "CastAttack": ["SceneObj_Area_BigWhale_Trench_CastAttack"]
             },
@@ -113,7 +112,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -122,11 +121,11 @@
     "intee": {
       "triggerRadius": 50.0,
       "triggerHeight": 20.0,
-      "KAMIAMNMFCP": "Rect_Remus_Whale"
+      "MMOOJIADAEN": "Rect_Remus_Whale"
     }
   },
   "SceneObj_BigWhale_Summon_Desk": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -170,7 +169,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -178,7 +177,7 @@
     }
   },
   "SceneObj_Whale_Scan_Col_GoldenHall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_Whale_Cannon_Mark_ID"],
       "initServerGlobalValues": {
@@ -222,7 +221,7 @@
     ]
   },
   "SceneObj_Whale_Scan_Col_GoldenHall_Repair": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_Whale_Cannon_Mark_ID"],
       "initServerGlobalValues": {
@@ -266,7 +265,7 @@
     ]
   },
   "SceneObj_Whale_Scan_Col_Mural_Entry": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_Whale_Cannon_Mark_ID"],
       "initServerGlobalValues": {
@@ -310,7 +309,7 @@
     ]
   },
   "SceneObj_Whale_Scan_Col_Mural": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_Whale_Cannon_Mark_ID"],
       "initServerGlobalValues": {
@@ -354,8 +353,8 @@
     ]
   },
   "SceneObj_Trench_Play_BGM": {
-    "$type": "CJKJIENLOHD",
-    "KJGJCNANPJP": true,
+    "$type": "ConfigGadget",
+    "hasAudio": true,
     "hasModel": true,
     "combat": {
       "property": {
@@ -385,23 +384,23 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "RootNode",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
       "behaviours": [
         {
-          "$type": "MGADCMNMKMO",
-          "BACKPIDGIPJ": [
+          "$type": "NFEIOHNLCGC",
+          "CEGPJLNMOHH": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Play_Music_ShenHaiXiaGuBanYou"
                 }
@@ -410,71 +409,71 @@
           ],
           "onDisable": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Stop_Music_ShenHaiXiaGuBanYou"
                 }
               }
             }
           ],
-          "FACFHDLNLON": [
+          "OAEEMNFMNAL": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Pause_Music_ShenHaiXiaGuBanYou"
                 }
               }
             },
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
+                "$type": "APNPCLKJANC",
                 "eventName": {
                   "text": "Pause_4_6"
                 }
               }
             }
           ],
-          "AJHOPJEJOFH": [
+          "EELNFJFCPCO": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
+                "$type": "APNPCLKJANC",
                 "eventName": {
                   "text": "Resume_4_6"
                 }
               }
             },
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Resume_Music_ShenHaiXiaGuBanYou"
                 }
               }
             }
           ],
-          "OPEMPFCFHMO": "__DefaultSync__"
+          "JLKEIDDPBEA": "__DefaultSync__"
         }
       ]
     }
   },
   "SceneObj_KPM_Play_BGM": {
-    "$type": "CJKJIENLOHD",
-    "KJGJCNANPJP": true,
+    "$type": "ConfigGadget",
+    "hasAudio": true,
     "hasModel": true,
     "combat": {
       "property": {
@@ -504,23 +503,23 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "RootNode",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
+      "$type": "FLAOFHFGNCG",
       "overrideEmitterName": "",
       "behaviours": [
         {
-          "$type": "MGADCMNMKMO",
-          "BACKPIDGIPJ": [
+          "$type": "NFEIOHNLCGC",
+          "CEGPJLNMOHH": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Play_Music_KaPiMuBanYou"
                 }
@@ -529,54 +528,53 @@
           ],
           "onDisable": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Stop_Music_KaPiMuBanYou"
                 }
               }
             }
           ],
-          "FACFHDLNLON": [
+          "OAEEMNFMNAL": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Pause_Music_KaPiMuBanYou"
                 }
               }
             }
           ],
-          "AJHOPJEJOFH": [
+          "EELNFJFCPCO": [
             {
-              "$type": "DELPJNMAIHM",
-              "OPEMPFCFHMO": "__DefaultSync__",
+              "$type": "NHMMEKMJEPI",
+              "JLKEIDDPBEA": "null",
               "action": {
-                "$type": "CPBMHBHJPKE",
-                "CNLGJCENJHF": "MUSIC",
+                "$type": "APNPCLKJANC",
+                "AIMDKGEAOND": "MUSIC",
                 "eventName": {
                   "text": "Resume_Music_KaPiMuBanYou"
                 }
               }
             }
           ],
-          "OPEMPFCFHMO": "__DefaultSync__"
+          "JLKEIDDPBEA": "__DefaultSync__"
         }
       ]
     }
   },
   "SceneObj_DeepSea_TunnelStream_Entrance_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_SceneObj_DeepSea_TunnelStream_Entrance_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stages_SceneObj_DeepSea_TunnelStream_Entrance_01"
     },
     "hasModel": true,
     "combat": {
@@ -608,7 +606,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Invisible_Water_Current_Entrance_35": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -650,7 +648,7 @@
     }
   },
   "SceneObj_DeepSea_Fish_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -687,11 +685,11 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_CamLook_Check_4_6": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -730,7 +728,7 @@
     "gadgetAction": {}
   },
   "SceneObj_Whale_Cannon_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -775,29 +773,29 @@
       "lifeInfinite": true
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
       "followInFixedUpdate": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Whale_Cannon_Bullet"
         }
       ]
     }
   },
   "SceneObj_Whale_Hook_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -842,30 +840,30 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
       "followInFixedUpdate": true,
       "fixedFollowPosMaxSpeed": 8.399999618530273,
       "fixedFollowRotMaxSpeed": 128.0,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Whale_Cannon_Bullet"
         }
       ]
     }
   },
   "SceneObj_DragonTheatre_Talk_Gadget_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_RECORD_TOTALK"]
     },
@@ -916,7 +914,7 @@
     }
   },
   "SceneObj_DragonTheatre_Talk_Gadget_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_RECORD_TOTALK"]
     },
@@ -967,7 +965,7 @@
     }
   },
   "SceneObj_FlashBack_GoldenHall_Elevator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -1000,14 +998,14 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "OEFHHKHPMCJ",
-      "PBKEFGFINDO": true,
+      "$type": "ConfigPlatformMove",
+      "AJIJANPBLGL": true,
       "calcMoveStateInTick": true
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1015,7 +1013,7 @@
     }
   },
   "SceneObj_LMS_Whale_Howl_Follow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1056,7 +1054,7 @@
     }
   },
   "SceneObj_Whale_Cannon_Scan_Route_Hint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_Whale_Cannon_Mark_ID"],
       "initServerGlobalValues": {
@@ -1100,7 +1098,7 @@
     ]
   },
   "SceneObj_Test_Caster_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1139,7 +1137,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1147,7 +1145,7 @@
     }
   },
   "SceneObj_Test_Receiver_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1186,7 +1184,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1194,7 +1192,7 @@
     }
   },
   "SceneObj_Test_Receiver_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1233,7 +1231,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1241,7 +1239,7 @@
     }
   },
   "SceneObj_RemusChains_Main": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1280,7 +1278,7 @@
     "gadgetAction": {}
   },
   "SceneObj_RemusChains_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1319,7 +1317,7 @@
     "gadgetAction": {}
   },
   "SceneObj_RemusChains_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1358,7 +1356,7 @@
     "gadgetAction": {}
   },
   "SceneObj_RemusChains_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1397,7 +1395,7 @@
     "gadgetAction": {}
   },
   "SceneObj_RemusChains_Sub_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1436,7 +1434,7 @@
     "gadgetAction": {}
   },
   "SceneObj_RemusChains_Sub_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1475,11 +1473,10 @@
     "gadgetAction": {}
   },
   "SceneObj_UnderSea_WaterGlideChampOrb_MovePlatform": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FontaineGlideChampOrb_01_Follow",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_FontaineGlideChampOrb_01_Follow"
     },
     "hasModel": true,
     "combat": {
@@ -1521,11 +1518,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Ani_Prop_RemusBookPickup_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1576,7 +1573,7 @@
     }
   },
   "SceneObj_HaiGou_Whale_CastAttackBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1610,18 +1607,18 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 40.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_HaiGou_Whale_CastAttackBullet"
         }
       ]

@@ -1,13 +1,12 @@
 {
   "SceneObj_Area_Md_Property_Ani_Prop_FleurCredit_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -49,18 +48,17 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Md_Property_Ani_Prop_FleurCredit_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -102,18 +100,17 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Md_Property_Ani_Prop_FleurCredit_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -148,17 +145,17 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Area_Md_Property_Ani_Prop_FleurCredit_act"
         }
       ],
@@ -171,14 +168,13 @@
     }
   },
   "SceneObj_Area_Md_Property_Prop_FleurStamina_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -220,24 +216,24 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": ""
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
@@ -247,7 +243,7 @@
     }
   },
   "SceneObj_Area_Md_Property_Prop_FleurVortex_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -297,11 +293,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Md_Property_Prop_FleurDown_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -351,11 +347,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Common_Property_Ani_Flower_GlideChampBalloon_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -405,11 +401,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Common_Property_Ani_Flower_GlideChampBalloon_05": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -459,11 +455,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Md_Property_Prop_FleurUpdraft_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 300.0,
@@ -497,7 +493,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,

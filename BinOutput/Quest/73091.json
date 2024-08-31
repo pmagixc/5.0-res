@@ -11,7 +11,7 @@
       "mainId": 73091,
       "order": 1,
       "descTextMapHash": 1317725892,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -21,6 +21,8 @@
           "param_str": ""
         }
       ],
+      "finishCond": [],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_MODIFY_ARANARA_COLLECTION_STATE",
@@ -28,14 +30,6 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
-      "failCond": [],
       "finishExec": [],
       "failExec": [],
       "guide": {}
@@ -45,7 +39,7 @@
       "mainId": 73091,
       "order": 3,
       "descTextMapHash": 229869220,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_OR",
       "acceptCond": [
@@ -67,6 +61,7 @@
           "param_str": "201"
         }
       ],
+      "failCond": [],
       "beginExec": [
         {
           "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
@@ -86,7 +81,6 @@
           "param_str": ""
         }
       ],
-      "failCond": [],
       "failExec": [],
       "guide": {}
     },
@@ -95,7 +89,7 @@
       "mainId": 73091,
       "order": 2,
       "descTextMapHash": 3257043748,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "acceptCond": [
@@ -105,13 +99,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],

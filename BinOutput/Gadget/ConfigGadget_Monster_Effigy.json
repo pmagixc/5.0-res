@@ -1,9 +1,9 @@
 {
   "Effigy_ElectricBarrage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -50,27 +50,27 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreWater": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_ElectricBarrage_Hit"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_ElectricBarrage_AS"
         }
       ],
@@ -78,10 +78,10 @@
     }
   },
   "Effigy_ElectricBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -118,29 +118,29 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_ElectricBullet_Hit"
         }
       ]
     }
   },
   "Effigy_ElectricBarrageEmitter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -170,12 +170,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Idle": {
-            "$type": "NEDIFAKEGCO",
+            "$type": "LDJOKHDLCAA",
             "animatorStates": {
               "Idle": []
             }
@@ -185,7 +185,7 @@
     }
   },
   "Effigy_ElectricDefenceCentre": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -220,10 +220,10 @@
     }
   },
   "Effigy_ElectricDefencePart": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -264,7 +264,7 @@
       "lifeTime": 25.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -276,7 +276,7 @@
     }
   },
   "Effigy_DefencePartCurrent": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -311,7 +311,7 @@
       "lifeTime": 25.0
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.25,
@@ -319,7 +319,7 @@
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Eggify_Electric_DefencePartAttack"
         }
       ],
@@ -328,7 +328,7 @@
     }
   },
   "Effigy_InitialPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -352,7 +352,7 @@
     }
   },
   "Effigy_RushPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -382,7 +382,7 @@
     }
   },
   "Effigy_ThunderDrop": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -412,7 +412,7 @@
     }
   },
   "Effigy_AreaAtkLaser": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -435,7 +435,7 @@
     }
   },
   "Effigy_RebornPart": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -465,7 +465,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.0
@@ -479,10 +479,10 @@
     }
   },
   "Effigy_CreateRebornPart": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -519,10 +519,10 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 2.0,
       "gravityOfAcceleration": 15.0,
@@ -530,10 +530,10 @@
     }
   },
   "Effigy_WindFall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -570,31 +570,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": -90.0,
-      "gravityOfAcceleration": 100.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 100.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_WindFall_Hit"
         }
       ]
     }
   },
   "Effigy_WindFallPosition": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -629,14 +627,14 @@
     }
   },
   "Effigy_AirFlow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "timer": {
       "lifeTime": 15.0
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -646,7 +644,7 @@
     }
   },
   "Effigy_TornadoEmitter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -690,7 +688,7 @@
     }
   },
   "Effigy_Tornado": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -722,7 +720,7 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "POHFDPGKAFL",
+      "$type": "HJLGJGIFENH",
       "velocityForce": {
         "excludeForces": [
           "WindZoneType",
@@ -751,10 +749,10 @@
     }
   },
   "Effigy_StaticElementBall_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -792,14 +790,14 @@
       "lifeTime": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_GenerateWindElemBall"
         }
       ],
@@ -807,10 +805,10 @@
     }
   },
   "Effigy_StaticElementBall_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -848,14 +846,14 @@
       "lifeTime": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_GenerateFireElemBall"
         }
       ],
@@ -863,10 +861,10 @@
     }
   },
   "Effigy_StaticElementBall_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -904,14 +902,14 @@
       "lifeTime": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_GenerateElectricElemBall"
         }
       ],
@@ -919,10 +917,10 @@
     }
   },
   "Effigy_StaticElementBall_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -960,14 +958,14 @@
       "lifeTime": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_GenerateWaterElemBall"
         }
       ],
@@ -975,10 +973,10 @@
     }
   },
   "Effigy_StaticElementBall_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1016,14 +1014,14 @@
       "lifeTime": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_GenerateIceElemBall"
         }
       ],
@@ -1031,10 +1029,10 @@
     }
   },
   "Effigy_ElementBall_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1071,17 +1069,17 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance",
@@ -1089,7 +1087,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_TriggerWindExplode"
         }
       ],
@@ -1097,10 +1095,10 @@
     }
   },
   "Effigy_ElementBall_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1137,17 +1135,17 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance",
@@ -1155,7 +1153,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_TriggerFireExplode"
         }
       ],
@@ -1163,10 +1161,10 @@
     }
   },
   "Effigy_ElementBall_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1203,17 +1201,17 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance",
@@ -1221,7 +1219,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_TriggerElectricExplode"
         }
       ],
@@ -1229,10 +1227,10 @@
     }
   },
   "Effigy_ElementBall_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1269,17 +1267,17 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance",
@@ -1287,7 +1285,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_TriggerWaterExplode"
         }
       ],
@@ -1295,10 +1293,10 @@
     }
   },
   "Effigy_ElementBall_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1335,17 +1333,17 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Alliance",
@@ -1353,7 +1351,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_TriggerIceExplode"
         }
       ],
@@ -1361,10 +1359,10 @@
     }
   },
   "Effigy_ElementBall_Wind_Reborn": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1401,24 +1399,24 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Alliance",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ElementBall_Wind_Reborn_Count"
         }
       ],
@@ -1426,10 +1424,10 @@
     }
   },
   "Effigy_StaticElementBall_Wind_Reborn": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1472,13 +1470,13 @@
       "lifeTime": 20.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StaticElementBall_Reborn_GenerateWindElemBall"
         }
       ],
@@ -1486,7 +1484,7 @@
     }
   },
   "Effigy_AirFlow_Reborn": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1517,7 +1515,7 @@
     }
   },
   "Effigy_AirGunCentre": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1545,10 +1543,10 @@
     }
   },
   "Effigy_EffectAirGun": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1585,7 +1583,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
@@ -1598,10 +1596,10 @@
     }
   },
   "Effigy_AirGun": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1638,21 +1636,21 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_AirGun_Hit"
         }
       ],
@@ -1660,7 +1658,7 @@
     }
   },
   "Effigy_EnergyAbsorbPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1691,10 +1689,10 @@
     }
   },
   "Effigy_WindBlade": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1731,15 +1729,15 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 35.0,
       "acceleration": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -1747,7 +1745,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_WindBlade_Hit"
         }
       ],
@@ -1755,7 +1753,7 @@
     }
   },
   "Effigy_WindBladePos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1785,10 +1783,10 @@
     }
   },
   "Effigy_AirBlade": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1825,14 +1823,14 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -1840,7 +1838,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_AirBlade_Hit"
         }
       ],
@@ -1848,15 +1846,15 @@
     }
   },
   "Effigy_StonePillar": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 2.0
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "FOJMAMNHNCD": 1,
-      "IAAMENFLFPA": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "OGGIKIGDIIG": 1,
+      "NIDNJIBDNOC": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -1903,7 +1901,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5999999046325684
@@ -1917,11 +1915,11 @@
     "canRemoveByClient": true
   },
   "Effigy_RockHeart": {
-    "$type": "CJKJIENLOHD",
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "IAAMENFLFPA": true,
-      "GHIJHHPHJLN": ""
+    "$type": "ConfigGadget",
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "NIDNJIBDNOC": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -1957,7 +1955,7 @@
       "lifeTime": 16.5
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -1971,7 +1969,7 @@
     }
   },
   "Effigy_RockShield": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -2004,14 +2002,14 @@
     }
   },
   "Effigy_RebornPillar": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 2.0
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "IAAMENFLFPA": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "NIDNJIBDNOC": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -2049,7 +2047,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5999999046325684
@@ -2062,7 +2060,7 @@
     }
   },
   "Effigy_Spike": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2091,10 +2089,10 @@
     }
   },
   "Effigy_SpikeDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2132,10 +2130,10 @@
     }
   },
   "Effigy_ChargeAtkWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2172,11 +2170,11 @@
       "lifeTime": 0.800000011920929
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf",
@@ -2184,17 +2182,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_ChargeAtkWave_Hit"
         }
       ]
     }
   },
   "Effigy_StoneBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2231,31 +2229,31 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 35.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_StoneBall_Hit"
         }
       ]
     }
   },
   "Effigy_EffectStoneBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2292,7 +2290,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
@@ -2305,10 +2303,10 @@
     }
   },
   "Effigy_RockLaser": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2338,12 +2336,12 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 50.0
     }
   },
   "Effigy_RockFallZone": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -2379,10 +2377,10 @@
     }
   },
   "Effigy_RockFall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2419,31 +2417,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": -90.0,
-      "gravityOfAcceleration": 50.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_RockFall_Hit"
         }
       ]
     }
   },
   "Effigy_Electric_Elite_Pile": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 999999.0
     },
@@ -2477,7 +2473,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.0
@@ -2489,10 +2485,10 @@
     }
   },
   "Effigy_Electric_Elite_ChargeBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2529,7 +2525,7 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 8.0,
       "delay": 2.0,
       "stickToGround": {
@@ -2543,23 +2539,23 @@
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Electric_Elite_ChargeBulletHit"
         }
       ]
     }
   },
   "Effigy_Electric_Elite_ChargeBullet2Avatar": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2596,14 +2592,14 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 6.0,
       "maxSpeed": 7.0,
       "minSpeed": 4.0,
       "anglerVelocity": 1080.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 2.0,
       "itanoCircusStartAngler": 270.0,
@@ -2611,23 +2607,23 @@
       "guidanceDuration": 3.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Electric_Elite_ChargeBullet2AvatarHit"
         }
       ]
     }
   },
   "Effigy_Electric_Elite_ElectricBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2668,14 +2664,14 @@
       "lifeTime": 9.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 6.0,
       "maxSpeed": 7.0,
       "minSpeed": 4.0,
       "anglerVelocity": 1080.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 1.2000000476837158,
       "itanoCircusStartAngler": 270.0,
@@ -2683,23 +2679,23 @@
       "guidanceDuration": 3.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Electric_Elite_ElectricBullet_Hit"
         }
       ]
     }
   },
   "Effigy_Electric_Elite_EffectElectricBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2736,7 +2732,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 10.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
@@ -2749,7 +2745,7 @@
     }
   },
   "Effigy_Electric_Elite_RebornPartSmall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 0.5
     },
@@ -2782,7 +2778,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.2000000476837158
@@ -2795,7 +2791,7 @@
     }
   },
   "Effigy_Electric_Elite_RebornPartNorm": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {},
     "combat": {
       "property": {
@@ -2826,7 +2822,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.6000000238418579
@@ -2839,7 +2835,7 @@
     }
   },
   "Effigy_Electric_Elite_RebornPartBig": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "scale": 1.5
     },
@@ -2872,7 +2868,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.800000011920929
@@ -2886,10 +2882,10 @@
     }
   },
   "Effigy_Wind_Elite_AirBlade": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2925,31 +2921,31 @@
       "lifeTime": 1.2000000476837158
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Wind_Elite_AirBlade"
         }
       ]
     }
   },
   "Effigy_Wind_Elite_EffectAirGun": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -2986,7 +2982,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 15.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
@@ -2999,10 +2995,10 @@
     }
   },
   "Effigy_Wind_Elite_EffectAirGunAOE": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3039,7 +3035,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 15.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
@@ -3052,10 +3048,10 @@
     }
   },
   "Effigy_Wind_Elite_AirGun": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3092,21 +3088,21 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Wind_Elite_AirGun_Hit"
         }
       ],
@@ -3114,10 +3110,10 @@
     }
   },
   "Effigy_Wind_Elite_AirGunAOE": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3154,21 +3150,21 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 18.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Wind_Elite_AirGunAOE_Hit"
         }
       ],
@@ -3176,7 +3172,7 @@
     }
   },
   "Effigy_Wind_Elite_WindFallPosition": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -3205,10 +3201,10 @@
     }
   },
   "Effigy_Wind_Elite_WindFall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3245,32 +3241,30 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": -90.0,
-      "gravityOfAcceleration": 100.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 100.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Wind_Elite_WindFall_Hit"
         }
       ]
     }
   },
   "Effigy_Wind_Elite_WindFallPile": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 999999.0
     },
@@ -3303,7 +3297,7 @@
       "lifeTime": 120.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.6000000238418579
@@ -3316,14 +3310,14 @@
     }
   },
   "Effigy_Wind_Elite_AirFlow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "timer": {
       "lifeTime": 15.0
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "scale": 1.5,
@@ -3334,10 +3328,10 @@
     }
   },
   "Effigy_Wind_Elite_DynamicElementBall_Reborn": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3380,7 +3374,7 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 3.0,
       "anglerVelocity": 180.0,
       "clockwise": true,
@@ -3388,13 +3382,13 @@
       "destroyWhenTargetDie": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Wind_Elite_DynamicElementBall_Reborn_GenerateWindElemBall"
         }
       ],
@@ -3402,7 +3396,7 @@
     }
   },
   "Effigy_Rock_Elite_ShieldCreate": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 999999.0
     },
@@ -3440,10 +3434,10 @@
     }
   },
   "Effigy_Rock_Elite_CrystalSeed_Trigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 3.0,
@@ -3469,38 +3463,36 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 5.0,
       "acceleration": -4.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 50.0,
       "gravityOfAcceleration": 30.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 3.0,
         "maxSpeed": 7.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Rock_Elite_CrystalSeed_Trigger"
         }
       ]
     }
   },
   "Effigy_Rock_Elite_CrystalSeed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -3537,7 +3529,7 @@
     }
   },
   "Effigy_Rock_Elite_ShieldCreateSpecial": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 999999.0
     },
@@ -3575,10 +3567,10 @@
     }
   },
   "Effigy_Rock_Elite_CrystalSeed_TriggerSpecial": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 2.0,
@@ -3604,38 +3596,36 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 8.0,
       "acceleration": -4.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 20.0,
       "gravityOfAcceleration": 6.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 2.0,
         "minSpeed": 3.0,
         "maxSpeed": 10.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "All"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Rock_Elite_CrystalSeed_TriggerSpecial"
         }
       ]
     }
   },
   "Effigy_Rock_Elite_RockShield": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -3668,7 +3658,7 @@
     }
   },
   "Effigy_Rock_Elite_InitialPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -3692,7 +3682,7 @@
     }
   },
   "Effigy_Rock_Elite_StoneStormPile": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "mass": 999999.0
     },
@@ -3702,10 +3692,10 @@
       "elementDrop": "RootNode",
       "bulletAim": "BulletAimPoint"
     },
-    "vodIntee": {
-      "GIOMFJPNIDM": true,
-      "IAAMENFLFPA": true,
-      "GHIJHHPHJLN": ""
+    "cameraAdjust": {
+      "DJMCKCANNME": true,
+      "NIDNJIBDNOC": true,
+      "HPNENDHFPBO": ""
     },
     "combat": {
       "property": {
@@ -3740,7 +3730,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.0
@@ -3753,10 +3743,10 @@
     }
   },
   "Effigy_Rock_Elite_StoneStormBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3790,12 +3780,12 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 20.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "SelfCamp"
@@ -3803,10 +3793,10 @@
     }
   },
   "Effigy_Rock_Elite_StoneBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3842,22 +3832,22 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 40.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Rock_Elite_StoneBall_Hit"
         }
       ],
@@ -3865,10 +3855,10 @@
     }
   },
   "Effigy_Rock_Elite_StoneBallEnergyBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3904,29 +3894,29 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 12.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "SelfCamp"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Rock_Elite_StoneBallEnergyBullet"
         }
       ]
     }
   },
   "Effigy_Rock_Elite_Spike": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -3964,10 +3954,10 @@
     }
   },
   "Effigy_Rock_Elite_SpikeLast": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4005,7 +3995,7 @@
     }
   },
   "Effigy_Wind_Elite_Tornado": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -4037,7 +4027,7 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "POHFDPGKAFL",
+      "$type": "HJLGJGIFENH",
       "velocityForce": {
         "excludeForces": [
           "WindZoneType",
@@ -4066,10 +4056,10 @@
     }
   },
   "Bullet_Effigy_Ice_RangeAtk_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4106,14 +4096,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 30.0,
       "maxSpeed": 60.0,
       "minSpeed": 12.0,
       "anglerVelocity": 120.0,
       "acceleration": -40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "itanoCircusStartAngler": 180.0,
       "guidanceDelay": 0.125,
@@ -4122,23 +4112,23 @@
       "guidanceDuration": 1.75
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_RangeAtk_Bullet_Hit"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_RangeAtk_Shield": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4175,14 +4165,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 3.0,
       "maxSpeed": 24.0,
       "minSpeed": 3.0,
       "anglerVelocity": 150.0,
       "acceleration": 32.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "guidanceDelay": 0.20000000298023224,
       "guidanceSpeedChange": false,
@@ -4190,23 +4180,23 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ice_RangeAtk_Shield"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_NeedleSpinningShoot_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -4237,10 +4227,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4277,47 +4267,45 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 15.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.75,
         "fixAngleOfVer": 2.0,
         "minSpeed": 7.0,
         "maxSpeed": 15.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_Revive_NeedleAttack_Needle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4354,19 +4342,19 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_Bullet02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4403,14 +4391,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 5.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
       "anglerVelocity": 90.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "delay": 1.0,
@@ -4419,20 +4407,20 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_NeedleAttack_Needle"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_NeedleAttack_Needle"
         }
       ],
@@ -4440,10 +4428,10 @@
     }
   },
   "Bullet_Effigy_Ice_SpikeStrike_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4480,20 +4468,20 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5
     }
   },
   "Bullet_Effigy_Ice_Revive_SpikeAttack_FanShaped_Launcher": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4531,11 +4519,11 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4544,10 +4532,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_SpikeAttack_FanShaped_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4585,11 +4573,11 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 20.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4598,10 +4586,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_BulletOnGround": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4635,7 +4623,7 @@
       "lifeTime": 7.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4643,7 +4631,7 @@
       },
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletOnGround"
         }
       ],
@@ -4651,10 +4639,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4697,13 +4685,13 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 20.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
       "anglerVelocity": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -4720,29 +4708,29 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked_End"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -4782,10 +4770,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -4794,10 +4782,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -4837,10 +4825,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -4850,10 +4838,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_Bullet_Activity": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4890,47 +4878,45 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 15.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.75,
         "fixAngleOfVer": 2.0,
         "minSpeed": 9.0,
         "maxSpeed": 11.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_BulletOnGround_Activity": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -4964,7 +4950,7 @@
       "lifeTime": 9.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4972,7 +4958,7 @@
       },
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletOnGround"
         }
       ],
@@ -4980,10 +4966,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked_Activity": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5031,13 +5017,13 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 40.0,
       "maxSpeed": 40.0,
       "minSpeed": 10.0,
       "anglerVelocity": 60.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -5054,29 +5040,29 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked_End"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_RangeAtk_Activity_Shield": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5113,14 +5099,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 0.10000000149011612,
       "maxSpeed": 12.0,
       "minSpeed": 3.0,
       "anglerVelocity": 30.0,
       "acceleration": 12.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "guidanceDelay": 0.6000000238418579,
       "guidanceSpeedChange": false,
@@ -5128,23 +5114,23 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ice_RangeAtk_Activity_Shield"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_NeedleSpinningShoot_Activity_MultiBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -5180,37 +5166,37 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ice_NeedleSpinningShoot_Activity_MultiBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ice_NeedleSpinningShoot_Activity_MultiBullet"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Effigy_Ice_NeedleSpinningShoot_Activity_Bullet"
       }
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_Bullet_Activity_LongRange": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5247,46 +5233,44 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 15.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "fixAngleOfVer": 2.0,
         "minSpeed": 13.25,
         "maxSpeed": 13.25
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Ice_Revive_IceBarrage_Bullet_Hit"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked_Activity_DoubleShieldDamage": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5339,13 +5323,13 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 40.0,
       "maxSpeed": 40.0,
       "minSpeed": 10.0,
       "anglerVelocity": 60.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -5362,29 +5346,29 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Effigy_Ice_Revive_IceBarrage_BulletKicked_End"
         }
       ]
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall_B": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -5424,10 +5408,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -5436,10 +5420,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall_C": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -5479,10 +5463,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -5491,10 +5475,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall02_B": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -5534,10 +5518,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -5547,10 +5531,10 @@
     }
   },
   "Bullet_Effigy_Ice_Revive_IceWall02_C": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 999999.0
     },
@@ -5590,10 +5574,10 @@
       "lifeTime": 360.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "syncOptimized": true,
@@ -5603,10 +5587,10 @@
     }
   },
   "Bullet_Effigy_Fire_FirePillarStrike_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5643,20 +5627,20 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5
     }
   },
   "Bullet_Effigy_Fire_FirePillarStrike_CanBornTinder_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5693,20 +5677,20 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 25.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.5
     }
   },
   "Bullet_Effigy_Fire_RangeAtk_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5743,14 +5727,14 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 6.0,
       "maxSpeed": 14.0,
       "minSpeed": 3.0,
       "anglerVelocity": 150.0,
       "acceleration": 32.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "itanoCircusStartAngler": 180.0,
       "guidanceDelay": 0.20000000298023224,
@@ -5758,23 +5742,23 @@
       "guidanceDuration": 1.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Fire_RangeAtk_Bullet"
         }
       ]
     }
   },
   "Effigy_Fire_TinderBase": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5811,10 +5795,10 @@
     }
   },
   "Effigy_Fire_Tinder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5851,7 +5835,7 @@
       "lifeTime": 15.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -5862,10 +5846,10 @@
     }
   },
   "Bullet_Effigy_Fire_Burning_MultiFire_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5902,40 +5886,38 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
       "gravityOfAcceleration": 20.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 6.0,
         "fixAngleOfVer": 10.0,
         "minSpeed": 9.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Fire_Burning_MultiFire_Bullet"
         }
       ]
     }
   },
   "Effigy_Fire_TinderBase_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -5972,10 +5954,10 @@
     }
   },
   "Effigy_Fire_TinderBase_Elite_Difficulty": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6012,10 +5994,10 @@
     }
   },
   "Effigy_Fire_Tinder_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6052,7 +6034,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -6063,10 +6045,10 @@
     }
   },
   "Effigy_Fire_Tinder_Elite_Difficulty": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6103,7 +6085,7 @@
       "lifeInfinite": true
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "radiusOffset": 0.5,
       "showDistance": 48.0,
@@ -6114,10 +6096,10 @@
     }
   },
   "Effigy_Fire_Burning_MultiFire_Bullet_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6154,40 +6136,38 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
       "gravityOfAcceleration": 20.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 6.0,
         "fixAngleOfVer": 10.0,
         "minSpeed": 9.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Fire_Burning_MultiFire_Bullet_Elite"
         }
       ]
     }
   },
   "Effigy_Fire_Burning_RollingCharge_BurningGround_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6225,7 +6205,7 @@
     }
   },
   "Effigy_Water_DiveLoop": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6259,13 +6239,13 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -6273,17 +6253,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Shougun_NormalAtk_RushBullet"
         }
       ]
     }
   },
   "Effigy_Water_RainArea": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6321,10 +6301,10 @@
     }
   },
   "Effigy_Water_RainArea_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6362,7 +6342,7 @@
     }
   },
   "Effigy_Water_WaveFormLoop": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6396,13 +6376,13 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "RootNode",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.800000011920929,
@@ -6411,17 +6391,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_WaveFormDamage"
         }
       ]
     }
   },
   "Effigy_Water_BubblePos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6459,7 +6439,7 @@
     }
   },
   "Effigy_Water_Bubble": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6503,29 +6483,29 @@
       "lifeTime": 3.5
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 1.0,
       "acceleration": -0.15000000596046448,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.20000000298023224
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_Bubble_Surround"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_Bubble_Explode"
         }
       ],
@@ -6533,7 +6513,7 @@
     }
   },
   "Effigy_Water_BigWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6567,12 +6547,12 @@
       "lifeTime": 5.5
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 3.0,
       "delay": 1.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -6581,14 +6561,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_BigWave"
         }
       ]
     }
   },
   "Effigy_Water_RainStromDolphin": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6623,7 +6603,7 @@
     }
   },
   "Effigy_Water_Ooze_HealBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6662,29 +6642,29 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 2.0,
       "anglerVelocity": 360.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ooze_TypeHeal_HealBallExplode"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ooze_TypeHeal_HealBallDie"
         }
       ],
@@ -6692,7 +6672,7 @@
     }
   },
   "Effigy_Water_Ooze_HealBall_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6731,29 +6711,29 @@
       "lifeTime": 17.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 2.0,
       "anglerVelocity": 360.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ooze_TypeHeal_HealBallExplode_Elite"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Ooze_TypeHeal_HealBallDie_Elite"
         }
       ],
@@ -6761,10 +6741,10 @@
     }
   },
   "Effigy_Water_Ooze_Explode": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6802,10 +6782,10 @@
     }
   },
   "Effigy_Water_Ooze_Explode_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6843,10 +6823,10 @@
     }
   },
   "Effigy_Water_RainStromDolphinPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -6877,7 +6857,7 @@
     }
   },
   "Effigy_Water_SummonOoze": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6911,32 +6891,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeAttack"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Heal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -6970,32 +6948,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 10.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeHeal"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Attack_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7029,32 +7005,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeAttack_Elite"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Heal_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7088,32 +7062,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 10.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeHeal_Elite"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Damage_Elite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7147,32 +7119,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeDamage_Elite"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Split01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7206,32 +7176,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeSplitBig1"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Split02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7265,32 +7233,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeSplitBig2"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Split03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7324,32 +7290,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 12.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 35.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeSplitBig3"
         }
       ]
     }
   },
   "Effigy_Water_SummonOoze_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7383,32 +7347,30 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeAttack"
         }
       ]
     }
   },
   "Effigy_Water_Ooze_SplitAbsorbed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7442,35 +7404,33 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 7.5,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
-      "gravityOfAcceleration": 10.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effigy_Water_TriggerSummonOoze_TypeAttack"
         }
       ]
     }
   },
   "Effigy_Grass_FlowerAtk_Bullet_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -7507,20 +7467,20 @@
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "offset": {
         "x": 4.5
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "Effigy_Grass_FlowerAtk_Bullet_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -7557,21 +7517,21 @@
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "offset": {
         "x": -2.25,
         "z": 3.9000000953674316
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "Effigy_Grass_FlowerAtk_Bullet_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -7608,18 +7568,18 @@
       "lifeTime": 0.6000000238418579
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
       "offset": {
         "x": -2.25,
         "z": -3.9000000953674316
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "Effigy_Grass_FlowerAtk_Zone": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -7649,10 +7609,10 @@
     }
   },
   "Effigy_Grass_WeedAtk_GrassWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 2.5
@@ -7660,8 +7620,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -7724,10 +7683,10 @@
     }
   },
   "Monster_Effigy_Grass_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -7770,10 +7729,10 @@
     }
   },
   "Monster_Effigy_Grass_Seed_HitBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -7810,43 +7769,41 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 25.0,
       "acceleration": 5.0,
       "accelerationTime": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 30.0,
       "gravityOfAcceleration": 18.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.5,
         "fixAngleOfVer": 360.0,
         "minSpeed": 0.10000000149011612,
         "maxSpeed": 50.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_FlowerAtk_Hit"
         }
       ]
     }
   },
   "Effigy_Grass_CircleAtk_Vine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 4.0
@@ -7854,8 +7811,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -7913,7 +7869,7 @@
       "lifeTime": 7.0
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.30000001192092896,
@@ -7921,7 +7877,7 @@
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_CircleAtk_GrassWallAttack"
         }
       ],
@@ -7933,10 +7889,10 @@
     }
   },
   "Effigy_Grass_CircleAtk_Vine_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 4.5
@@ -7944,8 +7900,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -8003,7 +7958,7 @@
       "lifeTime": 7.0
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.30000001192092896,
@@ -8011,7 +7966,7 @@
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_CircleAtk_GrassWallAttack"
         }
       ],
@@ -8023,10 +7978,10 @@
     }
   },
   "Effigy_Grass_CircleAtk_Vine_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "viewSize": 5.0
@@ -8034,8 +7989,7 @@
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -8093,7 +8047,7 @@
       "lifeTime": 7.0
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.30000001192092896,
@@ -8101,7 +8055,7 @@
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_CircleAtk_GrassWallAttack"
         }
       ],
@@ -8113,10 +8067,10 @@
     }
   },
   "Monster_Effigy_Grass_BallAtk_Ball": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -8155,10 +8109,10 @@
     }
   },
   "Effigy_Grass_ReviveAtk_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -8195,41 +8149,39 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 45.0,
       "gravityOfAcceleration": 18.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.75,
         "fixAngleOfVer": 2.0,
         "minSpeed": 7.0,
         "maxSpeed": 15.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_ReviveAtk_BulletHit"
         }
       ]
     }
   },
   "Effigy_Grass_Activity_ReviveAtk_Small_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -8262,10 +8214,10 @@
     }
   },
   "Effigy_Grass_Activity_ReviveAtk_Heal_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -8303,24 +8255,24 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 0.10000000149011612,
       "anglerVelocity": 360.0,
       "acceleration": 1.7999999523162842,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_Activity_ReviveAtk_Heal_Bullet"
         }
       ],
@@ -8329,10 +8281,10 @@
     }
   },
   "Effigy_Grass_Activity_ReviveAtk_Fade_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -8370,24 +8322,24 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 0.10000000149011612,
       "anglerVelocity": 360.0,
       "acceleration": 1.7999999523162842,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "AllExceptSelf"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Effigy_Grass_Activity_ReviveAtk_Fade_Bullet"
         }
       ],

@@ -1,9 +1,9 @@
 {
   "Raijin_AirWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 5.0,
       "affectedByWorld": true,
@@ -38,10 +38,10 @@
     }
   },
   "Raijin_BornPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -77,10 +77,10 @@
     }
   },
   "Raijin_ThunderCrystal_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -115,18 +115,18 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 60.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Raijin_ThunderCrystal_Bullet"
         }
       ],
@@ -134,10 +134,10 @@
     }
   },
   "Raijin_ThunderCrystal_Gadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -173,10 +173,10 @@
     }
   },
   "Raijin_SummonThunder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -212,10 +212,10 @@
     }
   },
   "Raijin_SummonThunder_Children": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -251,10 +251,10 @@
     }
   },
   "Raijin_ThunderSpear": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       },
       "mass": 5.0,
@@ -289,11 +289,11 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 50.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -301,7 +301,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Monster_Raijin_ThunderSpear_Bullet"
         }
       ],
@@ -309,10 +309,10 @@
     }
   },
   "Raijin_ThunderPunish_Warning": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -353,10 +353,10 @@
     }
   },
   "Raijin_ThunderPunish": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -396,13 +396,13 @@
       "lifeTime": 7.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -417,10 +417,10 @@
     }
   },
   "Raijin_ThunderNet_Born": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -466,10 +466,10 @@
     }
   },
   "Raijin_ThunderNet_BornR": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -515,10 +515,10 @@
     }
   },
   "Raijin_ThunderNet_TargetPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -559,10 +559,10 @@
     }
   },
   "Raijin_ThunderNet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -602,13 +602,13 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {
@@ -624,10 +624,10 @@
     }
   },
   "Raijin_ElectricCrystal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -659,10 +659,10 @@
     }
   },
   "Raijin_ElectricStormBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -703,10 +703,10 @@
       "lifeTime": 10.0
     },
     "move": {
-      "$type": "JGEFBHJPMOL"
+      "$type": "PAOCELNKDLB"
     },
     "gadget": {
-      "$type": "AKGCANNFFGI",
+      "$type": "LHMANANEFOM",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -714,29 +714,29 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Raijin_ElectricStormBullet_Hit"
         }
       ],
       "killByOther": true,
       "multiBulletConfig": {
-        "$type": "OAKJCHGIBPC",
+        "$type": "KEEJMAIFDMH",
         "rotationDampTime": "Eff_Monster_Raijin_Improve_ElectricStormBullet"
       }
     }
   },
   "Raijin_Echo": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "FJNPJANPGGC",
+        "$type": "ACFHOEIIBAJ",
         "mesh": "EffectMesh"
       },
       "mass": 100000000.0,
       "viewSize": 1.899999976158142,
       "scale": 1.899999976158142
     },
-    "KJGJCNANPJP": true,
+    "hasAudio": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -771,18 +771,18 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Standby": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Standby": []
             }
           },
           "MeleeAttack_BS": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MeleeAttack_BS": [
                 "Monster_Raijin_MeleeAttack_02_BS",
@@ -793,14 +793,14 @@
             "resetAnimatorTriggerOnEnter": ["MeleeAttack"]
           },
           "MeleeAttack": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MeleeAttack": []
             },
             "canDoSkill": true
           },
           "MeleeAttack_AS": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MeleeAttack_AS": [
                 "Monster_Raijin_MeleeAttack_02_AS",
@@ -810,7 +810,7 @@
             "canDoSkill": true
           },
           "FlyBomb_Prepare": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FlyBomb_Prepare": ["Audio_Fairfolk_Raijin_FlyBomb_Prepare"]
             },
@@ -818,35 +818,35 @@
             "resetAnimatorTriggerOnEnter": ["FlyBomb"]
           },
           "FlyBomb_BS": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FlyBomb_BS": ["Audio_Fairfolk_Raijin_FlyBomb_BS"]
             },
             "canDoSkill": true
           },
           "FlyBomb_Loop": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FlyBomb_Loop": []
             },
             "canDoSkill": true
           },
           "FlyBomb_AS": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FlyBomb_AS": ["Audio_Fairfolk_Raijin_FlyBomb_AS"]
             },
             "canDoSkill": true
           },
           "FlyBomb_Over": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "FlyBomb_Over": ["Audio_Fairfolk_Raijin_FlyBomb_Over"]
             },
             "canDoSkill": true
           },
           "ThunderSpear": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "ThunderSpear": ["Audio_Fairfolk_Raijin_ThunderSpear"]
             },
@@ -858,7 +858,7 @@
     }
   },
   "Raijin_Camera_ElectricCrystal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -897,7 +897,7 @@
       "lifeTime": 20.0
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 0.75
@@ -911,7 +911,7 @@
     }
   },
   "Raijin_ElectricCage_Surround_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -940,14 +940,14 @@
       "lifeTime": 25.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 9.0,
       "anglerVelocity": 360.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 2.5,
       "stickToGround": {
@@ -964,7 +964,7 @@
       "destroyWhenTargetDie": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -972,14 +972,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Raijin_ElectricCage_Surround_01"
         }
       ]
     }
   },
   "Raijin_ElectricCage_Surround_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1008,14 +1008,14 @@
       "lifeTime": 25.0
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 5.0,
       "anglerVelocity": 360.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 2.5,
       "stickToGround": {
@@ -1031,21 +1031,21 @@
       "destroyWhenTargetDie": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Raijin_ElectricCage_Surround_01"
         }
       ]
     }
   },
   "Raijin_ElectricWallPos": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -1081,10 +1081,10 @@
     }
   },
   "Raijin_ElectricWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.2000000476837158,
         "scaleY": 1.2000000476837158,
         "scaleZ": 1.2000000476837158
@@ -1124,13 +1124,13 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType"]
       },
       "speed": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0
       },
       "stickToGround": {

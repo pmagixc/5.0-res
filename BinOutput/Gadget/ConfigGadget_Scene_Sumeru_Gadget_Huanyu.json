@@ -1,9 +1,9 @@
 {
   "SceneObj_Area_Xm_Property_Ani_Prop_SporePile_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 1.5,
         "scaleY": 1.5,
         "scaleZ": 0.4000000059604645
@@ -45,7 +45,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_FungusSporePile_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -93,11 +93,11 @@
       "confirmDialogContent": ""
     },
     "intee": {
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_AranaraPillarSpore_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "default",
     "abilities": [
       {
@@ -108,7 +108,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_AranaraStrike_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -133,11 +133,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaValve_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_ScenObj_VarunaValve_Light",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_ScenObj_VarunaValve_Light"
     },
     "hasModel": true,
     "combat": {
@@ -177,12 +176,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Keep0": [],
               "Keep120": [],
@@ -191,7 +190,7 @@
             "cullingModelAlwaysAnimate": true
           },
           "Turn": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "0to120": [],
               "120to240": [],
@@ -205,18 +204,18 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
       ]
     },
     "intee": {
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaValve_01_Dream": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -255,12 +254,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Keep0": [],
               "Keep120": [],
@@ -269,7 +268,7 @@
             "cullingModelAlwaysAnimate": true
           },
           "Turn": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "0to120": [],
               "120to240": [],
@@ -283,22 +282,21 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
       ]
     },
     "intee": {
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaStone_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_ScenObj_VarunaStone_Light",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_ScenObj_VarunaStone_Light"
     },
     "hasModel": true,
     "combat": {
@@ -325,7 +323,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Water_VarunaMovingWaterPlane_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -355,12 +353,12 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "isMovingWater": true
     }
   },
   "SceneObj_Area_Xm_Property_Water_CaveNoRPR120": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -390,12 +388,12 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "isMovingWater": true
     }
   },
   "SceneObj_Area_Xm_Property_Prop_VarunaDevice_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -420,7 +418,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_VarunaDevice_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "viewSize": 0.800000011920929
     },
@@ -449,7 +447,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaWaterspout_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -471,7 +469,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaWaterspout_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -493,7 +491,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_VarunaCover_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -515,7 +513,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SumeruBubble_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "canBeAttacked",
     "abilities": [
       {
@@ -538,7 +536,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Prop_RootPot_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "default",
     "abilities": [
       {
@@ -549,12 +547,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Ani_Prop_RootPot_MoveDown": [],
               "Ani_Prop_RootPot_MoveUp": [],
@@ -569,7 +567,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }

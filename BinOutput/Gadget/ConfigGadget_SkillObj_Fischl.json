@@ -1,9 +1,9 @@
 {
   "Fischl_Arrow_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -28,21 +28,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -50,16 +50,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.4000000059604645,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.4000000059604645,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 12.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTimeScale": 0.009999999776482582
             },
@@ -89,27 +88,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effect_Fischl_ShootArrow_Hit_Fx"
         }
       ],
@@ -117,10 +116,10 @@
     }
   },
   "Fischl_Arrow_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -145,21 +144,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -167,16 +166,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.4300000071525574,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.4300000071525574,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 12.899999618530273,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTimeScale": 0.009999999776482582
             },
@@ -206,27 +204,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effect_Fischl_ShootArrow_Hit_Fx"
         }
       ],
@@ -234,10 +232,10 @@
     }
   },
   "Fischl_Arrow_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -262,21 +260,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -284,16 +282,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.5299999713897705,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.5299999713897705,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 15.899999618530273,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTimeScale": 0.009999999776482582
             },
@@ -323,27 +320,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effect_Fischl_ShootArrow_Hit_Fx"
         }
       ],
@@ -351,10 +348,10 @@
     }
   },
   "Fischl_Arrow_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -379,21 +376,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -401,16 +398,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.5199999809265137,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.5199999809265137,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 15.600000381469727,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTimeScale": 0.009999999776482582
             },
@@ -440,27 +436,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effect_Fischl_ShootArrow_Hit_Fx"
         }
       ],
@@ -468,10 +464,10 @@
     }
   },
   "Fischl_Arrow_05": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -496,21 +492,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -518,16 +514,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.6600000262260437,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.6600000262260437,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 19.709999084472656,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTimeScale": 0.009999999776482582
             },
@@ -557,27 +552,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 70.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 15.0,
       "gravityOfAcceleration": 30.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Effect_Fischl_ShootArrow_Hit_Fx"
         }
       ],
@@ -585,10 +580,10 @@
     }
   },
   "Fischl_AimingArrow_WithoutThunder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -628,27 +623,27 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_ExtraAttack_WithoutElement_Hit"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_ExtraAttack_WithoutElement_BulletFx"
         }
       ],
@@ -656,10 +651,10 @@
     }
   },
   "Fischl_AimingArrow_Thunder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -704,37 +699,37 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_ExtraAttack_Element_Hit"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_ExtraAttack_Element_BulletFx"
         }
       ]
     }
   },
   "Fischl_Crow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "viewSize": 0.800000011920929,
       "affectedByWorld": true
@@ -791,10 +786,10 @@
     }
   },
   "Fischl_Crow_BeAttackedTrigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true
@@ -829,17 +824,17 @@
       "lifeTime": 99.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "TargetEntity",
       "attachPoint": "",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "Fischl_Crow_NormalAttack_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -874,22 +869,22 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 24.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_Talent_D_Crow_NormalAttack_01"
         }
       ],
@@ -897,10 +892,10 @@
     }
   },
   "Fischl_SummonCrow_CheckPosition": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 2.4000000953674316,
         "scaleY": 2.4000000953674316,
         "scaleZ": 2.4000000953674316
@@ -935,12 +930,12 @@
       "lifeTime": 0.20000000298023224
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 40.0,
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -950,23 +945,23 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Ability_Fischl_Skill_S_CrowSummon_Aim_TriggerBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Ability_Fischl_Skill_S_CrowSummon_Aim_TriggerBullet_LifeOver"
         }
       ]
     }
   },
   "Fischl_Talent_A_NormalAttack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1001,22 +996,22 @@
       "lifeTime": 1.2000000476837158
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 32.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_Talent_A_NormalAttack_Hit"
         }
       ],
@@ -1024,10 +1019,10 @@
     }
   },
   "Fischl_Talent_C_Attack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true
@@ -1060,22 +1055,22 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 24.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_Talent_ExteaAttackThunder_Hit"
         }
       ],
@@ -1083,10 +1078,10 @@
     }
   },
   "Fischl_AutoAttack_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1121,22 +1116,22 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 18.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_Skill_S_Crow_AutoAttack_Hit_01"
         }
       ],
@@ -1144,10 +1139,10 @@
     }
   },
   "Fischl_AutoAttack_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1175,16 +1170,16 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 18.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
@@ -1192,10 +1187,10 @@
     }
   },
   "Fischl_AutoAttack_Talent_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1223,16 +1218,16 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 18.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
@@ -1240,10 +1235,10 @@
     }
   },
   "Fischl_AutoAttack_Talent_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1271,16 +1266,16 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 18.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
@@ -1288,10 +1283,10 @@
     }
   },
   "Fischl_ControlCrow_CheckPosition": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 2.4000000953674316,
         "scaleY": 2.4000000953674316,
         "scaleZ": 2.4000000953674316
@@ -1308,12 +1303,12 @@
       "lifeTime": 0.20000000298023224
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 40.0,
       "syncToRemote": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1324,10 +1319,10 @@
     }
   },
   "Fischl_Crow_NormalAttack_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -1349,16 +1344,16 @@
       "lifeTime": 1.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 24.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
@@ -1366,10 +1361,10 @@
     }
   },
   "Fischl_AimingArrow_CrowArrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true
@@ -1402,22 +1397,22 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 24.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Fischl_Talent_ExteaAttackThunder_Hit"
         }
       ],

@@ -1,9 +1,9 @@
 {
   "Linette_ElementalArt_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -38,19 +38,19 @@
       "lifeTime": 0.30000001192092896
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "",
       "followRotation": true,
       "offset": {
         "y": 0.8999999761581421
       },
-      "HOMINCCNFHE": {
+      "NGGDECKKKIO": {
         "z": 1.0
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -60,25 +60,24 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Linette_ElementalArt_Bullet"
         }
       ]
     }
   },
   "Linette_ElementalBurst_MagicBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "enableCrashDamage": false
     },
     "model": {
       "bornEffect": "",
       "attachEffect": "",
-      "hasCharacterRenderering": true,
-      "BKPFGNPLDNJ": ""
+      "hasCharacterRenderering": true
     },
     "hasModel": true,
     "combat": {
@@ -109,7 +108,7 @@
       "lifeTime": 15.0
     },
     "move": {
-      "$type": "MGENMIHFEJO",
+      "$type": "JDCIOPIOMMC",
       "velocityForce": {
         "muteAll": true
       },
@@ -118,26 +117,26 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "MagicBox_Born": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MagicBox_Born": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "MagicBox_Loop": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MagicBox_Loop": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "MagicBox_Die": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "MagicBox_Die": ["Linette_MagicBox_Die"]
             },
@@ -152,10 +151,10 @@
     "canRemoveByClient": true
   },
   "Linette_ElementalBurst_HitBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true,
       "checkInSurface": true,
@@ -190,21 +189,21 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "muteAll": true
       },
       "target": "TargetEntity",
       "attachPoint": "RootNode",
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "canRemoveByClient": true
   },
   "Linette_Constellation_WindZone": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -241,10 +240,10 @@
     }
   },
   "Linette_ElementalBurst_Bullet_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -278,7 +277,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -286,26 +285,26 @@
       "maxSpeed": 20.0,
       "anglerVelocity": 1.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Wind"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Wind"
         }
       ],
@@ -315,10 +314,10 @@
     }
   },
   "Linette_ElementalBurst_Bullet_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -352,7 +351,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -360,19 +359,19 @@
       "maxSpeed": 20.0,
       "anglerVelocity": 180.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 10.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 10.0
           },
           "onGround": true
         },
@@ -380,19 +379,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Ice"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Ice"
         }
       ],
@@ -402,10 +401,10 @@
     }
   },
   "Linette_ElementalBurst_Bullet_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -439,7 +438,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -447,19 +446,19 @@
       "maxSpeed": 20.0,
       "anglerVelocity": 180.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 10.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 10.0
           },
           "onGround": true
         },
@@ -467,19 +466,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Fire"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Fire"
         }
       ],
@@ -489,10 +488,10 @@
     }
   },
   "Linette_ElementalBurst_Bullet_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -526,7 +525,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -534,19 +533,19 @@
       "maxSpeed": 20.0,
       "anglerVelocity": 180.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 10.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 10.0
           },
           "onGround": true
         },
@@ -554,19 +553,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Water"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Water"
         }
       ],
@@ -576,10 +575,10 @@
     }
   },
   "Linette_ElementalBurst_Bullet_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -613,7 +612,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -621,19 +620,19 @@
       "maxSpeed": 20.0,
       "anglerVelocity": 180.0,
       "acceleration": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 3600.0
       },
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 10.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 10.0
           },
           "onGround": true
         },
@@ -641,19 +640,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Electric"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalBurst_MagicBox_Bullet_Electric"
         }
       ],
@@ -663,10 +662,10 @@
     }
   },
   "Linette_ElementalArt_Executed_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -701,19 +700,19 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "",
       "followRotation": true,
       "offset": {
         "y": 0.8999999761581421
       },
-      "HOMINCCNFHE": {
+      "NGGDECKKKIO": {
         "z": 1.0
       },
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -724,7 +723,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Linette_ElementalArt_Executed_Bullet"
         }
       ]

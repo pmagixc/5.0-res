@@ -1,9 +1,9 @@
 {
   "Fungus_Trois_Ice_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -32,7 +32,7 @@
       "lifeTime": 1.7999999523162842
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "excludeForces": ["WindZoneType", "AirflowType"]
       },
@@ -40,12 +40,12 @@
       "maxSpeed": 50.0,
       "acceleration": 20.0,
       "accelerationTime": 0.20000000298023224,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -53,22 +53,21 @@
       },
       "triggerActions": [
         {
-          "$type": "HILFMFBKIKF",
+          "$type": "EMKCIHFAOJA",
           "attackInfo": {
             "attackTag": "",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 11.539999961853027,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 11.539999961853027,
+              "AILJJDMKONE": 0.0,
               "elementType": "Ice",
-              "IPFJJJGABPL": 100.0,
+              "bonusCriticalHurt": 100.0,
               "enBreak": 200.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV4"
             },
             "canBeModifiedBy": "Owner"
@@ -78,7 +77,7 @@
     }
   },
   "Fungus_Trois_Ice_BlizzardPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -105,10 +104,10 @@
     }
   },
   "Fungus_Deux_Wind_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -136,32 +135,32 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "anglerVelocity": 240.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Deux_BVB_Wind_Bullet"
         }
       ]
     }
   },
   "Fungus_Deux_Wind_OverdoseBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -189,38 +188,38 @@
       "lifeTime": 6.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
+      "$type": "JAFPLJCPHAM",
       "speed": 15.0,
       "minSpeed": 5.0,
       "anglerVelocity": 360.0,
       "acceleration": -30.0,
       "accelerationTime": 0.699999988079071,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "guidanceDelay": 0.3499999940395355,
       "guidanceMinAnglerVelocity": 360.0,
       "guidanceDuration": 6.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Deux_BVB_Wind_OverdoseBullet"
         }
       ]
     }
   },
   "Fungus_Deux_Wind_HealingWavePoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -250,10 +249,10 @@
     }
   },
   "Fungus_Un_Wind_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -281,32 +280,32 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 7.5,
       "anglerVelocity": 210.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Wind_Bullet"
         }
       ]
     }
   },
   "Fungus_Un_WindImpact_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -334,23 +333,23 @@
       "lifeTime": 5.5
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "anglerVelocity": 400.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "colliderCheckOnInit": false,
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Wind_WindImpact_Bullet"
         }
       ],
@@ -360,10 +359,10 @@
     }
   },
   "Fungus_Un_WindImpact_Point": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -393,10 +392,10 @@
     }
   },
   "Fungus_Un_WindZone_Point": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -426,10 +425,10 @@
     }
   },
   "Fungus_Deux_Fire_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -459,10 +458,10 @@
     }
   },
   "Fungus_Deux_Fire_UBPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -492,10 +491,10 @@
     }
   },
   "Fungus_Un_Water_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -523,23 +522,23 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 9.0,
       "anglerVelocity": 270.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "colliderCheckOnInit": false,
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Water_Bullet"
         }
       ],
@@ -549,10 +548,10 @@
     }
   },
   "Fungus_Un_Water_Bubble": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -585,33 +584,33 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 4.0,
       "anglerVelocity": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Water_Bubble"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Water_Bubble_Surrounding"
         }
       ]
     }
   },
   "Fungus_Un_Water_UBPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -638,10 +637,10 @@
     }
   },
   "Fungus_Un_Water_SuperWaterBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -669,23 +668,23 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 9.0,
       "anglerVelocity": 270.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "colliderCheckOnInit": false,
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Water_SuperWaterBullet"
         }
       ],
@@ -695,10 +694,10 @@
     }
   },
   "Fungus_Deux_Electro_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -726,32 +725,32 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 6.599999904632568,
       "maxSpeed": 10.0,
       "anglerVelocity": 240.0,
       "acceleration": 1.0,
       "accelerationTime": 4.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Deux_BVB_Electro_Bullet"
         }
       ]
     }
   },
   "Fungus_Deux_Electro_ThunderPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -778,10 +777,10 @@
     }
   },
   "Fungus_Un_Dendro_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -809,31 +808,29 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 12.0,
       "gravityOfAcceleration": 16.5,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.20000000298023224,
         "fixAngleOfVer": 15.0,
         "minSpeed": 2.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "colliderCheckOnInit": false,
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Dendro_Bullet"
         }
       ],
@@ -844,10 +841,10 @@
     }
   },
   "Fungus_Un_Dendro_Bullet_UB": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -875,31 +872,29 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "speed": 13.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "angleOffHor": 12.0,
       "gravityOfAcceleration": 16.5,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "deviation": 0.20000000298023224,
         "fixAngleOfVer": 15.0,
         "minSpeed": 2.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "colliderCheckOnInit": false,
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Fungus_Un_BVB_Dendro_Bullet_UB"
         }
       ],
@@ -910,10 +905,10 @@
     }
   },
   "Fungus_Un_Dendro_Plant": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }

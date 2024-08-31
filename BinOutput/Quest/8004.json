@@ -442,7 +442,7 @@
       "beginCond": [
         {
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["800402", "1"],
+          "param": ["800402", "0"],
           "param_str": ""
         },
         {
@@ -471,7 +471,7 @@
       "beginCondComb": "LOGIC_A_AND_ETCOR",
       "beginCond": [
         {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+          "type": "QUEST_COND_QUEST_GLOBAL_VAR_GREATER",
           "param": ["800402", "0"],
           "param_str": ""
         },

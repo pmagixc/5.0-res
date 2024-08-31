@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_Common_Property_Prop_Exploration_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1000.0
     },
@@ -49,7 +49,7 @@
       "guidePointManagedByIndicator": true
     },
     "billboard": {
-      "$type": "KMCIKEIBFAH",
+      "$type": "AEEMGNKHEDI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.649999976158142
@@ -57,14 +57,13 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_ExplorationBullet_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_ElementParticle_01_Fly",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_ElementParticle_01_Fly"
     },
     "hasModel": true,
     "combat": {
@@ -100,24 +99,24 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 15.0,
       "anglerVelocity": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "destroyWhenTargetDie": true,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "AllExceptSelf",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Area_Common_Property_Prop_ExplorationBullet_01"
         }
       ],
@@ -125,7 +124,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_ElementParticle_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -166,7 +165,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_ElementParticle_OnGround_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -207,7 +206,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_ElementParticle_Generator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -238,7 +237,7 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_EnergyBall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -279,7 +278,7 @@
     "radarHint": true
   },
   "SceneObj_Area_Common_Property_Prop_Excavate_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -324,7 +323,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Prop_SeelieFarAway_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -354,15 +353,14 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Common_Property_Prop_ExplorationRing_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Seeker_Exploration_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Seeker_Exploration_01"
     },
     "hasModel": true,
     "combat": {
@@ -388,7 +386,7 @@
     "combatTemplate": ""
   },
   "SceneObj_Level_Common_Property_Prop_RemovableCoin_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -418,11 +416,11 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Level_Common_Property_Prop_ExpandAccessCoin_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,
@@ -465,7 +463,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Prop_WoodAranaraStage_Part_NoDither": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
@@ -474,7 +472,7 @@
     }
   },
   "SceneObj_Area_Xm_Property_Prop_WoodAranaraStage_Part": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "misc": {
@@ -486,7 +484,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_ParkourOperatorXM_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -530,27 +528,27 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
@@ -559,7 +557,7 @@
       ]
     },
     "billboard": {
-      "$type": "AKPHLFJFMBD",
+      "$type": "MLECLNGMLJA",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.799999952316284
@@ -569,11 +567,10 @@
     }
   },
   "SceneObj_Gear_ElementDungeon_Operator_NoBase": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Gear_ElementDungeon_Operator",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Gear_ElementDungeon_Operator"
     },
     "hasModel": true,
     "combat": {
@@ -612,14 +609,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Gear_ElementDungeon_Operator"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 202,
@@ -629,11 +626,10 @@
     }
   },
   "SceneObj_Gear_ElementDungeon_Operator_FungusActivity": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Gear_ElementDungeon_Operator",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Gear_ElementDungeon_Operator"
     },
     "hasModel": true,
     "combat": {
@@ -668,26 +664,26 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_Gear_ElementDungeon_Operator"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_Gear_ElementDungeon_Operator"
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         }
       ]
     }

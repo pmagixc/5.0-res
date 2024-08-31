@@ -1,9 +1,9 @@
 {
   "Gear_ElectricBall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -24,15 +24,15 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "JHEBKCMEMLN"
+              "$type": "CGJIFGJJOJA"
             },
             "size": {
-              "KGEPIMHBMOL": 0.4000000059604645,
-              "JEBHCGDPFEJ": 0.4000000059604645,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.4000000059604645,
+              "CHEGDAPFFHA": 0.4000000059604645,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -40,20 +40,19 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.5,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.5,
+              "AILJJDMKONE": 0.0,
               "elementType": "Electric",
-              "IPFJJJGABPL": 50.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCriticalHurt": 50.0,
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV2",
               "overrideHitImpulse": {
                 "hitLevel": "Light",
-                "IMIJMPGJOGG": 120.0,
-                "BPCDKKBKOBM": 0.0
+                "DJKONCLKGJH": 120.0,
+                "DKJLLKDHBNJ": 0.0
               },
               "hitHaltTime": 0.11999999731779099,
               "hitHaltTimeScale": 0.009999999776482582
@@ -74,30 +73,30 @@
       "lifeTime": 2.5
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         }
       ]
     }
   },
   "Test_Rotation02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -135,7 +134,7 @@
     ]
   },
   "SceneObj_Area_Common_Property_Prop_GCGInviteBoard_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -244,22 +243,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.0
@@ -270,11 +269,11 @@
       "triggerOffset": {
         "y": -2.0
       },
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Area_Common_Property_Prop_GCGInviteBoard_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -330,22 +329,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart",
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.0
@@ -356,11 +355,11 @@
       "triggerOffset": {
         "y": -2.0
       },
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "WindDevice01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -390,12 +389,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "WindDevice_On": ["Audio_SceneObj_Gear_WindDevice_On"],
               "WindDevice_Off": []
@@ -406,7 +405,7 @@
     }
   },
   "SceneObj_Gear_WhiteBox_Weight": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1.0,

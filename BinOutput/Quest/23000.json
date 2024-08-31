@@ -36,15 +36,15 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
+      "beginExec": [],
+      "finishExec": [],
+      "failExec": [],
       "guide": {
         "type": "QUEST_GUIDE_NPC",
         "param": ["4003"],
         "guideScene": 3
-      },
-      "failCond": [],
-      "beginExec": [],
-      "finishExec": [],
-      "failExec": []
+      }
     },
     {
       "subId": 2300002,
@@ -109,11 +109,6 @@
           "param_str": ""
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_NPC",
-        "param": ["4003"],
-        "guideScene": 1074
-      },
       "failCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
@@ -121,6 +116,8 @@
           "param_str": "22,16"
         }
       ],
+      "beginExec": [],
+      "finishExec": [],
       "failExec": [
         {
           "type": "QUEST_EXEC_ROLLBACK_QUEST",
@@ -128,8 +125,11 @@
           "param_str": ""
         }
       ],
-      "beginExec": [],
-      "finishExec": []
+      "guide": {
+        "type": "QUEST_GUIDE_NPC",
+        "param": ["4003"],
+        "guideScene": 1074
+      }
     },
     {
       "subId": 2300004,
@@ -162,11 +162,6 @@
           "param_str": ""
         }
       ],
-      "guide": {
-        "type": "QUEST_GUIDE_NPC",
-        "param": ["4003"],
-        "guideScene": 1074
-      },
       "failCond": [
         {
           "type": "QUEST_CONTENT_GAME_TIME_TICK",
@@ -174,6 +169,7 @@
           "param_str": "22,16"
         }
       ],
+      "beginExec": [],
       "finishExec": [
         {
           "type": "QUEST_EXEC_NOTIFY_DAILY_TASK",
@@ -188,7 +184,11 @@
           "param_str": ""
         }
       ],
-      "beginExec": []
+      "guide": {
+        "type": "QUEST_GUIDE_NPC",
+        "param": ["4003"],
+        "guideScene": 1074
+      }
     }
   ],
   "talks": [

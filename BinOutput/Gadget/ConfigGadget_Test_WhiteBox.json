@@ -1,13 +1,13 @@
 {
   "SceneObj_Other_Test_BrokenFloor": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -19,17 +19,17 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Gear_Test_Charging_Pot": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -41,7 +41,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_Test_Charging_Pot",
@@ -50,26 +50,26 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
-      "attachPoint": "BillboardAttach",
+      "$type": "HFEGKLAIGGI",
+      "IIKEHINGEME": "BillboardAttach",
       "offset": {
         "y": 1.5
       },
-      "radiusOffset": 1.0,
+      "HECLHMINJII": 1.0,
       "showDistance": 30.0,
-      "showHPBar": true,
-      "shieldBarOnly": true
+      "DMHOOGGGDKG": true,
+      "GFHHHAEBHHL": true
     }
   },
   "SceneObj_Gear_Property_Prop_ColourableWater_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -81,32 +81,32 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "attackAttenuation": "",
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Test_Chemistry_Controller": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 15.0,
         "defense": 999999.0,
         "weight": 60.0,
-        "isGhostToEnemy": true
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -120,7 +120,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_Test_Chemistry_Controller",
@@ -130,21 +130,21 @@
     ]
   },
   "SceneObj_Gear_Test_Chemistry_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "enableCrashDamage": false
     },
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -159,7 +159,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -170,21 +170,21 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_Test_Chemistry_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       },
       "mass": 50.0,
       "enableCrashDamage": false
@@ -192,7 +192,7 @@
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 500.0,
+        "HP": 500.0,
         "attack": 10.0,
         "defense": 500.0,
         "weight": 50.0,
@@ -200,8 +200,8 @@
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -215,7 +215,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -224,13 +224,13 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
-      "attachPoint": "RootNode",
-      "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "$type": "BELFBLEANMG",
+      "IIKEHINGEME": "RootNode",
+      "ABIHJGPBBFD": true,
+      "IHAJOCLBEOK": ""
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -240,21 +240,21 @@
     }
   },
   "SceneObj_Gear_Test_Chemistry_Table": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "enableCrashDamage": false
     },
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -269,7 +269,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -280,44 +280,44 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Test_Chemistry_Absorb100": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       }
     },
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -326,7 +326,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -334,54 +334,54 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
-      "speed": 5.0,
+      "$type": "MNCDFIAEMIA",
+      "NOFDPFHMFNM": 5.0,
       "maxSpeed": 10.0,
       "minSpeed": 5.0,
-      "anglerVelocity": 720.0,
-      "acceleration": 2.0,
-      "itanoCircusStartAngler": 150.0,
-      "guidanceDelay": 0.699999988079071,
-      "guidanceMinAnglerVelocity": 5.0
+      "NDLHJKADBGC": 720.0,
+      "EILJBCHMAIH": 2.0,
+      "ELPLIOJMJND": 150.0,
+      "NNDCMFPMIFK": 0.699999988079071,
+      "JKPFKNHDNKE": 5.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_Test_Chemistry_Absorb100"
         }
       ]
     }
   },
   "SceneObj_Gear_Test_Chemistry_Absorb200": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       }
     },
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -390,7 +390,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -398,54 +398,54 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
-      "speed": 5.0,
+      "$type": "MNCDFIAEMIA",
+      "NOFDPFHMFNM": 5.0,
       "maxSpeed": 10.0,
       "minSpeed": 5.0,
-      "anglerVelocity": 720.0,
-      "acceleration": 2.0,
-      "itanoCircusStartAngler": 150.0,
-      "guidanceDelay": 0.699999988079071,
-      "guidanceMinAnglerVelocity": 5.0
+      "NDLHJKADBGC": 720.0,
+      "EILJBCHMAIH": 2.0,
+      "ELPLIOJMJND": 150.0,
+      "NNDCMFPMIFK": 0.699999988079071,
+      "JKPFKNHDNKE": 5.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_Test_Chemistry_Absorb200"
         }
       ]
     }
   },
   "SceneObj_Gear_Test_Chemistry_Absorb300": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       }
     },
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -454,7 +454,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -462,41 +462,41 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "DMLAFKAOGID",
-      "speed": 5.0,
+      "$type": "MNCDFIAEMIA",
+      "NOFDPFHMFNM": 5.0,
       "maxSpeed": 10.0,
       "minSpeed": 5.0,
-      "anglerVelocity": 720.0,
-      "acceleration": 2.0,
-      "itanoCircusStartAngler": 150.0,
-      "guidanceDelay": 0.699999988079071,
-      "guidanceMinAnglerVelocity": 5.0
+      "NDLHJKADBGC": 720.0,
+      "EILJBCHMAIH": 2.0,
+      "ELPLIOJMJND": 150.0,
+      "NNDCMFPMIFK": 0.699999988079071,
+      "JKPFKNHDNKE": 5.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "All",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_Test_Chemistry_Absorb300"
         }
       ]
     }
   },
   "SceneObj_Gear_MushRoom_Catch": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isLockHP": true
       },
       "beHit": {
@@ -510,7 +510,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_MushRoom_Catch",
@@ -521,28 +521,28 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H4",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Gear_Test_Bitwise": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -554,7 +554,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "ability_01",
@@ -565,30 +565,29 @@
     "field": {
       "concernType": "LocalAvatar",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "SelfCamp",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_World_HintEffect_LY": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_World_FarFlare",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_World_FarFlare"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -600,17 +599,17 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_World_VisionPuzzle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -618,31 +617,31 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "attackAttenuation": "",
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Test_TreeRoot": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true
+        "JEPGCKHKDDD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -656,7 +655,7 @@
         "dieModelFadeDelay": 2.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -664,24 +663,24 @@
         "abilityOverride": ""
       }
     ],
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Test_OneStrokeBoard": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -694,7 +693,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_Other_Test_OneStrokeBoard",
@@ -715,84 +714,83 @@
     "field": {
       "concernType": "CombatExcludeGWGO",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Blank": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Blank": []
             }
           },
           "UnderGround": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "UnderGround": []
             }
           },
           "RiseUp": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "RiseUp": ["SceneObj_Gear_Other_Test_OneStrokeBoard_RiseUp"]
             }
           },
           "Normal": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Normal": []
             }
           },
           "Active": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Active": []
             }
           },
           "Sink": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Sink": ["SceneObj_Gear_Other_Test_OneStrokeBoard_Sink"]
             }
           },
           "Complete": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Complete": []
             }
           }
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Test_Gravity_Board_Small": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -805,7 +803,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -816,84 +814,84 @@
     "field": {
       "concernType": "CombatExcludeGWGO",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "misc": {
-      "escapeEffect": "",
-      "targetIndicatorYOffset": 1.149999976158142
+    "DDOEFBHBEPJ": {
+      "HGJJHLBEICG": "",
+      "JCBHMPCFFDI": 1.149999976158142
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Test_Gravity_Board_Middle": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -906,7 +904,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -917,133 +915,133 @@
     "field": {
       "concernType": "CombatExcludeGWGO",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 902,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 902,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         }
       ]
     }
   },
   "SceneObj_Gear_Other_Test_Gravity_Board_Great": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true
+        "canTriggerBullet": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1056,7 +1054,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -1067,199 +1065,199 @@
     "field": {
       "concernType": "CombatExcludeGWGO",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 902,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action03",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action03",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 903,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 902,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action03",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action03",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 903,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv2"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv2"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 901,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 902,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action03",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action03",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 903,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv3"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Lv3"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action01",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action02",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "Action02",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearAction2",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 204,
-          "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Gear_Gravity_Center"
         }
       ]
     }
   },
   "SceneObj_Gear_Windmill01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1274,7 +1272,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1284,13 +1282,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Rotate": [],
               "RotateStop": [],
               "Stop": []
@@ -1300,8 +1297,8 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
-      "overrideEmitterName": "",
+      "$type": "IGNGMHPHOEP",
+      "LKJIHNLBIJL": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -1327,22 +1324,22 @@
         "text": ""
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Windmill02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1357,7 +1354,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1365,22 +1362,22 @@
         "abilityOverride": ""
       }
     ],
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Gear_Windmill03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1395,7 +1392,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1405,13 +1402,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Rotate": [],
               "RotateStop": [],
               "Stop": []
@@ -1421,8 +1417,8 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
-      "overrideEmitterName": "",
+      "$type": "IGNGMHPHOEP",
+      "LKJIHNLBIJL": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -1450,16 +1446,15 @@
     }
   },
   "SceneObj_Riddle_Torch_Collider": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "Eff_World_Barrier_S",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1479,13 +1474,13 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Riddle_Torch_Hint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1505,16 +1500,15 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "State_0": ["State_0_Visible"],
               "State_901": ["State_1_Visible"],
               "State_902": ["State_2_Visible"],
@@ -1525,26 +1519,26 @@
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Trap_Rake": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 10.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1552,7 +1546,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1562,34 +1556,33 @@
     ],
     "field": {
       "shape": "CircleR0_5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.25,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Chest_DropTest": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "Eff_Item_SpecialTreasureBox_Born",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true
+        "GKIOKIDJLCA": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1604,7 +1597,7 @@
         "dieModelFadeDelay": 6.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1612,34 +1605,33 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "misc": {
-      "chest": {
-        "openEffect": "Eff_Chest_Open_Continuous"
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "DOIONKMFNCD": "Eff_Chest_Open_Continuous"
       },
-      "pickup": {
+      "PKABANPMJCL": {
         "bornEffect": "",
-        "dropEffect": "",
-        "attractAudio": ""
+        "HBAJPKPHOMN": "",
+        "DKDLKFDICEM": ""
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Default": [],
               "ChestOpen": ["Audio_SceneObj_Item_Treasurebox01_102_ChestOpen"]
             }
@@ -1649,14 +1641,14 @@
     }
   },
   "Test_WhiteBox_ThornWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 100.0,
+        "HP": 100.0,
         "attack": 10.0,
         "weight": 75.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1664,7 +1656,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -1675,32 +1667,32 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "Test_WhiteBox_ElectricWater": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
-        "scaleX": 2.0,
-        "scaleY": 2.0,
-        "scaleZ": 0.10000000149011612
+        "$type": "PBGINMMOLDC",
+        "AOOMOJMAGMJ": 2.0,
+        "IMLIDOCMEII": 2.0,
+        "OBEFFBEFICB": 0.10000000149011612
       },
       "viewSize": 4.0
     },
     "combat": {
       "property": {
-        "hp": 100.0,
+        "HP": 100.0,
         "attack": 10.0,
         "weight": 75.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1708,7 +1700,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1718,31 +1710,31 @@
     ]
   },
   "Test_WhiteBox_AirFlow_Grass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
-        "scaleX": 2.0,
-        "scaleY": 2.0,
-        "scaleZ": 0.20000000298023224
+        "$type": "PBGINMMOLDC",
+        "AOOMOJMAGMJ": 2.0,
+        "IMLIDOCMEII": 2.0,
+        "OBEFFBEFICB": 0.20000000298023224
       },
       "viewSize": 1.5,
       "affectedByWorld": true
     },
     "customAttackShape": {
-      "box": {
-        "customAttackBoxSizeX": 2.0,
-        "customAttackBoxSizeY": 2.0,
-        "customAttackBoxSizeZ": 0.20000000298023224
+      "KGNKIMCPPKO": {
+        "JCGDIFGIKIP": 2.0,
+        "GLFFDAHDDMN": 2.0,
+        "KLFNFOMLJHK": 0.20000000298023224
       }
     },
     "combat": {
       "property": {
-        "hp": 100.0,
+        "HP": 100.0,
         "attack": 10.0,
         "weight": 75.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1750,7 +1742,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1760,32 +1752,32 @@
     ]
   },
   "Test_WhiteBox_AirFlow_FireGrass": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
-    "misc": {
-      "forceField": {
-        "$type": "NJNBPMFBLMP",
-        "specialTipsIconPath": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
+    "DDOEFBHBEPJ": {
+      "CAPPPCGOCIH": {
+        "$type": "GPFENCHGIDA",
+        "alias": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
         "enterEffect": "Eff_Windfield_Enter"
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     }
   },
   "SceneObj_Test_Chest_ShootingStar": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true
+        "GKIOKIDJLCA": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -1800,7 +1792,7 @@
         "dieModelFadeDelay": 3.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability01",
@@ -1808,29 +1800,28 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "misc": {
-      "chest": {
-        "openEffect": "Eff_Chest_Open_Continuous_LV5"
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "DOIONKMFNCD": "Eff_Chest_Open_Continuous_LV5"
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Default": [],
               "Special_State": ["Test_ShootingStar_Invisible"],
               "Unlock_State": ["Test_ShootingStar_Visible"],
@@ -1840,27 +1831,27 @@
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "ChestState",
           "value": 1
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStart",
+          "$type": "FHCNELPNCPL",
+          "GEBLEANKIHJ": "GearStart",
           "intID": "ChestState"
         }
       ]
     }
   },
   "SceneObj_Environment_Cloud_CloudWall": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1879,7 +1870,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Environment_Cloud_CloudWall",
@@ -1889,23 +1880,23 @@
     ]
   },
   "SceneObj_Environment_WindField_DragonNest_Tornado_Bullet_Test": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       },
       "disableTickDistance": 450.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "defense": 99999.0
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1920,7 +1911,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -1928,12 +1919,12 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 30.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "velocityForce": {
+      "$type": "CJBKMBOOPHF",
+      "BGKIHCPJBMO": {
         "excludeForces": [
           "WindZoneType",
           "AirflowType",
@@ -1942,21 +1933,21 @@
           "AirflowAccType"
         ]
       },
-      "speed": 1.0,
-      "delay": 1.0,
-      "stickToGround": {
-        "maxStepHeight": 1.0,
-        "maxSlopeAngle": 45.0,
-        "heightToGround": 0.10000000149011612,
-        "flexibleRange": 0.5,
-        "isStickToWater": true,
-        "unstickWhenDownSlide": "Keep",
-        "unstickWhenUpSlide": "Keep"
+      "NOFDPFHMFNM": 1.0,
+      "CAMKOAKMJHD": 1.0,
+      "MLLDAINGCPD": {
+        "LDGCOFBNILL": 1.0,
+        "IDPIALMIAEG": 45.0,
+        "JPJMEPGMIBM": 0.10000000149011612,
+        "EBNKPFBIDBP": 0.5,
+        "MJHMIDBFLLM": true,
+        "FHFBJGOKDBP": "Keep",
+        "OMEEHJNLOMB": "Keep"
       },
-      "syncToRemote": true
+      "FLBOCGHONPG": true
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.5,
@@ -1965,22 +1956,22 @@
       }
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
-      "attachPoint": "BillboardAttach",
+      "$type": "HFEGKLAIGGI",
+      "IIKEHINGEME": "BillboardAttach",
       "offset": {
         "y": 0.20000000298023224
       },
-      "radiusOffset": 1.0,
-      "showHPBar": true,
-      "shieldBarOnly": true
+      "HECLHMINJII": 1.0,
+      "DMHOOGGGDKG": true,
+      "GFHHHAEBHHL": true
     }
   },
   "SceneObj_WhiteBox_FatherOfKaiHao": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -1999,7 +1990,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_WhiteBox_FatherOfKaiHao",
@@ -2009,21 +2000,21 @@
     ]
   },
   "SceneObj_WhiteBox_DuoMaoMao": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 10000.0,
+        "HP": 10000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true
+        "JEPGCKHKDDD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2035,7 +2026,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_WhiteBox_DuoMaoMao",
@@ -2046,32 +2037,32 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_WhiteBox_DuoMaoMao02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 10000.0,
+        "HP": 10000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true
+        "JEPGCKHKDDD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2083,7 +2074,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_WhiteBox_DuoMaoMao02",
@@ -2094,28 +2085,28 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_Wind_WhiteBox": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2131,7 +2122,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Wind",
@@ -2140,17 +2131,16 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -2166,16 +2156,15 @@
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Stone_Thunderstone_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2191,7 +2180,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Stone_Thunderstone_01",
@@ -2202,36 +2191,35 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Stone_Thundersource_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2247,7 +2235,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Stone_Thundersource_01",
@@ -2258,34 +2246,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR25H40",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Stages_Property_Tree_Lightingtree_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2301,7 +2288,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Stages_Property_Tree_Lightingtree_01",
@@ -2312,34 +2299,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H40",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Water_Lightingwater_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2355,7 +2341,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Water_Lightingwater_01",
@@ -2366,34 +2352,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Dq_Property_Tree_Witheredtree_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2409,7 +2394,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Tree_Witheredtree_01",
@@ -2420,39 +2405,39 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR10H40",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Ani_Rock_TMStone_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
       "elementDrop": "RootNode",
       "bulletAim": "bulletAim"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2464,7 +2449,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Rock_TMStone_01",
@@ -2474,13 +2459,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "One": ["Audio_SceneObj_Gear_ElecStone_CountState"],
               "Two": ["Audio_SceneObj_Gear_ElecStone_CountState"],
               "Three": ["Audio_SceneObj_Gear_ElecStone_CountState"]
@@ -2489,26 +2473,26 @@
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "State",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2520,7 +2504,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_02",
@@ -2529,19 +2513,19 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_04": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2553,7 +2537,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_04",
@@ -2562,21 +2546,21 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 10.0,
         "isLockHP": true,
-        "ignorePurgeRate": true
+        "JPJIIBGCMJD": true
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_03",
@@ -2586,19 +2570,18 @@
     ]
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_ThunderTheft_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 1500.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_ElectricSeeliel_01_Trail",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_ElectricSeeliel_01_Trail"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 1000.0,
+        "HP": 1000.0,
         "attack": 100.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2606,7 +2589,7 @@
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2621,7 +2604,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Prop_ThunderTheft_01",
@@ -2632,40 +2615,39 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ",
-      "avatarTriggerEventDistance": 4.0
+      "$type": "AOAMMBMNHEH",
+      "NAIBMAIBEPI": 4.0
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Move": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Move": []
             }
           },
           "Idle": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Idle": []
             }
           },
           "Land": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Land": []
             }
           }
@@ -2673,8 +2655,8 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
-      "overrideEmitterName": "",
+      "$type": "IGNGMHPHOEP",
+      "LKJIHNLBIJL": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -2700,21 +2682,21 @@
         "text": ""
       }
     },
-    "gadgetAction": {
-      "platformActionList": [
+    "NEPNGCGEAOL": {
+      "HABAGNLAANJ": [
         {
-          "$type": "FJGKLJLPOGL",
-          "predicate": {
-            "$type": "MMCKMEIDNBD",
-            "isStart": true
+          "$type": "FHCNELPNCPL",
+          "EIIKDOOKJNP": {
+            "$type": "PPPBKDOGGKA",
+            "IBBOPJFEIIG": true
           },
           "intID": "IsFlying",
           "value": 1
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "predicate": {
-            "$type": "MMCKMEIDNBD"
+          "$type": "FHCNELPNCPL",
+          "EIIKDOOKJNP": {
+            "$type": "PPPBKDOGGKA"
           },
           "intID": "IsFlying"
         }
@@ -2722,13 +2704,13 @@
     }
   },
   "SceneObj_Gear_Platform_ElectricSeelie": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 1500.0
     },
     "combat": {
       "property": {
-        "hp": 1000.0,
+        "HP": 1000.0,
         "attack": 100.0,
         "weight": 50.0,
         "isLockHP": true
@@ -2736,7 +2718,7 @@
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2749,7 +2731,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_Platform_ElectricSeelie",
@@ -2758,12 +2740,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ",
-      "avatarTriggerEventDistance": 3.0
+      "$type": "AOAMMBMNHEH",
+      "NAIBMAIBEPI": 3.0
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
-      "overrideEmitterName": "",
+      "$type": "IGNGMHPHOEP",
+      "LKJIHNLBIJL": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -2789,21 +2771,21 @@
         "text": ""
       }
     },
-    "gadgetAction": {
-      "platformActionList": [
+    "NEPNGCGEAOL": {
+      "HABAGNLAANJ": [
         {
-          "$type": "FJGKLJLPOGL",
-          "predicate": {
-            "$type": "MMCKMEIDNBD",
-            "isStart": true
+          "$type": "FHCNELPNCPL",
+          "EIIKDOOKJNP": {
+            "$type": "PPPBKDOGGKA",
+            "IBBOPJFEIIG": true
           },
           "intID": "IsFlying",
           "value": 1
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "predicate": {
-            "$type": "MMCKMEIDNBD"
+          "$type": "FHCNELPNCPL",
+          "EIIKDOOKJNP": {
+            "$type": "PPPBKDOGGKA"
           },
           "intID": "IsFlying"
         }
@@ -2811,19 +2793,19 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_ElectricSeeliaLamp_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 1000.0,
+        "HP": 1000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "ignorePurgeRate": true
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true
+        "JEPGCKHKDDD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -2835,7 +2817,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -2846,24 +2828,23 @@
     "field": {
       "concernType": "LocalAvatar",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "SelfCamp",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "DeActive": ["Seelie_Body_Hide", "FireSeelie_Snow_Visible"],
               "Active": ["FireSeelie_Body_Visible", "FireSeelie_Snow_Unvisible"]
             }
@@ -2872,8 +2853,8 @@
       }
     },
     "audio": {
-      "$type": "DEGGADLMEOK",
-      "overrideEmitterName": "",
+      "$type": "IGNGMHPHOEP",
+      "LKJIHNLBIJL": "",
       "animAudio": {
         "onTransitionIn": [
           {
@@ -2899,21 +2880,21 @@
         "text": ""
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "State"
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearStart",
+          "$type": "FHCNELPNCPL",
+          "GEBLEANKIHJ": "GearStart",
           "intID": "State",
           "value": 201
         },
         {
-          "$type": "FJGKLJLPOGL",
-          "triggerID": "GearAction1",
+          "$type": "FHCNELPNCPL",
+          "GEBLEANKIHJ": "GearAction1",
           "intID": "State",
           "value": 203
         }
@@ -2921,14 +2902,14 @@
     }
   },
   "SceneObj_Item_ElemViewWindClotS_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2946,7 +2927,7 @@
         "dieDisappearEffect": "Eff_Stage_LostIsland_WindRingEmitter_Die"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Item_ElemViewWindClotS_02",
@@ -2956,11 +2937,11 @@
     ]
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_ElectricPowerSource_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -2975,7 +2956,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Prop_ElectricPowerSource_Test",
@@ -2983,22 +2964,22 @@
         "abilityOverride": ""
       }
     ],
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_ElectricTransfer_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -3013,7 +2994,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Prop_ElectricTransfer_01",
@@ -3026,46 +3007,46 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
-      "onTouch": "GadgetChain",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
+      "JHAIJNHCFPC": "GadgetChain",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction1"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction1"
         }
       ]
     }
   },
   "SceneObj_Gear_Energy_Shooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignorePurgeRate": true
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3081,7 +3062,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_Energy_Shooter",
@@ -3092,36 +3073,36 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "Bullet_IceSentryTurrets_Ice_Bullet_Energy_Shooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "PBGINMMOLDC"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 999999.0,
+        "HP": 999999.0,
         "attack": 30.0,
         "defense": 999999.0,
         "weight": 50.0
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3130,7 +3111,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Bullet_RayAmp_Bullet_Loop",
@@ -3143,44 +3124,44 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 40.0,
+      "BLECDCEAOFM": {
+        "$type": "HMFDMPDLMCJ"
       }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "Bullet_RayAmp_Bullet_Burst"
         }
       ],
-      "killByOther": true,
-      "enableCollisionDelay": 0.30000001192092896
+      "GOMGCHKCHKI": true,
+      "DKKLBGFLJBK": 0.30000001192092896
     }
   },
   "SceneObj_Quest_ChargePot_ChargeTest": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "affectedByWorld": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3193,7 +3174,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Quest_ChargePot_ChargeTest",
@@ -3203,13 +3184,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "HideLoop": ["Stone_Generate"],
               "HideLoop_H": ["Stone_Generate"],
               "Loop": ["ShowCollider", "Stone_Generate"],
@@ -3220,40 +3200,40 @@
         }
       }
     },
-    "keepModifierOutSight": false,
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "IEKDGJJNMGH": false,
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "gadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
-      "attachPoint": "BillboardAttach",
+      "$type": "HFEGKLAIGGI",
+      "IIKEHINGEME": "BillboardAttach",
       "offset": {
         "y": 1.0
       },
-      "radiusOffset": 1.0,
+      "HECLHMINJII": 1.0,
       "showDistance": 0.0,
-      "showHPBar": true,
-      "shieldBarOnly": true
+      "DMHOOGGGDKG": true,
+      "GFHHHAEBHHL": true
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_MagneticGear_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3266,7 +3246,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Prop_MagneticGear_01",
@@ -3282,33 +3262,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR10",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "checkInterval": 1.0,
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Dq_Property_Ani_Prop_MagneticGear_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3327,7 +3307,7 @@
         "dieModelFadeDelay": 0.4000000059604645
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Ani_Prop_MagneticGear_02",
@@ -3343,27 +3323,26 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 60.0,
-          "partRootName": "RootNode",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 0.0
+          "BGKPNLALNPD": "RootNode",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 0.0
         }
       ]
-    },
-    "BEGGHEAJENE": true
+    }
   },
   "SceneObj_Area_Dq_Property_Prop_RaioPillar_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3376,7 +3355,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Prop_RaioPillar_01",
@@ -3387,35 +3366,35 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Dq_Property_Prop_RaioPillar_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3428,7 +3407,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Dq_Property_Prop_RaioPillar_02",
@@ -3439,35 +3418,35 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "GadgetChain_Test": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3480,7 +3459,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "GadgetChain_Test",
@@ -3503,19 +3482,19 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
-      "onTouch": "GadgetChain",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
+      "JHAIJNHCFPC": "GadgetChain",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3523,30 +3502,29 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 0.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 0.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_05": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3554,30 +3532,29 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 5.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 5.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_06": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3585,30 +3562,29 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 7.5,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 7.5
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_07": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3616,30 +3592,29 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 10.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 10.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_02": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3647,31 +3622,30 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 0.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 0.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "disableInMultiplayer": true,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "JHHIMDLONBN": true,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_MoonfinFishingShoal_01": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_MoonfinFishingShoal_01",
@@ -3679,48 +3653,47 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 0.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 0.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "disableInMultiplayer": true,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "JHHIMDLONBN": true,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_03": {
-    "$type": "CJKJIENLOHD",
-    "combatTemplate": "",
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 3.0,
-      "fleeRadius": 2.0,
-      "bornRadius": 2.75
+    "$type": "IOHCOOOBCPH",
+    "attackAttenuation": "",
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 3.0,
+      "NDPFOEKLFAF": 2.0,
+      "CBLBDHHPACK": 2.75
     }
   },
   "Field_GhostDetectTarget_Test": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3732,7 +3705,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Field_GhostDetectTarget_Test",
@@ -3742,15 +3715,15 @@
     ]
   },
   "Field_GhostDetectField_Test_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3762,7 +3735,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Field_GhostDetectField_Test_01",
@@ -3772,16 +3745,16 @@
     ]
   },
   "Field_ThreatClearField_Test_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3794,7 +3767,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Field_ThreatClearField_Test_01",
@@ -3805,22 +3778,22 @@
     "field": {
       "concernType": "LocalAvatar",
       "shape": "CircleR10H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "SelfCamp",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 1500.0
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Water_FishingShoal_01",
@@ -3828,43 +3801,42 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_fishing_page",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_fishing_page",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "intee": {
-      "useTrigger": false,
-      "triggerRadius": 0.0,
-      "triggerHeight": 0.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "BMNDMBNGHIG": false,
+      "APGKCLJCPJN": 0.0,
+      "OHLENMNOCCK": 0.0
     },
-    "fishingZone": {
-      "checkCD": 0.05000000074505806,
-      "validRadius": 8.0,
-      "fleeRadius": 7.0,
-      "bornRadius": 3.5
+    "OKJIELBLLMD": {
+      "NHEOEMGCPGD": 0.05000000074505806,
+      "OOPBIGEEFGO": 8.0,
+      "NDPFOEKLFAF": 7.0,
+      "CBLBDHHPACK": 3.5
     }
   },
   "SceneObj_Other_Sumeru_Property_Ani_Prop_GardenHint_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 1500.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3876,7 +3848,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Other_Sumeru_Property_Ani_Prop_GardenHint_01",
@@ -3886,11 +3858,11 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_KaiHeMen_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -3909,7 +3881,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_KaiHeMen_01",
@@ -3919,11 +3891,11 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_GeLiKe_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -3942,7 +3914,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_GeLiKe_01",
@@ -3952,11 +3924,11 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_StoneGate_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -3975,7 +3947,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_StoneGate_01",
@@ -3985,11 +3957,11 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_TengHu_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -4008,7 +3980,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_TengHu_01",
@@ -4018,11 +3990,11 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_DunJiFangBei_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
-        "mesh": "EffectMesh"
+        "$type": "DNEEEIMONPN",
+        "EJAEFCDBDFB": "EffectMesh"
       },
       "affectedByWorld": true
     },
@@ -4034,16 +4006,15 @@
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_Elem_Rock",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_Elem_Rock"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 10.0,
         "isLockHP": true,
-        "ignorePurgeRate": true
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4060,7 +4031,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_DunJiFangBei_01",
@@ -4070,13 +4041,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Ani_Stages_ElemTablet_Enabled": [
                 "Audio_SceneObj_Gear_ElemTotem_Rock_Start",
                 "Audio_SceneObj_Gear_ElemTotem_Common_Start"
@@ -4095,39 +4065,39 @@
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "DLMIEELFJNB",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
-          "rotationDampTime": "Eff_SceneObj_Elem_Rock"
+          "type": "Int",
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Elem_Rock"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStart",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 201,
-          "rotationDampTime": "Eff_SceneObj_Elem_Rock"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Elem_Rock"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "DLMIEELFJNB",
+          "GEBLEANKIHJ": "GearStop",
           "parameter": "gadgetState",
-          "damageRatio": "Int",
+          "type": "Int",
           "value": 202,
-          "rotationDampTime": "Eff_SceneObj_Elem_Rock"
+          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Elem_Rock"
         }
       ]
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_QiQiu_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true
       },
@@ -4146,7 +4116,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Ani_Prop_QiQiu_01",
@@ -4155,22 +4125,22 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "AuthTest01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4183,7 +4153,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Cyjy_Property_Ani_Prop_LargeLitConnector_01",
@@ -4206,69 +4176,69 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "MinDistance",
+      "KKMMGKBKLNB": "MinDistance",
       "itemType": "RegionalPlay",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction1"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction1"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction2"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction2"
         }
       ]
     },
     "billboard": {
-      "$type": "MCINMKADGHP",
-      "attachPoint": "BillboardAttach",
+      "$type": "OLJAIFCIJBD",
+      "IIKEHINGEME": "BillboardAttach",
       "offset": {
         "y": 3.0
       },
-      "customKeyList": ["MiracleRing_Progress"],
+      "JCOKPPDNBDB": ["MiracleRing_Progress"],
       "maxValue": 30.0,
-      "prefabPluginName": "MiracleRing",
-      "damageRatio": "Miracle"
+      "IMLCONLLDBL": "MiracleRing",
+      "type": "Miracle"
     }
   },
   "AuthTest02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
-      "isRefreshAuthWhenAuthOutSight": true
+      "BADPKPIFPOB": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4281,7 +4251,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Cyjy_Property_Ani_Prop_LargeLitConnector_01",
@@ -4304,69 +4274,69 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "MinDistance",
+      "KKMMGKBKLNB": "MinDistance",
       "itemType": "RegionalPlay",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction1"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction1"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction2"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction2"
         }
       ]
     },
     "billboard": {
-      "$type": "MCINMKADGHP",
-      "attachPoint": "BillboardAttach",
+      "$type": "OLJAIFCIJBD",
+      "IIKEHINGEME": "BillboardAttach",
       "offset": {
         "y": 3.0
       },
-      "customKeyList": ["MiracleRing_Progress"],
+      "JCOKPPDNBDB": ["MiracleRing_Progress"],
       "maxValue": 30.0,
-      "prefabPluginName": "MiracleRing",
-      "damageRatio": "Miracle"
+      "IMLCONLLDBL": "MiracleRing",
+      "type": "Miracle"
     }
   },
   "SceneObj_Area_Fd_Property_Terrain_WaterVolume_WhiteBox": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4378,21 +4348,21 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Fd_Property_Terrain_DynamicWaterVolume_WhiteBox": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 50.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4404,7 +4374,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Fd_Property_Terrain_DynamicWaterVolume_WhiteBox",
@@ -4414,11 +4384,11 @@
     ]
   },
   "SceneObj_Area_FD_Property_Ani_Prop_HyperVessel_WhiteBox": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 1000.0,
+        "HP": 1000.0,
         "attack": 100.0,
         "weight": 50.0,
         "isLockHP": true
@@ -4426,7 +4396,7 @@
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -4439,7 +4409,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_FD_Property_Ani_Prop_HyperVessel_WhiteBox",
@@ -4448,65 +4418,65 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Common_Property_Prop_MovingTest_01_WhiteBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 150000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Common_Property_Prop_MovingTest_02_WhiteBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 150000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Common_Property_Prop_MovingTest_03_WhiteBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 150000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "move": {
-      "$type": "IDIPBKCPBDP",
-      "attachPoint": "ColliderRoot"
+      "$type": "NACDMPDJFHH",
+      "IIKEHINGEME": "ColliderRoot"
     }
   }
 }

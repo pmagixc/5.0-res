@@ -1,13 +1,12 @@
 {
   "SceneObj_Gear_TowerDefence_HeadControl": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerPhysics_01_Idle",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerPhysics_01_Idle"
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -24,15 +23,15 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 300.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -49,7 +48,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControl",
@@ -58,23 +57,22 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -84,26 +82,26 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 180.0,
-          "partRootName": "ShootControl",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 360.0
+          "BGKPNLALNPD": "ShootControl",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 360.0
         },
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 180.0,
-          "partRootName": "DirControl",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 20.0
+          "BGKPNLALNPD": "DirControl",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 20.0
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_Wind": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -122,16 +120,16 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 300.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -148,7 +146,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Wind",
@@ -157,23 +155,22 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -182,7 +179,7 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Electric": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -201,16 +198,16 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -227,7 +224,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Electric",
@@ -236,17 +233,16 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -255,7 +251,7 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -274,16 +270,16 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 500.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -300,7 +296,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Fire",
@@ -309,17 +305,16 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -328,7 +323,7 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Ice": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -347,16 +342,16 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 100.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -373,7 +368,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Ice",
@@ -382,17 +377,16 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -401,7 +395,7 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Water": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -420,16 +414,16 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 250.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -446,7 +440,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water",
@@ -455,17 +449,16 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -474,21 +467,21 @@
     }
   },
   "SceneObj_Gear_TowerDefence_HeadControlBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -497,7 +490,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControlBullet",
@@ -505,45 +498,45 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 30.0,
+      "BLECDCEAOFM": {
+        "$type": "HMFDMPDLMCJ"
       }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_HeadControlBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_HeadControlBullet_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -552,7 +545,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControlBullet_LV2",
@@ -560,45 +553,45 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 30.0,
+      "BLECDCEAOFM": {
+        "$type": "HMFDMPDLMCJ"
       }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_HeadControlBullet_LV2"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_HeadControlBullet_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -607,7 +600,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControlBullet_LV2",
@@ -615,56 +608,55 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
-      "speed": 20.0,
+      "$type": "EHIGOGOLKOO",
+      "NOFDPFHMFNM": 20.0,
       "maxSpeed": 30.0,
       "minSpeed": 20.0,
-      "anglerVelocity": 200.0,
-      "acceleration": 25.0,
-      "delay": 0.20000000298023224,
-      "traceOnYAxis": true
+      "NDLHJKADBGC": 200.0,
+      "EILJBCHMAIH": 25.0,
+      "CAMKOAKMJHD": 0.20000000298023224,
+      "HFFPPCEMOGJ": true
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_HeadControlBullet_LV2"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_FireBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerFire_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -673,7 +665,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_FireBullet",
@@ -681,73 +673,70 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
-      "speed": 35.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE",
-        "angularVelocity": {
+      "$type": "LIEFJMKKLOF",
+      "NOFDPFHMFNM": 35.0,
+      "BLECDCEAOFM": {
+        "$type": "CLEMPDDFPIP",
+        "BECECFANBMC": {
           "x": -900.0
         }
       },
-      "angleOffHor": 15.0,
-      "gravityOfAcceleration": 10.0,
-      "correction": {
-        "$type": "FEHDIANJKBF",
-        "deviation": 0.5,
-        "fixAngleOfVer": 15.0,
+      "HBECHHMLGEP": 15.0,
+      "EPLFGAAFNIM": 10.0,
+      "HDBDFEKENOD": {
+        "$type": "CDOBEEBHCCO",
+        "GACCDPNMLNP": 0.5,
+        "DNOPAINEKPG": 15.0,
         "minSpeed": 5.0,
         "maxSpeed": 20.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_FireBullet_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerFire_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -756,7 +745,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_FireBullet_LV2",
@@ -764,73 +753,70 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
-      "speed": 35.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE",
-        "angularVelocity": {
+      "$type": "LIEFJMKKLOF",
+      "NOFDPFHMFNM": 35.0,
+      "BLECDCEAOFM": {
+        "$type": "CLEMPDDFPIP",
+        "BECECFANBMC": {
           "x": -900.0
         }
       },
-      "angleOffHor": 15.0,
-      "gravityOfAcceleration": 10.0,
-      "correction": {
-        "$type": "FEHDIANJKBF",
-        "deviation": 0.5,
-        "fixAngleOfVer": 15.0,
+      "HBECHHMLGEP": 15.0,
+      "EPLFGAAFNIM": 10.0,
+      "HDBDFEKENOD": {
+        "$type": "CDOBEEBHCCO",
+        "GACCDPNMLNP": 0.5,
+        "DNOPAINEKPG": 15.0,
         "minSpeed": 5.0,
         "maxSpeed": 20.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet_LV2"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet_LV2"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_FireBullet_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerFire_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -839,7 +825,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_FireBullet_LV3",
@@ -847,65 +833,63 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
-      "speed": 35.0,
-      "DPAAFHNMHHN": {
-        "$type": "GNJNGGEPACE",
-        "angularVelocity": {
+      "$type": "LIEFJMKKLOF",
+      "NOFDPFHMFNM": 35.0,
+      "BLECDCEAOFM": {
+        "$type": "CLEMPDDFPIP",
+        "BECECFANBMC": {
           "x": -900.0
         }
       },
-      "angleOffHor": 15.0,
-      "gravityOfAcceleration": 10.0,
-      "correction": {
-        "$type": "FEHDIANJKBF",
-        "deviation": 0.5,
-        "fixAngleOfVer": 15.0,
+      "HBECHHMLGEP": 15.0,
+      "EPLFGAAFNIM": 10.0,
+      "HDBDFEKENOD": {
+        "$type": "CDOBEEBHCCO",
+        "GACCDPNMLNP": 0.5,
+        "DNOPAINEKPG": 15.0,
         "minSpeed": 5.0,
         "maxSpeed": 20.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet_LV3"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_FireBullet_LV3"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_Fire_LV3_FireFloor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -922,7 +906,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Fire_LV3_FireFloor",
@@ -932,29 +916,28 @@
     ]
   },
   "SceneObj_Gear_TowerDefence_IceBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerIce_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -963,7 +946,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_IceBullet",
@@ -971,56 +954,55 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 30.0
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 30.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_IceBullet_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerIce_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1029,7 +1011,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_IceBullet_LV2",
@@ -1037,56 +1019,55 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 30.0
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 30.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet_LV2"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet_LV2"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_IceBullet_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "model": {
       "bornEffect": "Eff_SceneObj_TowerIce_01_Fire",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1095,7 +1076,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_IceBullet_LV3",
@@ -1103,50 +1084,50 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 30.0
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 30.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet_LV3"
         }
       ],
-      "triggerLifeOverActions": [
+      "MHOEMLCBJOO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_IceBullet_LV3"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_WaterBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1155,7 +1136,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_WaterBullet",
@@ -1163,15 +1144,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1179,23 +1160,23 @@
     }
   },
   "SceneObj_Gear_TowerDefence_WaterBullet_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1204,7 +1185,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_WaterBullet_LV2",
@@ -1212,15 +1193,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1228,23 +1209,23 @@
     }
   },
   "SceneObj_Gear_TowerDefence_WaterBullet_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1253,7 +1234,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_WaterBullet_LV3",
@@ -1261,15 +1242,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1277,23 +1258,23 @@
     }
   },
   "SceneObj_Gear_TowerDefence_WindBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1302,7 +1283,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_WindBullet",
@@ -1310,15 +1291,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1326,23 +1307,23 @@
     }
   },
   "SceneObj_Gear_TowerDefence_ElectricBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1351,7 +1332,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_ElectricBullet",
@@ -1359,15 +1340,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1375,23 +1356,23 @@
     }
   },
   "SceneObj_Gear_TowerDefence_ElectricBullet_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "defense": 99999.0,
         "weight": 1.0,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1400,7 +1381,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_ElectricBullet_LV2",
@@ -1408,15 +1389,15 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 0.009999999776482582
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 0.009999999776482582
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "Enemy"
@@ -1424,20 +1405,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Water_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 300.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1454,7 +1435,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_LV2",
@@ -1464,13 +1445,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -1486,20 +1466,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Water_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 300.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1516,7 +1496,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_LV3",
@@ -1526,13 +1506,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -1548,19 +1527,19 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Water_Blister": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1577,7 +1556,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_Blister",
@@ -1585,44 +1564,44 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
-      "speed": 3.0,
-      "anglerVelocity": 720.0,
-      "destroyWhenTargetDie": true,
-      "traceOnYAxis": true
+      "$type": "EHIGOGOLKOO",
+      "NOFDPFHMFNM": 3.0,
+      "NDLHJKADBGC": 720.0,
+      "LOFPGDFOCLJ": true,
+      "HFFPPCEMOGJ": true
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Gear_TowerDefence_Water_Blister"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_Water_Blister04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1639,7 +1618,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_Blister04",
@@ -1649,30 +1628,30 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_Water_Blister02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1689,7 +1668,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_Blister02",
@@ -1699,30 +1678,30 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_Water_Blister03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1739,7 +1718,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Water_Blister03",
@@ -1749,31 +1728,31 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_Ice_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1790,7 +1769,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Ice_LV2",
@@ -1800,13 +1779,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -1822,20 +1800,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Ice_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1852,7 +1830,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Ice_LV3",
@@ -1862,13 +1840,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -1884,22 +1861,22 @@
     }
   },
   "SceneObj_Gear_TowerDefence_IceBullet_LV3_DropIce": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true
       },
       "beHit": {
         "hitBloodEffect": "",
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1912,7 +1889,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -1920,42 +1897,42 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
-      "speed": 5.0,
-      "acceleration": 10.0
+      "$type": "CJBKMBOOPHF",
+      "NOFDPFHMFNM": 5.0,
+      "EILJBCHMAIH": 10.0
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy"
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_SnowMountain_DorpIceBullet"
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_Wind_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -1972,7 +1949,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Wind_LV2",
@@ -1982,19 +1959,18 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -2010,20 +1986,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Wind_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2040,7 +2016,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Wind_LV3",
@@ -2050,19 +2026,18 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -2078,20 +2053,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Fire_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2108,7 +2083,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Fire_LV2",
@@ -2118,13 +2093,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -2140,20 +2114,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Fire_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 400.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2170,7 +2144,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Fire_LV3",
@@ -2180,13 +2154,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -2202,20 +2175,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Electric_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2232,7 +2205,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Electric_LV2",
@@ -2242,13 +2215,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -2264,20 +2236,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Electric_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2294,7 +2266,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Electric_LV3",
@@ -2304,13 +2276,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           }
@@ -2326,20 +2297,20 @@
     }
   },
   "SceneObj_Gear_TowerDefence_Basic": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2356,53 +2327,53 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_Basic_Offical": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100001.0
     },
-    "hasModel": true,
-    "combatTemplate": "",
+    "KNGBEDDABOM": true,
+    "attackAttenuation": "",
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR1.5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.5,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_HeadControl_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2419,7 +2390,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControl_LV2",
@@ -2429,19 +2400,18 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -2458,29 +2428,29 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 60.0,
-          "partRootName": "ShootControl",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 360.0
+          "BGKPNLALNPD": "ShootControl",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 360.0
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_HeadControl_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 10000.0
     },
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 150.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2497,7 +2467,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_HeadControl_LV3",
@@ -2507,19 +2477,18 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "Shoot": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Shoot": []
             }
           },
           "Charge": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Charge": []
             }
           }
@@ -2536,34 +2505,34 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 60.0,
-          "partRootName": "ShootControl",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 360.0
+          "BGKPNLALNPD": "ShootControl",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 360.0
         },
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "PMGKKACOLIC",
           "angularSpeed": 60.0,
-          "partRootName": "DirControl",
-          "forwardByTransName": "",
-          "limitHorizontal": 360.0,
-          "limitVertical": 0.0
+          "BGKPNLALNPD": "DirControl",
+          "AJBEMCBABJF": "",
+          "GPAPEPNEEMC": 360.0,
+          "OGNBJMIOCPO": 0.0
         }
       ]
     }
   },
   "SceneObj_Gear_TowerDefence_Gravity": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2576,7 +2545,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -2584,20 +2553,20 @@
         "abilityOverride": ""
       }
     ],
-    "misc": {
-      "escapeEffect": "",
-      "targetIndicatorYOffset": 1.149999976158142
+    "DDOEFBHBEPJ": {
+      "HGJJHLBEICG": "",
+      "JCBHMPCFFDI": 1.149999976158142
     }
   },
   "SceneObj_Gear_TowerDefence_Seal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 500.0,
+        "HP": 500.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2614,7 +2583,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_01",
@@ -2624,25 +2593,25 @@
     ]
   },
   "SceneObj_Gear_TowerDefence_TheatreMechanicus": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
-    "combatTemplate": ""
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
+    "attackAttenuation": ""
   },
   "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_TDLevel", "SGV_TDAttackSpeed_C"]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2659,7 +2628,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV1",
@@ -2669,17 +2638,17 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV2": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2696,7 +2665,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV2",
@@ -2706,17 +2675,17 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV3": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2733,7 +2702,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Level_Common_Property_Prop_TowerEnhancer_01_LV3",
@@ -2743,25 +2712,24 @@
     ]
   },
   "SceneObj_Level_Common_Property_Prop_TowerAbsorber_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerAbsorber_01_Idle"
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_TDLevel", "SGV_TDUpGrade_Special"]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2778,7 +2746,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Level_Common_Property_Prop_TowerAbsorber_01",
@@ -2788,7 +2756,7 @@
     ]
   },
   "SceneObj_Gear_TowerDefence_PumpkinBomb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_TDCanDoAttack",
@@ -2804,15 +2772,15 @@
         "SGV_TDAttackSpeed_C"
       ]
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 800.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2829,7 +2797,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_PumpkinBomb",
@@ -2839,27 +2807,27 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.75,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_PumpkinBomb_LV2": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 800.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2876,7 +2844,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_PumpkinBomb_LV2",
@@ -2886,27 +2854,27 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.75,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Gear_TowerDefence_PumpkinBomb_LV3": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 800.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2923,7 +2891,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_PumpkinBomb_LV3",
@@ -2933,32 +2901,31 @@
     ],
     "field": {
       "shape": "CircleR2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.75,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Level_Common_Property_Prop_TowerWaypoint_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerWaypoint_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerWaypoint_01"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2975,7 +2942,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Level_Common_Property_Prop_TowerWaypoint_01",
@@ -2984,20 +2951,20 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Gear_TowerDefence_Attack_Disable": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3014,7 +2981,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Attack_Disable",
@@ -3024,16 +2991,16 @@
     ]
   },
   "SceneObj_Gear_TowerDefence_Speed_Down": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3050,7 +3017,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Gear_TowerDefence_Speed_Down",
@@ -3060,17 +3027,17 @@
     ]
   },
   "SceneObj_Gear_TowerDefence_RockGadget_Detect_Platform": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
         "useAbilityProperty": true,
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3087,7 +3054,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Scene_RockGadget_Summon_Detect",

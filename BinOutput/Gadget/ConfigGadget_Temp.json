@@ -1,6 +1,6 @@
 {
   "Drop_HP": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -22,10 +22,10 @@
     }
   },
   "RockShield": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "emitFrom": "Shell"
       }
     },
@@ -52,10 +52,10 @@
     ]
   },
   "PlantGrasping": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "emitFrom": "Shell"
       }
     },
@@ -83,10 +83,10 @@
     ]
   },
   "HealingSeal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 2.0,
         "scaleY": 2.0,
         "scaleZ": 0.20000000298023224
@@ -124,7 +124,7 @@
     }
   },
   "ThunderFistField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "field": {
       "shape": "CircleR3",
@@ -137,10 +137,10 @@
     }
   },
   "GrassDart": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -176,21 +176,21 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 10.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       }
     }
   },
   "SharkTorpedo": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -227,27 +227,27 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_CreateSharkTorpedoSpurt"
         }
       ]
     }
   },
   "SharkTorpedo_Spurt": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -293,10 +293,10 @@
     }
   },
   "SharkTorpedo_Spurt_2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -342,7 +342,7 @@
     }
   },
   "HealingBarrel": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -353,11 +353,11 @@
     ]
   },
   "FlyRaceCoin": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": ""
   },
   "ElementTrack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -368,7 +368,7 @@
     ]
   },
   "ElementTrackCat": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -379,7 +379,7 @@
     ]
   },
   "ElfTrack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -415,7 +415,7 @@
     ]
   },
   "AmborTaskTrack": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -426,7 +426,7 @@
     ]
   },
   "LisaCompass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {
@@ -437,7 +437,7 @@
     ]
   },
   "LisaBookGather": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -471,7 +471,7 @@
     }
   },
   "XiangmoyinGuide": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -495,10 +495,10 @@
     }
   },
   "Bramble_Chest": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -552,10 +552,10 @@
     }
   },
   "Frozen_Chest": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -609,10 +609,10 @@
     }
   },
   "Test_Arrow": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -638,21 +638,21 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -660,15 +660,14 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.33000001311302185,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.33000001311302185,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1",
               "hitHaltTime": 0.11999999731779099,
               "hitHaltTimeScale": 0.009999999776482582
@@ -698,27 +697,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 30.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 30.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_ShootArrow_Hit_Fx"
         }
       ],
@@ -726,10 +725,10 @@
     }
   },
   "Test_ArrowAiming": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -770,27 +769,27 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_ShootAimingArrow_Fire_Fx"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_ShootAimingArrow_Hit_Fx"
         }
       ],
@@ -798,10 +797,10 @@
     }
   },
   "LightningBolt": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -836,18 +835,18 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_LightningBoltDamage"
         }
       ],
@@ -855,10 +854,10 @@
     }
   },
   "LightningSpear": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -893,28 +892,28 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_LightningSpearDamage"
         }
       ]
     }
   },
   "LightningSpear_1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -949,29 +948,29 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "acceleration": 20.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_LightningSpearDamage_1"
         }
       ]
     }
   },
   "LightningSpear_2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1006,29 +1005,29 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "acceleration": 20.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_LightningSpearDamage_2"
         }
       ]
     }
   },
   "FilckerWave": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1063,19 +1062,19 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 5.0,
       "acceleration": 10.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Test_FlickerWaveDamage"
         }
       ],
@@ -1083,10 +1082,10 @@
     }
   },
   "Test_ThrowClub": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1112,16 +1111,16 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO"
+              "$type": "KKKABMDCNIJ"
             },
             "size": {
-              "KGEPIMHBMOL": 0.4000000059604645,
-              "JEBHCGDPFEJ": 0.4000000059604645,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.4000000059604645,
+              "CHEGDAPFFHA": 0.4000000059604645,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -1129,20 +1128,19 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 1.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 1.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Default",
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV2",
               "overrideHitImpulse": {
                 "hitLevel": "Light",
-                "IMIJMPGJOGG": 420.0,
-                "BPCDKKBKOBM": 0.0
+                "DJKONCLKGJH": 420.0,
+                "DKJLLKDHBNJ": 0.0
               },
               "hitHaltTime": 0.11999999731779099,
               "hitHaltTimeScale": 0.009999999776482582
@@ -1156,33 +1154,33 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 25.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 15.0,
       "gravityOfAcceleration": 20.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         }
       ]
     }
   },
   "Test_ThrowClubFire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleZ": 0.4000000059604645
       }
     },
@@ -1208,15 +1206,15 @@
       "animEvents": {
         "ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "born": {
-              "$type": "JGEBAJLEBMO"
+              "$type": "KKKABMDCNIJ"
             },
             "size": {
-              "KGEPIMHBMOL": 0.4000000059604645,
-              "JEBHCGDPFEJ": 0.4000000059604645,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.4000000059604645,
+              "CHEGDAPFFHA": 0.4000000059604645,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -1224,21 +1222,20 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 1.0,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 1.0,
+              "AILJJDMKONE": 0.0,
               "elementType": "Fire",
-              "IPFJJJGABPL": 50.0,
+              "bonusCriticalHurt": 50.0,
               "strikeType": "Default",
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV2",
               "overrideHitImpulse": {
                 "hitLevel": "Light",
-                "IMIJMPGJOGG": 120.0,
-                "BPCDKKBKOBM": 0.0
+                "DJKONCLKGJH": 120.0,
+                "DKJLLKDHBNJ": 0.0
               },
               "hitHaltTime": 0.11999999731779099,
               "hitHaltTimeScale": 0.009999999776482582
@@ -1252,30 +1249,30 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 15.0,
       "gravityOfAcceleration": 20.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "ATK01"
         }
       ]
     }
   },
   "Test_BombField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 100.0,
@@ -1301,15 +1298,15 @@
     ]
   },
   "MsgBoard": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": ""
   },
   "LocalTrigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": ""
   },
   "Test_WindZone": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1335,7 +1332,7 @@
     ]
   },
   "ModifiedTrigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "field": {
       "concernType": "CombatExcludeGWGO",
@@ -1352,7 +1349,7 @@
     }
   },
   "RoomDoor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "field": {
       "concernType": "LocalAvatar",
@@ -1367,33 +1364,33 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "Opening": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OpeningIn": ["Audio_SceneObj_Gear_KnightDoor_Open"],
               "OpeningOut": ["Audio_SceneObj_Gear_KnightDoor_Open"]
             }
           },
           "Open": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OpenIn": [],
               "OpenOut": []
             }
           },
           "Closing": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "ClosingIn": ["Audio_SceneObj_Gear_KnightDoor_Close"],
               "ClosingOut": ["Audio_SceneObj_Gear_KnightDoor_Close"]
             }
           },
           "Close": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Close": []
             }
@@ -1403,10 +1400,10 @@
     }
   },
   "Frost_Orb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1441,11 +1438,11 @@
       "lifeTime": 12.300000190734863
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 0.800000011920929
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "triggerCD": 0.25,
@@ -1453,17 +1450,17 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "IceBall_Test_Material"
         }
       ]
     }
   },
   "Frost_Orb_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 10.0
     },
@@ -1497,7 +1494,7 @@
       "lifeTime": 0.800000011920929
     },
     "move": {
-      "$type": "HBMEJJEHPCI",
+      "$type": "MAAIPOAHMJJ",
       "velocityForce": {
         "includeForces": ["RetreatType", "RetreatAirType", "WindZoneType"]
       },
@@ -1515,20 +1512,20 @@
       "radius": 1.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Frost_Orb_Bullet_Material"
         }
       ]
     }
   },
   "Guide_Point_UI": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1553,7 +1550,7 @@
     }
   },
   "Guide_Point_Scene": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1577,7 +1574,7 @@
     }
   },
   "Guide_Point_Move": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 999999.0,
@@ -1596,11 +1593,11 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "GroupGadgetEntity",
       "attachPoint": "RootNode",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "misc": {
       "escapeEffect": "",

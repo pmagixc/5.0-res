@@ -1,6 +1,6 @@
 {
   "SceneObj_Common_CityRotateAixs": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -35,11 +35,11 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Desert_Rock_StonePileWorld": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -71,7 +71,7 @@
       }
     ],
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.5
@@ -83,7 +83,7 @@
     }
   },
   "SceneObj_Desert_AuthorityUpgrader": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -116,7 +116,7 @@
     ]
   },
   "SceneObj_Desert_SXTNoise": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -149,7 +149,7 @@
     ]
   },
   "SceneObj_Desert_MysteryMural": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -182,12 +182,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Open": ["Open"]
             }
@@ -198,7 +198,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -206,7 +206,7 @@
     }
   },
   "SceneObj_Desert_DeshretMainEnergyCore": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -240,7 +240,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -248,7 +248,7 @@
     }
   },
   "SceneObj_Desert_CynoExtendableLadder": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -282,7 +282,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -290,7 +290,7 @@
     }
   },
   "SceneObj_Desert_DeshretHeart": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -323,7 +323,7 @@
     ]
   },
   "SceneObj_Desert_DeshretCoreConsole": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -356,7 +356,7 @@
     ]
   },
   "SceneObj_Desert_DeshretCoffin": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -390,7 +390,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -398,7 +398,7 @@
     }
   },
   "SceneObj_Desert_XSTEnergyCore": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_XST_GLOW1",
@@ -445,7 +445,7 @@
     ]
   },
   "SceneObj_Desert_DeshretEnergyCore_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -478,7 +478,7 @@
     ]
   },
   "SceneObj_Desert_DeshretEnergyCore_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -511,7 +511,7 @@
     ]
   },
   "SceneObj_Desert_DeshretEnergyCore_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -544,7 +544,7 @@
     ]
   },
   "SceneObj_Desert_DeshretEnergyCore_03_2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -577,7 +577,7 @@
     ]
   },
   "SceneObj_Desert_SandBox": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -610,11 +610,10 @@
     ]
   },
   "SceneObj_Desert_DeshretGuideManual": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DeshretGuideManual_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_DeshretGuideManual_01"
     },
     "hasModel": true,
     "combat": {
@@ -648,20 +647,19 @@
     ]
   },
   "SceneObj_Common_CynoStairs": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_CynoStairs_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_CynoStairs_01"
     },
     "hasModel": true,
     "combatTemplate": ""
   },
   "SceneObj_Desert_DeshretGate_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -698,7 +696,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -706,7 +704,7 @@
     }
   },
   "SceneObj_Desert_CynoDoor": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -743,7 +741,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -751,7 +749,7 @@
     }
   },
   "SceneObj_Desert_DeshretGate_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -788,7 +786,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -796,7 +794,7 @@
     }
   },
   "SceneObj_Desert_DeshretGate_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -833,7 +831,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -841,7 +839,7 @@
     }
   },
   "SceneObj_Desert_DeshretGate_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -878,7 +876,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -886,7 +884,7 @@
     }
   },
   "SceneObj_Desert_DeshretGate_05": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -923,7 +921,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -931,7 +929,7 @@
     }
   },
   "SceneObj_Desert_DesertVase01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -967,7 +965,7 @@
     ]
   },
   "SceneObj_Desert_DesertVase02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1003,7 +1001,7 @@
     ]
   },
   "SceneObj_Desert_DesertVase03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1039,7 +1037,7 @@
     ]
   },
   "SceneObj_Desert_DesertVase04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1075,7 +1073,7 @@
     ]
   },
   "SceneObj_Desert_DeshretElevator_Build": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1000000.0
     },
@@ -1114,11 +1112,11 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Desert_DeshretElevator_RedBlue": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1000000.0
     },
@@ -1156,12 +1154,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1169,7 +1167,7 @@
     }
   },
   "SceneObj_Desert_FollowMove_Operator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1210,16 +1208,16 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "target": "GroupGadgetEntity",
       "attachPoint": "",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "Active",
           "syncState": true
         }
@@ -1227,7 +1225,7 @@
     }
   },
   "SceneObj_Desert_Torch": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1266,7 +1264,7 @@
     ]
   },
   "SceneObj_Desert_Torch02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1305,7 +1303,7 @@
     ]
   },
   "SceneObj_Desert_Huopen01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1344,7 +1342,7 @@
     ]
   },
   "SceneObj_Desert_Huopen02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1383,7 +1381,7 @@
     ]
   },
   "SceneObj_Desert_DiaoDeng": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1422,7 +1420,7 @@
     ]
   },
   "SceneObj_Smdeng_EverLite": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1456,7 +1454,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         }
@@ -1464,7 +1462,7 @@
     }
   },
   "SceneObj_Desert_HeadControlShooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1480,7 +1478,7 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "CDKJENLIMGM",
           "angularSpeed": 360.0,
           "partRootName": "ShootControl",
           "forwardByTransName": "",
@@ -1491,7 +1489,7 @@
     }
   },
   "SceneObj_Desert_HeadControlShooter_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -1532,11 +1530,11 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 300.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1545,7 +1543,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_HeadControlShooter_Bullet"
         }
       ],
@@ -1553,7 +1551,7 @@
     }
   },
   "SceneObj_Desert_HeadControlShooter_DummyPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 10000.0
     },
@@ -1591,7 +1589,7 @@
     }
   },
   "SceneObj_Desert_DeshretWarpGate": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1625,7 +1623,7 @@
     ]
   },
   "SceneObj_Desert_GardianUIMode_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -1666,11 +1664,11 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 300.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -1679,14 +1677,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_GardianUIMode_Bullet"
         }
       ]
     }
   },
   "SceneObj_Desert_Engineer": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1731,7 +1729,7 @@
     }
   },
   "SceneObj_Desert_TransparentBuild": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1768,7 +1766,7 @@
     ]
   },
   "SceneObj_Desert_RedBuleCrystal": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_SET_LIGHT"],
       "initServerGlobalValues": {
@@ -1819,7 +1817,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1828,7 +1826,7 @@
     "openWatcher": true
   },
   "SceneObj_Desert_TransparencyGenerator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1873,7 +1871,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -1881,7 +1879,7 @@
     }
   },
   "SceneObj_Desert_TransparencyWattle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1925,7 +1923,7 @@
     }
   },
   "SceneObj_Desert_Engineer_Base": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1969,7 +1967,7 @@
     }
   },
   "SceneObj_Desert_Engineer_Base_TransparencyGenerator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2030,7 +2028,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -2038,7 +2036,7 @@
     }
   },
   "SceneObj_Desert_Engineer_Base_TransparencyWattle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2098,7 +2096,7 @@
     }
   },
   "SceneObj_Desert_Engineer_Base_EnergySparkReserve": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2147,7 +2145,7 @@
     }
   },
   "SceneObj_Desert_DeshretConsole": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_PERMISSION_COMMONLEVEL",
@@ -2198,12 +2196,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Open": ["Audio_SceneObj_Gear_DeshretConsole_01"],
               "RightSwipe": ["Audio_SceneObj_Gear_DeshretConsole_02"],
@@ -2216,7 +2214,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2225,7 +2223,7 @@
     "openWatcher": true
   },
   "SceneObj_Desert_Engineer_Base_LaserReciver": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2280,7 +2278,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2288,11 +2286,10 @@
     }
   },
   "SceneObj_Desert_Engineer_Base_HourGlass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_HourGlass_Active"],
@@ -2364,7 +2361,7 @@
     }
   },
   "SceneObj_Desert_Engineer_Base_Laser": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_HAS_LASER"],
       "initServerGlobalValues": {
@@ -2435,7 +2432,7 @@
       "canInteractInCombat": false
     },
     "gadgetTurn": {
-      "$type": "CNBENOJGNMD",
+      "$type": "KFMIELEGCFD",
       "movePartAroundX": "",
       "anchorPartAroundX": "",
       "movePartAroundY": "Property_Ani_Prop_LaserGenerator_01_01_Vo",
@@ -2467,11 +2464,10 @@
     }
   },
   "SceneObj_Desert_HourGlass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_HourGlass_Active"],
@@ -2527,11 +2523,10 @@
     }
   },
   "SceneObj_Desert_HourGlass_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_HourGlass_Active"],
@@ -2585,11 +2580,10 @@
     }
   },
   "SceneObj_Desert_HourGlass_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_HourGlass_Active"],
@@ -2639,11 +2633,10 @@
     }
   },
   "SceneObj_Desert_GlassBottle": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -2675,7 +2668,7 @@
     ]
   },
   "SceneObj_Desert_Pipe": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2700,7 +2693,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetstate",
           "syncState": true
         }
@@ -2708,7 +2701,7 @@
     }
   },
   "SceneObj_Desert_ChiWang_Brazier_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2742,7 +2735,7 @@
     ]
   },
   "SceneObj_Desert_ChiWang_Shooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -2780,12 +2773,12 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2794,7 +2787,7 @@
     "openWatcher": true
   },
   "SceneObj_Desert_ChiWang_Shooter_Base": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2843,7 +2836,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2851,7 +2844,7 @@
     }
   },
   "SceneObj_Desert_ChiWang_Shooter_Receive": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -2891,7 +2884,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -2899,7 +2892,7 @@
     }
   },
   "SceneObj_Desert_Tumbleweed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "overrideCullBoundsRadius": 150.0,
       "disableTickDistance": 1500.0
@@ -2936,17 +2929,17 @@
       }
     ],
     "move": {
-      "$type": "IICHOFGDGPH"
+      "$type": "IEIEHLJIICA"
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_Tumbleweed"
         }
       ],
@@ -2955,7 +2948,7 @@
     }
   },
   "SceneObj_Gear_Operator_Normal_DesertOperator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -2997,12 +2990,12 @@
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Active": ["Audio_SceneObj_Gear_Prop_CommonOperator_01_Active"]
             }
@@ -3013,7 +3006,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "Active",
           "syncState": true
         }
@@ -3021,7 +3014,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_CommonOperatorOnwall_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3063,7 +3056,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_CommonOperatorOnwall_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3106,7 +3099,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GlowInt",
           "syncState": true
         }
@@ -3114,7 +3107,7 @@
     }
   },
   "SceneObj_Desert_Fan": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -3162,7 +3155,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "JJAHBADOICG",
+        "$type": "OIGHIKEMDBB",
         "specialTipsIconPath": "",
         "velocity": 4.0
       },
@@ -3171,7 +3164,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3179,7 +3172,7 @@
     }
   },
   "SceneObj_Desert_Fan_Vertical": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -3224,7 +3217,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -3235,7 +3228,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3243,11 +3236,10 @@
     }
   },
   "SceneObj_WindZoneDesert": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_WindZoneDesert_01_Wind01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_WindZoneDesert_01_Wind01"
     },
     "hasModel": true,
     "combat": {
@@ -3283,7 +3275,7 @@
     ],
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -3293,11 +3285,10 @@
     }
   },
   "SceneOb_DeshretPortal_Big_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TowerEnd_02",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TowerEnd_02"
     },
     "hasModel": true,
     "combat": {
@@ -3333,7 +3324,7 @@
     ]
   },
   "SceneObj_Desert_Display": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3369,7 +3360,7 @@
     }
   },
   "SceneObj_Desert_RobotVineCore": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3403,7 +3394,7 @@
     ]
   },
   "SceneObj_Desert_Gravity_Board": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3449,52 +3440,52 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "Action01",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "Action01",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 901,
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearAction2",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 204,
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Lv1"
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Gear_Gravity_Center"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearAction2",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearAction2",
           "parameter": "gadgetState",
           "damageRatio": "Int",
           "value": 204,
@@ -3504,7 +3495,7 @@
     }
   },
   "SceneObj_Desert_DeshretObelisk": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -3525,7 +3516,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetstate",
           "syncState": true
         }
@@ -3534,11 +3525,11 @@
     "intee": {
       "triggerRadius": 2.0,
       "triggerHeight": 3.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     }
   },
   "SceneObj_Desert_DeshretRune": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3580,7 +3571,7 @@
     }
   },
   "SceneObj_Desert_BarrierGenerator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -3625,7 +3616,7 @@
     "openWatcher": true
   },
   "SceneObj_Desert_DestroyedBigShitou": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -3656,7 +3647,7 @@
     ]
   },
   "SceneObj_Desert_PhantomFloor_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3689,7 +3680,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -3697,7 +3688,7 @@
     }
   },
   "SceneObj_Desert_PhantomFloor_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3746,7 +3737,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -3755,7 +3746,7 @@
     "openWatcher": true
   },
   "SceneObj_Desert_Hamster": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -3810,11 +3801,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Desert_RedTransparentStair": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -3844,7 +3835,7 @@
     },
     "combatTemplate": "",
     "gadgetTurn": {
-      "$type": "CNBENOJGNMD",
+      "$type": "KFMIELEGCFD",
       "movePartAroundX": "",
       "anchorPartAroundX": "",
       "movePartAroundY": "TurnNode",
@@ -3880,7 +3871,7 @@
     }
   },
   "SceneObj_Desert_CynoRotationEye": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -3909,12 +3900,12 @@
     },
     "combatTemplate": "",
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -3922,7 +3913,7 @@
     }
   },
   "SceneObj_Desert_CynoRotationEye_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -3953,14 +3944,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
       ]
     },
     "gadgetTurn": {
-      "$type": "CNBENOJGNMD",
+      "$type": "KFMIELEGCFD",
       "movePartAroundX": "",
       "anchorPartAroundX": "",
       "movePartAroundY": "",
@@ -4000,7 +3991,7 @@
     }
   },
   "SceneObj_Desert_Tumbleweed_Shooter": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4037,7 +4028,7 @@
     "partControl": {
       "parts": [
         {
-          "$type": "INCPGKCDCIO",
+          "$type": "CDKJENLIMGM",
           "angularSpeed": 720.0,
           "partRootName": "ShootControl",
           "forwardByTransName": "",
@@ -4048,7 +4039,7 @@
     }
   },
   "SceneObj_Desert_Tumbleweed_Shooter_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4086,11 +4077,11 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 5.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4098,7 +4089,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_Tumbleweed_Shooter_Bullet"
         }
       ],
@@ -4106,11 +4097,10 @@
     }
   },
   "SceneObj_Desert_Sandpile": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_Small",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_Hint_Small"
     },
     "hasModel": true,
     "combat": {
@@ -4146,7 +4136,7 @@
     "openWatcher": true
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_DesertHandDestructVine_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [
@@ -4158,11 +4148,10 @@
     ]
   },
   "SceneObj_Desert_Sandpile_Big": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_Hint_Small",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_Hint_Small"
     },
     "hasModel": true,
     "combat": {
@@ -4198,7 +4187,7 @@
     "openWatcher": true
   },
   "SceneObj_MirageMural_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4249,14 +4238,13 @@
     }
   },
   "SceneObj_Desert_EnergyNet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Property_Prop_XSTEnergyNet_01_Default",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Property_Prop_XSTEnergyNet_01_Default"
     },
     "hasModel": true,
     "combat": {
@@ -4294,17 +4282,17 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadget": {
-      "$type": "KKJCBNGMKBL",
+      "$type": "APPIEPGMMKL",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All"
       },
       "collisionActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_EnergyNet"
         }
       ],
@@ -4313,7 +4301,7 @@
     }
   },
   "SceneObj_Desert_DeshretElevator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -4367,12 +4355,12 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     },
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -4380,7 +4368,7 @@
     }
   },
   "SceneObj_Desert_DeshretElevatorBlocker": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 1000.0,
@@ -4419,7 +4407,7 @@
     ]
   },
   "SceneObj_DeshretMoveWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -4455,7 +4443,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -4463,7 +4451,7 @@
     }
   },
   "SceneObj_DeshretMoveWall_NoEffect": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -4499,7 +4487,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -4507,7 +4495,7 @@
     }
   },
   "SceneObj_DeshretDeformationWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -4543,7 +4531,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "GadgetState",
           "syncState": true
         }
@@ -4551,7 +4539,7 @@
     }
   },
   "SceneObj_EnergySparkReserve_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4599,7 +4587,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetstate",
           "syncState": true
         }
@@ -4607,7 +4595,7 @@
     }
   },
   "SceneObj_Desert_EnergySpark_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -4647,7 +4635,7 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ",
+      "$type": "ConfigPlatformMove",
       "avatarTriggerEventDistance": 3.0
     },
     "misc": {
@@ -4657,7 +4645,7 @@
     "gadgetAction": {}
   },
   "SceneObj_Desert_EnergyTorch_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4692,7 +4680,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetstate",
           "syncState": true
         }
@@ -4700,7 +4688,7 @@
     }
   },
   "SceneObj_Desert_Rot_Obelisk": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4748,11 +4736,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Desert_BulletCreator": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "globalValue": {
       "serverGlobalValues": ["SGV_BulletType"]
     },
@@ -4781,7 +4769,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -4789,7 +4777,7 @@
     }
   },
   "SceneObj_Desert_HorizontalBullet_Grow_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4826,7 +4814,7 @@
       "lifeTime": 4.5
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -4834,14 +4822,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_HorizontalBullet_Grow_Fire"
         }
       ]
     }
   },
   "SceneObj_Desert_HorizontalBullet_Fire": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -4878,28 +4866,28 @@
       "lifeTime": 2.5999999046325684
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 5.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Desert_HorizontalBullet_Fire"
         }
       ]
     }
   },
   "SceneObj_DesertRose_FakeSeed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -4932,7 +4920,7 @@
     ]
   },
   "SceneObj_DesertRose_Seed": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -4964,7 +4952,7 @@
     ],
     "radarHint": true,
     "billboard": {
-      "$type": "DNGNMAJBCNP",
+      "$type": "NJADPPLCLIE",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.5
@@ -4975,7 +4963,7 @@
     }
   },
   "SceneObj_DesertRose_Flower": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -5006,7 +4994,7 @@
     ]
   },
   "SceneObj_DesertNursery": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combatTemplate": "",
     "abilities": [
       {

@@ -1,9 +1,9 @@
 {
   "Weapon_FishingRod": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -42,10 +42,10 @@
     }
   },
   "Fishing_Rod_Normal_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       },
       "affectedByWorld": true
@@ -78,21 +78,21 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "muteAll": true
       },
       "attachPoint": "WeaponR",
       "followRotation": true,
       "handleInLateTick": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "Fishing_Aim_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -118,12 +118,12 @@
       "lifeTime": 5.0
     },
     "move": {
-      "$type": "JENGDHOFCKH",
+      "$type": "HCCBNNMNPLD",
       "syncToRemote": true,
       "globalValueKey": "_ABILITY_Fishing_Aim_Length"
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -132,23 +132,23 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Common_Fishing_Cast_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Common_Fishing_Cast_Bullet"
         }
       ]
     }
   },
   "Fishing_Cork": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },

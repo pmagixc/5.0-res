@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_Fd_Property_Ani_Prop_LanternFishPacman_WaterGlideChampOrb_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -41,7 +41,7 @@
     }
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_LanternFishPacman_RemusLanternFish_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100001.0
     },
@@ -93,24 +93,24 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ",
-      "LIFBDKPAGKI": true
+      "$type": "ConfigPlatformMove",
+      "GCJHJBGGDBG": true
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "OnStandby": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Idle": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "OnStill": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "RuinedAS": [],
               "RuinedBS": [],
@@ -121,20 +121,20 @@
         }
       },
       "alertLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndex": 3,
         "layerIndexName": "Alert Layer",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "OnAlert": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "AlertLoop": []
             },
             "cullingModelAlwaysAnimate": true
           },
           "OnWaring": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Alert": [],
               "Alert_Reverse": []
@@ -144,13 +144,13 @@
         }
       },
       "doorLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndex": 1,
         "layerIndexName": "OpenDoor Layer",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "DoorOpen": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "OpenDoorLoop": [],
               "OpenDoor": []
@@ -158,7 +158,7 @@
             "cullingModelAlwaysAnimate": true
           },
           "DoorClose": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "CloseDoor": [],
               "CloseDoorLoop": []
@@ -171,7 +171,7 @@
     "gadgetAction": {}
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_WoodenFish_GamePlayController_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combatTemplate": "",
     "abilities": [

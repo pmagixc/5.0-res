@@ -19,13 +19,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -46,13 +40,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -73,13 +61,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -100,13 +82,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -127,13 +103,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -154,13 +124,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -181,13 +145,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -208,13 +166,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -235,13 +187,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -262,13 +208,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -289,13 +229,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -316,13 +250,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -343,13 +271,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -370,13 +292,7 @@
           "param_str": ""
         }
       ],
-      "finishCond": [
-        {
-          "type": "QUEST_COND_UNKNOWN",
-          "param": [0, 0],
-          "param_str": ""
-        }
-      ],
+      "finishCond": [],
       "failCond": [],
       "beginExec": [],
       "finishExec": [],
@@ -459,96 +375,6 @@
       "questId": 803,
       "prePerformCfg": "",
       "lockGameTime": true
-    },
-    {
-      "id": 80337,
-      "beginWay": "TALK_BEGIN_MANUAL",
-      "activeMode": "PLAY_MODE_SINGLE",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["80337", "2"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "initDialog": 8033701,
-      "npcId": [1002],
-      "performCfg": "",
-      "questId": 803,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 80339,
-      "beginWay": "TALK_BEGIN_MANUAL",
-      "activeMode": "PLAY_MODE_SINGLE",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["80339", "2"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "initDialog": 8033901,
-      "npcId": [1053],
-      "performCfg": "QuestDialogue/WQ/803/Q80339",
-      "questId": 803,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 80340,
-      "beginWay": "TALK_BEGIN_MANUAL",
-      "activeMode": "PLAY_MODE_SINGLE",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["80340", "2"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "initDialog": 8034001,
-      "npcId": [1053],
-      "performCfg": "QuestDialogue/WQ/803/Q80340",
-      "questId": 803,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 80341,
-      "beginWay": "TALK_BEGIN_MANUAL",
-      "activeMode": "PLAY_MODE_SINGLE",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["80339", "2"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "initDialog": 8034101,
-      "npcId": [1002],
-      "performCfg": "QuestDialogue/WQ/803/Q80341",
-      "questId": 803,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 80342,
-      "beginWay": "TALK_BEGIN_MANUAL",
-      "activeMode": "PLAY_MODE_SINGLE",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["80340", "2"],
-          "param_str": ""
-        }
-      ],
-      "priority": 5,
-      "initDialog": 8034201,
-      "npcId": [1002],
-      "performCfg": "QuestDialogue/WQ/803/Q80342",
-      "questId": 803,
-      "prePerformCfg": ""
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "Invoker_Herald_Ice_ConeOfCold": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -32,20 +32,20 @@
       "lifeTime": 1.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType", "AirflowType"]
       },
       "speed": 45.0,
       "maxSpeed": 46.0,
       "anglerVelocity": 18.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerNoRepeat",
         "targetType": "Enemy",
@@ -53,32 +53,31 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Invoker_Herald_Ice_ConeOfCold_Bullet"
         },
         {
-          "$type": "HILFMFBKIKF",
+          "$type": "EMKCIHFAOJA",
           "attackInfo": {
             "attackTag": "EnchantIceBlade",
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.7799999713897705,
-              "actorWindSubHurtDelta": 0.0,
+              "AGMNCBAKCEF": 0.7799999713897705,
+              "AILJJDMKONE": 0.0,
               "elementType": "Ice",
-              "IPFJJJGABPL": 25.0,
+              "bonusCriticalHurt": 25.0,
               "strikeType": "Blunt",
               "enBreak": 200.0,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "",
-              "hitImpulseY": "",
               "hitImpulseType": "",
               "overrideHitImpulse": {
                 "hitLevel": "Heavy",
-                "IMIJMPGJOGG": 1350.0,
-                "BPCDKKBKOBM": 0.0
+                "DJKONCLKGJH": 1350.0,
+                "DKJLLKDHBNJ": 0.0
               }
             }
           }
@@ -87,10 +86,10 @@
     }
   },
   "Invoker_Herald_Ice_ConeOfCold_Improved": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       }
@@ -119,37 +118,37 @@
       "lifeTime": 1.7999999523162842
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "excludeForces": ["WindZoneType", "AirflowType"]
       },
       "speed": 50.0,
       "maxSpeed": 50.0,
       "anglerVelocity": 350.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {},
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Invoker_Herald_Ice_ConeOfCold_Bullet_Improved"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Invoker_Herald_Ice_ConeOfCold_Bullet_Improved"
         }
       ]
     }
   },
   "Invoker_Herald_Ice_ConeOfCold_TargetPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,
@@ -176,7 +175,7 @@
     }
   },
   "Invoker_Herald_Ice_ConeOfCold_Linear_TargetPoint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "useCreatorProperty": true,

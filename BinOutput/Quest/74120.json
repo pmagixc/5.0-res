@@ -163,8 +163,8 @@
           "param_str": ""
         },
         {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_GREATER",
-          "param": ["7400102", "0"],
+          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+          "param": ["7400401", "1"],
           "param_str": ""
         }
       ],
@@ -348,7 +348,7 @@
         }
       ],
       "priority": 5,
-      "nextTalks": [7412009, 7412011, 7412010, 7412012],
+      "nextTalks": [7412009, 7412011],
       "initDialog": 741200801,
       "npcId": [5303],
       "performCfg": "QuestDialogue/WQ/Fontaine_74120/Q7412008",
@@ -369,45 +369,12 @@
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
           "param": ["7400401", "0"],
           "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7402801", "0"],
-          "param_str": ""
         }
       ],
       "priority": 5,
       "initDialog": 741200901,
       "npcId": [5303],
       "performCfg": "QuestDialogue/WQ/Fontaine_74120/Q7412009",
-      "questId": 74120,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 7412010,
-      "activeMode": "PLAY_MODE_HOST",
-      "beginCondComb": "LOGIC_AND",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7412003", "2"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7400401", "0"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7402801", "1"],
-          "param_str": ""
-        }
-      ],
-      "priority": 10,
-      "initDialog": 741201001,
-      "npcId": [20985],
-      "performCfg": "QuestDialogue/WQ/Fontaine_74120/Q7412010",
       "questId": 74120,
       "prePerformCfg": ""
     },
@@ -425,45 +392,12 @@
           "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
           "param": ["7400401", "1"],
           "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7402801", "0"],
-          "param_str": ""
         }
       ],
       "priority": 10,
       "initDialog": 741201101,
       "npcId": [20995, 5303],
       "performCfg": "QuestDialogue/WQ/Fontaine_74120/Q7412011",
-      "questId": 74120,
-      "prePerformCfg": ""
-    },
-    {
-      "id": 7412012,
-      "activeMode": "PLAY_MODE_HOST",
-      "beginCondComb": "LOGIC_AND",
-      "beginCond": [
-        {
-          "type": "QUEST_COND_STATE_EQUAL",
-          "param": ["7412003", "2"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7402801", "1"],
-          "param_str": ""
-        },
-        {
-          "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-          "param": ["7400401", "1"],
-          "param_str": ""
-        }
-      ],
-      "priority": 10,
-      "initDialog": 741201201,
-      "npcId": [20985],
-      "performCfg": "QuestDialogue/WQ/Fontaine_74120/Q7412012",
       "questId": 74120,
       "prePerformCfg": ""
     }

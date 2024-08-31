@@ -11,7 +11,7 @@
       "mainId": 73258,
       "order": 1,
       "descTextMapHash": 552491236,
-      "showType": "QUEST_HIDDEN",
+      "failCondComb": "QUEST_HIDDEN",
       "acceptCondComb": "LOGIC_NONE",
       "finishCondComb": "LOGIC_NONE",
       "finishCond": [
@@ -21,18 +21,18 @@
           "param_str": ""
         }
       ],
+      "failCond": [],
+      "beginExec": [],
+      "finishExec": [],
+      "failExec": [],
+      "guide": {},
       "acceptCond": [
         {
           "type": "QUEST_COND_UNKNOWN",
           "param": [0, 0],
           "param_str": ""
         }
-      ],
-      "failCond": [],
-      "beginExec": [],
-      "finishExec": [],
-      "failExec": [],
-      "guide": {}
+      ]
     }
   ],
   "talks": [

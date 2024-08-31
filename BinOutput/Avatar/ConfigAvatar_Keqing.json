@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "FJNPJANPGGC",
+      "$type": "ConfigEffectAttachSkinnedMesh",
       "mesh": "EffectMesh"
     },
     "mass": 10.0,
@@ -12,7 +12,7 @@
     "hasAfterImage": true
   },
   "headControl": {
-    "$type": "KPIPDEBDPIH",
+    "$type": "ConfigHeadControl",
     "useHeadControl": true,
     "animStates": [
       "NormalStandby",
@@ -71,20 +71,20 @@
     "animEvents": {
       "ATK01": {
         "attackPattern": {
-          "$type": "JHKEHNJBMOF",
+          "$type": "ConfigAttackBox",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.8999999761581421,
-              "LPCHALMFFOD": 0.0
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.8999999761581421,
+              "JEGKAACFHJK": 0.0
             }
           },
           "size": {
-            "KGEPIMHBMOL": 1.5,
-            "JEBHCGDPFEJ": 1.399999976158142,
-            "LPCHALMFFOD": 2.200000047683716
+            "AOFNOGLCGMP": 1.5,
+            "CHEGDAPFFHA": 1.399999976158142,
+            "JEGKAACFHJK": 2.200000047683716
           }
         },
         "attackInfo": {
@@ -92,18 +92,17 @@
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.4300000071525574,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.4300000071525574,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 38.70000076293945,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.029999999329447746,
             "hitHaltTimeScale": 0.009999999776482582,
@@ -122,36 +121,35 @@
       },
       "ATK02": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.5
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 0.5
             }
           },
           "height": 1.600000023841858,
-          "OAHPDLJIADP": 1.5
+          "IDLDJCPGNHD": 1.5
         },
         "attackInfo": {
           "attackTag": "NormalAttack_02",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.4300000071525574,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.4300000071525574,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 38.70000076293945,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.029999999329447746,
             "hitHaltTimeScale": 0.009999999776482582,
@@ -171,36 +169,35 @@
       },
       "ATK03": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 1.0
             }
           },
           "height": 1.2000000476837158,
-          "OAHPDLJIADP": 1.7999999523162842
+          "IDLDJCPGNHD": 1.7999999523162842
         },
         "attackInfo": {
           "attackTag": "NormalAttack_03",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.5699999928474426,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.5699999928474426,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 51.29999923706055,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.05999999865889549,
             "hitHaltTimeScale": 0.009999999776482582,
@@ -220,36 +217,35 @@
       },
       "ATK04_1": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.6000000238418579
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 0.6000000238418579
             }
           },
           "height": 2.799999952316284,
-          "OAHPDLJIADP": 1.5
+          "IDLDJCPGNHD": 1.5
         },
         "attackInfo": {
           "attackTag": "NormalAttack_04",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.3449999988079071,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.3449999988079071,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 31.049999237060547,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV2",
             "hitHaltTimeScale": 0.009999999776482582
           },
@@ -258,36 +254,35 @@
       },
       "ATK04_2": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 0.6000000238418579
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 0.6000000238418579
             }
           },
           "height": 2.799999952316284,
-          "OAHPDLJIADP": 1.5
+          "IDLDJCPGNHD": 1.5
         },
         "attackInfo": {
           "attackTag": "NormalAttack_04",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.3449999988079071,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.3449999988079071,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 31.049999237060547,
             "attackType": "Melee",
-            "GLKMCMDJBIK": 0.0
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.029999999329447746,
             "hitHaltTimeScale": 0.009999999776482582,
@@ -306,37 +301,36 @@
       },
       "ExtraAttack_1": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 1.5
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 1.5
             }
           },
-          "OAHPDLJIADP": 2.200000047683716
+          "IDLDJCPGNHD": 2.200000047683716
         },
         "attackInfo": {
           "attackTag": "ExtraAttack",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.5249999761581421,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.5249999761581421,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 47.29999923706055,
             "attackType": "Melee",
-            "AIGBINPINKE": 0.0,
             "actorElementReactionCriticalHurtDelta": 0.0,
-            "GLKMCMDJBIK": 0.0
+            "actorWindSubHurtDelta": 0.0,
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV2",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -344,37 +338,36 @@
       },
       "ExtraAttack_2": {
         "attackPattern": {
-          "$type": "GMDIMKKHACA",
+          "$type": "ConfigAttackCircle",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "IAENDIPDFKD",
+            "$type": "ConfigBornBySelf",
             "offset": {
-              "KGEPIMHBMOL": 0.0,
-              "JEBHCGDPFEJ": 0.0,
-              "LPCHALMFFOD": 1.7999999523162842
+              "AOFNOGLCGMP": 0.0,
+              "CHEGDAPFFHA": 0.0,
+              "JEGKAACFHJK": 1.7999999523162842
             }
           },
-          "OAHPDLJIADP": 2.299999952316284
+          "IDLDJCPGNHD": 2.299999952316284
         },
         "attackInfo": {
           "attackTag": "ExtraAttack",
           "attenuationTag": "NormalAttack",
           "attenuationGroup": "default",
           "attackProperty": {
-            "actorGrassSubHurtDelta": 0.5249999761581421,
-            "actorWindSubHurtDelta": 0.0,
-            "IPFJJJGABPL": 25.0,
+            "AGMNCBAKCEF": 0.5249999761581421,
+            "AILJJDMKONE": 0.0,
+            "bonusCriticalHurt": 25.0,
             "overrideByWeapon": true,
             "strikeType": "Slash",
             "enBreak": 47.29999923706055,
             "attackType": "Melee",
-            "AIGBINPINKE": 0.0,
             "actorElementReactionCriticalHurtDelta": 0.0,
-            "GLKMCMDJBIK": 0.0
+            "actorWindSubHurtDelta": 0.0,
+            "bonusCritical": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
-            "hitImpulseY": "",
             "hitImpulseType": "LV6",
             "hitHaltTimeScale": 0.009999999776482582
           },
@@ -475,12 +468,12 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "GBGJJIIEMBD",
+      "$type": "ConfigNormalStateLayer",
       "layerIndexName": "",
-      "CPAANEIJCGD": "",
+      "OFKGBGMCPBM": "",
       "stateIDs": {
         "NormalStandby": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Standby": ["Avatar_ResetFreeStyle"]
           },
@@ -496,7 +489,7 @@
           "sheatheOnStart": true
         },
         "NormalMove": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ShowUp": ["Audio_Girl_Showup"],
             "WalkToRun": [
@@ -566,7 +559,7 @@
           "sheatheOnStart": true
         },
         "SprintBS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SprintBS": [
               "Audio_Girl_RunToSprint",
@@ -592,7 +585,7 @@
           "sheatheOnStart": true
         },
         "Sprint": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Sprint": [
               "Ani_WalkSprint01",
@@ -613,7 +606,7 @@
           "sheatheOnStart": true
         },
         "Crouch": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "CrouchIdle": [],
             "CrouchMove": ["Audio_Girl_CrouchMove"],
@@ -635,7 +628,7 @@
           "sheatheOnStart": true
         },
         "CrouchToStandby": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "CrouchToStandby": [
               "Audio_Girl_CrouchToStandby",
@@ -647,7 +640,7 @@
           "sheatheOnStart": true
         },
         "SkiffNormal": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SkiffNormal": []
           },
@@ -657,7 +650,7 @@
           "sheatheOnStart": true
         },
         "Climb": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ClimbMove0": [
               "ClimbStep",
@@ -689,7 +682,7 @@
           "sheatheOnStart": true
         },
         "ClimbTransient": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "JumpWallReady": [],
             "Standby2ClimbA": [
@@ -702,7 +695,7 @@
           "sheatheOnStart": true
         },
         "Upstairs": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Upstairs": ["Audio_Girl_Upstairs", "Audio_Girl_Foley_Once_Keqing"]
           },
@@ -716,7 +709,7 @@
           "sheatheOnStart": true
         },
         "Slip": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SlipFaceWall": ["Audio_Girl_Foley_ThreeTimes_Keqing"],
             "SlipBackWall": ["Audio_Girl_Foley_ThreeTimes_Keqing"]
@@ -726,7 +719,7 @@
           "sheatheOnStart": true
         },
         "Swim": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SwimIdle": ["Audio_Girl_SwimIdle"],
             "SwimMove": ["SwimStep", "Audio_Girl_SwimMove"],
@@ -742,7 +735,7 @@
           "sheatheOnStart": true
         },
         "Fly": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Fly": ["Audio_Girl_Fly", "Audio_Girl_Foley_Once_Keqing"],
             "FlyStart": [
@@ -763,7 +756,7 @@
           "sheatheOnStart": true
         },
         "Jump": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Jump": ["Audio_Girl_Jump", "Audio_Girl_Foley_Once_Keqing"],
             "JumpForRun": ["Audio_Girl_Jump", "Audio_Girl_Foley_Once_Keqing"],
@@ -782,7 +775,7 @@
           "sheatheOnStart": true
         },
         "Fall": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "JumpOffWall": ["Audio_Girl_Jump", "Audio_Girl_Foley_Once_Keqing"],
             "SwimJump": ["Audio_Girl_SwimJump", "Audio_Girl_Foley_Once_Keqing"],
@@ -805,7 +798,7 @@
           "sheatheOnStart": true
         },
         "NormalStandbyWeapon": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "StandbyWeapon": []
           },
@@ -821,7 +814,7 @@
           "battouOnStart": true
         },
         "NormalMoveWeapon": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "WalkToRunWeapon": [
               "Girl_Sword_Putaway_RunBS",
@@ -851,7 +844,7 @@
           "battouOnStart": true
         },
         "NormalMoveWeaponPutaway": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "StandbyPutaway": [
               "Girl_Sword_Putaway_Standby",
@@ -885,7 +878,7 @@
           "battouOnStart": true
         },
         "NormalMoveWeaponOver": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "StandbyPutawayOver": [],
             "WalkPutawayOver": ["Audio_Girl_Sword_WalkPutAwayOver"],
@@ -904,7 +897,7 @@
           "sheatheOnStart": true
         },
         "JumpWeapon": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "JumpWeapon": ["Audio_Girl_Jump", "Audio_Girl_Foley_Once_Keqing"],
             "JumpForRunWeapon": [
@@ -929,7 +922,7 @@
           "battouOnStart": true
         },
         "FallWeapon": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DropDownWeapon": [
               "Audio_Girl_DropDown",
@@ -949,12 +942,12 @@
           "battouOnStart": true
         },
         "BeHit": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Hit_L": ["Audio_Girl_Hit_L", "Audio_Girl_Foley_Once_Keqing"],
             "Hit_H": ["Audio_Girl_Hit_H", "Audio_Girl_Foley_Once_Keqing"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
           "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
@@ -963,14 +956,14 @@
           "battouOnStart": true
         },
         "HitThrow": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Hit_Throw_Ground": [
               "BeHitAir_Weapon",
               "Audio_Girl_Hit_Throw_Ground_Ambor"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "resetAnimatorTriggerOnEnter": ["BeHit", "HitAir2HitDrop"],
           "resetAnimatorTriggerOnExit": ["DoSkill"],
           "setAnimatorBoolean": [
@@ -984,7 +977,7 @@
           "sheatheOnStart": true
         },
         "BeHitAir": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Hit_Throw": [
               "Audio_Girl_Hit_Throw",
@@ -997,7 +990,7 @@
               "Audio_Girl_Foley_ThreeTimes_Keqing"
             ]
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "resetAnimatorTriggerOnEnter": ["BeHit"],
           "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
@@ -1007,7 +1000,7 @@
           "sheatheOnStart": true
         },
         "Die": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveDie": ["Die", "Audio_Girl_Dive_Die"],
             "FallDie": ["Audio_Girl_Death"],
@@ -1022,7 +1015,7 @@
           "animatorTriggerOnLanded": ""
         },
         "Die_RagDoll": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "FallDie_AS": []
           },
@@ -1030,7 +1023,7 @@
           "animatorTriggerOnLanded": ""
         },
         "Attack01": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Attack01": [
               "Keqing_Attack01",
@@ -1040,7 +1033,7 @@
               "Emo_Avatar_KeQing_Fight_Attack_01"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1057,7 +1050,7 @@
           "battouOnStart": true
         },
         "Attack02": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Attack02": [
               "Keqing_Attack02",
@@ -1067,7 +1060,7 @@
               "Emo_Avatar_KeQing_Fight_Attack_02"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1084,7 +1077,7 @@
           "battouOnStart": true
         },
         "Attack03": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Attack03": [
               "Keqing_Attack03",
@@ -1094,7 +1087,7 @@
               "Emo_Avatar_KeQing_Fight_Attack_03"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1111,7 +1104,7 @@
           "battouOnStart": true
         },
         "Attack04": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Attack04": [
               "Keqing_Attack04",
@@ -1121,7 +1114,7 @@
               "Emo_Avatar_KeQing_Fight_Attack_04"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1139,7 +1132,7 @@
           "sheatheOnEnd": true
         },
         "Attack05": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Attack05": [
               "Keqing_Attack05",
@@ -1149,7 +1142,7 @@
               "Emo_Avatar_KeQing_Fight_Attack_05"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1168,7 +1161,7 @@
           "sheatheOnEnd": true
         },
         "ExtraAttack": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ExtraAttack": [
               "Keqing_ExtraAttack",
@@ -1177,7 +1170,7 @@
               "Emo_Avatar_KeQing_Fight_ExtraAttack"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
             {
@@ -1190,7 +1183,7 @@
           "battouOnStart": true
         },
         "ExtraAttack_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ExtraAttack_AS": [
               "Keqing_ExtraAttack_AS",
@@ -1198,7 +1191,7 @@
               "Emo_Avatar_KeQing_Fight_ExtraAttack_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1212,7 +1205,7 @@
           "battouOnStart": true
         },
         "Electrans_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_BS": [
               "Keqing_Electrans_BS",
@@ -1221,7 +1214,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_BS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
@@ -1231,7 +1224,7 @@
           "battouOnStart": true
         },
         "Electrans": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans": [
               "Keqing_Electrans",
@@ -1240,7 +1233,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkillStart": 0.5,
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
@@ -1262,14 +1255,14 @@
           "battouOnStart": true
         },
         "Electrans_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_AS": [
               "Audio_Girl_Sword_Keqing_Electrans_AS",
               "Emo_Avatar_KeQing_Skill_ElementalArt_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1283,7 +1276,7 @@
           "animatorTriggerOnLanded": ""
         },
         "Electrans_Charge_Loop": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Charge_Loop": [
               "Keqing_Electrans_Charge_Loop",
@@ -1291,7 +1284,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Charge"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
@@ -1301,7 +1294,7 @@
           "battouOnStart": true
         },
         "Electrans_Charge_Cast": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Charge_Cast": [
               "Keqing_Electrans_Charge_Cast",
@@ -1310,7 +1303,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Charge_02"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "cameraType": "combatNormal",
@@ -1320,7 +1313,7 @@
           "battouOnStart": true
         },
         "Electrans_Charge_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Charge_AS": [
               "Keqing_Electrans_Charge_AS",
@@ -1329,7 +1322,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Charge_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1342,7 +1335,7 @@
           "animatorTriggerOnLanded": ""
         },
         "Electrans_Ground": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Ground": [
               "Keqing_Electrans_Ground",
@@ -1351,7 +1344,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Fly"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
@@ -1366,7 +1359,7 @@
           "battouOnStart": true
         },
         "Electrans_Ground_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Ground_AS": [
               "Keqing_Electrans_Ground_AS",
@@ -1375,7 +1368,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Fly_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1394,7 +1387,7 @@
           "sheatheOnEnd": true
         },
         "Electrans_Fly": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Fly": [
               "Keqing_Electrans_Fly",
@@ -1403,7 +1396,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Fly"
             ]
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
@@ -1418,7 +1411,7 @@
           "battouOnStart": true
         },
         "Electrans_Fly_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_Fly_AS": [
               "Keqing_Electrans_Fly_AS",
@@ -1427,7 +1420,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_Fly_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1441,7 +1434,7 @@
           "sheatheOnEnd": true
         },
         "Electrans_FlyAir": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_FlyAir": [
               "Keqing_Electrans_FlyAir",
@@ -1451,7 +1444,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_FlyAir"
             ]
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "canDoSkill": true,
           "addEndure": 0.6000000238418579,
           "resetAnimatorTriggerOnExit": ["BeHit"],
@@ -1473,7 +1466,7 @@
           "battouOnStart": true
         },
         "Electrans_FlyAir_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Electrans_FlyAir_AS": [
               "Keqing_Electrans_FlyAir_AS",
@@ -1482,7 +1475,7 @@
               "Emo_Avatar_KeQing_Skill_ElementalArt_FlyAir_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "setAnimatorBoolean": [
@@ -1498,7 +1491,7 @@
           "sheatheOnEnd": true
         },
         "ElementalBurst_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ElementalBurst_BS": [
               "Keqing_ElementalBurst_BS",
@@ -1506,7 +1499,7 @@
               "Interaction_Bad"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "addEndure": 0.0,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "jumpCancelEnd": -1.0,
@@ -1515,11 +1508,11 @@
           "sheatheOnStart": true
         },
         "ElementalBurst": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ElementalBurst": ["Keqing_ElementalBurst", "Interaction_Bad"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "addEndure": 0.0,
           "resetAnimatorTriggerOnExit": ["BeHit"],
           "jumpCancelEnd": -1.0,
@@ -1527,14 +1520,14 @@
           "animatorTriggerOnLanded": ""
         },
         "ElementalBurst_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ElementalBurst_AS": [
               "Keqing_ElementalBurst_AS",
               "Audio_Girl_Sword_Keqing_ElementalBurst_AS"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -1548,7 +1541,7 @@
           "sheatheOnEnd": true
         },
         "FallingAnthem_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "FallingAnthem_BS_1": [
               "Audio_Girl_Sword_Keqing_FallingAnthem_BS_1",
@@ -1556,7 +1549,7 @@
             ],
             "FallingAnthem_BS_2": ["Emo_Girl_Sword_FallingAttack_BS_02"]
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "addEndure": 0.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "cameraType": "combatNormal",
@@ -1572,12 +1565,12 @@
           "battouOnStart": true
         },
         "FallingAnthem_Loop": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "FallingAnthem_Loop": [],
             "FallingAnthem_Loop_Low": []
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "addEndure": 0.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "actionPanelState": "Fly",
@@ -1591,7 +1584,7 @@
           "battouOnStart": true
         },
         "FallingAnthem_AS_1": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "FallingAnthem_AS_1": [
               "Keqing_FallingAnthem_Strike",
@@ -1600,7 +1593,7 @@
               "Emo_Girl_Sword_FallingAttack_AS_01"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -1620,14 +1613,14 @@
           "battouOnStart": true
         },
         "FallingAnthem_AS_2": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "FallingAnthem_AS_2": [
               "Audio_Girl_Sword_Keqing_FallingAnthem_AS_2",
               "Emo_Girl_Sword_FallingAttack_AS_02"
             ]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -1647,33 +1640,33 @@
           "battouOnStart": true
         },
         "Sit": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SitDown": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Keqing"],
             "SitLoop": [],
             "SitUp": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Keqing"]
           },
-          "MOKBIKEEHMJ": "performMove",
+          "moveType": "performMove",
           "massRatio": 100.0,
           "actionPanelState": "Perform",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "SitB": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "SitBDown": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Keqing"],
             "SitBLoop": [],
             "SitBUp": ["Audio_Girl_SitDown", "Audio_Girl_Sit_Keqing"]
           },
-          "MOKBIKEEHMJ": "performMove",
+          "moveType": "performMove",
           "massRatio": 100.0,
           "actionPanelState": "Perform",
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "StandbyShow": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "StandbyVoice": ["Audio_Girl_StandbyVoice"],
             "StandbyShow_01": [
@@ -1685,7 +1678,7 @@
               "Audio_Girl_Sword_Keqing_StandbyShow_02"
             ]
           },
-          "MOKBIKEEHMJ": "performMove",
+          "moveType": "performMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "setAnimatorBoolean": [
@@ -1698,7 +1691,7 @@
           "sheatheOnStart": true
         },
         "TakePhotos": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Think01BS": [],
             "Akimbo02BS": [],
@@ -1710,11 +1703,11 @@
           "animatorTriggerOnLanded": ""
         },
         "Channel_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ChannelBS": ["Emo_Avatar_Common_Manekin_Default"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1728,11 +1721,11 @@
           "sheatheOnStart": true
         },
         "Channel_Loop": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ChannelLoop": []
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1746,11 +1739,11 @@
           "sheatheOnStart": true
         },
         "Channel_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ChannelAS": []
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1764,23 +1757,23 @@
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Lyre_BS": ["PlayMusic_Lyre_Girl"],
-            "PlayMusic_Lyre_Loop": ["PlayMusic_Lyre_Girl_Loop"]
+            "PlayMusic_Lyre_Loop": []
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Lyre_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Lyre_AS": ["PlayMusic_Lyre_Girl_AS"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1794,23 +1787,23 @@
           "sheatheOnStart": true
         },
         "PlayMusic_Qin": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Qin_BS": ["PlayMusic_Qin_Girl"],
-            "PlayMusic_Qin_Loop": ["PlayMusic_Qin_Girl_Loop"]
+            "PlayMusic_Qin_Loop": []
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Qin_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Qin_AS": ["PlayMusic_Qin_Girl_AS"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1824,23 +1817,23 @@
           "sheatheOnStart": true
         },
         "PlayMusic_Drum": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Drum_BS": ["PlayMusic_Drum_Girl"],
-            "PlayMusic_Drum_Loop": ["PlayMusic_Drum_Girl_Loop"]
+            "PlayMusic_Drum_Loop": []
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_Drum_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_Drum_AS": ["PlayMusic_Drum_Girl_AS"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1854,23 +1847,23 @@
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_FrenchHorn_BS": ["PlayMusic_Frenchhorn_Girl"],
             "PlayMusic_FrenchHorn_Loop": ["PlayMusic_Frenchhorn_Girl_Loop"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "PlayMusic_FrenchHorn_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "PlayMusic_FrenchHorn_AS": ["PlayMusic_Frenchhorn_Girl_AS"]
           },
-          "MOKBIKEEHMJ": "combatMove",
+          "moveType": "combatMove",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
@@ -1884,11 +1877,11 @@
           "sheatheOnStart": true
         },
         "ActivitySkill_ElectricCoreFly": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ActivitySkill_ElectricCoreFly": []
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnEnter": ["ElectricCoreFly_End"],
           "resetAnimatorTriggerOnExit": [
@@ -1901,11 +1894,11 @@
           "sheatheOnStart": true
         },
         "ActivitySkill_GrapplingHook": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ActivitySkill_GrapplingHook": []
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnEnter": ["GrapplingHook_Drop"],
           "resetAnimatorTriggerOnExit": [
@@ -1918,11 +1911,11 @@
           "sheatheOnStart": true
         },
         "ActivitySkill_CustomSkill01": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ActivitySkill_CustomSkill01": []
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnEnter": [
@@ -1940,11 +1933,11 @@
           "sheatheOnStart": true
         },
         "ActivitySkill_CustomSkill02": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ActivitySkill_CustomSkill02": []
           },
-          "MOKBIKEEHMJ": "combatAir",
+          "moveType": "combatAir",
           "canDoSkill": true,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnEnter": [
@@ -1962,28 +1955,28 @@
           "sheatheOnStart": true
         },
         "ActivitySkill_CommonMove": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "ActivitySkill_CommonMove": []
           },
           "addEndure": 0.0,
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
-          "enableBoneFollowMove": true,
+          "handleAnimatorStateImmediately": true,
           "jumpCancelStart": -1.0,
           "sprintCancelStart": -1.0,
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
         },
         "DiveChannel_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveChannelBS": [
               "Emo_Avatar_Common_Manekin_Default",
               "Audio_Girl_DiveChannel_BS"
             ]
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -1998,11 +1991,11 @@
           "sheatheOnStart": true
         },
         "DiveChannel_Loop": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveChannelLoop": []
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -2017,11 +2010,11 @@
           "sheatheOnStart": true
         },
         "DiveChannel_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveChannelAS": ["Audio_Girl_DiveChannel_AS"]
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.30000001192092896,
           "massRatio": 100.0,
@@ -2038,14 +2031,14 @@
           "sheatheOnStart": true
         },
         "DiveCast_BS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveCast_BS": [
               "Emo_Avatar_Common_Manekin_Default",
               "Audio_Girl_DiveCast_BS"
             ]
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -2060,11 +2053,11 @@
           "sheatheOnStart": true
         },
         "DiveCast_Loop": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveCast_Loop": []
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "massRatio": 100.0,
           "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "Jump"],
           "setAnimatorBoolean": [
@@ -2079,11 +2072,11 @@
           "sheatheOnStart": true
         },
         "DiveCast_AS": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveCast_AS": ["Audio_Girl_DiveCast_AS"]
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "canDoSkill": true,
           "canDoSkillStart": 0.10000000149011612,
           "massRatio": 100.0,
@@ -2100,7 +2093,7 @@
           "sheatheOnStart": true
         },
         "Dive": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveIdle": [],
             "DiveMoveBS": ["Audio_Girl_Dive_MoveBS"],
@@ -2135,7 +2128,7 @@
           "sheatheOnStart": true
         },
         "Dive_In_Out": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Dive_In_Up": ["Audio_Girl_Dive_In_Up"],
             "Dive_In_Side": ["Audio_Girl_Dive_In_Side"],
@@ -2155,7 +2148,7 @@
           "sheatheOnStart": true
         },
         "DiveStream": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "DiveStreamIn": ["Audio_Girl_Dive_Stream_In"],
             "DiveStreamOut": ["Audio_Girl_Dive_Stream_Out"],
@@ -2175,7 +2168,7 @@
           "sheatheOnStart": true
         },
         "DiveJump": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "Dive_Out_DashU": ["Audio_Girl_Dive_Out_DashU"],
             "Dive_Out_DashD": ["Audio_Girl_Dive_Out_DashD"],
@@ -2195,12 +2188,12 @@
           "sheatheOnStart": true
         },
         "BeHitDive": {
-          "$type": "KBOPIKLCBOA",
+          "$type": "ConfigAvatarStateIDInfo",
           "animatorStates": {
             "BeHitDive": ["Audio_Girl_Dive_beHit"],
             "DiveStruggle": []
           },
-          "MOKBIKEEHMJ": "combatDive",
+          "moveType": "combatDive",
           "resetAnimatorTriggerOnEnter": ["BeHit"],
           "resetAnimatorTriggerOnExit": ["DoSkill"],
           "cameraType": "combatBeHit",
@@ -2208,56 +2201,16 @@
           "jumpCancelEnd": 0.0,
           "animatorTriggerOnLanded": "",
           "sheatheOnStart": true
-        },
-        "MultiOverride_01": {
-          "$type": "KBOPIKLCBOA",
-          "animatorStates": {
-            "MultiOverrideBS_01": [],
-            "MultiOverrideLoop_01": [],
-            "MultiOverrideAS_01": []
-          },
-          "animatorTriggerOnLanded": ""
-        },
-        "MultiOverride2": {
-          "$type": "KBOPIKLCBOA",
-          "animatorStates": {
-            "MultiOverrideBS_02": [],
-            "MultiOverrideLoop_02": [],
-            "MultiOverrideAS_02": []
-          },
-          "animatorTriggerOnLanded": ""
-        },
-        "MultiOverride3": {
-          "$type": "KBOPIKLCBOA",
-          "animatorStates": {
-            "MultiOverrideBS_03": [],
-            "MultiOverrideLoop_03": [],
-            "MultiOverrideAS_03": []
-          },
-          "animatorTriggerOnLanded": ""
-        },
-        "MultiOverride": {
-          "$type": "KBOPIKLCBOA",
-          "INKINKDHODO": {
-            "Ani_Avatar_Girl_Sword_Keqing_Photo01BS": [],
-            "Ani_Avatar_Girl_Sword_Keqing_Photo01Loop": [],
-            "Ani_Avatar_Girl_Sword_Keqing_Photo01AS": [],
-            "Ani_Avatar_Girl_Sword_Keqing_Photo02BS": [],
-            "Ani_Avatar_Girl_Sword_Keqing_Photo02Loop": [],
-            "Ani_Avatar_Girl_Sword_Keqing_Photo02AS": []
-          },
-          "animatorTriggerOnLanded": ""
         }
       }
     },
     "diveLayer": {
-      "$type": "GBGJJIIEMBD",
+      "$type": "ConfigNormalStateLayer",
       "layerIndex": 6,
       "layerIndexName": "DiveLayer",
-      "CPAANEIJCGD": ""
+      "OFKGBGMCPBM": ""
     }
   },
-  "DADEGCDMOBD": false,
   "audio": {
     "overrideEmitterName": "",
     "animAudio": {
@@ -2793,7 +2746,7 @@
     "listenerLiftup": 1.5,
     "surfaceProberLiftup": 1.5
   },
-  "ONIAJBGGJHD": "AvatarGirl",
+  "moveStateEffect": "AvatarGirl",
   "perform": {
     "standby": {
       "minTime": 10.0,

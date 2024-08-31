@@ -1,30 +1,30 @@
 {
   "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Direct_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Attack_Times", "SGV_Target_Stragety"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Attack_Times": 0.0,
         "SGV_Target_Stragety": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 1500.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -33,7 +33,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Direct_01",
@@ -43,36 +43,36 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Platform_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_Attack_Times",
         "SGV_Shoot_Sandworm",
         "SGV_Remove_Self"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Attack_Times": 0.0,
         "SGV_Shoot_Sandworm": 0.0,
         "SGV_Remove_Self": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 1500.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -81,7 +81,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Platform_01",
@@ -90,29 +90,29 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Bullet_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 1500.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -125,7 +125,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Bullet_01",
@@ -133,57 +133,57 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeInfinite": true
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
-      "speed": 7.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "$type": "EHIGOGOLKOO",
+      "NOFDPFHMFNM": 7.0,
+      "BLECDCEAOFM": {
+        "$type": "HMFDMPDLMCJ"
       },
-      "stickToGround": {
-        "maxStepHeight": 4.0,
-        "maxSlopeAngle": 75.0,
-        "heightToGround": 0.6000000238418579,
-        "flexibleRange": 0.10000000149011612,
-        "unstickWhenDownSlide": "Keep",
-        "unstickWhenUpSlide": "Keep"
+      "MLLDAINGCPD": {
+        "LDGCOFBNILL": 4.0,
+        "IDPIALMIAEG": 75.0,
+        "JPJMEPGMIBM": 0.6000000238418579,
+        "EBNKPFBIDBP": 0.10000000149011612,
+        "FHFBJGOKDBP": "Keep",
+        "OMEEHJNLOMB": "Keep"
       }
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Area_Desert_Property_Ani_Prop_SandWorm_Bullet_01"
         }
       ],
-      "killByOther": true
+      "GOMGCHKCHKI": true
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SandwormStone_Normal_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -195,7 +195,7 @@
         "dieDisappearEffect": "Eff_Property_Stone_SandwormStone_02_Destroy"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_SandwormStone_Normal_01",
@@ -203,24 +203,24 @@
         "abilityOverride": ""
       }
     ],
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SandwormStone_Hard_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -229,7 +229,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_SandwormStone_Hard_01",
@@ -239,25 +239,25 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeI_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -266,7 +266,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeI_01",
@@ -277,36 +277,36 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeI_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -315,7 +315,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeI_02",
@@ -326,36 +326,36 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeL_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -364,7 +364,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeL_01",
@@ -375,36 +375,36 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeL_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -413,7 +413,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeL_03",
@@ -424,33 +424,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR5H5",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -459,7 +459,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_01",
@@ -469,29 +469,29 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_Balance_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_MovePattern", "SGV_Barrier"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_MovePattern": 112.0,
         "SGV_Barrier": 21.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -500,7 +500,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_Balance_01",
@@ -515,22 +515,22 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_Transparency_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -539,7 +539,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_Transparency_01",
@@ -554,22 +554,22 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_DeadZone_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -578,7 +578,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandContainer_DeadZone_01",
@@ -593,22 +593,22 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandPipe_Indicator_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -617,7 +617,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandPipe_Indicator_01",
@@ -627,22 +627,22 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandPipe_Indicator_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -651,7 +651,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandPipe_Indicator_02",
@@ -661,22 +661,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WitheredPlants_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -685,7 +685,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_WitheredPlants_01",
@@ -695,22 +695,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_ChangeableStone_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -719,7 +719,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_ChangeableStone_01",
@@ -729,22 +729,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_BrokenSlabStone_05": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -753,7 +753,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_BrokenSlabStone_05",
@@ -763,22 +763,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_ReadingSlabStone_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -787,7 +787,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_ReadingSlabStone_01",
@@ -797,22 +797,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Barrierofsand_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -821,7 +821,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Barrierofsand_01",
@@ -831,22 +831,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Barrierofsand_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -855,7 +855,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Barrierofsand_02",
@@ -865,22 +865,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Barrierofsand_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -889,7 +889,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Barrierofsand_03",
@@ -899,22 +899,22 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SandContainerWall_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -923,7 +923,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_SandContainerWall_01",
@@ -933,28 +933,28 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_SandFall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_EffectHeight"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_EffectHeight": 4.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -963,7 +963,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_SandFall_01",
@@ -973,28 +973,28 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_SandFall_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_EffectHeight"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_EffectHeight": 4.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1003,7 +1003,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_SandFall_02",
@@ -1013,34 +1013,34 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_Sand_Amount",
         "SGV_Sand_Gaining",
         "SGV_Sand_Scale"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Sand_Amount": 0.0,
         "SGV_Sand_Gaining": 0.0,
         "SGV_Sand_Scale": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1049,7 +1049,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_01",
@@ -1059,23 +1059,23 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_Nozzole_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": [
         "SGV_Is_Flow",
         "SGV_Nozzle_Height",
         "SGV_Nozzle_hasPool"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Is_Flow": 0.0,
         "SGV_Nozzle_Height": 0.0,
         "SGV_Nozzle_hasPool": 1.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -1089,7 +1089,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_Nozzole_01",
@@ -1099,22 +1099,22 @@
     ]
   },
   "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_Board": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1123,7 +1123,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Desert_Property_Ani_Prop_SandPool_Board",
@@ -1133,28 +1133,28 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SpiritEnergyGear_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Gear_Option"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Gear_Option": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1163,7 +1163,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_SpiritEnergyGear_01",
@@ -1174,35 +1174,35 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR3H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "radarHint": true,
-    "openWatcher": true
+    "KOBGNKGMHNB": true,
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Prop_SandTornado_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1215,7 +1215,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_SandTornado_01",
@@ -1231,34 +1231,34 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "Trigger",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "Trigger",
+      "CJIOPEJJHDM": ""
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Prop_SandTornado_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1267,7 +1267,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_SandTornado_02",
@@ -1283,22 +1283,22 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "Trigger",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "Trigger",
+      "CJIOPEJJHDM": ""
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Prop_Lzsg_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1309,7 +1309,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
@@ -1318,21 +1318,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1341,7 +1341,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Lzsg_01",
@@ -1351,10 +1351,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Lzsg_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1365,7 +1365,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
@@ -1374,21 +1374,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1397,7 +1397,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Lzsg_02",
@@ -1407,10 +1407,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Hssz_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1421,7 +1421,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
@@ -1430,21 +1430,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1453,7 +1453,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Hssz_01",
@@ -1463,10 +1463,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Hssz_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1477,7 +1477,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
@@ -1486,21 +1486,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1509,7 +1509,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Hssz_02",
@@ -1519,10 +1519,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Lzpb_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1535,7 +1535,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_shader_timeback_value_min": 0.0,
@@ -1546,21 +1546,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1569,7 +1569,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Lzpb_01",
@@ -1579,10 +1579,10 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Lzpb_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1595,7 +1595,7 @@
         "SGV_eff_timeback_value_min",
         "SGV_eff_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_shader_timeback_value_min": 0.0,
@@ -1606,21 +1606,21 @@
         "SGV_eff_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1629,7 +1629,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Lzpb_02",
@@ -1639,10 +1639,10 @@
     ]
   },
   "SceneObj_AnimalObj_Ani_Level_Pigeon_Beak_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1651,28 +1651,28 @@
         "SGV_ani_timeback_value_min",
         "SGV_ani_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
         "SGV_ani_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1681,7 +1681,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_AnimalObj_Ani_Level_Pigeon_Beak_01",
@@ -1691,10 +1691,10 @@
     ]
   },
   "SceneObj_AnimalObj_Ani_Level_Crane_Lbis_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1703,28 +1703,28 @@
         "SGV_ani_timeback_value_min",
         "SGV_ani_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
         "SGV_ani_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1733,7 +1733,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_AnimalObj_Ani_Level_Crane_Lbis_01",
@@ -1743,10 +1743,10 @@
     ]
   },
   "SceneObj_AnimalObj_Ani_Level_Apsva_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1755,28 +1755,28 @@
         "SGV_ani_timeback_value_min",
         "SGV_ani_timeback_value_max"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_ani_timeback_value_min": 0.0,
         "SGV_ani_timeback_value_max": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1785,7 +1785,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_AnimalObj_Ani_Level_Apsva_01",
@@ -1795,15 +1795,14 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Cwcfz_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1813,7 +1812,7 @@
         "SGV_eff_timeback_value_max",
         "SGV_Can_Be_Controlled"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_eff_timeback_value_min": 0.0,
@@ -1821,21 +1820,21 @@
         "SGV_Can_Be_Controlled": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1844,7 +1843,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwcfz_01",
@@ -1852,58 +1851,56 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"],
-      "canInteractInCombat": false
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"],
+      "BKPGKHOLAAD": false
     },
-    "misc": {
-      "chest": {
-        "bornLockedByAbility": true,
-        "openEffect": ""
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "ENIIAMLNFNP": true,
+        "DOIONKMFNCD": ""
       },
-      "pickup": {
+      "PKABANPMJCL": {
         "bornEffect": "",
-        "dropEffect": "",
-        "attractAudio": ""
+        "HBAJPKPHOMN": "",
+        "DKDLKFDICEM": ""
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "ChestLocked"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "ChestLocked"
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 2.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 2.0,
+      "LLGLLNBBJBF": {
         "y": -1.0
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Cwcfz_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -1913,7 +1910,7 @@
         "SGV_eff_timeback_value_max",
         "SGV_Can_Be_Controlled"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_eff_timeback_value_min": 0.0,
@@ -1921,21 +1918,21 @@
         "SGV_Can_Be_Controlled": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -1944,7 +1941,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwcfz_02",
@@ -1952,58 +1949,56 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"],
-      "canInteractInCombat": false
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"],
+      "BKPGKHOLAAD": false
     },
-    "misc": {
-      "chest": {
-        "bornLockedByAbility": true,
-        "openEffect": ""
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "ENIIAMLNFNP": true,
+        "DOIONKMFNCD": ""
       },
-      "pickup": {
+      "PKABANPMJCL": {
         "bornEffect": "",
-        "dropEffect": "",
-        "attractAudio": ""
+        "HBAJPKPHOMN": "",
+        "DKDLKFDICEM": ""
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "ChestLocked"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "ChestLocked"
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 2.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 2.0,
+      "LLGLLNBBJBF": {
         "y": -1.0
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Cwcfz_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -2013,7 +2008,7 @@
         "SGV_eff_timeback_value_max",
         "SGV_Can_Be_Controlled"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Is_Revert": 0.0,
         "SGV_eff_timeback_value_min": 0.0,
@@ -2021,21 +2016,21 @@
         "SGV_Can_Be_Controlled": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2044,7 +2039,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwcfz_03",
@@ -2052,69 +2047,68 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"],
-      "canInteractInCombat": false
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"],
+      "BKPGKHOLAAD": false
     },
-    "misc": {
-      "chest": {
-        "bornLockedByAbility": true,
-        "openEffect": ""
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "ENIIAMLNFNP": true,
+        "DOIONKMFNCD": ""
       },
-      "pickup": {
+      "PKABANPMJCL": {
         "bornEffect": "",
-        "dropEffect": "",
-        "attractAudio": ""
+        "HBAJPKPHOMN": "",
+        "DKDLKFDICEM": ""
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "ChestLocked"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "ChestLocked"
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 2.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 2.0,
+      "LLGLLNBBJBF": {
         "y": -1.0
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Flower_Sjfw_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2123,7 +2117,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Flower_Sjfw_01",
@@ -2134,53 +2128,53 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ",
-      "delayType": "NoDelay"
+      "$type": "AOAMMBMNHEH",
+      "ICLIEGKILIB": "NoDelay"
     },
-    "misc": {
-      "escapeEffect": "",
-      "needTurnGrey": true,
-      "disableDuration": 2.0
+    "DDOEFBHBEPJ": {
+      "HGJJHLBEICG": "",
+      "DDNOEPFCCDC": true,
+      "GCKPCNOBEHG": 2.0
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Ani_Flower_Sjfw_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_Broadcast_GV_Tag"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2189,7 +2183,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Flower_Sjfw_02",
@@ -2197,128 +2191,127 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "gadgetUIExtraItems": [
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "DMHNDDKOKNF": [
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_1",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_1",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": ""
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": ""
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_2",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_2",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 2
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 2
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_3",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_3",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 3
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 3
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_4",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_4",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 4
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 4
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_5",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_5",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 5
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 5
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_6",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_6",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 6
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 6
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_7",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_7",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 7
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 7
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_8",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_8",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 8
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 8
         },
         {
-          "gadgetUIBtnCfgPath": "UI/open_gadget_timeback_page_9",
-          "uiName": "UI_ORCHARD_GADGET_BUTTON_2",
-          "showCondTypes": ["HOST"],
+          "BGJCIKIOCLM": "UI/open_gadget_timeback_page_9",
+          "ALEGNEJBLAF": "UI_ORCHARD_GADGET_BUTTON_2",
+          "OAJHCMOLIDM": ["HOST"],
           "icon": "UI_Icon_Intee_PickUp",
-          "groupName": "",
-          "confirmDialogTitle": "",
-          "confirmDialogContent": "",
-          "extraId": 9
+          "KKMMGKBKLNB": "",
+          "GEDPHHDMFAD": "",
+          "NIBCCLBLADB": "",
+          "JDMENBLJFGP": 9
         }
       ]
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO"
+          "$type": "COKKJJJPMOP"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart",
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart",
           "enable": true
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 2.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 2.0
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Prop_OasisController_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "globalValue": {
       "serverGlobalValues": [
@@ -2334,7 +2327,7 @@
         "SGV_Current_Worktop",
         "SGV_Pb_Value"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Broadcast_GV_Tag": 0.0,
         "SGV_Timeback_Keypoint_Division": 0.0,
         "SGV_Is_Controller": 1.0,
@@ -2348,21 +2341,21 @@
         "SGV_Pb_Value": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2371,7 +2364,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_OasisController_01",
@@ -2381,24 +2374,24 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Build_JamshidCup_01_Movable": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2407,7 +2400,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Build_JamshidCup_01_Movable",
@@ -2416,28 +2409,28 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Build_JamshidCup_01_NoMove": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -2446,10 +2439,10 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_SandCarrier_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -2459,14 +2452,14 @@
       "elementDrop": "RootNode",
       "bulletAim": "Aimpoint"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 50000.0,
+        "HP": 50000.0,
         "attack": 200.0,
         "weight": 50.0,
-        "isGhostToAllied": true,
-        "denyElementStick": true
+        "canTriggerBullet": true,
+        "ignoreDamageToSelf": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2478,7 +2471,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_SandCarrier_01",
@@ -2494,44 +2487,44 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR4H4",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
-      "attachPoint": "AttachPoint",
+      "$type": "HFEGKLAIGGI",
+      "IIKEHINGEME": "AttachPoint",
       "offset": {
         "y": 4.0
       },
-      "radiusOffset": 3.0,
-      "enableSelfAdapt": true,
+      "HECLHMINJII": 3.0,
+      "ABJJCOBEPLC": true,
       "showDistance": 48.0,
-      "showHPBar": true,
+      "DMHOOGGGDKG": true,
       "size": "Grand"
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Move_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2544,7 +2537,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2552,60 +2545,58 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_move",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_move",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 4.0,
-      "triggerHeight": 4.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 4.0,
+      "OHLENMNOCCK": 4.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Attack_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2618,7 +2609,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2626,60 +2617,58 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_attack_01",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_attack_01",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 10.0,
-      "triggerHeight": 10.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 10.0,
+      "OHLENMNOCCK": 10.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Attack_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2692,7 +2681,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2700,60 +2689,58 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_attack_02",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_attack_02",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 4.0,
-      "triggerHeight": 4.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 4.0,
+      "OHLENMNOCCK": 4.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Move_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2766,7 +2753,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2774,60 +2761,58 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_move_02",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_move_02",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 4.0,
-      "triggerHeight": 4.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 4.0,
+      "OHLENMNOCCK": 4.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Laser_NoFunction": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2840,7 +2825,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2848,60 +2833,58 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_laser_02",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_laser_02",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 10.0,
-      "triggerHeight": 10.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 10.0,
+      "OHLENMNOCCK": 10.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Laser_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Has_Opened"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Has_Opened": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2914,7 +2897,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2922,54 +2905,52 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_laser",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_laser",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 4.0,
-      "triggerHeight": 4.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 4.0,
+      "OHLENMNOCCK": 4.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Laser_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -2982,7 +2963,7 @@
         "overrideRange": 5.0
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "",
@@ -2990,57 +2971,55 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "UI/open_robot_control_page_laser_03",
-      "uiName": "UI_GADGET_DISPLAY_ACTIVE",
-      "showCombType": "LOGIC_AND",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "UI/open_robot_control_page_laser_03",
+      "ALEGNEJBLAF": "UI_GADGET_DISPLAY_ACTIVE",
+      "FAHMLAAOOGH": "LOGIC_AND",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "showCondTypesV2": ["HOST"]
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "COGMLCDBEJL": ["HOST"]
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "On": [],
               "Off": []
             },
-            "cullingModelAlwaysAnimate": true
+            "BGJDNIJICNM": true
           }
         }
       }
     },
-    "intee": {
-      "triggerRadius": 4.0,
-      "triggerHeight": 4.0,
-      "triggerOffset": {
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 4.0,
+      "OHLENMNOCCK": 4.0,
+      "LLGLLNBBJBF": {
         "x": -0.42500001192092896,
         "y": -1.5870000123977661,
         "z": 2.690999984741211
-      },
-      "KAMIAMNMFCP": ""
+      }
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_PipeGear_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3052,7 +3031,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Prop_PipeGear_01",
@@ -3068,55 +3047,55 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction1",
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction1",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearAction2",
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearAction2",
           "enable": true
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_BrokenGear_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3128,7 +3107,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Prop_BrokenGear_01",
@@ -3144,46 +3123,46 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_MaranaGear_01": {
-    "$type": "CJKJIENLOHD",
-    "KJGJCNANPJP": true,
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "AJIDINNJKCJ": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3195,7 +3174,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Ani_Prop_MaranaGear_01",
@@ -3211,59 +3190,58 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
-        "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "$type": "KFHJINNNDPN",
+        "BOPIBFKFKCA": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
-            "animatorStates": {
+            "$type": "ILLKEGMDAEF",
+            "HKPCLGHBKFD": {
               "Active": ["Audio_ScenenObj_gear_MaranaGear_Unlock_01"]
             }
           }
         }
       }
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStop"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Prop_JamshidBedrock_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "globalValue": {
       "serverGlobalValues": ["SGV_Correct_Answer"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Correct_Answer": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -3277,7 +3255,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Prop_JamshidBedrock_01",
@@ -3285,21 +3263,21 @@
         "abilityOverride": ""
       }
     ],
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Common_Property_Prop_JamshidSlabstone_Transparent": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3311,7 +3289,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Prop_JamshidSlabstone_Transparent",
@@ -3321,18 +3299,18 @@
     ]
   },
   "SceneObj_Area_Common_Property_Prop_JamshidSlabstone_Opaque": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3344,13 +3322,13 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "specialPoint": {
       "elementAbsorb": "RootNode",
@@ -3360,15 +3338,15 @@
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_Dir_Light_On", "SGV_Message_Remove_Windball"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Dir_Light_On": 0.0,
         "SGV_Message_Remove_Windball": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -3382,7 +3360,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_01",
@@ -3393,21 +3371,21 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR3H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "specialPoint": {
       "elementAbsorb": "RootNode",
@@ -3417,15 +3395,15 @@
     },
     "globalValue": {
       "serverGlobalValues": ["SGV_Dir_Light_On", "SGV_Release_WindBall"],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Dir_Light_On": 0.0,
         "SGV_Release_WindBall": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -3439,7 +3417,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_02",
@@ -3450,42 +3428,41 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR3H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Fly",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Fly"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3497,7 +3474,7 @@
         "dieDisappearEffect": "Eff_Property_Ani_Prop_WindBall_Fly_Disappear"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_01",
@@ -3505,57 +3482,56 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
-      "speed": 4.0,
-      "anglerVelocity": 720.0,
-      "acceleration": 4.0,
-      "traceOnYAxis": true
+      "$type": "EHIGOGOLKOO",
+      "NOFDPFHMFNM": 4.0,
+      "NDLHJKADBGC": 720.0,
+      "EILJBCHMAIH": 4.0,
+      "HFFPPCEMOGJ": true
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_01"
         }
       ],
-      "killByOther": true
+      "GOMGCHKCHKI": true
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Fly",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Fly"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3567,7 +3543,7 @@
         "dieDisappearEffect": "Eff_Property_Ani_Prop_WindBall_Fly_Disappear"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_02",
@@ -3575,57 +3551,56 @@
         "abilityOverride": ""
       }
     ],
-    "timer": {
+    "BDPGABAMMPP": {
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
-      "speed": 4.0,
-      "anglerVelocity": 720.0,
-      "acceleration": 4.0,
-      "traceOnYAxis": true
+      "$type": "EHIGOGOLKOO",
+      "NOFDPFHMFNM": 4.0,
+      "NDLHJKADBGC": 720.0,
+      "EILJBCHMAIH": 4.0,
+      "HFFPPCEMOGJ": true
     },
-    "gadget": {
-      "$type": "JENBBNKGGJP",
+    "MNNPNOAELLI": {
+      "$type": "AFPECAAHDNC",
       "collision": {
         "targetType": "Enemy",
         "ignoreScene": true
       },
-      "triggerActions": [
+      "HDABNDJLLCO": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "HLFEAMOONEP",
           "abilityName": "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Bullet_02"
         }
       ],
-      "killByOther": true
+      "GOMGCHKCHKI": true
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_WindBallProp_Hint": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Light",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Property_Ani_Prop_WindBall_Light"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 400.0,
+        "HP": 400.0,
         "attack": 15.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHit": true,
-        "muteAllHitEffect": true,
+        "GKIOKIDJLCA": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -3634,21 +3609,21 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Djinn_Fragment": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3660,7 +3635,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Djinn_Fragment",
@@ -3671,40 +3646,40 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         }
       ]
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Djinn_Fragment_Controller": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3716,7 +3691,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Djinn_Fragment_Controller",
@@ -3726,17 +3701,17 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Cwfs_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
       "elementDrop": "RootNode",
       "bulletAim": "Aimpoint"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -3750,7 +3725,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwfs_01",
@@ -3761,21 +3736,21 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR3H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Cwfs_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -3790,7 +3765,7 @@
         "SGV_Wind_Length_4",
         "SGV_Cannot_Be_Attack"
       ],
-      "initServerGlobalValues": {
+      "CCKNHEFGCPP": {
         "SGV_Wind_Length_1": 0.0,
         "SGV_Wind_Length_2": 0.0,
         "SGV_Wind_Length_3": 0.0,
@@ -3798,10 +3773,10 @@
         "SGV_Cannot_Be_Attack": 0.0
       }
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true
@@ -3815,7 +3790,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwfs_02",
@@ -3826,31 +3801,31 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR3H3",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Cwfsgd_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3862,7 +3837,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Cwfsgd_01",
@@ -3872,15 +3847,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3892,7 +3867,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_01",
@@ -3902,15 +3877,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3922,7 +3897,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_02",
@@ -3932,15 +3907,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3952,7 +3927,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_03",
@@ -3962,15 +3937,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_04": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -3982,7 +3957,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Tysq_04",
@@ -3992,15 +3967,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Byqb_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isLockHP": true,
-        "canTriggerBullet": false
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4012,7 +3987,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Byqb_01",
@@ -4020,21 +3995,21 @@
         "abilityOverride": ""
       }
     ],
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_Byqb_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4046,7 +4021,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_Byqb_02",
@@ -4057,33 +4032,33 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_CWHX_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4095,7 +4070,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_CWHX_01",
@@ -4106,32 +4081,32 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR30H10",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_CWHX_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4143,7 +4118,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_CWHX_02",
@@ -4154,29 +4129,29 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR30H10",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Szqparc_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4188,7 +4163,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqparc_01",
@@ -4203,18 +4178,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpcwl_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4226,7 +4201,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpcwl_01",
@@ -4241,18 +4216,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpcwzb_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4264,7 +4239,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpcwzb_01",
@@ -4279,18 +4254,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpcwzx_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4302,7 +4277,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpcwzx_01",
@@ -4317,18 +4292,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpjrc_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4340,7 +4315,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpjrc_01",
@@ -4355,18 +4330,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqplsyj_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4378,7 +4353,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqplsyj_01",
@@ -4393,18 +4368,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqptyc_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4416,7 +4391,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqptyc_01",
@@ -4431,18 +4406,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpxst_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4454,7 +4429,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpxst_01",
@@ -4469,17 +4444,17 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_ChessEmptyGiving_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4491,7 +4466,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_ChessEmptyGiving_01",
@@ -4499,44 +4474,43 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
-      "showCondTypes": ["HOST"],
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
+      "OAJHCMOLIDM": ["HOST"],
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 35.0,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 35.0
     }
   },
   "SceneObj_Area_Xm_Property_Prop_ChessClockworkGiving_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4548,7 +4522,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_ChessClockworkGiving_01",
@@ -4556,45 +4530,44 @@
         "abilityOverride": ""
       }
     ],
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
-      "showCondTypes": ["HOST"],
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
+      "OAJHCMOLIDM": ["HOST"],
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": ""
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": ""
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "COKKJJJPMOP",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "COKKJJJPMOP",
+          "GEBLEANKIHJ": "GearStart"
         }
       ]
     },
-    "intee": {
-      "triggerRadius": 3.5,
-      "KAMIAMNMFCP": ""
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 3.5
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpdz_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4606,7 +4579,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpdz_01",
@@ -4616,18 +4589,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Szqpdz_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4639,7 +4612,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Szqpdz_01",
@@ -4649,18 +4622,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_Qzft_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4676,7 +4649,7 @@
         "dieDisappearEffect": ""
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_Qzft_01",
@@ -4685,24 +4658,24 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Xm_Property_Prop_Qzft_Chest_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "combat": {
       "property": {
-        "hp": 10000.0,
+        "HP": 10000.0,
         "attack": 30.0,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignorePurgeRate": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "JPJIIBGCMJD": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true
+        "JEPGCKHKDDD": true
       },
       "combatLock": {
         "lockShape": "CircleLockEnemy",
@@ -4710,46 +4683,45 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
-    "uiInteract": {
-      "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-      "uiName": "",
+    "attackAttenuation": "",
+    "JJENAKLGBNC": {
+      "BGJCIKIOCLM": "TEST/TEST_Chest_Btn",
+      "ALEGNEJBLAF": "",
       "icon": "",
-      "groupName": "",
-      "confirmDialogTitle": "",
-      "confirmDialogContent": "",
-      "canInteractInCombat": false
+      "KKMMGKBKLNB": "",
+      "GEDPHHDMFAD": "",
+      "NIBCCLBLADB": "",
+      "BKPGKHOLAAD": false
     },
-    "misc": {
-      "chest": {
-        "openEffect": ""
+    "DDOEFBHBEPJ": {
+      "AFCFPBCEJKH": {
+        "DOIONKMFNCD": ""
       },
-      "pickup": {
+      "PKABANPMJCL": {
         "bornEffect": "",
-        "dropEffect": "",
-        "attractAudio": ""
+        "HBAJPKPHOMN": "",
+        "DKDLKFDICEM": ""
       },
-      "escapeEffect": ""
+      "HGJJHLBEICG": ""
     },
-    "radarHint": true,
-    "intee": {
-      "triggerRadius": 2.5,
-      "KAMIAMNMFCP": ""
+    "KOBGNKGMHNB": true,
+    "JEMDHNLFOGF": {
+      "APGKCLJCPJN": 2.5
     }
   },
   "SceneObj_Area_Xm_Property_Prop_CollapseTerrian_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4761,7 +4733,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_CollapseTerrian_01",
@@ -4771,18 +4743,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_CollapseTerrian_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4794,7 +4766,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_CollapseTerrian_02",
@@ -4804,18 +4776,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4827,7 +4799,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_01",
@@ -4837,18 +4809,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_02": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4860,7 +4832,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_02",
@@ -4870,18 +4842,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4893,7 +4865,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Flower_Lzsz_02",
@@ -4903,20 +4875,20 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_JamshidCupGear_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
       "elementDrop": "RootNode",
       "bulletAim": "Aimpoint"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
-        "denyElementStick": true
+        "ignoreDamageToSelf": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -4927,7 +4899,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_JamshidCupGear_01",
@@ -4943,14 +4915,14 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "CircleR2H2",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     },
     "aibeta": {
       "enable": true,
@@ -4969,32 +4941,32 @@
       }
     },
     "billboard": {
-      "$type": "DNGNMAJBCNP",
-      "attachPoint": "AttachPoint",
+      "$type": "HFEGKLAIGGI",
+      "IIKEHINGEME": "AttachPoint",
       "offset": {
         "y": 4.0
       },
-      "radiusOffset": 2.5,
-      "enableSelfAdapt": true,
+      "HECLHMINJII": 2.5,
+      "ABJJCOBEPLC": true,
       "showDistance": 48.0,
-      "showHPBar": true,
+      "DMHOOGGGDKG": true,
       "size": "Grand"
     },
-    "forceSetEntityType": "Gadget"
+    "HBONEKDEEDC": "Gadget"
   },
   "SceneObj_Area_Xm_Property_Ani_Build_JYQB_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5006,7 +4978,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Build_JYQB_01",
@@ -5017,29 +4989,29 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Stone_SHSQ_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5051,7 +5023,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "Ability_02",
@@ -5061,18 +5033,18 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Ecloth_Dujinposun_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 5000.0,
+        "HP": 5000.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "canTriggerBullet": false
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ignorePurgeRate": false
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5084,24 +5056,24 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   },
   "SceneObj_Area_Xm_Property_Prop_LaserGear_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5114,7 +5086,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_LaserGear_01",
@@ -5128,35 +5100,35 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Xm_Property_Prop_LaserGear_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5169,7 +5141,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_LaserGear_02",
@@ -5182,34 +5154,34 @@
         "abilityOverride": ""
       }
     ],
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Xm_Property_Prop_LaserGear_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0,
-      "isForceRefreshAuthotiryToHost": true
+      "MHMOBOCILOF": true
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5222,7 +5194,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_LaserGear_03",
@@ -5236,34 +5208,34 @@
       }
     ],
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     },
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     }
   },
   "SceneObj_Area_Xm_Property_Prop_LaserGear_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
+        "canTriggerBullet": true,
+        "denyElementStick": true,
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5276,7 +5248,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_LaserGear_04",
@@ -5289,27 +5261,27 @@
         "abilityOverride": ""
       }
     ],
-    "gadgetAction": {
-      "gadgetStateActionList": [
+    "NEPNGCGEAOL": {
+      "MJDNEHMOFEA": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "FHCNELPNCPL",
           "intID": "GadgetState",
-          "syncState": true
+          "EBNFFBOBCHB": true
         }
       ]
     },
-    "openWatcher": true
+    "JBAPPNCCMLH": true
   },
   "SceneObj_Area_Common_Property_Prop_LaserWall_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5322,7 +5294,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Prop_LaserWall_01",
@@ -5337,15 +5309,15 @@
     ]
   },
   "SceneObj_Area_Common_Property_Prop_LaserWall_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5358,7 +5330,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Common_Property_Prop_LaserWall_03",
@@ -5368,15 +5340,15 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_JamshidCup_Airwall_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 0.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5389,7 +5361,7 @@
         "lockType": "Default"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_JamshidCup_Airwall_01",
@@ -5400,31 +5372,31 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.10000000149011612,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "Trigger",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "Trigger",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Ani_Prop_TransparentWall_01": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -5433,7 +5405,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Ani_Prop_TransparentWall_01",
@@ -5443,20 +5415,20 @@
     ]
   },
   "SceneObj_Area_Xm_Property_Prop_MoveSand_03": {
-    "$type": "CJKJIENLOHD",
-    "hasModel": true,
+    "$type": "IOHCOOOBCPH",
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -5465,29 +5437,29 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "AOAMMBMNHEH"
     }
   },
   "SceneObj_Area_Xm_Property_Prop_CenterTorAirWall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "common": {
       "disableTickDistance": 100000.0
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 20.0,
         "weight": 50.0,
         "isLockHP": true,
-        "ignoreDamageToSelf": true
+        "ABKGDMJEMJJ": true
       },
       "beHit": {
         "hitBloodEffect": "",
         "hitAutoRedirect": false,
-        "muteAllHitEffect": true,
+        "JEPGCKHKDDD": true,
         "muteAllHitText": true
       },
       "combatLock": {
@@ -5496,7 +5468,7 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": "",
+    "attackAttenuation": "",
     "abilities": [
       {
         "abilityID": "SceneObj_Area_Xm_Property_Prop_CenterTorAirWall",
@@ -5507,33 +5479,32 @@
     "field": {
       "concernType": "AllAvatars",
       "shape": "",
-      "fromShape": "",
+      "AGKCOGKCAGC": "",
       "triggerInfinite": true,
       "lifeInfinite": true,
       "checkInterval": 0.25,
       "overwriteCampType": true,
       "campType": "All",
-      "colliderName": "Trigger",
-      "fromColliderName": ""
+      "PKBIFJFAJEK": "Trigger",
+      "CJIOPEJJHDM": ""
     }
   },
   "SceneObj_Area_Xm_Property_Prop_SandwormChallengeAirwall": {
-    "$type": "CJKJIENLOHD",
+    "$type": "IOHCOOOBCPH",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Stages_Common_DelucChallengeAirwall_01_R16",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Stages_Common_DelucChallengeAirwall_01_R16"
     },
-    "hasModel": true,
+    "KNGBEDDABOM": true,
     "combat": {
       "property": {
-        "hp": 99999.0,
+        "HP": 99999.0,
         "attack": 200.0,
         "weight": 50.0,
         "isInvincible": true,
         "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true
+        "canTriggerBullet": true,
+        "denyElementStick": true
       },
       "beHit": {
         "hitBloodEffect": "",
@@ -5546,6 +5517,6 @@
         "lockType": "Gadget_Lv1"
       }
     },
-    "combatTemplate": ""
+    "attackAttenuation": ""
   }
 }

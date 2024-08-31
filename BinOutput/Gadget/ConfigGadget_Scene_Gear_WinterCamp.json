@@ -1,6 +1,6 @@
 {
   "SceneObj_Gear_Common_Property_Prop_JumpUp_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -44,7 +44,7 @@
     }
   },
   "SceneObj_Gear_Common_Property_Prop_ShieldPower_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -88,10 +88,10 @@
     }
   },
   "SceneObj_Gear_Common_Property_Prop_BreakableIce_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -128,10 +128,10 @@
     ]
   },
   "SceneObj_Gear_Common_Property_Prop_BreakableIceWithCoin_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -168,10 +168,10 @@
     ]
   },
   "SceneObj_Gear_Common_Property_Prop_BreakableIce_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -208,10 +208,10 @@
     ]
   },
   "SceneObj_Gear_Common_Property_Prop_BreakableIceWithCoin_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMCHDAEMBOG",
+        "$type": "FINCJGEJBLH",
         "mesh": "EffectMesh"
       }
     },
@@ -248,7 +248,7 @@
     ]
   },
   "SceneObj_Area_Common_Property_Ani_Prop_LargeFloatingIce_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -282,12 +282,12 @@
     ],
     "stateLayers": {
       "defaultLayer": {
-        "$type": "GBGJJIIEMBD",
+        "$type": "DEMOGNGMPCC",
         "layerIndexName": "",
-        "CPAANEIJCGD": "",
+        "OFKGBGMCPBM": "",
         "stateIDs": {
           "All": {
-            "$type": "BEIEGKBABOF",
+            "$type": "ELIEEDNCIPE",
             "animatorStates": {
               "Broked": ["FloatingIce_Disappear"],
               "Recover": ["FloatingIce_Appear"]
@@ -299,7 +299,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         }
@@ -307,7 +307,7 @@
     }
   },
   "SceneObj_Area_Ljxs_Property_Prop_LjxsCampMainDevice_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -354,7 +354,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "state",
           "syncState": true
         }
@@ -362,7 +362,7 @@
     }
   },
   "SceneObj_Area_Ljxs_Property_Prop_LjxsCampBranchDevice_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -399,7 +399,7 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "state",
           "syncState": true
         }
@@ -407,11 +407,10 @@
     }
   },
   "SceneObj_Area_Ljxs_Property_Ani_Prop_TriathlonCoin_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_TriathlonCoin_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_TriathlonCoin_01"
     },
     "hasModel": true,
     "combat": {
@@ -462,14 +461,14 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_TriathlonCoin_01"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
@@ -479,7 +478,7 @@
     }
   },
   "SceneObj_Area_Ljxs_Property_Ani_Prop_TriathlonCoin_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -528,7 +527,7 @@
     }
   },
   "SceneObj_Stages_Property_Ani_Prop_SnowPile_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -562,11 +561,10 @@
     ]
   },
   "SceneObj_Gear_Common_Property_Prop_DirectionSign_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DirectionSign_Straight",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_DirectionSign_Straight"
     },
     "hasModel": true,
     "combat": {
@@ -590,11 +588,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Common_Property_Prop_DirectionSign_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_DirectionSign_Rightangle",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_DirectionSign_Rightangle"
     },
     "hasModel": true,
     "combat": {
@@ -618,11 +615,10 @@
     "combatTemplate": ""
   },
   "SceneObj_Gear_Common_Property_Prop_ParkourStamina_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_FleurStamina_Float",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_FleurStamina_Float"
     },
     "hasModel": true,
     "combat": {

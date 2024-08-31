@@ -1,9 +1,9 @@
 {
   "Dori_ElementalArt_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -43,7 +43,7 @@
       "lifeTime": 3.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "velocityForce": {
         "muteAll": true
       },
@@ -52,16 +52,14 @@
       "angleOffHor": 40.0,
       "gravityOfAcceleration": 50.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "fixAngleOfVer": 15.0,
         "minSpeed": 4.0,
         "maxSpeed": 20.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -71,7 +69,7 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ElementalArt_Bullet_Material"
         }
       ],
@@ -79,10 +77,10 @@
     }
   },
   "Dori_ElementalArt_SubBullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -118,25 +116,25 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "maxSpeed": 20.0,
       "minSpeed": 10.0,
       "anglerVelocity": 90.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.30000001192092896,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "IAENDIPDFKD",
+          "$type": "AHBFOPDDMPB",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 0.009999999776482582
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 0.009999999776482582
           }
         },
         "radius": 0.5,
@@ -144,7 +142,7 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -154,13 +152,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ElementalArt_SubBullet_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ElementalArt_SubBullet_Material"
         }
       ],
@@ -171,10 +169,10 @@
     }
   },
   "Dori_ElementalArt_Constellation_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -210,20 +208,20 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 10.0,
       "maxSpeed": 18.0,
       "minSpeed": 10.0,
       "anglerVelocity": 90.0,
       "acceleration": 20.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.30000001192092896,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -233,13 +231,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ElementalArt_Constellation_Bullet_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ElementalArt_Constellation_Bullet_Material"
         }
       ],
@@ -249,10 +247,10 @@
     }
   },
   "Dori_ChargingStation": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -288,10 +286,10 @@
     }
   },
   "Dori_ChargingStation_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -325,17 +323,17 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 10.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 3.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "ccd": {
           "damageRatio": "Always"
@@ -344,13 +342,13 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ChargingStation_Bullet_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Dori_ChargingStation_Bullet_Bullet"
         }
       ],

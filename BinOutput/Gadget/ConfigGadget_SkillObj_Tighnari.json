@@ -1,9 +1,9 @@
 {
   "Tighnari_Arrow_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -29,21 +29,21 @@
       "animEvents": {
         "Arrow_ATK01": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -51,16 +51,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 16.5,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -89,27 +88,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK01"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_Material_Small"
         }
       ],
@@ -117,10 +116,10 @@
     }
   },
   "Tighnari_Arrow_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -146,21 +145,21 @@
       "animEvents": {
         "Arrow_ATK02": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -168,16 +167,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 15.899999618530273,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -206,27 +204,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK02"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_Material_Small"
         }
       ],
@@ -234,10 +232,10 @@
     }
   },
   "Tighnari_Arrow_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -263,21 +261,21 @@
       "animEvents": {
         "Arrow_ATK03": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -285,16 +283,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 9.75,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -323,27 +320,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 40.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 7.0,
       "gravityOfAcceleration": 15.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK03"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_Material_Small"
         }
       ],
@@ -351,10 +348,10 @@
     }
   },
   "Tighnari_Arrow_04": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -380,21 +377,21 @@
       "animEvents": {
         "Arrow_ATK04": {
           "attackPattern": {
-            "$type": "JHKEHNJBMOF",
+            "$type": "ABLEKHNLCEE",
             "triggerType": "TriggerNoRepeat",
             "checkHitLayerType": "Both",
             "born": {
-              "$type": "JGEBAJLEBMO",
+              "$type": "KKKABMDCNIJ",
               "offset": {
-                "KGEPIMHBMOL": 0.0,
-                "JEBHCGDPFEJ": 0.0,
-                "LPCHALMFFOD": -0.5
+                "AOFNOGLCGMP": 0.0,
+                "CHEGDAPFFHA": 0.0,
+                "JEGKAACFHJK": -0.5
               }
             },
             "size": {
-              "KGEPIMHBMOL": 0.10000000149011612,
-              "JEBHCGDPFEJ": 0.10000000149011612,
-              "LPCHALMFFOD": 1.0
+              "AOFNOGLCGMP": 0.10000000149011612,
+              "CHEGDAPFFHA": 0.10000000149011612,
+              "JEGKAACFHJK": 1.0
             }
           },
           "attackInfo": {
@@ -402,16 +399,15 @@
             "attenuationTag": "",
             "attenuationGroup": "default",
             "attackProperty": {
-              "actorGrassSubHurtDelta": 0.0,
-              "actorWindSubHurtDelta": 0.0,
-              "IPFJJJGABPL": 100.0,
+              "AGMNCBAKCEF": 0.0,
+              "AILJJDMKONE": 0.0,
+              "bonusCriticalHurt": 100.0,
               "strikeType": "Pierce",
               "enBreak": 25.5,
-              "GLKMCMDJBIK": 0.0
+              "bonusCritical": 0.0
             },
             "hitPattern": {
               "onHitEffectName": "default",
-              "hitImpulseY": "",
               "hitImpulseType": "LV1"
             },
             "cameraShake": {
@@ -440,27 +436,27 @@
       "lifeTime": 8.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 70.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 15.0,
       "gravityOfAcceleration": 30.0,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "NMMEILICBAE",
+          "$type": "EFPBIOPFEIJ",
           "attackEvent": "Arrow_ATK04"
         },
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_Material_Big"
         }
       ],
@@ -468,10 +464,10 @@
     }
   },
   "Tighnari_AimingArrow_NoGrass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -507,23 +503,23 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_NoGrass_Material"
         }
       ],
@@ -531,10 +527,10 @@
     }
   },
   "Tighnari_AimingArrow_WithGrass": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG",
+        "$type": "ILHLMOLNFLL",
         "scaleX": 0.5,
         "scaleY": 0.5
       },
@@ -570,23 +566,23 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_Tighnari_Arrow_WithGrass_Material"
         }
       ],
@@ -594,10 +590,10 @@
     }
   },
   "Tighnari_AimingArrow_BeforeFission": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -631,29 +627,29 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 50.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "straightRange": 25.0,
       "gravityOfAcceleration": 5.5,
       "airResistance": 0.009999999776482582
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_BeforeFission_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_BeforeFission_Material"
         }
       ],
@@ -661,10 +657,10 @@
     }
   },
   "Tighnari_AimingArrow_Fission": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -703,7 +699,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -711,19 +707,19 @@
       "anglerVelocity": 20.0,
       "acceleration": -2.0,
       "accelerationTime": 2.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.05000000074505806,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "IAENDIPDFKD",
+          "$type": "AHBFOPDDMPB",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 0.009999999776482582
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 0.009999999776482582
           }
         },
         "radius": 0.5,
@@ -731,19 +727,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_Fission_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_Fission_LifeOver"
         }
       ],
@@ -754,10 +750,10 @@
     }
   },
   "Tighnari_AimingArrow_Fission_Talent": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -796,7 +792,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -804,19 +800,19 @@
       "anglerVelocity": 20.0,
       "acceleration": -2.0,
       "accelerationTime": 2.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "delay": 0.05000000074505806,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "IAENDIPDFKD",
+          "$type": "AHBFOPDDMPB",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 0.009999999776482582
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 0.009999999776482582
           }
         },
         "radius": 0.5,
@@ -824,19 +820,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_Fission_Material_Talent"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Tighnari_AimingArrow_Fission_LifeOver_Talent"
         }
       ],
@@ -847,10 +843,10 @@
     }
   },
   "Tighnari_ElementalArt_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -884,7 +880,7 @@
       "lifeTime": 4.0
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "velocityForce": {
         "muteAll": true
       },
@@ -892,38 +888,36 @@
       "angleOffHor": 20.0,
       "gravityOfAcceleration": 30.0,
       "correction": {
-        "$type": "FEHDIANJKBF",
+        "$type": "DCOKOADIFCP",
         "fixAngleOfVer": 15.0,
         "minSpeed": 4.0,
         "maxSpeed": 18.0
-      },
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SkillObj_Tighnari_ElementalArt_Ball_Material"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SkillObj_Tighnari_ElementalArt_Ball_Material"
         }
       ]
     }
   },
   "Tighnari_ElementalArt_CenterGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -963,10 +957,10 @@
     }
   },
   "Tighnari_ElementalArt_TauntGadget": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "affectedByWorld": true
     },
@@ -1014,10 +1008,10 @@
     }
   },
   "Tighnari_ExtraAttack_Count": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1051,26 +1045,26 @@
       "lifeTime": 20.0
     },
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "velocityForce": {
         "muteAll": true
       },
       "attachPoint": "CameraLook",
       "followRotation": true,
-      "HOMINCCNFHE": {
+      "NGGDECKKKIO": {
         "z": 1.0
       },
       "followOwnerInvisible": true,
       "syncTransToServer": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     },
     "dontDestroyByPerform": true
   },
   "Tighnari_ElementalBurst_BulletTrigger": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1103,10 +1097,10 @@
     }
   },
   "Tighnari_ElementalBurst_TrackBullet1": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1145,7 +1139,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -1154,20 +1148,20 @@
       "minSpeed": 10.0,
       "anglerVelocity": 90.0,
       "acceleration": 15.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0,
         "isSmoothRotation": true
       },
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "ECGAJMICCCF",
+          "$type": "ICLGELJNKIC",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 20.0
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 20.0
           },
           "onGround": true
         },
@@ -1175,19 +1169,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Tighnari_ElementalBurst_Bullet_Damage1"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Tighnari_ElementalBurst_Bullet_Damage1"
         }
       ],
@@ -1197,10 +1191,10 @@
     }
   },
   "Tighnari_ElementalBurst_TrackBullet2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -1239,7 +1233,7 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "velocityForce": {
         "muteAll": true
       },
@@ -1248,21 +1242,21 @@
       "minSpeed": 10.0,
       "anglerVelocity": 20.0,
       "acceleration": 5.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP",
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM",
         "traceLerpCoef": 360.0,
         "isSmoothRotation": true
       },
       "delay": 0.10000000149011612,
       "traceOnYAxis": true,
       "whenNoTarget": {
-        "$type": "KHJKFPPGDDP",
+        "$type": "LEBJKIGCCOG",
         "defaultTarget": {
-          "$type": "IAENDIPDFKD",
+          "$type": "AHBFOPDDMPB",
           "offset": {
-            "KGEPIMHBMOL": 0.0,
-            "JEBHCGDPFEJ": 0.0,
-            "LPCHALMFFOD": 0.009999999776482582
+            "AOFNOGLCGMP": 0.0,
+            "CHEGDAPFFHA": 0.0,
+            "JEGKAACFHJK": 0.009999999776482582
           }
         },
         "radius": 0.5,
@@ -1270,19 +1264,19 @@
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Tighnari_ElementalBurst_Bullet_Damage2"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Avatar_Tighnari_ElementalBurst_Bullet_Damage2"
         }
       ],

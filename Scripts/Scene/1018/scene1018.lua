@@ -1,36 +1,62 @@
--- 地图配置
-scene_config = {
-	begin_pos = { x = -109.8, z = -101.6 },
-	size = { x = 153.6, z = 187.6 },
-	born_pos = { x = 0.000, y = 0.100, z = 2.700 },
-	born_rot = { x = 0.000, y = 180.000, z = 0.000 },
-	die_y = -50,
-	room_safe_pos = {
-		scene_id = 3,
-		safe_pos = {
-			x = 1772.000,
-			y = 222.000,
-			z = -392.000
-		},
-		safe_rot = {
-			x = 0.000,
-			y = 0.000,
-			z = 0.000
-		}
-	},
-	vision_anchor = { x = -109.8, z = -101.6 }
-}
-
--- 所有的区块
-blocks = { 1018 }
-
--- 所有的区块范围坐标
-block_rects = {
-	{ min = { x = -109.8, z = -101.6 }, max = { x = 43.8, z = 86.0 } }
-}
-
--- Dummy Points
-dummy_points = { "dummy_points" }
-
--- Routes
-routes_config = { }
+local L0_1, L1_1, L2_1
+L0_1 = {}
+L1_1 = {}
+L1_1.x = -109.8
+L1_1.z = -101.6
+L0_1.begin_pos = L1_1
+L1_1 = {}
+L1_1.x = 153.6
+L1_1.z = 187.6
+L0_1.size = L1_1
+L1_1 = {}
+L1_1.x = 0.0
+L1_1.y = 0.1
+L1_1.z = 2.7
+L0_1.born_pos = L1_1
+L1_1 = {}
+L1_1.x = 0.0
+L1_1.y = 180.0
+L1_1.z = 0.0
+L0_1.born_rot = L1_1
+L0_1.die_y = -50
+L1_1 = {}
+L1_1.scene_id = 3
+L2_1 = {}
+L2_1.x = 1772.0
+L2_1.y = 222.0
+L2_1.z = -392.0
+L1_1.safe_pos = L2_1
+L2_1 = {}
+L2_1.x = 0.0
+L2_1.y = 0.0
+L2_1.z = 0.0
+L1_1.safe_rot = L2_1
+L1_1.second_area_id = 302
+L0_1.room_safe_pos = L1_1
+L1_1 = {}
+L1_1.x = -109.8
+L1_1.z = -101.6
+L0_1.vision_anchor = L1_1
+scene_config = L0_1
+L0_1 = {}
+L1_1 = 1018
+L0_1[1] = L1_1
+blocks = L0_1
+L0_1 = {}
+L1_1 = {}
+L2_1 = {}
+L2_1.x = -109.8
+L2_1.z = -101.6
+L1_1.min = L2_1
+L2_1 = {}
+L2_1.x = 43.8
+L2_1.z = 86.0
+L1_1.max = L2_1
+L0_1[1] = L1_1
+block_rects = L0_1
+L0_1 = {}
+L1_1 = "dummy_points"
+L0_1[1] = L1_1
+dummy_points = L0_1
+L0_1 = {}
+routes_config = L0_1

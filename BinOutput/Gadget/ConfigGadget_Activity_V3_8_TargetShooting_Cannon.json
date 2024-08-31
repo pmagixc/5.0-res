@@ -1,6 +1,6 @@
 {
   "SceneObj_Penumbra_Common_Property_Ani_Prop_Cannon_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -74,43 +74,42 @@
     },
     "misc": {
       "customGadgetColliderControl": {
-        "HOMPNNLMJLP": "CameraPivot",
-        "BCPCMAOMAKM": {
+        "EJPBKECGDAP": "CameraPivot",
+        "KLJCKACBCIF": {
           "y": 2.5,
           "z": -1.0
         },
-        "IDLGDFOCOHC": 6.0,
-        "OAHBBHBALIB": 50.0,
-        "LAMAFBBJBID": 22,
-        "NGHDIFANHHA": -55.0,
-        "PHFPFCJFGNC": 25.0,
-        "FCIODJCBFHE": -90.0,
-        "GHKGNGLJGFA": 90.0,
-        "HONBKBEPNEI": true,
-        "MOBEEJIGMID": [
+        "AIIGNLNKJLH": 6.0,
+        "MIPDDGJOIBL": 50.0,
+        "CJOECJGMAMC": 22,
+        "BLNGNPIKIHD": -55.0,
+        "KLEKFDKLLIE": 25.0,
+        "DIEAFHDNOBJ": -90.0,
+        "LDJEHHJKKCP": 90.0,
+        "BHAPMLLFOPA": true,
+        "HGOAMFCMKMH": [
           70291144, 70291145, 70291146, 70291147, 70291148, 70291149, 70291150
         ],
-        "PKGOEJGOCND": 4.411799907684326,
-        "MFFLDKPAANM": 0.6499999761581421,
-        "EDLFDNMJFOH": 0.44999998807907104,
-        "AHBBCBLJGDI": "TargetShooting_Cannon_Shot",
-        "INPMFOOMMAO": "TargetShooting_Reload",
-        "HDBFKELDCCE": "_LOCAL_MAX_AMMO",
-        "FHDHMHAKEMD": "_CURRENT_AMMO_NUMBER",
-        "HNFLGPFJIBG": "_AMMO_RELOADING"
+        "HMAPDGBBKHH": 4.411799907684326,
+        "HENKHOGOHGO": 0.6499999761581421,
+        "BMGIFPPBDGC": 0.44999998807907104,
+        "KANPDAIIGDG": "TargetShooting_Cannon_Shot",
+        "ICBEMJDNJGP": "TargetShooting_Reload",
+        "HNLHFEGHDEE": "_LOCAL_MAX_AMMO",
+        "BOEJNAKEDFJ": "_CURRENT_AMMO_NUMBER",
+        "NOIGDAJCNLI": "_AMMO_RELOADING"
       },
       "escapeEffect": ""
     }
   },
   "Penumbra_CannonBall_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -146,10 +145,10 @@
       "lifeTime": 50.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 80.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "straightRange": 80.0,
@@ -157,33 +156,32 @@
       "airResistance": 0.10000000149011612
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_TargetShooting_CannonBall"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_TargetShooting_CannonBall"
         }
       ]
     }
   },
   "Penumbra_CannonBall_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -219,10 +217,10 @@
       "lifeTime": 50.0
     },
     "move": {
-      "$type": "BFICFPAEFPB",
+      "$type": "JPEHENOKMKN",
       "speed": 120.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       },
       "syncToRemote": true,
       "straightRange": 80.0,
@@ -230,19 +228,19 @@
       "airResistance": 0.10000000149011612
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_TargetShooting_ExplosiveCannonBall"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "Bullet_TargetShooting_ExplosiveCannonBall"
         }
       ]

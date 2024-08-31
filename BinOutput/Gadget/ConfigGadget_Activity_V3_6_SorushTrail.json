@@ -1,6 +1,6 @@
 {
   "SceneObj_Area_Common_Property_Ani_Prop_Floating_Colorful_Petal_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 100000.0
     },
@@ -35,7 +35,7 @@
     ]
   },
   "SceneObj_Area_Common_Property_Ani_Prop_Slusha_Accelerator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -81,7 +81,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "ENNDLGKNGPC",
+        "$type": "PCCLIENDIID",
         "specialTipsIconPath": "",
         "velocity": 30.0,
         "attenuation": 4.0,
@@ -92,7 +92,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_AbyssEmitter_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -136,10 +136,10 @@
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_AbyssEmitter_BulletHell_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       }
     },
     "combat": {
@@ -178,27 +178,27 @@
       "lifeTime": 2.0
     },
     "move": {
-      "$type": "GONNMCBKAOC",
+      "$type": "OHBOAPACKBJ",
       "speed": 7.0,
-      "DPAAFHNMHHN": {
-        "$type": "IFAANDLLGLP"
+      "AIJKOKCHLMM": {
+        "$type": "KAMDCIONLAM"
       }
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Area_Common_Property_Ani_Prop_AbyssEmitter_BulletHell_01_Damage"
         }
       ]
     }
   },
   "SceneObj_Area_Common_Property_Prop_SorushTrialOperator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -240,48 +240,48 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         }
       ]
     },
     "billboard": {
-      "$type": "AKPHLFJFMBD",
+      "$type": "MLECLNGMLJA",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -291,7 +291,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_SorushTrialOperator_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -333,48 +333,48 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_02"
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         }
       ]
     },
     "billboard": {
-      "$type": "AKPHLFJFMBD",
+      "$type": "MLECLNGMLJA",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -384,7 +384,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Prop_SorushTrialOperator_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -426,48 +426,48 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "State",
           "syncState": true
         },
         {
-          "$type": "OLDOOKBEKJI",
+          "$type": "GLGHFICHFLC",
           "parameter": "State",
           "damageRatio": "Int",
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStart",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStart",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 201,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "OLDOOKBEKJI",
-          "triggerID": "GearStop",
+          "$type": "GLGHFICHFLC",
+          "FKJCCMPLHIJ": "GearStop",
           "parameter": "State",
           "damageRatio": "Int",
           "value": 202,
           "rotationDampTime": "Eff_SceneObj_Challengestarter_03"
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStop"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStop"
         }
       ]
     },
     "billboard": {
-      "$type": "AKPHLFJFMBD",
+      "$type": "MLECLNGMLJA",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 2.5
@@ -477,7 +477,7 @@
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_SorushTrailPhotoMatchPoint_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -509,7 +509,7 @@
     ]
   },
   "SceneObj_Gear_Platform_SorushTrailGlideDirtyBalloon_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "disableTickDistance": 1500.0
     },
@@ -559,11 +559,11 @@
       "fromColliderName": ""
     },
     "move": {
-      "$type": "OEFHHKHPMCJ"
+      "$type": "ConfigPlatformMove"
     }
   },
   "SceneObj_Area_Common_Property_Ani_Prop_Slusha_Accelerator_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -609,7 +609,7 @@
     },
     "misc": {
       "forceField": {
-        "$type": "ENNDLGKNGPC",
+        "$type": "PCCLIENDIID",
         "specialTipsIconPath": "",
         "velocity": 30.0,
         "attenuation": 1.0,
@@ -621,7 +621,7 @@
     }
   },
   "SceneObj_Level_Xm_Property_Ani_Prop_SorushTrailIndicator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 10000.0,

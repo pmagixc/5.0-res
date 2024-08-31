@@ -1,9 +1,9 @@
 {
   "SceneObj_Toys_ProtablePot_Bullet": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "effectAttachShape": {
-        "$type": "OMIODKONOMG"
+        "$type": "ILHLMOLNFLL"
       },
       "mass": 5.0,
       "affectedByWorld": true,
@@ -30,29 +30,27 @@
       "lifeTime": 2.4000000953674316
     },
     "move": {
-      "$type": "BFDBCCCADKH",
+      "$type": "LEODECGNCML",
       "velocityForce": {
         "muteAll": true
       },
       "speed": 10.0,
       "syncToRemote": true,
       "angleOffHor": 45.0,
-      "gravityOfAcceleration": 30.0,
-      "GEBCKKDCGDP": "",
-      "NKPHOKHJKGC": ""
+      "gravityOfAcceleration": 30.0
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {},
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Toys_ProtablePot_Bullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Toys_ProtablePot_Bullet"
         }
       ],
@@ -60,7 +58,7 @@
     }
   },
   "SceneObj_Toys_PortablePot": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -107,16 +105,15 @@
       "useHeadControlTrigger": false,
       "triggerRadius": 1.5,
       "headCtrlRadius": 0.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     },
     "lowPriorityIntee": true
   },
   "SceneObj_Toys_PortableTeleport": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_PortableTeleport_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_PortableTeleport_01"
     },
     "hasModel": true,
     "combatTemplate": "",
@@ -142,11 +139,10 @@
     "keepModifierOutSight": false
   },
   "SceneObj_Toys_WindField": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_Item_WindSeed_WindField",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_Item_WindSeed_WindField"
     },
     "hasModel": true,
     "combat": {
@@ -180,7 +176,7 @@
     ],
     "misc": {
       "forceField": {
-        "$type": "NJNBPMFBLMP",
+        "$type": "CGDKJAEBJFB",
         "specialTipsIconPath": "",
         "velocity": 10.0,
         "stayEffect": "Eff_Windfield_Stay",
@@ -190,7 +186,7 @@
     }
   },
   "SceneObj_Toys_SeekerRockCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -231,7 +227,7 @@
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -272,7 +268,7 @@
     }
   },
   "SceneObj_Toys_SeekerElectricCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -313,7 +309,7 @@
     }
   },
   "SceneObj_Toys_SeekerGrassCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -354,7 +350,7 @@
     }
   },
   "SceneObj_Toys_SeekerWaterCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -394,49 +390,8 @@
       "fromColliderName": ""
     }
   },
-  "SceneObj_Toys_SeekerFireCrystal_Success": {
-    "$type": "CJKJIENLOHD",
-    "combat": {
-      "property": {
-        "hp": 99999.0,
-        "attack": 20.0,
-        "weight": 50.0,
-        "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
-      },
-      "beHit": {
-        "hitBloodEffect": "",
-        "hitAutoRedirect": false,
-        "muteAllHitText": true
-      },
-      "combatLock": {
-        "lockShape": "CircleLockEnemy",
-        "denyLockOn": true,
-        "lockType": "Gadget_Lv1"
-      }
-    },
-    "combatTemplate": "",
-    "abilities": [
-      {
-        "abilityID": "SceneObj_Toys_SeekerFireCrystal_Success",
-        "abilityName": "SceneObj_Toys_SeekerFireCrystal_Success",
-        "abilityOverride": ""
-      }
-    ],
-    "field": {
-      "concernType": "AllAvatars",
-      "shape": "",
-      "fromShape": "",
-      "lifeTime": 2.0,
-      "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
-    }
-  },
   "SceneObj_Toys_SeekerSkyCrystal_Success": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -477,7 +432,7 @@
     }
   },
   "SceneObj_Toys_SeekerRockCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -518,7 +473,7 @@
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -559,7 +514,7 @@
     }
   },
   "SceneObj_Toys_SeekerElectricCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -600,7 +555,7 @@
     }
   },
   "SceneObj_Toys_SeekerGrassCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -641,7 +596,7 @@
     }
   },
   "SceneObj_Toys_SeekerWaterCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -681,49 +636,8 @@
       "fromColliderName": ""
     }
   },
-  "SceneObj_Toys_SeekerFireCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
-    "combat": {
-      "property": {
-        "hp": 99999.0,
-        "attack": 20.0,
-        "weight": 50.0,
-        "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
-      },
-      "beHit": {
-        "hitBloodEffect": "",
-        "hitAutoRedirect": false,
-        "muteAllHitText": true
-      },
-      "combatLock": {
-        "lockShape": "CircleLockEnemy",
-        "denyLockOn": true,
-        "lockType": "Gadget_Lv1"
-      }
-    },
-    "combatTemplate": "",
-    "abilities": [
-      {
-        "abilityID": "SceneObj_Toys_SeekerFireCrystal_Fail",
-        "abilityName": "SceneObj_Toys_SeekerFireCrystal_Fail",
-        "abilityOverride": ""
-      }
-    ],
-    "field": {
-      "concernType": "AllAvatars",
-      "shape": "",
-      "fromShape": "",
-      "lifeTime": 2.0,
-      "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
-    }
-  },
   "SceneObj_Toys_SeekerSkyCrystal_Fail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -764,7 +678,7 @@
     }
   },
   "SceneObj_Toys_SeekerTreasureBox_MD": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -805,7 +719,7 @@
     }
   },
   "SceneObj_Toys_SeekerTreasureBox_LY": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -846,7 +760,7 @@
     }
   },
   "SceneObj_Toys_SeekerTreasureBox_DQ": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -887,7 +801,7 @@
     }
   },
   "SceneObj_Toys_SeekerTreasureBox_XM": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -928,7 +842,7 @@
     }
   },
   "SceneObj_Toys_SeekerTreasureBox_FD": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -968,49 +882,8 @@
       "fromColliderName": ""
     }
   },
-  "SceneObj_Toys_SeekerTreasureBox_NT": {
-    "$type": "CJKJIENLOHD",
-    "combat": {
-      "property": {
-        "hp": 99999.0,
-        "attack": 20.0,
-        "weight": 50.0,
-        "isLockHP": true,
-        "isGhostToAllied": true,
-        "isGhostToEnemy": true,
-        "ignoreDamageToSelf": true
-      },
-      "beHit": {
-        "hitBloodEffect": "",
-        "hitAutoRedirect": false,
-        "muteAllHitText": true
-      },
-      "combatLock": {
-        "lockShape": "CircleLockEnemy",
-        "denyLockOn": true,
-        "lockType": "Gadget_Lv1"
-      }
-    },
-    "combatTemplate": "",
-    "abilities": [
-      {
-        "abilityID": "SceneObj_Toys_SeekerTreasureBox_NT",
-        "abilityName": "SceneObj_Toys_SeekerTreasureBox_NT",
-        "abilityOverride": ""
-      }
-    ],
-    "field": {
-      "concernType": "AllAvatars",
-      "shape": "",
-      "fromShape": "",
-      "lifeTime": 12.0,
-      "campType": "All",
-      "colliderName": "",
-      "fromColliderName": ""
-    }
-  },
   "SceneObj_Toys_SeekerWindSeed_Absorb": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1051,7 +924,7 @@
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelie": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1082,14 +955,14 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "Neck",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelie_LV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1120,14 +993,14 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "Neck",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelie_LV3": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1158,21 +1031,20 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "Neck",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Toys_HeatSeelie": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
     "model": {
       "bornEffect": "",
-      "attachEffect": "Eff_SceneObj_HeatSeelie_01",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": "Eff_SceneObj_HeatSeelie_01"
     },
     "hasModel": true,
     "combat": {
@@ -1204,7 +1076,7 @@
     ]
   },
   "SceneObj_Toys_SeelieCreater": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1237,7 +1109,7 @@
     ]
   },
   "SceneObj_Toys_SeelieCreater_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1270,7 +1142,7 @@
     ]
   },
   "SceneObj_Toys_SeelieCreater_03": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1303,7 +1175,7 @@
     ]
   },
   "SceneObj_Toys_MiracleRing": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "specialPoint": {
       "elementAbsorb": "RootNode",
       "elementPendant": "",
@@ -1312,8 +1184,7 @@
     },
     "model": {
       "bornEffect": "Eff_SceneObj_Common_AppearMask_03",
-      "attachEffect": "",
-      "BKPFGNPLDNJ": ""
+      "attachEffect": ""
     },
     "hasModel": true,
     "combat": {
@@ -1359,22 +1230,22 @@
     "gadgetAction": {
       "gadgetStateActionList": [
         {
-          "$type": "FJGKLJLPOGL",
+          "$type": "GEPCCLANDFB",
           "intID": "gadgetState",
           "syncState": true
         },
         {
-          "$type": "DEMJBAICBKO",
+          "$type": "GBLOODKIFJE",
           "enable": true
         },
         {
-          "$type": "DEMJBAICBKO",
-          "triggerID": "GearStart"
+          "$type": "GBLOODKIFJE",
+          "FKJCCMPLHIJ": "GearStart"
         }
       ]
     },
     "billboard": {
-      "$type": "MCINMKADGHP",
+      "$type": "BEIGNEFIOCI",
       "attachPoint": "BillboardAttach",
       "offset": {
         "y": 1.5
@@ -1386,7 +1257,7 @@
     }
   },
   "SceneObj_Toys_MiracleRing_Dummy": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1417,7 +1288,7 @@
     ]
   },
   "SceneObj_Area_Common_Property_Ani_Prop_AdeptiAbode_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1458,12 +1329,12 @@
       "triggerRadius": 2.0,
       "triggerHeight": 4.0,
       "headCtrlRadius": 0.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     },
     "lowPriorityIntee": true
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelieV2": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1494,14 +1365,14 @@
       }
     ],
     "move": {
-      "$type": "MMAPEFIEGAL",
+      "$type": "AMLNFOCHHEB",
       "attachPoint": "Neck",
       "followRotation": true,
-      "LFOHLEKJFBI": ""
+      "FFGOMBFFBFB": ""
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelieV2_Trail": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1530,13 +1401,13 @@
       }
     ],
     "move": {
-      "$type": "GMOHNHFHLAO",
+      "$type": "EFCFKHDONLB",
       "speed": 0.009999999776482582,
       "anglerVelocity": 720.0,
       "traceOnYAxis": true
     },
     "gadget": {
-      "$type": "JENBBNKGGJP",
+      "$type": "IGHEOLFOAKN",
       "collision": {
         "triggerType": "TriggerAlways",
         "targetType": "All",
@@ -1544,14 +1415,14 @@
       },
       "triggerActions": [
         {
-          "$type": "AILPBJHDHDG",
+          "$type": "NLIBPPPDELP",
           "abilityName": "SceneObj_Toys_SeekerWindCrystal_SeekerSeelieV2_Trail"
         }
       ]
     }
   },
   "SceneObj_Toys_SeekerWindCrystal_SeekerSeelieV2_Hole": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "combat": {
       "property": {
         "hp": 99999.0,
@@ -1582,54 +1453,8 @@
       }
     ]
   },
-  "SceneObj_Toys_ToyBomb_5_0": {
-    "$type": "CJKJIENLOHD",
-    "specialPoint": {
-      "elementAbsorb": "RootNode",
-      "elementPendant": "",
-      "elementDrop": "RootNode",
-      "bulletAim": "RootNode"
-    },
-    "model": {
-      "bornEffect": "Eff_SceneObj_ToyBomb_01_Appear",
-      "attachEffect": "",
-      "JKLKJPMFNGD": true,
-      "BKPFGNPLDNJ": ""
-    },
-    "hasModel": true,
-    "combat": {
-      "property": {
-        "hp": 99999.0,
-        "attack": 20.0,
-        "weight": 50.0,
-        "isLockHP": true,
-        "isGhostToAllied": true,
-        "ignoreDamageToSelf": true
-      },
-      "beHit": {
-        "hitBloodEffect": "",
-        "hitAutoRedirect": false,
-        "muteAllHitText": true
-      },
-      "combatLock": {
-        "lockShape": "CircleLockEnemy",
-        "lockType": "Gadget_Lv1"
-      },
-      "die": {
-        "dieDisappearEffect": "Eff_SceneObj_ToyBomb_01_Disappear"
-      }
-    },
-    "combatTemplate": "",
-    "abilities": [
-      {
-        "abilityID": "SceneObj_Toys_ToyBomb_5_0",
-        "abilityName": "SceneObj_Toys_ToyBomb_5_0",
-        "abilityOverride": ""
-      }
-    ]
-  },
   "SceneObj_Area_Common_Property_Ani_Prop_WispCage_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1665,13 +1490,13 @@
       "triggerRadius": 2.0,
       "triggerHeight": 4.0,
       "headCtrlRadius": 0.0,
-      "NNLKGELOJJI": true,
-      "KAMIAMNMFCP": ""
+      "KNAKMKGOGAO": true,
+      "MMOOJIADAEN": ""
     },
     "lowPriorityIntee": true
   },
   "SceneObj_Area_Common_Property_Ani_Prop_WispCage_02": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "hasModel": true,
     "combat": {
       "property": {
@@ -1696,7 +1521,7 @@
     ]
   },
   "SceneObj_Area_Fd_Property_Ani_Prop_RandNumIndicator_01": {
-    "$type": "CJKJIENLOHD",
+    "$type": "ConfigGadget",
     "common": {
       "affectedByWorld": true
     },
@@ -1750,7 +1575,7 @@
       "triggerRadius": 2.0,
       "triggerHeight": 4.0,
       "headCtrlRadius": 0.0,
-      "KAMIAMNMFCP": ""
+      "MMOOJIADAEN": ""
     },
     "lowPriorityIntee": true
   }
